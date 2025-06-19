@@ -1,0 +1,1 @@
+This could be an interesting example of a game operating solely on sound + voice modalities. Needs to be played and tested.

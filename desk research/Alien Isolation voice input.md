@@ -1,0 +1,1 @@
+Alien: Isolation used the sound modality to alert the enemy if the player was making sounds. Super clever use in a horror game.
