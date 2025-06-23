@@ -5,25 +5,9 @@ import json
 url = "http://100.126.176.4:8080/v1/chat/completions"
 
 
-tools = [
-    {
-        "type": "function",
-        "function": {
-            "name": "get_weather",
-            "description": "Get current temperature for a given location.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "location": {
-                        "type": "string",
-                        "description": "City and country e.g. Bogotá, Colombia"
-                    }
-                },
-                "required": ["location"]
-            }
-        }
-    }
-]
+# loading the JSON tool file
+with open('tools.json', 'r') as tools_json_file:
+    tools = json.load(tools_json_file)
 
 payload = {
     "model": "gpt-3.5-turbo",
