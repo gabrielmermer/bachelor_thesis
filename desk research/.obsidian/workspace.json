@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log - low resources.md",
+                "file": "Whisper cpp server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Log - low resources"
+              "title": "Whisper cpp server"
             }
           }
         ],
@@ -236,7 +236,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "whisper",
+                "query": "whisper ser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -345,8 +345,8 @@
   },
   "active": "5cc65c3908dcfd93",
   "lastOpenFiles": [
-    "Whisper cpp server.md",
     "Log - low resources.md",
+    "Whisper cpp server.md",
     "Whisper notes.md",
     "Whisper CPP params.md",
     "Whisper CPP models discussion.md",

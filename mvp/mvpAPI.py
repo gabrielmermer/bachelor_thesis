@@ -29,16 +29,16 @@ class VoicePrompt(BaseModel):
 
 # using the openAI chat API cause it's what llamacpp tool calling supports
 url = "http://100.126.176.4:8080/v1/chat/completions"
-url_whisper = "http://dabro-workstation:8080/inference"
+url_whisper = "http://dabro-workstation:8008/inference"
 
 # loading the JSON tool file
 with open('tools.json', 'r') as tools_json_file:
     tools = json.load(tools_json_file)
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+# @app.get("/")
+# async def root():
+#     return {"message": "Hello World"}
 
 
 def llm_process(prompt: str):
@@ -52,7 +52,7 @@ def llm_process(prompt: str):
         }
         ]
     }
-    llm_response = httpx.post(url, json=payload, timeout=120.0)
+    llm_response = httpx.post(url, json=payload, timeout=200.0)
     response_json = json.loads(llm_response.text)
     # print(type(response_json))
 
@@ -110,11 +110,12 @@ async def process_audio(audio_file: UploadFile):
         # TODO Start Whisper Server
 
         # Whisper request
-        transcription_string= httpx.post(url_whisper, files=files, timeout=120.0)
-        print(type(transcription_string.text))
+        transcription_string = httpx.post(url_whisper, files=files, timeout=120.0)
         transcription_JSON = json.loads(transcription_string.text)
-        print(transcription_JSON)
-        print(transcription_JSON['text'])
+        # print(transcription_string.text)
+        # print(transcription_JSON)
+        # print(transcription_JSON['text'])
+        print(json.dumps(transcription_JSON, indent=2))
         transcription_clean = transcription_JSON['text']
         transcription_clean = json.dumps(transcription_clean)
 
@@ -126,4 +127,5 @@ async def process_audio(audio_file: UploadFile):
         # send the transcript to the LLM
 
         return llm_process(transcription_clean)
+        # return True
     
