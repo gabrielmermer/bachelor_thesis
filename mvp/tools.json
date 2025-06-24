@@ -2,17 +2,128 @@
   {
     "type": "function",
     "function": {
-      "name": "get_weather",
-      "description": "Get current temperature for a given location.",
+      "name": "MoveUp",
+      "description": "Move the player or object up by a specified distance.",
       "parameters": {
         "type": "object",
         "properties": {
-          "location": {
-            "type": "string",
-            "description": "City and country e.g. Bogotá, Colombia"
+          "x": {
+            "type": "number",
+            "description": "Distance to move up (positive number)"
           }
         },
-        "required": ["location"]
+        "required": ["x"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "MoveDown",
+      "description": "Move the player or object down by a specified distance.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "Distance to move down (positive number)"
+          }
+        },
+        "required": ["x"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "MoveLeft",
+      "description": "Move the player or object left by a specified distance.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "Distance to move left (positive number)"
+          }
+        },
+        "required": ["x"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "MoveRight",
+      "description": "Move the player or object right by a specified distance.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "Distance to move right (positive number)"
+          }
+        },
+        "required": ["x"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "Pause",
+      "description": "Pause the game.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "SaveGame",
+      "description": "Save the current game state.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "MuteGame",
+      "description": "Mute or unmute the game audio.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "Interact",
+      "description": "Interact with objects or NPCs in the game world.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "Restart",
+      "description": "Restart the game from the beginning.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
       }
     }
   }

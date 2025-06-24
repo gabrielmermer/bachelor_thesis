@@ -118,9 +118,51 @@
               "icon": "lucide-file",
               "title": "Llama.cpp server docs"
             }
+          },
+          {
+            "id": "0dc171493ebd973d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Whisper CPP models discussion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Whisper CPP models discussion"
+            }
+          },
+          {
+            "id": "741090ad6a10db20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Downloading custom Whisper models.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Downloading custom Whisper models"
+            }
+          },
+          {
+            "id": "ee70edf293f8137e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Llama cpp server params.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Llama cpp server params"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -152,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "llama",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +215,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -258,10 +301,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "752737c8e8cc359d",
+  "active": "ee70edf293f8137e",
   "lastOpenFiles": [
-    "Llama cpp server params.md",
+    "Whisper notes.md",
+    "Pasted image 20250623200049.png",
+    "Downloading custom Whisper models.md",
+    "Whisper CPP models discussion.md",
     "Llama.cpp server docs.md",
+    "Llama cpp server params.md",
     "Quanting the model  log.md",
     "Pasted image 20250623162350.png",
     "Pasted image 20250623160031.png",
@@ -286,8 +333,6 @@
     "Existing games table.md",
     "Alien Isolation voice input.md",
     "15% of people have some sort of disability.md",
-    "Lexical analysis as part of the pipeline.md",
-    "Unconventional mic uses by Phasmophobia.md",
-    "Untitled 1.md"
+    "Lexical analysis as part of the pipeline.md"
   ]
 }

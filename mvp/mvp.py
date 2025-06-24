@@ -1,6 +1,10 @@
 import httpx
 import json
 
+
+
+
+
 # using the openAI chat API cause it's what llamacpp tool calling supports
 url = "http://100.126.176.4:8080/v1/chat/completions"
 
@@ -15,12 +19,15 @@ payload = {
     "messages": [
         {
             "role": "user",
-            "content": "What is the weather in Seoul?"
+            "content": "Move the player right 50 times"
         }
     ]
 }
 
 llm_response = httpx.post(url, json=payload, timeout=120.0)
+
+
+
 
 
 

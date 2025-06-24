@@ -1,0 +1,1 @@
+https://old.reddit.com/r/LocalLLaMA/comments/1hc1qzi/is_whispercpp_still_the_king_of_stt/
