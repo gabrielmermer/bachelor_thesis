@@ -29,6 +29,7 @@ class VoicePrompt(BaseModel):
 
 # using the openAI chat API cause it's what llamacpp tool calling supports
 url = "http://100.126.176.4:8080/v1/chat/completions"
+url_whisper = "http://dabro-workstation:8080/inference"
 
 # loading the JSON tool file
 with open('tools.json', 'r') as tools_json_file:
@@ -91,6 +92,22 @@ async def process_audio(audio_file: UploadFile):
             "-c:a",
             "pcm_s16le",
             "output.wav"])
+        
+        # print(type(processed_audio_file))
+        # Send the file to the whisper cpp request
+        
+        files = {'file': open('output.wav', 'rb')}
+        # data = {"audio_filee": file}
+
+        # Whisper request
+        transcription_string= httpx.post(url_whisper, files=files, timeout=120.0)
+        print(type(transcription_string.text))
+        transcription_JSON = json.loads(transcription_string.text)
+        print(transcription_JSON['text'])
+        transcription_clean = transcription_JSON['text']
+
+        # TODO send the transcript to the LLM
+
         
 
 
