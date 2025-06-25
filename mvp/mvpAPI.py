@@ -1,5 +1,5 @@
 # local API endpoint
-from fastapi import FastAPI, Request, File, UploadFile
+from fastapi import FastAPI, UploadFile
 # for the request body
 from pydantic import BaseModel
 # llama.cpp backend request
@@ -9,10 +9,10 @@ import json
 
 # temp audio file integration
 import shutil
-# running local cli subprocesses
-import subprocess
-# temp file 
 import tempfile
+# running local cli subprocesses for ffmpeg
+import subprocess
+
 
 
 app = FastAPI()
@@ -125,7 +125,5 @@ async def process_audio(audio_file: UploadFile):
         # TODO kill LLM server
 
         # send the transcript to the LLM
-
         return llm_process(transcription_clean)
-        # return True
     
