@@ -14,10 +14,10 @@
 \contentsline {chapter}{\numberline {5}Discussion / Diskussion}{6}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Conclusion / Fazit}{7}{chapter.6}%
 \contentsline {chapter}{Bibliography}{8}{chapter.6}%
-\contentsline {chapter}{List of Figures}{9}{chapter*.6}%
-\contentsline {chapter}{List of Tables}{10}{chapter*.7}%
-\contentsline {chapter}{List of Listings}{11}{chapter*.8}%
-\contentsline {chapter}{Appendices}{12}{chapter*.10}%
+\contentsline {chapter}{List of Figures}{9}{chapter*.7}%
+\contentsline {chapter}{List of Tables}{10}{chapter*.8}%
+\contentsline {chapter}{List of Listings}{11}{chapter*.9}%
+\contentsline {chapter}{Appendices}{12}{chapter*.11}%
 \contentsline {section}{\numberline {A}Appendix}{12}{section.6.1}%
 \contentsline {section}{\numberline {B}Appendix}{13}{section.6.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

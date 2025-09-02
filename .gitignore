@@ -1,13 +1,14 @@
-*.aux
-*.log
-*.bbl
-*.bcf
-*.blg
-*.fdb_latexmk
-*.fls
-*.lof
-*.lot
-*.toc
-*.run.xml
-*.synctex.gz
-main.pdf
+# latex
+writing/*.aux
+writing/*.log
+writing/*.bbl
+writing/*.bcf
+writing/*.blg
+writing/*.fdb_latexmk
+writing/*.fls
+writing/*.lof
+writing/*.lot
+writing/*.toc
+writing/*.run.xml
+writing/*.synctex.gz
+writing/main.pdf
