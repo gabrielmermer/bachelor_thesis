@@ -3071,13 +3071,15 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">biblatex.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">stoiber_visualization_2023</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">tjoa_airman_2022</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">tjoa_airman_2022</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">shneiderman_eyes_1996</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">shneiderman_eyes_1996</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">shneiderman_eyes_1996</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">kaley_match_2018</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">iridiumstudiosThereCameEcho2015</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">iridiumstudiosThereCameEcho2015</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">DavabaseWhisper_real_timeReal2022</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">LargeLanguageModel</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">LargeLanguageModel</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">RPGNounDefinition</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">RPGNounDefinition</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">liResearchVoiceInteraction2019</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">liResearchVoiceInteraction2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

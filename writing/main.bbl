@@ -19,518 +19,332 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{kaley_match_2018}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=26e27372c19668ba044d3671f438604d}{%
-           family={Kaley},
-           familyi={K\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{26e27372c19668ba044d3671f438604d}
-      \strng{fullhash}{26e27372c19668ba044d3671f438604d}
-      \strng{fullhashraw}{26e27372c19668ba044d3671f438604d}
-      \strng{bibnamehash}{26e27372c19668ba044d3671f438604d}
-      \strng{authorbibnamehash}{26e27372c19668ba044d3671f438604d}
-      \strng{authornamehash}{26e27372c19668ba044d3671f438604d}
-      \strng{authorfullhash}{26e27372c19668ba044d3671f438604d}
-      \strng{authorfullhashraw}{26e27372c19668ba044d3671f438604d}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+    \entry{DavabaseWhisper_real_timeReal2022}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Nielsen Norman Group}
-      \field{shorttitle}{Match {Between} {System} and {Real} {World}}
-      \field{title}{Match {Between} {System} and {Real} {World}: 2nd {Usability} {Heuristic} {Explained}}
-      \field{urlday}{24}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
+      \field{labeltitlesource}{title}
+      \field{title}{Davabase/Whisper\_real\_time: {{Real}} Time Transcription with {{OpenAI Whisper}}.}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2022}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/53FZQHPW/whisper_real_time.html
+      \endverb
       \verb{urlraw}
-      \verb https://www.nngroup.com/articles/match-system-real-world/
+      \verb https://github.com/davabase/whisper_real_time
       \endverb
       \verb{url}
-      \verb https://www.nngroup.com/articles/match-system-real-world/
+      \verb https://github.com/davabase/whisper_real_time
       \endverb
     \endentry
-    \entry{shneiderman_eyes_1996}{article}{}{}
+    \entry{iridiumstudiosThereCameEcho2015}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=39afccc0f55ae7821df79ffd677c90b0}{%
-           family={Shneiderman},
-           familyi={S\bibinitperiod},
-           given={Ben},
-           giveni={B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=7d67996e3cd70c949fc22aae9cae9921}{%
+           family={Iridium\bibnamedelima Studios},
+           familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Iridium\bibnamedelima Studios},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{fullhash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{fullhashraw}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{bibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authorbibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authornamehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authorfullhash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authorfullhashraw}{39afccc0f55ae7821df79ffd677c90b0}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{{IEEE} {Symposium} on {Visual} {Languages}, 1996. {Proceedings}}
-      \field{shorttitle}{The eyes have it}
-      \field{title}{The eyes have it: a task by data type taxonomy for information visualizations}
-      \field{year}{1996}
-      \field{dateera}{ce}
-      \field{pages}{336\bibrangedash 343}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/VL.1996.545307
-      \endverb
-    \endentry
-    \entry{stoiber_visualization_2023}{inbook}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=805aaeb4be269d1fc0de6a727fd00b7e}{%
-           family={Stoiber},
-           familyi={S\bibinitperiod},
-           given={Christina},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e677be29346d195622b44f23db10f01f}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70673edf51d6dad5b80d05cadfa1c4e2}{%
-           family={Grassinger},
-           familyi={G\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a2e8fce57c9d5a94f9b3d0364392856e}{%
-           family={Pohl},
-           familyi={P\bibinitperiod},
-           given={Margit},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fe1c4e753cf7cb72c238310acf90361d}{%
-           family={Stitz},
-           familyi={S\bibinitperiod},
-           given={Holger},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=baace4a75d3625373a7e656e27a426a6}{%
-           family={Streit},
-           familyi={S\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a21f92d84e6929ba20ea1a8096f603f}{%
-           family={Potzmann},
-           familyi={P\bibinitperiod},
-           given={Benjamin},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=48b0257ca187cbc6562f263e3c050d5f}{%
-           family={Aigner},
-           familyi={A\bibinitperiod},
-           given={Wolfgang},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{fcca3eefa6ec5f1a6d485afaee4cdf7c}
-      \strng{fullhash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{fullhashraw}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{bibnamehash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{authorbibnamehash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{authornamehash}{fcca3eefa6ec5f1a6d485afaee4cdf7c}
-      \strng{authorfullhash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{authorfullhashraw}{1fee45c9772b5a38fc014decd2e87197}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{bibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorbibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authornamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Visualization Psychology}
-      \field{isbn}{978-3-031-34738-2}
+      \field{abstract}{There Came an Echo is a real-time strategy game in which the player assumes command of a small squadron, using an advanced voice recognition system to issue orders. It features a character-driven sci-fi narrative that stars Wil Wheaton, Ashly Burch, Laura Bailey, Yuri Lowenthal, and more!}
       \field{langid}{english}
-      \field{title}{Visualization Onboarding Grounded in Educational Theories}
-      \field{urlday}{6}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
-      \field{year}{2023}
+      \field{title}{There {{Came}} an {{Echo}} on {{Steam}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2015}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{139\bibrangedash 164}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1007/978-3-031-34738-2_6
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZLEKR2Z4/There_Came_an_Echo.html
       \endverb
       \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-3-031-34738-2_6
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
       \endverb
       \verb{url}
-      \verb https://link.springer.com/10.1007/978-3-031-34738-2_6
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
       \endverb
     \endentry
-    \entry{tjoa_airman_2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=9b8db468fdd5c34a02bb844ba42e1fe0}{%
-           family={Tjoa},
+    \entry{LargeLanguageModel}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Large Language Model Noun - {{Definition}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZDSASAEV/large-language-model.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+    \endentry
+    \entry{liResearchVoiceInteraction2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=556024d7ff3224fd3d24c57a8ff2a641}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={ChangYuan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98152686bb62f86bd7e10c252befdef6}{%
+           family={Tang},
            familyi={T\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=af9a5194722300b42ec7198efaa6d0d5}{%
-           family={Kieseberg},
-           familyi={K\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f03c935a8d17d1b1df9f1e0fee1d34a6}{%
-           family={Temper},
-           familyi={T\bibinitperiod},
-           given={Marlies},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f92b19828cb713ecab3d0fed887e46c5}{%
-           family={Zanol},
-           familyi={Z\bibinitperiod},
-           given={Jakob},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e677be29346d195622b44f23db10f01f}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3f4842b3f24d20f809775dbf780810ab}{%
-           family={Holzinger},
-           familyi={H\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
+           given={BaiHui},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {London, United Kingdom}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{f7d01ff8eb6bbd8f253c9a5c10084957}
-      \strng{fullhash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{fullhashraw}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{bibnamehash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{authorbibnamehash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{authornamehash}{f7d01ff8eb6bbd8f253c9a5c10084957}
-      \strng{authorfullhash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{authorfullhashraw}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{fullhash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{fullhashraw}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{bibnamehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authorbibnamehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authornamehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authorfullhash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authorfullhashraw}{c699f5b6a4551379e7709f455e8540aa}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{eventtitle}{2022 International Conference on Advanced Enterprise Information System ({AEIS})}
-      \field{isbn}{9798350324372}
-      \field{journaltitle}{2022 International Conference on Advanced Enterprise Information System ({AEIS})}
-      \field{month}{12}
-      \field{shorttitle}{{AIRMan}}
-      \field{title}{{AIRMan}: An Artificial Intelligence ({AI}) Risk Management System}
-      \field{urlday}{11}
-      \field{urlmonth}{6}
-      \field{urlyear}{2023}
-      \field{year}{2022}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Artificial intelligence has broad prospects and has a wide range of application fields. This paper studied the interactive combination of natural language processing technology and virtual reality environment in artificial intelligence, and optimized it in the software design level. This paper achieved VR and NLP environment based on unity3d engine. Finally, the input voice signal can be converted into interactive commands in VR environment, and VR environment also can be controlled by the voice.}
+      \field{eventtitle}{2019 {{International Conference}} on {{Electronic Engineering}} and {{Informatics}} ({{EEI}})}
+      \field{journaltitle}{2019 {{International Conference}} on {{Electronic Engineering}} and {{Informatics}} ({{EEI}})}
+      \field{month}{11}
+      \field{title}{Research on {{Voice Interaction Technology}} in {{VR Environment}}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{72\bibrangedash 81}
-      \range{pages}{10}
+      \field{pages}{213\bibrangedash 216}
+      \range{pages}{4}
       \verb{doi}
-      \verb 10.1109/AEIS59450.2022.00017
+      \verb 10.1109/EEI48997.2019.00053
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/EZEM6ZQ3/Li and Tang - 2019 - Research on Voice Interaction Technology in VR Env.pdf
       \endverb
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10145175/
+      \verb https://ieeexplore.ieee.org/document/8991134/
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10145175/
+      \verb https://ieeexplore.ieee.org/document/8991134/
+      \endverb
+      \keyw{interact,natural language process,unity3d,virtual reality}
+    \endentry
+    \entry{RPGNounDefinition}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{{{RPG}} Noun - {{Definition}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/9ZTCCQVE/rpg.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
       \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
-    \entry{kaley_match_2018}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=26e27372c19668ba044d3671f438604d}{%
-           family={Kaley},
-           familyi={K\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{26e27372c19668ba044d3671f438604d}
-      \strng{fullhash}{26e27372c19668ba044d3671f438604d}
-      \strng{fullhashraw}{26e27372c19668ba044d3671f438604d}
-      \strng{bibnamehash}{26e27372c19668ba044d3671f438604d}
-      \strng{authorbibnamehash}{26e27372c19668ba044d3671f438604d}
-      \strng{authornamehash}{26e27372c19668ba044d3671f438604d}
-      \strng{authorfullhash}{26e27372c19668ba044d3671f438604d}
-      \strng{authorfullhashraw}{26e27372c19668ba044d3671f438604d}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+    \entry{DavabaseWhisper_real_timeReal2022}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Nielsen Norman Group}
-      \field{shorttitle}{Match {Between} {System} and {Real} {World}}
-      \field{title}{Match {Between} {System} and {Real} {World}: 2nd {Usability} {Heuristic} {Explained}}
-      \field{urlday}{24}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
+      \field{labeltitlesource}{title}
+      \field{title}{Davabase/Whisper\_real\_time: {{Real}} Time Transcription with {{OpenAI Whisper}}.}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2022}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/53FZQHPW/whisper_real_time.html
+      \endverb
       \verb{urlraw}
-      \verb https://www.nngroup.com/articles/match-system-real-world/
+      \verb https://github.com/davabase/whisper_real_time
       \endverb
       \verb{url}
-      \verb https://www.nngroup.com/articles/match-system-real-world/
+      \verb https://github.com/davabase/whisper_real_time
       \endverb
     \endentry
-    \entry{shneiderman_eyes_1996}{article}{}{}
+    \entry{iridiumstudiosThereCameEcho2015}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=39afccc0f55ae7821df79ffd677c90b0}{%
-           family={Shneiderman},
-           familyi={S\bibinitperiod},
-           given={Ben},
-           giveni={B\bibinitperiod},
+        {{un=0,uniquepart=base,hash=7d67996e3cd70c949fc22aae9cae9921}{%
+           family={Iridium\bibnamedelima Studios},
+           familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Iridium\bibnamedelima Studios},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{fullhash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{fullhashraw}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{bibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authorbibnamehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authornamehash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authorfullhash}{39afccc0f55ae7821df79ffd677c90b0}
-      \strng{authorfullhashraw}{39afccc0f55ae7821df79ffd677c90b0}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{{IEEE} {Symposium} on {Visual} {Languages}, 1996. {Proceedings}}
-      \field{shorttitle}{The eyes have it}
-      \field{title}{The eyes have it: a task by data type taxonomy for information visualizations}
-      \field{year}{1996}
-      \field{dateera}{ce}
-      \field{pages}{336\bibrangedash 343}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/VL.1996.545307
-      \endverb
-    \endentry
-    \entry{stoiber_visualization_2023}{inbook}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=805aaeb4be269d1fc0de6a727fd00b7e}{%
-           family={Stoiber},
-           familyi={S\bibinitperiod},
-           given={Christina},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e677be29346d195622b44f23db10f01f}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70673edf51d6dad5b80d05cadfa1c4e2}{%
-           family={Grassinger},
-           familyi={G\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a2e8fce57c9d5a94f9b3d0364392856e}{%
-           family={Pohl},
-           familyi={P\bibinitperiod},
-           given={Margit},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fe1c4e753cf7cb72c238310acf90361d}{%
-           family={Stitz},
-           familyi={S\bibinitperiod},
-           given={Holger},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=baace4a75d3625373a7e656e27a426a6}{%
-           family={Streit},
-           familyi={S\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a21f92d84e6929ba20ea1a8096f603f}{%
-           family={Potzmann},
-           familyi={P\bibinitperiod},
-           given={Benjamin},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=48b0257ca187cbc6562f263e3c050d5f}{%
-           family={Aigner},
-           familyi={A\bibinitperiod},
-           given={Wolfgang},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{fcca3eefa6ec5f1a6d485afaee4cdf7c}
-      \strng{fullhash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{fullhashraw}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{bibnamehash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{authorbibnamehash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{authornamehash}{fcca3eefa6ec5f1a6d485afaee4cdf7c}
-      \strng{authorfullhash}{1fee45c9772b5a38fc014decd2e87197}
-      \strng{authorfullhashraw}{1fee45c9772b5a38fc014decd2e87197}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{bibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorbibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authornamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Visualization Psychology}
-      \field{isbn}{978-3-031-34738-2}
+      \field{abstract}{There Came an Echo is a real-time strategy game in which the player assumes command of a small squadron, using an advanced voice recognition system to issue orders. It features a character-driven sci-fi narrative that stars Wil Wheaton, Ashly Burch, Laura Bailey, Yuri Lowenthal, and more!}
       \field{langid}{english}
-      \field{title}{Visualization Onboarding Grounded in Educational Theories}
-      \field{urlday}{6}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
-      \field{year}{2023}
+      \field{title}{There {{Came}} an {{Echo}} on {{Steam}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2015}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{139\bibrangedash 164}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1007/978-3-031-34738-2_6
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZLEKR2Z4/There_Came_an_Echo.html
       \endverb
       \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-3-031-34738-2_6
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
       \endverb
       \verb{url}
-      \verb https://link.springer.com/10.1007/978-3-031-34738-2_6
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
       \endverb
     \endentry
-    \entry{tjoa_airman_2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=9b8db468fdd5c34a02bb844ba42e1fe0}{%
-           family={Tjoa},
+    \entry{LargeLanguageModel}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Large Language Model Noun - {{Definition}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZDSASAEV/large-language-model.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+    \endentry
+    \entry{liResearchVoiceInteraction2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=556024d7ff3224fd3d24c57a8ff2a641}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={ChangYuan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98152686bb62f86bd7e10c252befdef6}{%
+           family={Tang},
            familyi={T\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=af9a5194722300b42ec7198efaa6d0d5}{%
-           family={Kieseberg},
-           familyi={K\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f03c935a8d17d1b1df9f1e0fee1d34a6}{%
-           family={Temper},
-           familyi={T\bibinitperiod},
-           given={Marlies},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f92b19828cb713ecab3d0fed887e46c5}{%
-           family={Zanol},
-           familyi={Z\bibinitperiod},
-           given={Jakob},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e677be29346d195622b44f23db10f01f}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3f4842b3f24d20f809775dbf780810ab}{%
-           family={Holzinger},
-           familyi={H\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
+           given={BaiHui},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {London, United Kingdom}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{f7d01ff8eb6bbd8f253c9a5c10084957}
-      \strng{fullhash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{fullhashraw}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{bibnamehash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{authorbibnamehash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{authornamehash}{f7d01ff8eb6bbd8f253c9a5c10084957}
-      \strng{authorfullhash}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \strng{authorfullhashraw}{84e15ccbc17d0a6f73f9766a25792fc1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{fullhash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{fullhashraw}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{bibnamehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authorbibnamehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authornamehash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authorfullhash}{c699f5b6a4551379e7709f455e8540aa}
+      \strng{authorfullhashraw}{c699f5b6a4551379e7709f455e8540aa}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{eventtitle}{2022 International Conference on Advanced Enterprise Information System ({AEIS})}
-      \field{isbn}{9798350324372}
-      \field{journaltitle}{2022 International Conference on Advanced Enterprise Information System ({AEIS})}
-      \field{month}{12}
-      \field{shorttitle}{{AIRMan}}
-      \field{title}{{AIRMan}: An Artificial Intelligence ({AI}) Risk Management System}
-      \field{urlday}{11}
-      \field{urlmonth}{6}
-      \field{urlyear}{2023}
-      \field{year}{2022}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Artificial intelligence has broad prospects and has a wide range of application fields. This paper studied the interactive combination of natural language processing technology and virtual reality environment in artificial intelligence, and optimized it in the software design level. This paper achieved VR and NLP environment based on unity3d engine. Finally, the input voice signal can be converted into interactive commands in VR environment, and VR environment also can be controlled by the voice.}
+      \field{eventtitle}{2019 {{International Conference}} on {{Electronic Engineering}} and {{Informatics}} ({{EEI}})}
+      \field{journaltitle}{2019 {{International Conference}} on {{Electronic Engineering}} and {{Informatics}} ({{EEI}})}
+      \field{month}{11}
+      \field{title}{Research on {{Voice Interaction Technology}} in {{VR Environment}}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{72\bibrangedash 81}
-      \range{pages}{10}
+      \field{pages}{213\bibrangedash 216}
+      \range{pages}{4}
       \verb{doi}
-      \verb 10.1109/AEIS59450.2022.00017
+      \verb 10.1109/EEI48997.2019.00053
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/EZEM6ZQ3/Li and Tang - 2019 - Research on Voice Interaction Technology in VR Env.pdf
       \endverb
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10145175/
+      \verb https://ieeexplore.ieee.org/document/8991134/
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10145175/
+      \verb https://ieeexplore.ieee.org/document/8991134/
+      \endverb
+      \keyw{interact,natural language process,unity3d,virtual reality}
+    \endentry
+    \entry{RPGNounDefinition}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{{{RPG}} Noun - {{Definition}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/9ZTCCQVE/rpg.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
       \endverb
     \endentry
   \enddatalist
