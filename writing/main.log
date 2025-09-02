@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.2)  2 SEP 2025 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.2)  2 SEP 2025 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1273,7 +1273,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
  (./main.aux (./TemplateElements/TitelPage_en.aux)
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 14.
- (./TemplateElements/a_Declaration.aux) (./Chapters/b_Abstract.aux) (./Chapters/b_Kurzfassung.aux) (./Example.aux) (./Chapters/01_Introduction.aux) (./Chapters/02_Method.aux) (./Chapters/03_Results.aux) (./Chapters/04_Discussion.aux) (./Chapters/05_Conclusion.aux) (./Chapters/Appendix.aux))
+ (./TemplateElements/a_Declaration.aux) (./Chapters/b_Abstract.aux) (./Chapters/b_Kurzfassung.aux) (./Chapters/01_Introduction.aux) (./Chapters/02_Literature_Review.aux) (./Chapters/03_Methodology.aux) (./Chapters/04_Results.aux) (./Chapters/05_Discussion.aux) (./Chapters/06_Conclusion.aux) (./Example.aux) (./Chapters/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
@@ -1478,41 +1478,39 @@ Underfull \vbox (badness 10000) detected at line 26
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.44997pt on input line 72.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.44997pt on input line 73.
+(Font)              scaled to size 10.44997pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 14.24995pt on input line 122.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 14.24995pt on input line 123.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 146.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 146.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 141.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 141.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 146.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 141.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 146.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 141.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 146.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 141.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 146.
+(Font)              <11> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 146.
+(Font)              <7.69997> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 146.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 146.
+(Font)              <5.5> on input line 141.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 146.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1568,29 +1566,112 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-] (./main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
-
+] (./main.toc
 
 [4
 
 
 
-]
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
 
 [5]
+\openout2 = `Chapters/01_Introduction.aux'.
+
+ (./Chapters/01_Introduction.tex
+chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 4.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \section
+             {Research Strategy} [1
+
+
+])
+
+[2]
+\openout2 = `Chapters/02_Literature_Review.aux'.
+
+ (./Chapters/02_Literature_Review.tex
+chapter 2.
+)
+
+[3
+
+
+
+
+]
+\openout2 = `Chapters/03_Methodology.aux'.
+
+ (./Chapters/03_Methodology.tex
+chapter 3.
+)
+
+[4
+
+
+
+
+]
+\openout2 = `Chapters/04_Results.aux'.
+
+ (./Chapters/04_Results.tex
+chapter 4.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 7.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 7.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 10.
+)
+
+[5
+
+
+
+
+]
+\openout2 = `Chapters/05_Discussion.aux'.
+
+ (./Chapters/05_Discussion.tex
+chapter 5.
+)
+
+[6
+
+
+
+
+]
+\openout2 = `Chapters/06_Conclusion.aux'.
+
+ (./Chapters/06_Conclusion.tex
+chapter 6.
+)
+
+[7
+
+
+
+
+]
 \openout2 = `Example.aux'.
 
  (./Example.tex
-chapter 1.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 6.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 13.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 15.
+chapter 7.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 25.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
@@ -1599,18 +1680,15 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 25.
 
 
+[8
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.39 \section
-             {Citation} [1
+
 
 
 ]
 
-[2{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-<Figures/Example.png, id=117, 374.39874pt x 251.94125pt>
+[9{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+<Figures/Example.png, id=168, 374.39874pt x 251.94125pt>
 File: Figures/Example.png Graphic file (type png)
 <use Figures/Example.png>
 Package pdftex.def Info: Figures/Example.png  used on input line 72.
@@ -1623,85 +1701,19 @@ File: Figures/Example.png Graphic file (type png)
 <use Figures/Example.png>
 Package pdftex.def Info: Figures/Example.png  used on input line 85.
 (pdftex.def)             Requested size: 170.71652pt x 114.87947pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 85.
 File: Figures/Example.png Graphic file (type png)
 <use Figures/Example.png>
 Package pdftex.def Info: Figures/Example.png  used on input line 89.
 (pdftex.def)             Requested size: 170.71652pt x 114.87947pt.
 
 
-[3{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./Figures/Example.png>]
+[10{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./Figures/Example.png>]
 
-[4{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}])
+[11{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}])
 
-[5]
-\openout2 = `Chapters/01_Introduction.aux'.
+[12]
 
- (./Chapters/01_Introduction.tex
-chapter 2.
-)
-
-[6
-
-
-
-
-]
-\openout2 = `Chapters/02_Method.aux'.
-
- (./Chapters/02_Method.tex
-chapter 3.
-)
-
-[7
-
-
-
-
-]
-\openout2 = `Chapters/03_Results.aux'.
-
- (./Chapters/03_Results.tex
-chapter 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 7.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 7.
-)
-
-[8
-
-
-
-
-]
-\openout2 = `Chapters/04_Discussion.aux'.
-
- (./Chapters/04_Discussion.tex
-chapter 5.
-)
-
-[9
-
-
-
-
-]
-\openout2 = `Chapters/05_Conclusion.aux'.
-
- (./Chapters/05_Conclusion.tex
-chapter 6.
-)
-
-[10
-
-
-
-
-]
-
-[11
+[13
 
 
 
@@ -1711,7 +1723,7 @@ chapter 6.
 
 
 
-[12
+[14
 
 ] (./main.lot)
 \tf@lot=\write8
@@ -1719,7 +1731,7 @@ chapter 6.
 
 
 
-[13
+[15
 
 ] (./main.lol)
 \tf@lol=\write9
@@ -1727,19 +1739,29 @@ chapter 6.
 
 
 
-[14
+[16
 
 ]
 \openout2 = `Chapters/Appendix.aux'.
 
  (./Chapters/Appendix.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \section{Appendix}
+                      
 
-[15
+[17
 
 
-])
+]
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \section{Appendix}
+                       )
 
-[16] (./main.aux (./TemplateElements/TitelPage_en.aux) (./TemplateElements/a_Declaration.aux) (./Chapters/b_Abstract.aux) (./Chapters/b_Kurzfassung.aux) (./Example.aux) (./Chapters/01_Introduction.aux) (./Chapters/02_Method.aux) (./Chapters/03_Results.aux) (./Chapters/04_Discussion.aux) (./Chapters/05_Conclusion.aux) (./Chapters/Appendix.aux))
+[18] (./main.aux (./TemplateElements/TitelPage_en.aux) (./TemplateElements/a_Declaration.aux) (./Chapters/b_Abstract.aux) (./Chapters/b_Kurzfassung.aux) (./Chapters/01_Introduction.aux) (./Chapters/02_Literature_Review.aux) (./Chapters/03_Methodology.aux) (./Chapters/04_Results.aux) (./Chapters/05_Discussion.aux) (./Chapters/06_Conclusion.aux) (./Example.aux) (./Chapters/Appendix.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -1749,18 +1771,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54049 strings out of 469272
- 1213665 string characters out of 5467192
- 2452553 words of memory out of 5000000
- 81452 multiletter control sequences out of 15000+600000
- 710450 words of font info for 121 fonts, out of 8000000 for 9000
+ 54092 strings out of 469272
+ 1215004 string characters out of 5467192
+ 2456399 words of memory out of 5000000
+ 81476 multiletter control sequences out of 15000+600000
+ 707720 words of font info for 119 fonts, out of 8000000 for 9000
  323 hyphenation exceptions out of 8191
  108i,12n,131p,11263b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (22 pages, 174087 bytes).
+Output written on main.pdf (24 pages, 177541 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 
