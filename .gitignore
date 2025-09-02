@@ -12,3 +12,5 @@ writing/*.toc
 writing/*.run.xml
 writing/*.synctex.gz
 writing/main.pdf
+.DS_Store
+*/.DS_Store

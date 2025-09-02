@@ -4,3 +4,27 @@
 This chapter is about my Methodology
 
 
+How to download custom whispercpp models
+\url{https://github.com/ggml-org/whisper.cpp/blob/master/models/README.md}
+
+
+$large-v3-turbo-q5_0$
+
+The trick to remove silence in ffmpeg
+
+\begin{lstlisting}[style=myStyle, language=bash]
+ffmpeg -i fox.mp4 -ar 16000 -ac 1 -c:a pcm_s16le -af silenceremove=1:0:-50dB fox.wav
+\end{lstlisting}
+
+
+
+whisper cpp flag - can be 32 or 0 too but quality suffers
+\begin{lstlisting}[style=myStyle, language=bash]
+    --max-context 64 --entropy-thold 2.8
+\end{lstlisting}
+
+
+\url{https://old.reddit.com/r/LocalLLaMA/comments/1fyvc60/how_to_improve_whisper_translation_it_keeps/}
+
+
+

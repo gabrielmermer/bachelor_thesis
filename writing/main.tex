@@ -62,8 +62,28 @@
 	urlcolor=black
 ]{hyperref}
 
+
+% my custom packages
 % comments 
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% listings custom styles
+\lstdefinestyle{myStyle}{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red!80!black},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    breaklines=true,
+    showstringspaces=false,
+    frame=single,
+    tabsize=2
+}
 
 \hypersetup{
     %bookmarks=true,         % show bookmarks bar?
