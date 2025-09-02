@@ -12,7 +12,7 @@ let grid = [
 ];
 
 function setup() {
-  canvas_size = 400;
+  canvas_size = 500;
   noStroke();
   createCanvas(canvas_size, canvas_size);
 
