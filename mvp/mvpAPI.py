@@ -20,11 +20,17 @@ import subprocess
 app = FastAPI()
 
 # for cors
+origins = [
+    "http://127.0.0.1:5500",
+    "http://localhost:5500"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5500"],  # p5js frontend
-    allow_methods=["*"],
-    allow_headers=["*"]
+    allow_origins=origins,   # allow your frontend origins
+    allow_credentials=True,  # if you plan to send cookies
+    allow_methods=["*"],     # allow all HTTP methods
+    allow_headers=["*"],     # allow all headers
 )
 
 

@@ -14,6 +14,14 @@ let grid = [
 let mic, recorder, soundFile;
 let initialise_audio = false;
 
+// block refresh 
+window.addEventListener("keydown", function(e) {
+  // prevent default for keys you use in p5
+  if (['Space', 'KeyR', 'KeyW', 'KeyA', 'KeyS', 'KeyD'].includes(e.code)) {
+    e.preventDefault();
+  }
+});
+
 function preload() {
   
 }
@@ -169,19 +177,22 @@ function keyPressed() {
   if (key === 'd') {
     moveRight();
   }
-  if (key === " ") {
+  if (key === "r") {
     if (!initialise_audio) {
       initialiseAudio()
+      return false;
     }
     else {
       startRecording();
+      return false;
     }
   }
 }
 
 function keyReleased() {
-  if (key === " ") {
+  if (key === "r") {
     stopRecording();
+    return false;
   }
 }
 
@@ -213,26 +224,33 @@ function stopRecording() {
   recorder.stop();
   soundFile.play();
   sendSound();
-}
 
+  // this is to prevent reload?
+  return false; 
+}
 async function sendSound() {
   console.log("sending sound to server");
-  let soundBlob = soundFile.getBlob();
+  let soundBlob = soundFile.getBlob(); // p5.SoundFile blob
+
   let formData = new FormData();
-  formData.append('audio_file', soundBlob, 'recording.wav');
-
-  let serverUrl = 'http://127.0.0.1:8000/process_audio';
-
-  let httpRequestOptions = {
-    method: 'POST',
-    body: formData
-  };
+  formData.append('audio_file', soundBlob, 'recording.wav'); // name must match FastAPI
 
   try {
-    const response = await fetch(serverUrl, httpRequestOptions);
+    const response = await fetch('http://127.0.0.1:8000/process_audio', {
+      method: 'POST',
+      body: formData
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
     const data = await response.json();
-    console.log(data);
+    console.log("Server response:", data);
+
   } catch (err) {
-    console.error(err);
+    console.error("Error sending audio:", err);
   }
 }
+
+
