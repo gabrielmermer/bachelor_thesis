@@ -1,5 +1,7 @@
 # local API endpoint
 from fastapi import FastAPI, UploadFile
+# for cors
+from fastapi.middleware.cors import CORSMiddleware
 # for the request body
 from pydantic import BaseModel
 # llama.cpp backend request
@@ -16,6 +18,14 @@ import subprocess
 
 
 app = FastAPI()
+
+# for cors
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://127.0.0.1:5500"],  # p5js frontend
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 
 class Prompt(BaseModel):

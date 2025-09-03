@@ -11,12 +11,26 @@ let grid = [
   [1,1,1,1,1,1,1,1,1,1]
 ];
 
+let mic, recorder, soundFile;
+let initialise_audio = false;
+
+function preload() {
+  
+}
+
 function setup() {
   canvas_size = 500;
   noStroke();
   createCanvas(canvas_size, canvas_size);
 
   grid_height = canvas_size / 10;
+
+  mic = new p5.AudioIn();
+
+  mic.start();
+  recorder = new p5.SoundRecorder();
+  recorder.setInput(mic);
+  soundFile = new p5.SoundFile();
   
 
 }
@@ -155,6 +169,20 @@ function keyPressed() {
   if (key === 'd') {
     moveRight();
   }
+  if (key === " ") {
+    if (!initialise_audio) {
+      initialiseAudio()
+    }
+    else {
+      startRecording();
+    }
+  }
+}
+
+function keyReleased() {
+  if (key === " ") {
+    stopRecording();
+  }
 }
 
 function findObject(type){
@@ -169,4 +197,42 @@ function findObject(type){
   
   } 
 return "not found";
+}
+
+function initialiseAudio() {
+  userStartAudio();
+  initialise_audio = true;
+}
+
+function startRecording() {
+  print("recording")
+  recorder.record(soundFile);
+}
+
+function stopRecording() {
+  recorder.stop();
+  soundFile.play();
+  sendSound();
+}
+
+async function sendSound() {
+  console.log("sending sound to server");
+  let soundBlob = soundFile.getBlob();
+  let formData = new FormData();
+  formData.append('audio_file', soundBlob, 'recording.wav');
+
+  let serverUrl = 'http://127.0.0.1:8000/process_audio';
+
+  let httpRequestOptions = {
+    method: 'POST',
+    body: formData
+  };
+
+  try {
+    const response = await fetch(serverUrl, httpRequestOptions);
+    const data = await response.json();
+    console.log(data);
+  } catch (err) {
+    console.error(err);
+  }
 }
