@@ -1,2 +1,92 @@
 \chapter{Implementation}
 \label{ch:implementation}
+
+
+This chapter is going to focus on the details of the process of creating the playable game
+that used voice as a potential input modality.
+
+\section{WhisperCPP}
+
+How to download custom whispercpp models
+\url{https://github.com/ggml-org/whisper.cpp/blob/master/models/README.md}
+
+
+$large-v3-turbo-q5_0$
+
+The trick to remove silence in ffmpeg
+
+\begin{lstlisting}[style=myStyle, language=bash]
+ffmpeg -i fox.mp4 -ar 16000 -ac 1 -c:a pcm_s16le -af silenceremove=1:0:-50dB fox.wav
+\end{lstlisting}
+
+
+
+whisper cpp flag - can be 32 or 0 too but quality suffers
+\begin{lstlisting}[style=myStyle, language=bash]
+    --max-context 64 --entropy-thold 2.8
+\end{lstlisting}
+
+
+Running Whispercpp on my CPU proved to be remarkably slow
+
+
+\url{https://old.reddit.com/r/LocalLLaMA/comments/1fyvc60/how_to_improve_whisper_translation_it_keeps/}
+
+
+Discussion about whisper cpp 
+\url{https://old.reddit.com/r/LocalLLaMA/comments/1hc1qzi/is_whispercpp_still_the_king_of_stt/}
+
+whisper cpp wav file to txt file example
+\begin{lstlisting}[style=myStyle, language=bash]
+./build/bin/whisper-cli -m models/ggml-large-v3-turbo-q5_0.bin -nt samples/jfk.wav > test.txt
+\end{lstlisting}
+
+whisper cpp server run command
+\begin{lstlisting}[style=myStyle, language=bash]
+
+./build/bin/whisper-server -m models/ggml-large-v3-turbo-q5_0.bin -nt --host 0.0.0.0 -debug --port 8008 -t 7
+\end{lstlisting}
+
+Document the process of building whisper cpp 
+There's a screenshot in the notes folder
+\section{LLAMACPP}
+
+Running LLAma CPP server
+\begin{lstlisting}[style=myStyle, language=bash]
+    ./llama-server -m ../../models/ToolACE-2-Llama-3.1-8B-Q4_K_M.ggml --n-gpu-layers 60 --host 0.0.0.0 --jinja
+\end{lstlisting}
+
+The docs \url{https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md}
+
+The models themselves need to be quantified \url{https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md}
+
+There's a note called Quanting the model with images
+
+
+Theoretical navigation
+Action + object = navigation
+Free flowing conversation = talking to NPC
+
+Though, to be said this would require some more testing into what's actually feasible here, but it could be a good starting point, especially the first system.
+
+
+\section{Tool Calling}
+
+Best model that fits on my machine
+\url{https://huggingface.co/Team-ACE/ToolACE-2-Llama-3.1-8B
+}
+
+There's a nice benchmark for tool calling
+\url{https://gorilla.cs.berkeley.edu/leaderboard.html}
+
+\section{Game prototype}
+
+Multiple engines were considered
+\begin{itemize}
+    \item Unity3D
+    \item Pico8
+    \item LÖVE
+    \item pure CLI
+    \item PyGame
+    \item p5js
+\end{itemize}
