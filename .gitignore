@@ -1,5 +1,6 @@
 # latex
 writing/*.aux
+writing/Chapters/*.aux
 writing/*.log
 writing/*.bbl
 writing/*.bcf
