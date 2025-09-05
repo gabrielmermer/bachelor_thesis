@@ -13,6 +13,9 @@ let grid = [
 
 let mic, recorder, soundFile;
 let initialise_audio = false;
+// current voice command
+
+
 
 // block refresh 
 window.addEventListener("keydown", function(e) {
@@ -60,7 +63,7 @@ function draw() {
       }
       // player
       if(grid[y][x] == "2") {
-        fill("green");
+        fill("pink");
         rect(x * grid_height, y * grid_height, grid_height, grid_height);
       }
 
@@ -80,7 +83,7 @@ function draw() {
   
 }
 
-function moveUp() {
+function moveUp(n) {
   print(findObject(2))
   // let player_position = findObject(2);
   let [player_y, player_x] = findObject(2);
@@ -88,19 +91,19 @@ function moveUp() {
   // colision 
   // print(grid[player_x][player_y -1]);
 
-  if (grid[player_y -1][player_x] == 1){
+  if (grid[player_y - n][player_x] == 1){
     print("collision");
   }
   else {
     // move up the player
     grid[player_y][player_x] = 0;
-    player_y = player_y - 1;
+    player_y = player_y - n;
     grid[player_y][player_x] = 2;
     // print(grid);
   }
 }
 
-function moveDown() {
+function moveDown(n) {
   print(findObject(2))
   // let player_position = findObject(2);
   let [player_y, player_x] = findObject(2);
@@ -108,19 +111,19 @@ function moveDown() {
   // colision 
   // print(grid[player_x][player_y -1]);
 
-  if (grid[player_y +1][player_x] == 1){
+  if (grid[player_y + n][player_x] == 1){
     print("collision");
   }
   else {
     // move up the player
     grid[player_y][player_x] = 0;
-    player_y = player_y + 1;
+    player_y = player_y + n;
     grid[player_y][player_x] = 2;
     // print(grid);
   }
 }
 
-function moveLeft() {
+function moveLeft(n) {
   print(findObject(2))
   // let player_position = findObject(2);
   let [player_y, player_x] = findObject(2);
@@ -128,19 +131,19 @@ function moveLeft() {
   // colision 
   // print(grid[player_x][player_y -1]);
 
-  if (grid[player_y][player_x -1] == 1){
+  if (grid[player_y][player_x - n] == 1){
     print("collision");
   }
   else {
     // move up the player
     grid[player_y][player_x] = 0;
-    player_x = player_x - 1;
+    player_x = player_x - n;
     grid[player_y][player_x] = 2;
     // print(grid);
   }
 }
 
-function moveRight() {
+function moveRight(n) {
   print(findObject(2))
   // let player_position = findObject(2);
   let [player_y, player_x] = findObject(2);
@@ -148,13 +151,13 @@ function moveRight() {
   // colision 
   // print(grid[player_x][player_y -1]);
 
-  if (grid[player_y][player_x +1] == 1){
+  if (grid[player_y][player_x + n] == 1){
     print("collision");
   }
   else {
     // move up the player
     grid[player_y][player_x] = 0;
-    player_x = player_x + 1;
+    player_x = player_x + n;
     grid[player_y][player_x] = 2;
     // print(grid);
   }
@@ -163,19 +166,19 @@ function moveRight() {
 
 function keyPressed() {
   if (key === 'w') {
-    moveUp();
+    moveUp(1);
   }
 
   if (key === 's') {
-    moveDown();
+    moveDown(1);
   }
 
   if (key === 'a') {
-    moveLeft();
+    moveLeft(1);
   }
 
   if (key === 'd') {
-    moveRight();
+    moveRight(1);
   }
   if (key === "r") {
     if (!initialise_audio) {
@@ -192,6 +195,7 @@ function keyPressed() {
 function keyReleased() {
   if (key === "r") {
     stopRecording();
+    // runCommand(voice_command);
     return false;
   }
 }
@@ -216,14 +220,26 @@ function initialiseAudio() {
 }
 
 function startRecording() {
+  // refreshing the buffer
+  soundFile = new p5.SoundFile()
   print("recording")
   recorder.record(soundFile);
 }
 
-function stopRecording() {
+async function stopRecording() {
   recorder.stop();
+
+  // simple timer for the buffer 
+  await new Promise(resolve => setTimeout(resolve, 200));
+
+  // debug
   soundFile.play();
-  sendSound();
+
+
+  const voice_command = await sendSound();
+  if (voice_command) {
+    runCommand(voice_command);
+  }
 
   // this is to prevent reload?
   return false; 
@@ -247,10 +263,38 @@ async function sendSound() {
 
     const data = await response.json();
     console.log("Server response:", data);
+    return data;
 
   } catch (err) {
     console.error("Error sending audio:", err);
   }
 }
 
+function runCommand(commandArray){
+  print("beginning to run command: ", commandArray)
+  let [commandName, paramString] = commandArray;
 
+  const commandMap = {
+    "MoveLeft": (params) => moveLeft(params.x),
+    "MoveRight": (params) => moveRight(params.x),
+    "MoveUp": (params) => moveUp(params.x),
+    "MoveDown": (params) => moveDown(params.x)
+  }
+
+  let params = {};
+  if (paramString) {
+    try {
+      params = JSON.parse(paramString);
+    } catch(e) {
+      console.error("Invalid param JSON: ", paramString)
+    }
+  }
+
+  // checking if command exists in the commandMap
+  if (commandMap[commandName]) {
+    commandMap[commandName](params);
+  } else {
+    console.log("unknown command: ", commandName," ", params);
+  }
+
+}
