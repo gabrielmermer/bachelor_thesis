@@ -3,7 +3,56 @@
 
 
 This chapter is going to focus on the details of the process of creating the playable game
-that used voice as a potential input modality.
+that used voice as a potential input modality. The first step in the process was to identify the type of tools
+that were going to be needed in the game. 
+First of all there needed to be the video game itself. 
+
+% 2D and 3D
+The most fundemental choice for the game prototype is if it should use 2 dimentional or 3D graphics. This 
+choice might seem trivial but the consequences are very far fetching. 
+
+% complexity of implementation
+Adding the third dimention in game envirornment is adding additional layer of complexity. Instead of dealing with $x$ and $y$ 
+there's also $z$ creating a 3 dimentional system. That in itself makes it that the assets in the game have to be also three dimentional.
+Tha in itself means usually longer time needed to create projects since the process of creating assets becomes longer and more advanced.
+Another thing that makes making 3D games more difficult is physics. The vast majority of games have some sort of physics 
+implementation, be it collision detection, particle systems or force vectors. Making those calculations is something that becomes much harder when adding
+a third dimension. 
+To be able to verify this thesis a quick iteration and implementation are key, being arguments for choosing 2D.
+
+
+
+% precision
+for this project. When it comes to input in games, one of the most important factors is the precision of the controls - 
+since the player actions should align with the expectations of the player.
+Given that precision of input is such an important factor the 2D system seems to be making more sense in this scenario,
+since it allows to precisely describe things such as movement or rotation using natural language. 
+The difference between 2D static camera and 3D first person movement commands for example:
+
+2D: Rotate to the right and move 10 steps forward
+
+3D: Look to the upper left a bit and then move 10 stept forward
+
+This example illustrates that it might be difficult for the player to describe camera motions since 3 dimentional transforms 
+are not intuitive and might require repetetive attempts
+
+% why 2D
+Of course not all of 3D games rely on a player controllable camera. Many games employ a fixed camera or don't let the player
+control the camera at all, but given the time frame of this thesis and the fact that it includes exploring different potential 
+prototypes I made the decision that 2D is the preferable option.
+After making that choice the next logical step is to think of potential suitable game ideas that would differ from each other
+and also would make it possible to utilise the voice input.
+
+
+% generes a
+There's a lot of different video game generes. I set out to find out what type of game would be the most suitable
+
+
+% Engines
+Games are usually built using some sort of game engine, 
+allowing for standing on the shoulders of giants so to speak. Engines vary greatly in their complexity, supported platforms,
+pricing, licensing, and many other technical factors. For this work I decided to  
+
 
 \section{WhisperCPP}
 
