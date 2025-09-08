@@ -2,5 +2,6 @@
     "cSpell.ignoreWords": [
         "iridiumstudios",
         "silenceremove"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

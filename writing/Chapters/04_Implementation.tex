@@ -118,6 +118,7 @@ Free flowing conversation = talking to NPC
 
 Though, to be said this would require some more testing into what's actually feasible here, but it could be a good starting point, especially the first system.
 
+I made a smimple bash script to automate the deployment of the AI backend when run.
 
 \section{Tool Calling}
 
@@ -133,9 +134,53 @@ There's a nice benchmark for tool calling
 Multiple engines were considered
 \begin{itemize}
     \item Unity3D
+    
+    This engine while very powerful has a huge moving mass of all of it's complexity. This means that while 
+    it allows for creating of very advanced titles, for the ideating stage it doesn't allow for as fast prototype
+    creation as other choices
+
+    \item Godot
+    
+    Godot is a universally praised engine with a cult-following. The main reason for that is it's licensing giving 
+    the studios a stable pillar to stand on compared to it's biggest direct competitor being Unity3D. 
+    Another benetfit that it has is the fact that it seems to be preferable by some when it comes to 2D game development.
+    However, it still suffers from how complex it is, making creating prototypes and ideating more difficult and ultimately
+    longer than the engines listed below. 
+
     \item Pico8
+    
+    The complete anti-thesis of the above choices. This engine allows for the quickest game creation, offering 
+    built in tools, uisng very simple lua language and through creative limitations such as 128x128 resolution forcing
+    the game developing process to be simple and streamlined. It's biggest weakness is that it doesn't allow for simple 
+    http requests rendering it unusable for this work despite the author's personal preference. 
+    
     \item LÖVE
+    
+    Another simple 2D lua engine, this time with actual support for http requests. It handles higher resolution 
+    and makes it possible to quickly create prototypes or even fully fledged games such as Balatro. Hovever due to 
+    how niche it is it doesn't have nearly as big of a community making support and learning resources scarce in comparasion
+    to bigger engines.
+
     \item pure CLI
+    
+    If the game is set to be a text based adventure then maybe an engine isn't needed at all? That would potentially allow
+    for huge flexibility when it comes to actual implementation but at a cost of no guidance and best practices. Games are
+    rarely written to be exprienced via terminal these days, and even if being text based they still render their text via 
+    some kind of graphical front end. Another point speaking against using CLI would be the inablity to use sound or other 
+    modalities that are not purely text based. On top of that terminal windows often change their size and are hardly standarised
+    which could prove creating UI elements difficult. 
+    
     \item PyGame
+    
+    The choice against this engine comes down mostly due to lacking support and how it seemed to have been replaced by 
+    Pico8 and LÖVE in the quick game development community, especialyl looking at their release notes and online activity 
+    of users. It offers more capabilities than those engines at the cost of added complexity. It sits somewhere between Pico8
+    and Unity3D and for those reasons it wasn't selected for this thesis. 
+
+
     \item p5js
+    
+    The final selection. This engine has the advantages of Pico-8 and LÖVE, allowing for lightning fast development while
+    also adding suport for high resolution and http requests. This compbined with big community support and many learning
+    resources + with how it runs on Javascript sealed it as the ultimate choice for this thesis.
 \end{itemize}
