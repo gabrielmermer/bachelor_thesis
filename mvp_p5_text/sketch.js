@@ -13,8 +13,33 @@ window.addEventListener("keydown", function(e) {
 });
 
 
+let player = { inventory: [] };
 
-locationA = new Place("Bunker", "This is an abandoned bunker", "colony", ["Pick up the lock", "Look around", "Travel"]);
+let pickUpKey  = new Action(
+  "Pick up key",
+  "A rusty key lies on the floor",
+  ( player ) => {
+    player.inventory.push("key")
+    console.log("You picked up the key!");
+  }
+)
+let lookAround  = new Action(
+  "Look around yourself",
+  "This place needs a better look doesn't it?",
+  ( player ) => {
+    // player.inventory.push("key")
+    console.log("You looked around");
+  }
+)
+
+
+let locationA = new Place("Bunker", "This is an abandoned bunker", "colony",
+  [pickUpKey,
+    lookAround
+    ]);
+
+
+
 console.log(locationA);
 let currentLocation = locationA;
 
@@ -54,7 +79,7 @@ function draw() {
   text("Possible actions:", 50, 150);
 
   for (let i = 1; i < currentLocation.actions.length +1; i++) {
-    let actionString = i + ") " + currentLocation.actions[i -1];
+    let actionString = i + ") " + currentLocation.actions[i -1].name;
     text(actionString, 50, 150 + i * 30);
   }
 
@@ -68,6 +93,13 @@ function draw() {
 
 
 function keyPressed() {
+
+  let num = parseInt(key);
+
+  // only if 1 to 10
+  if (!isNaN(num) && num >= 1 && num <= 10) {
+    executeAction(num);
+  }
 
   if (key === "r") {
     if (!initialise_audio) {
@@ -186,4 +218,11 @@ function runCommand(commandArray){
     console.log("unknown command: ", commandName," ", params);
   }
 
+}
+
+function executeAction(i) {
+  print("1")
+  const action = currentLocation.actions[i - 1];
+  if (!action) return;
+  action.execute(player);
 }
