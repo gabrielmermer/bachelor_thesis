@@ -18,6 +18,7 @@ class Place {
         (player) => {
             currentLocation = neighbor;
             console.log("You travel to " + neighbor.name);
+            statusText = "";
         }
         )
     );

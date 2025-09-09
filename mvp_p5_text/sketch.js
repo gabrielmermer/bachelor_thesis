@@ -3,6 +3,9 @@ let initialise_audio = false;
 // current voice command
 
 
+let statusText;
+
+
 
 // block refresh 
 window.addEventListener("keydown", function(e) {
@@ -23,6 +26,7 @@ let pickUpKey  = new Action(
   ( player ) => {
     player.inventory.push("key")
     console.log("You picked up the key!");
+    statusText = "You picked up the key!"
     location_bunker.removeAction(pickUpKey);
   }
 )
@@ -32,6 +36,7 @@ let lookAround  = new Action(
   ( player ) => {
     // player.inventory.push("key")
     console.log("You looked around");
+    statusText = "You looked around, there's nothing interesting";
   }
 )
 
@@ -42,9 +47,12 @@ let openTheSafe  = new Action(
   "This is one hefty box isn't it?",
   ( player ) => {
     if ( player.inventory.includes("key")) {
-      console.log("you opened the box")
+      console.log("you opened the box");
+      statusText = "Congratulations! You found your old book inside"
+      location_house.removeAction(openTheSafe);
     } else {
-      console.log("the safe failed to open")
+      console.log("the safe failed to open");
+      
     }
     
    
@@ -100,6 +108,7 @@ function setup() {
 function draw() {
   // rendering
   background(220);
+  textStyle(NORMAL);
 
 
   textSize(30);
@@ -117,6 +126,9 @@ function draw() {
     text(actionString, 50, 150 + i * 30);
   }
 
+  // status text 
+  textStyle(ITALIC);
+  text(statusText, 50, 400)
 
 
 
