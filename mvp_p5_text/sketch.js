@@ -15,12 +15,15 @@ window.addEventListener("keydown", function(e) {
 
 let player = { inventory: [] };
 
+// bunker actions
+
 let pickUpKey  = new Action(
   "Pick up key",
   "A rusty key lies on the floor",
   ( player ) => {
     player.inventory.push("key")
     console.log("You picked up the key!");
+    location_bunker.removeAction(pickUpKey);
   }
 )
 let lookAround  = new Action(
@@ -32,16 +35,43 @@ let lookAround  = new Action(
   }
 )
 
+// house actions
 
-let locationA = new Place("Bunker", "This is an abandoned bunker", "colony",
-  [pickUpKey,
-    lookAround
-    ]);
+let openTheSafe  = new Action(
+  "Try to open the safe",
+  "This is one hefty box isn't it?",
+  ( player ) => {
+    if ( player.inventory.includes("key")) {
+      console.log("you opened the box")
+    }
+    // player.inventory.push("key")
+    console.log("You looked around");
+  }
+)
 
 
 
-console.log(locationA);
-let currentLocation = locationA;
+
+let location_house = new Place("House", "An old falling apart house");
+let location_bunker = new Place("Bunker", "This is an abandoned bunker");
+
+
+location_house.connections = [location_bunker];
+location_bunker.connections = [location_house];
+
+
+location_bunker.actions = [pickUpKey, lookAround];
+location_house.actions = [openTheSafe];
+
+location_bunker.actions.push
+
+
+
+
+console.log(location_bunker);
+
+
+let currentLocation = location_bunker;
 
 function setup() {
 
@@ -78,8 +108,10 @@ function draw() {
 
   text("Possible actions:", 50, 150);
 
-  for (let i = 1; i < currentLocation.actions.length +1; i++) {
-    let actionString = i + ") " + currentLocation.actions[i -1].name;
+  let availableActions = currentLocation.getAllActions();
+
+  for (let i = 1; i < availableActions.length +1; i++) {
+    let actionString = i + ") " + availableActions[i -1].name;
     text(actionString, 50, 150 + i * 30);
   }
 
@@ -222,7 +254,8 @@ function runCommand(commandArray){
 
 function executeAction(i) {
   print("1")
-  const action = currentLocation.actions[i - 1];
+  let availableActions = currentLocation.getAllActions();
+  const action = availableActions[i - 1];
   if (!action) return;
   action.execute(player);
 }
