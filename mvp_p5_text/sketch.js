@@ -83,6 +83,9 @@ console.log(location_bunker);
 
 let currentLocation = location_bunker;
 
+
+getAllActionsAsJSON();
+
 function setup() {
 
   noStroke();
@@ -272,4 +275,9 @@ function executeAction(i) {
   const action = availableActions[i - 1];
   if (!action) return;
   action.execute(player);
+}
+
+function getAllActionsAsJSON() {
+  console.log(JSON.stringify(location_house.getAllActions()));
+  console.log(JSON.stringify(location_bunker.getAllActions()));
 }
