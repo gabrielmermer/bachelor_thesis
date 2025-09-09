@@ -278,6 +278,6 @@ function executeAction(i) {
 }
 
 function getAllActionsAsJSON() {
-  console.log(JSON.stringify(location_house.All));
-  console.log(JSON.stringify(location_bunker));
+  console.log(JSON.stringify(location_house.getAllActions()));
+  console.log(JSON.stringify(location_bunker.getAllActions()));
 }
