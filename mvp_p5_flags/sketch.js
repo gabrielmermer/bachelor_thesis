@@ -15,9 +15,11 @@ window.addEventListener("keydown", function(e) {
 });
 
 
-let player = { inventory: [] };
+let img;
 
-// bunker actions
+function preload() {
+  img = loadImage('assets/poland.png');
+}
 
 
 function setup() {
@@ -46,6 +48,7 @@ function draw() {
   // rendering
   background(220);
 
+  image(img, 200, 100, 400, 200);
 
 
 
