@@ -3,7 +3,6 @@ let initialise_audio = false;
 // current voice command
 
 
-let statusText;
 
 
 
@@ -20,71 +19,6 @@ let player = { inventory: [] };
 
 // bunker actions
 
-let pickUpKey  = new Action(
-  "Pick up key",
-  "A rusty key lies on the floor",
-  ( player ) => {
-    player.inventory.push("key")
-    console.log("You picked up the key!");
-    statusText = "You picked up the key!"
-    location_bunker.removeAction(pickUpKey);
-  }
-)
-let lookAround  = new Action(
-  "Look around yourself",
-  "This place needs a better look doesn't it?",
-  ( player ) => {
-    // player.inventory.push("key")
-    console.log("You looked around");
-    statusText = "You looked around, there's nothing interesting";
-  }
-)
-
-// house actions
-
-let openTheSafe  = new Action(
-  "Try to open the safe",
-  "This is one hefty box isn't it?",
-  ( player ) => {
-    if ( player.inventory.includes("key")) {
-      console.log("you opened the box");
-      statusText = "Congratulations! You found your old book inside"
-      location_house.removeAction(openTheSafe);
-    } else {
-      console.log("the safe failed to open");
-      
-    }
-    
-   
-  }
-)
-
-
-
-
-let location_house = new Place("House", "An old falling apart house");
-let location_bunker = new Place("Bunker", "This is an abandoned bunker");
-
-
-location_house.connections = [location_bunker];
-location_bunker.connections = [location_house];
-
-
-location_bunker.actions = [pickUpKey, lookAround];
-location_house.actions = [openTheSafe];
-
-location_bunker.actions.push
-
-
-
-
-console.log(location_bunker);
-
-
-let currentLocation = location_bunker;
-
-
-getAllActionsAsJSON();
 
 function setup() {
 
@@ -111,27 +45,7 @@ function setup() {
 function draw() {
   // rendering
   background(220);
-  textStyle(NORMAL);
 
-
-  textSize(30);
-  text(currentLocation.name, 50, 50);
-
-  textSize(15)
-  text(currentLocation.description, 50, 90);
-
-  text("Possible actions:", 50, 150);
-
-  let availableActions = currentLocation.getAllActions();
-
-  for (let i = 1; i < availableActions.length +1; i++) {
-    let actionString = i + ") " + availableActions[i -1].name;
-    text(actionString, 50, 150 + i * 30);
-  }
-
-  // status text 
-  textStyle(ITALIC);
-  text(statusText, 50, 400)
 
 
 
@@ -143,12 +57,6 @@ function draw() {
 
 function keyPressed() {
 
-  let num = parseInt(key);
-
-  // only if 1 to 10
-  if (!isNaN(num) && num >= 1 && num <= 10) {
-    executeAction(num);
-  }
 
   if (key === "r") {
     if (!initialise_audio) {
@@ -269,15 +177,3 @@ function runCommand(commandArray){
 
 }
 
-function executeAction(i) {
-  print("1")
-  let availableActions = currentLocation.getAllActions();
-  const action = availableActions[i - 1];
-  if (!action) return;
-  action.execute(player);
-}
-
-function getAllActionsAsJSON() {
-  console.log(JSON.stringify(location_house.All));
-  console.log(JSON.stringify(location_bunker));
-}
