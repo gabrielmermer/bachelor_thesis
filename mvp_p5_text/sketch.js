@@ -43,9 +43,11 @@ let openTheSafe  = new Action(
   ( player ) => {
     if ( player.inventory.includes("key")) {
       console.log("you opened the box")
+    } else {
+      console.log("the safe failed to open")
     }
-    // player.inventory.push("key")
-    console.log("You looked around");
+    
+   
   }
 )
 
