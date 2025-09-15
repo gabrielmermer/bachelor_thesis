@@ -16,16 +16,32 @@ window.addEventListener("keydown", function(e) {
 
 
 let img;
+let imgGermany;
+
+let country_poland, country_germany;
+
+let current_country;
 
 function preload() {
   img = loadImage('assets/poland.png');
+  imgGermany = loadImage('assets/germany.png');
 }
+
+
 
 
 function setup() {
 
+  country_poland = new Country("Poland", "Warsaw", "Europe", img)
+  country_germany = new Country("Germany", "Berlin", "Europe", imgGermany)
+
+  current_country = country_poland;
+
+
   noStroke();
   createCanvas(800, 500);
+
+  console.log(country_poland);
 
 
 
@@ -47,9 +63,18 @@ function setup() {
 function draw() {
   // rendering
   background(220);
+  
+  image(current_country.flag_image, 200, 100, 400, 200);
 
-  image(img, 200, 100, 400, 200);
+  textSize(20);
+  text("Guess this country:", 200, 80)
 
+  textSize(25);
+  text("Name: ???", 200, 350)
+
+  text("Capitol: ???", 200, 390)
+
+  text("Continent: ???", 200, 430)
 
 
   
