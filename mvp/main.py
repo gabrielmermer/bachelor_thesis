@@ -15,22 +15,31 @@ import tempfile
 # running local cli subprocesses for ffmpeg
 import subprocess
 
+# for restarting 
+import time
+
 
 
 app = FastAPI()
 
-# for cors
+# for cors - More permissive approach
 origins = [
     "http://127.0.0.1:5500",
-    "http://localhost:5500"
+    "http://127.0.0.1:8000", 
+    "http://localhost:5500",
+    "http://localhost:8000",
+    "*"  # Allow all origins (remove this in production)
 ]
+
+# OR alternatively, just use:
+# origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,   # allow your frontend origins
-    allow_credentials=True,  # if you plan to send cookies
-    allow_methods=["*"],     # allow all HTTP methods
-    allow_headers=["*"],     # allow all headers
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -45,7 +54,8 @@ class VoicePrompt(BaseModel):
 
 # using the openAI chat API cause it's what llamacpp tool calling supports
 url = "http://100.126.176.4:8080/v1/chat/completions"
-url_whisper = "http://dabro-workstation:8008/inference"
+url_whisper = "http://100.76.132.20:8008/inference"
+url_restart = "http://100.76.132.20:8000/restart_backend"
 
 # loading the JSON tool file
 with open('tools.json', 'r') as tools_json_file:
@@ -126,11 +136,15 @@ async def process_audio(audio_file: UploadFile):
         # TODO Start Whisper Server
 
         # Whisper request
+        # TODO make a special restart request
+
+        # restarting audio
+        await restart_audio_backend()
+        time.sleep(5)
+
         transcription_string = httpx.post(url_whisper, files=files, timeout=120.0)
         transcription_JSON = json.loads(transcription_string.text)
-        # print(transcription_string.text)
-        # print(transcription_JSON)
-        # print(transcription_JSON['text'])
+
         print(json.dumps(transcription_JSON, indent=2))
         transcription_clean = transcription_JSON['text']
         transcription_clean = json.dumps(transcription_clean)
@@ -143,3 +157,13 @@ async def process_audio(audio_file: UploadFile):
         # send the transcript to the LLM
         return llm_process(transcription_clean)
     
+
+
+async def restart_audio_backend():
+    response = httpx.post(url_restart, timeout=10)
+    return response.text
+
+@app.post("/restart_audio")
+async def restart_audio():
+    return await restart_audio_backend()
+

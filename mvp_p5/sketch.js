@@ -15,15 +15,15 @@ let mic, recorder, soundFile;
 let initialise_audio = false;
 // current voice command
 
-let isRecording = false;
+
 
 // block refresh 
-window.addEventListener("keydown", function(e) {
-  // prevent default for keys you use in p5
-  if (['Space', 'KeyR', 'KeyW', 'KeyA', 'KeyS', 'KeyD'].includes(e.code)) {
-    e.preventDefault();
-  }
-});
+// window.addEventListener("keydown", function(e) {
+//   // prevent default for keys you use in p5
+//   if (['Space', 'KeyR', 'KeyW', 'KeyA', 'KeyS', 'KeyD'].includes(e.code)) {
+//     e.preventDefault();
+//   }
+// });
 
 function preload() {
   
@@ -63,7 +63,7 @@ function draw() {
       }
       // player
       if(grid[y][x] == "2") {
-        fill("pink");
+        fill("blue");
         rect(x * grid_height, y * grid_height, grid_height, grid_height);
       }
 
@@ -165,6 +165,7 @@ function moveRight(n) {
 
 
 function keyPressed() {
+ 
   if (key === 'w') {
     moveUp(1);
   }
@@ -193,7 +194,9 @@ function keyPressed() {
 }
 
 function keyReleased() {
+ 
   if (key === "r") {
+    console.log("r released")
     stopRecording();
     // runCommand(voice_command);
     return false;
@@ -227,40 +230,30 @@ function startRecording() {
 }
 
 async function stopRecording() {
-  if (!isRecording) return;
-  
-  isRecording = false;
+  print("stoped recording")
   recorder.stop();
-  console.log("Stopped recording");
 
-  // Wait for buffer
-  await new Promise(resolve => setTimeout(resolve, 500)); // Increased wait time
+  // simple timer for the buffer 
+  await new Promise(resolve => setTimeout(resolve, 200));
 
-  // Get audio info before sending
-  console.log("SoundFile duration:", soundFile.duration());
-  console.log("SoundFile buffer length:", soundFile.buffer ? soundFile.buffer.length : "no buffer");
-  
-  // Debug playback
+  // debug
   soundFile.play();
+
 
   const voice_command = await sendSound();
   if (voice_command) {
     runCommand(voice_command);
   }
 
+  // this is to prevent reload?
   return false; 
 }
-
 async function sendSound() {
   console.log("sending sound to server");
-  let soundBlob = soundFile.getBlob();
-  
-  // Log blob info
-  console.log("Blob size:", soundBlob.size, "bytes");
-  console.log("Blob type:", soundBlob.type);
+  let soundBlob = soundFile.getBlob(); // p5.SoundFile blob
 
   let formData = new FormData();
-  formData.append('audio_file', soundBlob, 'recording.wav');
+  formData.append('audio_file', soundBlob, 'recording.wav'); // name must match FastAPI
 
   try {
     const response = await fetch('http://127.0.0.1:8000/process_audio', {
