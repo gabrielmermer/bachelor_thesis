@@ -15,7 +15,7 @@ let mic, recorder, soundFile;
 let initialise_audio = false;
 // current voice command
 
-
+let isRecording = false;
 
 // block refresh 
 window.addEventListener("keydown", function(e) {
@@ -227,29 +227,40 @@ function startRecording() {
 }
 
 async function stopRecording() {
+  if (!isRecording) return;
+  
+  isRecording = false;
   recorder.stop();
+  console.log("Stopped recording");
 
-  // simple timer for the buffer 
-  await new Promise(resolve => setTimeout(resolve, 200));
+  // Wait for buffer
+  await new Promise(resolve => setTimeout(resolve, 500)); // Increased wait time
 
-  // debug
+  // Get audio info before sending
+  console.log("SoundFile duration:", soundFile.duration());
+  console.log("SoundFile buffer length:", soundFile.buffer ? soundFile.buffer.length : "no buffer");
+  
+  // Debug playback
   soundFile.play();
-
 
   const voice_command = await sendSound();
   if (voice_command) {
     runCommand(voice_command);
   }
 
-  // this is to prevent reload?
   return false; 
 }
+
 async function sendSound() {
   console.log("sending sound to server");
-  let soundBlob = soundFile.getBlob(); // p5.SoundFile blob
+  let soundBlob = soundFile.getBlob();
+  
+  // Log blob info
+  console.log("Blob size:", soundBlob.size, "bytes");
+  console.log("Blob type:", soundBlob.type);
 
   let formData = new FormData();
-  formData.append('audio_file', soundBlob, 'recording.wav'); // name must match FastAPI
+  formData.append('audio_file', soundBlob, 'recording.wav');
 
   try {
     const response = await fetch('http://127.0.0.1:8000/process_audio', {
