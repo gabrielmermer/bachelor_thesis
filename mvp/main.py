@@ -136,10 +136,6 @@ async def process_audio(audio_file: UploadFile):
         # data = {"audio_filee": file}
 
 
-        # TODO Start Whisper Server
-
-        # Whisper request
-        # TODO make a special restart request
 
         # restarting audio
         await restart_audio_backend()
@@ -152,10 +148,6 @@ async def process_audio(audio_file: UploadFile):
         transcription_clean = transcription_JSON['text']
         transcription_clean = json.dumps(transcription_clean)
 
-        # TODO kill Whisper Server
-        # TODO start LLM server
-        # TODO send the transcript to the LLM
-        # TODO kill LLM server
 
         # send the transcript to the LLM
         return llm_process(transcription_clean)
