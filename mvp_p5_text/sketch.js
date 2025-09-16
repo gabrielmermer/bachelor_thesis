@@ -240,34 +240,45 @@ async function sendSound() {
   }
 }
 
-function runCommand(commandArray){
-  print("beginning to run command: ", commandArray)
+function runCommand(commandArray) {
+  console.log("beginning to run command: ", commandArray);
   let [commandName, paramString] = commandArray;
-
-  const commandMap = {
-    "MoveLeft": (params) => moveLeft(params.x),
-    "MoveRight": (params) => moveRight(params.x),
-    "MoveUp": (params) => moveUp(params.x),
-    "MoveDown": (params) => moveDown(params.x)
-  }
 
   let params = {};
   if (paramString) {
     try {
       params = JSON.parse(paramString);
-    } catch(e) {
-      console.error("Invalid param JSON: ", paramString)
+    } catch (e) {
+      console.error("Invalid param JSON: ", paramString);
     }
   }
 
-  // checking if command exists in the commandMap
-  if (commandMap[commandName]) {
-    commandMap[commandName](params);
-  } else {
-    console.log("unknown command: ", commandName," ", params);
-  }
+  // mapping voice commmands
+  const commandMap = {
+    "PickUpKey": () => pickUpKey.execute(player),
+    "LookAround": () => lookAround.execute(player),
+    "OpenTheSafe": () => openTheSafe.execute(player),
+    "Travel": () => {
+      const destinationName = params.destination;
+      // find the connected location by name
+      const destination = currentLocation.connections.find(loc => loc.name.toLowerCase() === destinationName);
+      if (destination) {
+        currentLocation = destination;
+        console.log("You travel to " + destination.name);
+        statusText = "";
+      } else {
+        console.log("Cannot travel to " + destinationName + " from here.");
+      }
+    }
+  };
 
+  if (commandMap[commandName]) {
+    commandMap[commandName]();
+  } else {
+    console.log("unknown command: ", commandName, " ", params);
+  }
 }
+
 
 function executeAction(i) {
   print("1")

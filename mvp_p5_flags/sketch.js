@@ -43,6 +43,24 @@ function setup() {
 
   console.log(country_poland);
 
+  // name input
+  countryNameInput = createInput();
+  countryNameInput.position(390, 330);
+  countryButton = createButton('submit');
+  countryButton.position(countryNameInput.x + countryNameInput.width, countryNameInput.y);
+
+  // capitol input
+  countryCapitolInput = createInput();
+  countryCapitolInput.position(390, 370);
+  countryCapitolButton = createButton('submit');
+  countryCapitolButton.position(countryCapitolInput.x + countryCapitolInput.width, countryCapitolInput.y);
+
+  // continent input
+  countryContinentInput = createInput();
+  countryContinentInput.position(390, 410);
+  countryContinentButton = createButton('submit');
+  countryContinentButton.position(countryContinentInput.x + countryContinentInput.width, countryContinentInput.y);
+
 
 
   mic = new p5.AudioIn();

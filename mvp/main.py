@@ -18,6 +18,8 @@ import subprocess
 # for restarting 
 import time
 
+# tools file
+tools_file = "tools-text.json"
 
 
 app = FastAPI()
@@ -58,7 +60,8 @@ url_whisper = "http://100.76.132.20:8008/inference"
 url_restart = "http://100.76.132.20:8000/restart_backend"
 
 # loading the JSON tool file
-with open('tools.json', 'r') as tools_json_file:
+# with open('tools.json', 'r') as tools_json_file:
+with open(tools_file, 'r') as tools_json_file:
     tools = json.load(tools_json_file)
 
 
