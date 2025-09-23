@@ -1,1 +1,84 @@
 \gddchapter{Core gameplay}
+
+\section{Player Role \& Perspective}
+
+The player is a apocalypse survivor who's main role is to rescue his brother
+from a shopping mall in an abandoned city. The user controls the actions of the 
+main character by using actions, either via keyboard or his voice. The information
+about the environment is provided to the player in a form of text narrator in third person
+
+The player moves through the shopping mall in a series of moves between different locations, 
+either abandoned or with NPCs. Each location provides a list of possible actions that can be taken
+inside of it and the list of possible travel destinations. 
+
+
+\section{Core Loop}
+
+
+
+The core loop for the game differs depending on if the player is playing the 
+voice version or the keyboard control version.
+
+The core loop of the game for the keyboard version consists of the following:
+
+\begin{enumerate}
+    \item Arrive at new location
+    \item Read the description of the current location
+    \item Decide which action to take from the list provided  
+    \item Take an action such as talking, picking up items, using their items or
+    engaging in combat
+    \item Repeat the last step until the player decides to travel to another place 
+\end{enumerate}
+
+
+The core loop of the game for the voice driven version looks as follows:
+
+\begin{enumerate}
+    \item Arrive at new location
+    \item Read the description of the current location
+    \item Think about what kind of action would be possible in this location
+    without having a provided list and vocalise it to the game by using the player voice.
+    \item Take an action such as talking, picking up items, using their items or
+    engaging in combat
+    \item Repeat the last step until the player decides to travel to another place 
+\end{enumerate}
+
+
+\section{Mechanics}
+%Movement, combat, items 
+
+\subsection{Movement}
+The game employs a simple movement system in which each location can be treated as a node, 
+with connections to other locations. The movement between the places is then treated as moving 
+the player into the new node.
+For example a clothing store in the gallery might be connected to the food court and to the corridor.
+The player may choose which location he chooses to travel to.
+
+
+\subsection{Dialogue}
+Certain characters in the game might be able to speak to the player. The dialogue options are just actions in the 
+game just like any other action, such as travel etc. 
+The transcript of the dialogue is provided to the player by the text narrator.
+
+\subsection{Combat}
+Given the hostile nature of the world present in game combat is a part that's an inherent part of it. 
+The player may engage in combat, either by his choice or by third parties intiative. The combat system itself
+is rather simple. All weapons in the game have a chance of killing the NPC opponent, eg. a revolver having 70\% chances. 
+When a player decides to use their weapon the game "rolls the dice" to determine if the victim of the violence
+survives or dies. 
+
+
+The player itself can sustain one hit from any of these weapons if the NPC uses the violence on them, making the game a 
+bit less punishing.
+
+\subsection{Items \& Player inventory}
+
+The shopping mall has some items that the player can collect to increase their chances of success. There's weight management
+system in place in order not to overwhelm the new players.
+
+\section{Controls \& Input}
+
+Depenging on the version of the game the player either controls the game by the usage of their keyboard or their voice. 
+The input for the keyboard version coresponds to the numbers 1 to 10 on the keyboard for selecting the Actions that 
+the player can take.
+
