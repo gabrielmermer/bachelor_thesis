@@ -4,221 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "8ee77a5b298c4523",
+        "id": "2f4b8b2175abd945",
         "type": "tabs",
         "children": [
           {
-            "id": "d652965946c04168",
+            "id": "cf18f066ca3624c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Audio only games.md",
-                "mode": "source",
-                "source": false
+                "file": "testing kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Audio only games"
+              "icon": "lucide-trello",
+              "title": "testing kanban"
             }
           },
           {
-            "id": "cceb0a7305be41dc",
+            "id": "aff64e62e0430b3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "All encompassing design.md",
-                "mode": "source",
-                "source": false
+                "file": "testing kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "All encompassing design"
+              "icon": "lucide-trello",
+              "title": "testing kanban"
             }
           },
           {
-            "id": "e86a9df7d91bd680",
+            "id": "eccbeb6e91cfe3cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Tool calling benchmark.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Tool calling benchmark"
-            }
-          },
-          {
-            "id": "4a334de6fcfe282e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Possible good tool calling model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Possible good tool calling model"
-            }
-          },
-          {
-            "id": "1573b90551aa8ffb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Local conversion to GGUF and quant.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Local conversion to GGUF and quant"
-            }
-          },
-          {
-            "id": "6e7117e6b8cae174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quanting the model  log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quanting the model  log"
-            }
-          },
-          {
-            "id": "ec54a2439cc36336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Llama.cpp server docs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Llama.cpp server docs"
-            }
-          },
-          {
-            "id": "752737c8e8cc359d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Llama.cpp server docs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Llama.cpp server docs"
-            }
-          },
-          {
-            "id": "0dc171493ebd973d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper CPP models discussion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Whisper CPP models discussion"
-            }
-          },
-          {
-            "id": "741090ad6a10db20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Downloading custom Whisper models.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Downloading custom Whisper models"
-            }
-          },
-          {
-            "id": "ee70edf293f8137e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Llama cpp server params.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Llama cpp server params"
-            }
-          },
-          {
-            "id": "fc0a4a74d1ab4798",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Whisper notes"
-            }
-          },
-          {
-            "id": "f00a5f2d6a0aec89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper cpp server.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Whisper cpp server"
-            }
-          },
-          {
-            "id": "5cc65c3908dcfd93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Whisper CPP params.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Whisper CPP params"
-            }
-          },
-          {
-            "id": "afd007c6dd396d0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ffmpeg conversion silence removal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ffmpeg conversion silence removal"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-19 14.37.55.excalidraw"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,7 +77,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -250,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kobol",
+                "query": "testing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -271,12 +111,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 371.5,
+    "collapsed": true
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -292,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Drawing 2025-09-19 14.37.55.excalidraw"
             }
           },
           {
@@ -349,47 +190,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "564198463b9c597b",
+  "active": "eccbeb6e91cfe3cf",
   "lastOpenFiles": [
-    "Whisper CPP params.md",
+    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
+    "testing kanban.md",
+    "Excalidraw/Drawing 2025-09-19 14.38.12.excalidraw.md",
+    "Excalidraw",
+    "ngrok.md",
+    "2025-09-16.md",
+    "chrome prototype.png",
+    "Untitled.base",
+    "Untitled Kanban.md",
+    "Untitled 1.base",
+    "Potential system for voice input model.md",
+    "Talon deep script integration.md",
+    "Kinnect voice commands.md",
     "ffmpeg conversion silence removal.md",
-    "Whisper CPP models discussion.md",
-    "Log - low resources.md",
-    "Downloading custom Whisper models.md",
+    "Whisper CPP params.md",
     "Whisper cpp server.md",
     "Whisper notes.md",
     "Llama cpp server params.md",
-    "Pasted image 20250623200049.png",
+    "Downloading custom Whisper models.md",
+    "Whisper CPP models discussion.md",
     "Llama.cpp server docs.md",
     "Quanting the model  log.md",
-    "Pasted image 20250623162350.png",
-    "Pasted image 20250623160031.png",
-    "Pasted image 20250623152303.png",
-    "Pasted image 20250623151343.png",
     "Local conversion to GGUF and quant.md",
     "Possible good tool calling model.md",
     "Tool calling benchmark.md",
     "All encompassing design.md",
     "Audio only games.md",
-    "Kinnect voice commands.md",
+    "Log - low resources.md",
+    "Pasted image 20250623200049.png",
+    "Pasted image 20250623162350.png",
+    "Pasted image 20250623160031.png",
+    "Pasted image 20250623152303.png",
+    "Pasted image 20250623151343.png",
     "Shallow scope of voice control integration.md",
     "VUI - Voice User Interface.md",
-    "VUI user journey.md",
-    "Talon deep script integration.md",
-    "Some games use text for input - Facade.md",
-    "Research angles.md",
-    "Potential system for voice input model.md",
-    "Pasted image 20250529145421.png",
-    "Narrative games in audio modality.md",
-    "Audiogame rpg example - Ptolem's singing catacombs.md",
-    "Existing games table.md"
+    "Pasted image 20250529145421.png"
   ]
 }

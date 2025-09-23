@@ -20,6 +20,7 @@ import time
 
 # tools file
 tools_file = "tools-text.json"
+# tools_file = "tools.json"
 
 
 app = FastAPI()
@@ -101,6 +102,13 @@ def llm_process(prompt: str):
         print("no tool call detected")
     except KeyError:
         print("no tool call detected")
+
+
+# healthcheck
+@app.get("/")
+async def root():
+    return {"status": "ok"}
+
 
 @app.post("/process_prompt")
 async def process_prompt(prompt: Prompt):
