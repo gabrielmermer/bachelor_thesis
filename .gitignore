@@ -1,19 +1,19 @@
-# latex
-writing/*.aux
-writing/Chapters/*.aux
-writing/*.log
-writing/*.bbl
-writing/*.bcf
-writing/*.blg
-writing/*.fdb_latexmk
-writing/*.fls
-writing/*.lof
-writing/*.lot
-writing/*.toc
-writing/*.run.xml
-writing/*.synctex.gz
-writing/main.pdf
+# LaTeX temporary files
+**/*.aux
+**/*.log
+**/*.bbl
+**/*.blg
+**/*.toc
+**/*.lof
+**/*.lot
+**/*.fls
+**/*.fdb_latexmk
+**/*.synctex.gz
+**/*.run.xml
+*.pdf
+
+# macOS
 .DS_Store
-*/.DS_Store
-# vscode
-.vscode/*
+
+# VSCode
+.vscode/

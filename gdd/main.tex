@@ -1,0 +1,38 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % for images
+\usepackage{amsmath}  % for equations
+
+\usepackage[T1]{fontenc}
+\usepackage{helvet}   % Latin Modern
+\renewcommand{\familydefault}{\sfdefault} % Sans serif as default
+
+
+\title{Arkada Game Design Document}
+\author{Gabriel Mermer cc222001}
+\date{\today}
+
+% numbering fix
+\setcounter{secnumdepth}{0}
+\newcommand{\gddchapter}[1]{%
+  \chapter*{#1}%
+  \addcontentsline{toc}{chapter}{#1}%
+}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\include{Chapters/01_Overview}
+\include{Chapters/02_Core_gameplay}
+\include{Chapters/03_Game_progression}
+\include{Chapters/04_Narrative}
+\include{Chapters/05_Aesthetics}
+\include{Chapters/06_Systems&Features}
+\include{Chapters/07_Techinical_Constraints}
+\include{Chapters/08_Refences}
+
+\end{document}
