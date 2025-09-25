@@ -259,4 +259,46 @@ commanding the game to move to the finish location.
 
 \subsubsection{Prototype 2 - Text Adventure}
 
+% intro
+Since the first idea that the author of the paper had about the voice system was to determine if it can control the player
+movements on a 2D grid he came to a conclusion that a simple 2D maze game would prove to be a good testing ground for this
+hypothesis. The reason being that it strips away all of the superfluos things and focuses on movement as a primary game
+mechanic. 
+
+
+The second idea for testing was the protoytype of a classical text adventure game, akin to games
+in the MUD genre \todo{cite}
+The game itself would allow the player to travel through different interconnected locations and preform different actions 
+in those places. This concept in itself has a potential for higher immersion due to higher engagement of the player's 
+imagination, since they'd have to imagine the game world as it's described in text to them. This effect can be compared
+to reading a book and imagining all of it's action vs watching a movie and seeing all of the action presented in it.
+
+On top of that the prototype emplyed the first person control, meaning that the player can speak in the first person 
+while giving out actions. This in itself can lead to higher immersion, similar to how ttrpg players command their
+characters in first person report higher immersion compared to those that speak in third person about
+ their character \todo{source is just a guess}.
+
+
+% implementation
+This prototype emplyed basic OOP principles, creating a class for a Place and Action, and then defining 2 locations with a 
+few actions that can be taken in them, including traveling from one location to another. 
+The technical implementation turned out not to be too time consuming due to the fact that the most difficult part of audio 
+sending could be reused from the previous prototype, as all of the prototypes were built in p6js. The possibiliy of 
+pure python console output was briefly considered but the workflow of recording and sending audio would have proven to be 
+difficult from a pure console envirornment. This combined with code reusing potential had led the author to decide to 
+stick to p6js. On top of that P6js could potentially provide sound effects or background music in the way of further 
+deepening immersion in the player.  
+
+% outcome
+Compared to the first prototype the audio processing proved almost no issues. That can be accredited to the fact that 
+the actions in the prototype eg. "Pick up the key" are rather specific making the tool calling LLM interpret them without
+much issue. The only issue was the fact that the Travel function expected capitalised location names as parameters,
+but the WhicperCPP would transcribe the location names as lowercase. The fix turned out to be a very simple instruction 
+in the tools.json file that made the LLM aware of this capitalisation.
+
+This prototype has actually come out really really good on all fronts.
+
+% testing
+% choice
+
 \subsubsection{Prototype 3 - Flag Guessing}
