@@ -189,3 +189,74 @@ Multiple engines were considered
 
 backednd whisper fastapi runner
 uvicorn main:app --host 0.0.0.0 --port 8000
+
+
+
+\section{Game implementation}
+
+\subsection{Prototype ideation}
+
+This phase of the work has an exploratory meaning. In Design Thinking this would be the Ideation part of the Double Diamond approach \todo{cite}
+The reason for following that approach instead of going straight into building the finished game is to verify if the 
+game idea is worth executing in the first place. More often than not it turns out that games that work in the head
+of their creators are not very enjoyable when executed. 
+This phenomenon called Expectation confirmation theory \todo{cite} plays out in many fields of life including shopping, 
+planning for vacations or in this case game design.
+
+One additional thing that the prototypes can acomplish is to increase the cerative potential for making even better solutions.
+Mind often sees connections while experiencing, meaning that after the prototypes are played through there's a chance of a 
+new idea, a variation or some profound insight. 
+
+All of these reasons are valid for making some prototypes. Fail quickly and iterate would be the motto here. 
+Because of this three games got created:
+
+\subsubsection{Prototype 1 - Maze} \todo{images}
+
+Since the first idea that the author of the paper had about the voice system was to determine if it can control the player
+movements on a 2D grid he came to a conclusion that a simple 2D maze game would prove to be a good testing ground for this
+hypothesis. The reason being that it strips away all of the superfluos things and focuses on movement as a primary game
+mechanic. 
+
+The process of building the prototype itself has proven to be challenging mostly due to the backend infrastructure. 
+During the devlopment process it turned out that sending audio recordings to the backend was poorly documented in the P6JS
+framework that was selected. On top of that it has proven to be buggy and unreliable at first. 
+Thankfully it has proven to be possible in the end. 
+
+The process of building the prototype uncovered a problem in the WhisperCPP server itself. Due to undocumented bug
+the audio processing server would start hallucinating after processing the first 3 requests while using GPU for processing.
+This technical problem would persist until full restart of the WhisperCPP server.
+The solution to this problem that was in scope of this thesis turned out to be turning the whisper server into a systemd 
+deamon and then writing a separate API that would listen for requests to process audio and automatically restart the WhisperCPP
+instance based on those requests. The following resulted in proper processing at a cost of ~2 seconds for the WhisperCPP server
+to restart itself. This tradeoff is still very much worth the effort since the processing time for WhisperCPP on GPU has proven to be about 20 times
+faster than on the CPU.
+
+After fixing the backend itself another issue became apparent making the prototype not suitable for further development.
+The movement mechanic in itself worked, but only up to the point. When the user would say "I want to move two units up"
+the WhisperCPP would very often interpret it as "I want to move to units up" resulting in no action at all. 
+The same edge case appeared with interpreting "four" as "for", making the sentence "I would like to move four units up"
+also appear as an incorrect instruction. Of course these edge cases could be handled and hardcoded into the tools definitions 
+for the Funtion calling LLM, but as the name implies edge cases are often unpredictable and impossible to fully work around 
+especially since the input being the natural language. One potential solution here would be to try to make the LLM to guess 
+the correct command based on what sounds close to the given instruction but that solution also seems like something liable to 
+make errors, given how LLMs tend to hallucinate when asked to generate "creative" output. The validity of this approach didn't 
+sound good enough in theory to warrant further testing in the author's personal opinion, especially given the next problem described below.
+
+Next problem in the prototype is the broad scope in which navigation can be approached. 
+The player may ask to move by using the directions such as up, down, left etc, by using positional system in X Y coordinates, by 
+sides of the world, by describing the desired relationship to other elements of the envirornment (such as 2 spaces from the north wall),
+or by any other abstract way of describing location. The usage of natural language incentivises people to use their natural
+way of speech and there's bound to be a lot of ways that people demonstrate navigation. The prototype can be of course limited
+to just a few of those ways but then what would be the difference between this voice input system and pre-existing solutions
+such as Talos? \todo{Cite talos} Not to mention the dent in the immersion that would follow if the natural way of player
+expression would not be supported? It would feel closer to piloting a machine with a set of commands instead of guiding
+your own body.
+
+To take this argument to extreme in this prototype the player has to reach the exit door to get out of the maze,
+there is nothing stopping the player from just
+commanding the game to move to the finish location. 
+
+
+\subsubsection{Prototype 2 - Text Adventure}
+
+\subsubsection{Prototype 3 - Flag Guessing}
