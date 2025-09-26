@@ -260,12 +260,6 @@ commanding the game to move to the finish location.
 \subsubsection{Prototype 2 - Text Adventure}
 
 % intro
-Since the first idea that the author of the paper had about the voice system was to determine if it can control the player
-movements on a 2D grid he came to a conclusion that a simple 2D maze game would prove to be a good testing ground for this
-hypothesis. The reason being that it strips away all of the superfluos things and focuses on movement as a primary game
-mechanic. 
-
-
 The second idea for testing was the protoytype of a classical text adventure game, akin to games
 in the MUD genre \todo{cite}
 The game itself would allow the player to travel through different interconnected locations and preform different actions 
@@ -281,24 +275,51 @@ characters in first person report higher immersion compared to those that speak 
 
 % implementation
 This prototype emplyed basic OOP principles, creating a class for a Place and Action, and then defining 2 locations with a 
-few actions that can be taken in them, including traveling from one location to another. 
+few actions that can be taken in them, including travelling from one location to another. 
 The technical implementation turned out not to be too time consuming due to the fact that the most difficult part of audio 
-sending could be reused from the previous prototype, as all of the prototypes were built in p6js. The possibiliy of 
+sending could be reused from the previous prototype, as all of the prototypes were built in p6js. The possibility of 
 pure python console output was briefly considered but the workflow of recording and sending audio would have proven to be 
-difficult from a pure console envirornment. This combined with code reusing potential had led the author to decide to 
+difficult from a pure console environment. This combined with code reusing potential had led the author to decide to 
 stick to p6js. On top of that P6js could potentially provide sound effects or background music in the way of further 
 deepening immersion in the player.  
 
 % outcome
-Compared to the first prototype the audio processing proved almost no issues. That can be accredited to the fact that 
+Compared to the first prototype the audio transcription proved almost no issues or edge cases. That can be accredited to the fact that 
 the actions in the prototype eg. "Pick up the key" are rather specific making the tool calling LLM interpret them without
 much issue. The only issue was the fact that the Travel function expected capitalised location names as parameters,
-but the WhicperCPP would transcribe the location names as lowercase. The fix turned out to be a very simple instruction 
+but the WhisperCPP would transcribe the location names as lowercase. The fix turned out to be a very simple instruction 
 in the tools.json file that made the LLM aware of this capitalisation.
 
-This prototype has actually come out really really good on all fronts.
 
-% testing
-% choice
+
 
 \subsubsection{Prototype 3 - Flag Guessing}
+
+% intro
+The last idea for the prototypes was a guessing game in which the user would be presented with a picture of a flag
+and they would have to try to guess multiple facts about the presented country including:
+\begin{enumerate}
+    \item Country name
+    \item Capitol name
+    \item Country's continent
+    \item The population
+\end{enumerate}
+
+Each good answer would grant the player with extra points and if they couldn't answer no more questions about the country
+the user would be able to skip to the next country. This prototype idea was to create the experience that's closer to 
+TV trivia shows in which people answer difficult questions in hopes of reaching prizes. This feeling of being on stage
+could potentially be enchanced by the usage of voice recognition compared to traditional keyboard input. 
+% implementation
+
+The implemention of this prototype didn't go as far as the other ones since while building it the author tested the 
+voice processing backend to account for the typical natural language responses such as guessing the country or the population
+and numerous edge cases similar to those in the Prototype 1 emerged. The prototype ended up in a half finished state,
+at the same time further testing was not needed, since it served it's purpouse as it demonstrated that this should not
+be the direction of further works.
+
+
+After playtesting all of the above mentioned games and discussions with the thesis supervisor
+the second prototype  stood out amongst all of the 
+prototypes and the author decided to choose it for further work. The reasons for that would come down
+to the second prototype having the combined strength of a potential for a deeper immersion of the player (due
+to the first person narration) with the lack of before mentioned issues with voice processing on edge cases. 
