@@ -3080,10 +3080,11 @@
     <bcf:citekey order="7" intorder="1">RPGNounDefinition</bcf:citekey>
     <bcf:citekey order="8" intorder="1">ibmWhatUserExperience2025</bcf:citekey>
     <bcf:citekey order="9" intorder="1">ibmWhatUserExperience2025</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">liResearchVoiceInteraction2019</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">interactiondesignfoundationWhatAreVoice2025</bcf:citekey>
     <bcf:citekey order="11" intorder="1">liResearchVoiceInteraction2019</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">harneskExploringVoiceInteractions</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">PtolemsSingingCatacombs</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">liResearchVoiceInteraction2019</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">harneskExploringVoiceInteractions</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">PtolemsSingingCatacombs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
