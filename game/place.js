@@ -1,7 +1,8 @@
 class Place {
-    constructor(name, description, connections = [], actions = []) {
+    constructor(name, description, floor, connections = [], actions = []) {
         this.name = name;
         this.description = description;
+        this.floor = floor;
         this.connections = connections;
         this.actions = actions;
     }

@@ -16,6 +16,7 @@ window.addEventListener("keydown", function(e) {
 });
 
 
+// player inventory
 let player = { inventory: [] };
 
 // bunker actions
@@ -66,6 +67,63 @@ let location_house = new Place("House", "An old falling apart house");
 let location_bunker = new Place("Bunker", "This is an abandoned bunker");
 
 
+// location Ground Entrance 
+let location_0F_entrance_ground = new Place(
+  "Ground Entrance",
+  "Entrance to the shopping mall with half crushed opening door",
+  "0F") 
+
+// location Entrance Shed
+let location__0F_entrance_shed = new Place(
+  "Storage Shed",
+  "Small room with a few brooms, and shelves with cleaning supplies",
+  "0F") 
+
+// location Entrance Shed
+let location_0F_clothes_store = new Place(
+  "Clothes Store",
+  "Big clothing store with a bunch of clothes all around on the floor",
+  "0F") 
+
+// location 0F corridor
+let location_0F_corridor = new Place(
+  "Small Corridor",
+  "The link between stores linking food court with stores on ground floor",
+  "0F") 
+
+// location food court
+let location_0F_food_court = new Place(
+  "Food court",
+  "Big hall dedicated to eating food from the nearby restaurants",
+  "0F") 
+
+// location living space
+let location_0F_living_space = new Place(
+  "Fishing Store",
+  "Small dark space turned into a living quarters for someone",
+  "0F") 
+
+// location elevator 0F
+let location_0F_elevator = new Place(
+  "Elevator",
+  "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
+  "0F") 
+
+// connections
+
+location_0F_entrance_ground.connections = [location__0F_entrance_shed, location_0F_clothes_store];
+location__0F_entrance_shed.connections = [location_0F_entrance_ground];
+location_0F_clothes_store.connections = [location_0F_entrance_ground, location_0F_corridor];
+location_0F_corridor.connections = [location_0F_food_court, location_0F_living_space]
+location_0F_living_space.connections = [location_0F_corridor]
+location_0F_food_court.connections = [location_0F_corridor, location_0F_elevator]
+location_0F_elevator.connections = [location_0F_food_court]
+
+
+
+
+
+// demo
 location_house.connections = [location_bunker];
 location_bunker.connections = [location_house];
 
@@ -73,6 +131,7 @@ location_bunker.connections = [location_house];
 location_bunker.actions = [pickUpKey, lookAround];
 location_house.actions = [openTheSafe];
 
+// why is this here? I forgot
 location_bunker.actions.push
 
 
@@ -81,7 +140,7 @@ location_bunker.actions.push
 console.log(location_bunker);
 
 
-let currentLocation = location_bunker;
+let currentLocation = location_0F_entrance_ground;
 
 
 getAllActionsAsJSON();

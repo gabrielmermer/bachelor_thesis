@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2f4b8b2175abd945",
+        "id": "7dcc58866944c4e2",
         "type": "tabs",
         "children": [
           {
-            "id": "cf18f066ca3624c2",
+            "id": "a48f0e8b290a439d",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "testing kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md"
               },
-              "icon": "lucide-trello",
-              "title": "testing kanban"
-            }
-          },
-          {
-            "id": "aff64e62e0430b3f",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "testing kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "testing kanban"
-            }
-          },
-          {
-            "id": "eccbeb6e91cfe3cf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-19 14.37.55.excalidraw"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5,
-    "collapsed": true
+    "width": 371.5
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -199,18 +161,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "eccbeb6e91cfe3cf",
+  "active": "a48f0e8b290a439d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
     "testing kanban.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
     "Excalidraw/Drawing 2025-09-19 14.38.12.excalidraw.md",
     "Excalidraw",
     "ngrok.md",
     "2025-09-16.md",
     "chrome prototype.png",
-    "Untitled.base",
     "Untitled Kanban.md",
-    "Untitled 1.base",
     "Potential system for voice input model.md",
     "Talon deep script integration.md",
     "Kinnect voice commands.md",
@@ -235,7 +197,6 @@
     "Pasted image 20250623152303.png",
     "Pasted image 20250623151343.png",
     "Shallow scope of voice control integration.md",
-    "VUI - Voice User Interface.md",
     "Pasted image 20250529145421.png"
   ]
 }
