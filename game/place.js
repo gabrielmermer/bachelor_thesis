@@ -1,10 +1,12 @@
 class Place {
-    constructor(name, description, floor, connections = [], actions = []) {
+    constructor(name, description, floor, picture, connections = [], actions = []) {
         this.name = name;
         this.description = description;
         this.floor = floor;
+        this.picture = picture;
         this.connections = connections;
         this.actions = actions;
+        
     }
 
     removeAction(action) {
@@ -12,18 +14,20 @@ class Place {
     }
 
     generateTravelActions() {
-    return this.connections.map(neighbor => 
+    return this.connections.map(neighbor =>
         new Action(
         "Go to " + neighbor.name,
-        "Travel to " + neighbor.description,
+        "Travel to " + neighbor.name,
         (player) => {
-            currentLocation = neighbor;
+            // set the global game location, not an undefined `currentLocation`
+            game.currentLocation = neighbor;
             console.log("You travel to " + neighbor.name);
             statusText = "";
         }
         )
     );
-}
+    }
+
 
     getAllActions() {
         return [

@@ -20,143 +20,37 @@ window.addEventListener("keydown", function(e) {
 // player inventory
 let player = { inventory: [] };
 
-// bunker actions
-
-let pickUpKey  = new Action(
-  "Pick up key",
-  "A rusty key lies on the floor",
-  ( player ) => {
-    player.inventory.push("key")
-    console.log("You picked up the key!");
-    statusText = "You picked up the key!"
-    location_bunker.removeAction(pickUpKey);
-  }
-)
-let lookAround  = new Action(
-  "Look around yourself",
-  "This place needs a better look doesn't it?",
-  ( player ) => {
-    // player.inventory.push("key")
-    console.log("You looked around");
-    statusText = "You looked around, there's nothing interesting";
-  }
-)
-
-// house actions
-
-let openTheSafe  = new Action(
-  "Try to open the safe",
-  "This is one hefty box isn't it?",
-  ( player ) => {
-    if ( player.inventory.includes("key")) {
-      console.log("you opened the box");
-      statusText = "Congratulations! You found your old book inside"
-      location_house.removeAction(openTheSafe);
-    } else {
-      console.log("the safe failed to open");
-      
-    }
-    
-   
-  }
-)
+// master game object
+let game = {
+  actions: {},
+  locations: {},
+  currentLocation: null
+};
 
 
+// let currentLocation = location_0F_entrance_ground;
+// let currentLocation;
 
 
-let location_house = new Place("House", "An old falling apart house");
-let location_bunker = new Place("Bunker", "This is an abandoned bunker");
-
-
-// location Ground Entrance 
-let location_0F_entrance_ground = new Place(
-  "Ground Entrance",
-  "The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock. A constant, low hum from the geothermal core vibrates through the ferro-concrete floors, a metallic heartbeat for this subterranean world. The meticulously recycled air carries the scent of sterile ozone and cultivated soil, a stark reminder that behind immense blast doors, this grim fortress is the only universe its weary people know.The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock",
-  "0F") 
-
-// location Entrance Shed
-let location__0F_entrance_shed = new Place(
-  "Storage Shed",
-  "Small room with a few brooms, and shelves with cleaning supplies",
-  "0F") 
-
-// location Entrance Shed
-let location_0F_clothes_store = new Place(
-  "Clothes Store",
-  "Big clothing store with a bunch of clothes all around on the floor",
-  "0F") 
-
-// location 0F corridor
-let location_0F_corridor = new Place(
-  "Small Corridor",
-  "The link between stores linking food court with stores on ground floor",
-  "0F") 
-
-// location food court
-let location_0F_food_court = new Place(
-  "Food court",
-  "Big hall dedicated to eating food from the nearby restaurants",
-  "0F") 
-
-// location living space
-let location_0F_living_space = new Place(
-  "Fishing Store",
-  "Small dark space turned into a living quarters for someone",
-  "0F") 
-
-// location elevator 0F
-let location_0F_elevator = new Place(
-  "Elevator",
-  "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
-  "0F") 
-
-// connections
-
-location_0F_entrance_ground.connections = [location__0F_entrance_shed, location_0F_clothes_store];
-location__0F_entrance_shed.connections = [location_0F_entrance_ground];
-location_0F_clothes_store.connections = [location_0F_entrance_ground, location_0F_corridor];
-location_0F_corridor.connections = [location_0F_food_court, location_0F_living_space, location_0F_clothes_store]
-location_0F_living_space.connections = [location_0F_corridor]
-location_0F_food_court.connections = [location_0F_corridor, location_0F_elevator]
-location_0F_elevator.connections = [location_0F_food_court]
-
-
-
-
-
-// demo
-location_house.connections = [location_bunker];
-location_bunker.connections = [location_house];
-
-
-location_bunker.actions = [pickUpKey, lookAround];
-location_house.actions = [openTheSafe];
-
-// why is this here? I forgot
-location_bunker.actions.push
-
-
-
-
-console.log(location_bunker);
-
-
-let currentLocation = location_0F_entrance_ground;
-
-
-getAllActionsAsJSON();
+// getAllActionsAsJSON();
 
 // images
 let image_0F_entrance;
 
 function preload() {
   image_0F_entrance = loadImage('assets/img/entrance.png');
+  image_0F_clothes_shop = loadImage('assets/img/0F_clothes_store.png');
   fontFira = loadFont('assets/font/fira-light.ttf');
   fontFiraRegular = loadFont('assets/font/fira-regular.ttf');
 }
 
 
 function setup() {
+
+
+  initialiseLocations();
+  game.currentLocation = game.locations.location_0F_entrance_ground
+  
 
   noStroke();
   let sceneCanvas = createCanvas(windowWidth, windowHeight);
@@ -174,8 +68,8 @@ function setup() {
 
   // class testing
   
-  console.log(currentLocation);
-  console.log(location_0F_food_court.floor);
+  console.log(game.currentLocation);
+  console.log(game.locations.location_0F_food_court.floor);
   
   
 
@@ -190,7 +84,8 @@ function draw() {
 
   // background image
   
-  image(image_0F_entrance,0,0, windowWidth,400,0,0,0,0,COVER);
+  // image(image_0F_entrance,0,0, windowWidth,400,0,0,0,0,COVER);
+  image(game.currentLocation.picture,0,0, windowWidth,400,0,0,0,0,COVER);
 
 
   // background card
@@ -206,21 +101,21 @@ function draw() {
   
   // main location text
   textSize(48);
-  text(currentLocation.name, 40, main_box_offset + 30);
+  text(game.currentLocation.name, 40, main_box_offset + 30);
   main_box_offset += 30;
 
 
   // floor number 
   textFont(fontFira);
   textSize(24)
-  text(currentLocation.floor, 40, main_box_offset + 30);
+  text(game.currentLocation.floor, 40, main_box_offset + 30);
   main_box_offset += 40;
 
   // Description text
   textFont(fontFiraRegular);
   textSize(12)
 
-  text(currentLocation.description, 40, main_box_offset + 30, 900, 800);
+  text(game.currentLocation.description, 40, main_box_offset + 30, 900, 800);
   main_box_offset += 140;
 
   // Possible actions header
@@ -235,7 +130,7 @@ function draw() {
   textFont(fontFiraRegular);
   textSize(12)
 
-  let availableActions = currentLocation.getAllActions();
+  let availableActions = game.currentLocation.getAllActions();
 
   for (let i = 1; i < availableActions.length +1; i++) {
     let actionString = i + ") " + availableActions[i -1].name;
@@ -388,9 +283,9 @@ function runCommand(commandArray) {
     "Travel": () => {
       const destinationName = params.destination;
       // find the connected location by name
-      const destination = currentLocation.connections.find(loc => loc.name.toLowerCase() === destinationName);
+      const destination = game.currentLocation.connections.find(loc => loc.name.toLowerCase() === destinationName);
       if (destination) {
-        currentLocation = destination;
+        game.currentLocation = destination;
         console.log("You travel to " + destination.name);
         statusText = "";
       } else {
@@ -409,19 +304,110 @@ function runCommand(commandArray) {
 
 function executeAction(i) {
   print("1")
-  let availableActions = currentLocation.getAllActions();
+  let availableActions = game.currentLocation.getAllActions();
   const action = availableActions[i - 1];
   if (!action) return;
   action.execute(player);
 }
 
-function getAllActionsAsJSON() {
-  console.log(JSON.stringify(location_house.getAllActions()));
-  console.log(JSON.stringify(location_bunker.getAllActions()));
-}
+// function getAllActionsAsJSON() {
+//   console.log(JSON.stringify(location_house.getAllActions()));
+//   console.log(JSON.stringify(location_bunker.getAllActions()));
+// }
 
 
 window.onresize = function() {
   // assigns new values for width and height variables
   resizeCanvas(windowWidth, windowHeight + 30);
+}
+
+function initialiseLocations() {
+  // bunker actions
+
+  let pickUpKey  = new Action(
+    "Pick up key",
+    "A rusty key lies on the floor",
+    ( player ) => {
+      player.inventory.push("key")
+      console.log("You picked up the key!");
+      statusText = "You picked up the key!"
+      location_bunker.removeAction(pickUpKey);
+    }
+  )
+  let lookAround  = new Action(
+    "Look around yourself",
+    "This place needs a better look doesn't it?",
+    ( player ) => {
+      // player.inventory.push("key")
+      console.log("You looked around");
+      statusText = "You looked around, there's nothing interesting";
+    }
+  )
+
+
+  // location Ground Entrance 
+  game.locations.location_0F_entrance_ground = new Place(
+    "Ground Entrance",
+    "The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock. A constant, low hum from the geothermal core vibrates through the ferro-concrete floors, a metallic heartbeat for this subterranean world. The meticulously recycled air carries the scent of sterile ozone and cultivated soil, a stark reminder that behind immense blast doors, this grim fortress is the only universe its weary people know.The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock",
+    "0F",
+    image_0F_entrance) 
+
+  // location Entrance Shed
+  game.locations.location__0F_entrance_shed = new Place(
+    "Storage Shed",
+    "Small room with a few brooms, and shelves with cleaning supplies",
+    "0F") 
+
+  // location Entrance Shed
+  game.locations.location_0F_clothes_store = new Place(
+    "Clothes Store",
+    "Big clothing store with a bunch of clothes all around on the floor",
+    "0F",
+    image_0F_clothes_shop) 
+
+  // location 0F corridor
+  game.locations.location_0F_corridor = new Place(
+    "Small Corridor",
+    "The link between stores linking food court with stores on ground floor",
+    "0F") 
+
+  // location food court
+  game.locations.location_0F_food_court = new Place(
+    "Food court",
+    "Big hall dedicated to eating food from the nearby restaurants",
+    "0F") 
+
+  // location living space
+  game.locations.location_0F_living_space = new Place(
+    "Fishing Store",
+    "Small dark space turned into a living quarters for someone",
+    "0F") 
+
+  // location elevator 0F
+  game.locations.location_0F_elevator = new Place(
+    "Elevator",
+    "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
+    "0F") 
+
+  // connections
+
+  game.locations.location_0F_entrance_ground.connections = [game.locations.location__0F_entrance_shed, game.locations.location_0F_clothes_store];
+  game.locations.location__0F_entrance_shed.connections = [game.locations.location_0F_entrance_ground];
+  game.locations.location_0F_clothes_store.connections = [game.locations.location_0F_entrance_ground, game.locations.location_0F_corridor];
+  game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space, game.locations.location_0F_clothes_store]
+  game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor]
+  game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_elevator]
+  game.locations.location_0F_elevator.connections = [game.locations.location_0F_food_court]
+
+
+
+
+
+  // demo
+  // location_house.connections = [location_bunker];
+  // location_bunker.connections = [location_house];
+
+
+  // location_bunker.actions = [pickUpKey, lookAround];
+  // location_house.actions = [openTheSafe];
 }
