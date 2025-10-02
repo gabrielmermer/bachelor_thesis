@@ -7,6 +7,7 @@ let statusText;
 
 
 
+
 // block refresh 
 window.addEventListener("keydown", function(e) {
   // prevent default for keys you use in p5
@@ -70,7 +71,7 @@ let location_bunker = new Place("Bunker", "This is an abandoned bunker");
 // location Ground Entrance 
 let location_0F_entrance_ground = new Place(
   "Ground Entrance",
-  "Entrance to the shopping mall with half crushed opening door",
+  "The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock. A constant, low hum from the geothermal core vibrates through the ferro-concrete floors, a metallic heartbeat for this subterranean world. The meticulously recycled air carries the scent of sterile ozone and cultivated soil, a stark reminder that behind immense blast doors, this grim fortress is the only universe its weary people know.The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock",
   "0F") 
 
 // location Entrance Shed
@@ -114,7 +115,7 @@ let location_0F_elevator = new Place(
 location_0F_entrance_ground.connections = [location__0F_entrance_shed, location_0F_clothes_store];
 location__0F_entrance_shed.connections = [location_0F_entrance_ground];
 location_0F_clothes_store.connections = [location_0F_entrance_ground, location_0F_corridor];
-location_0F_corridor.connections = [location_0F_food_court, location_0F_living_space]
+location_0F_corridor.connections = [location_0F_food_court, location_0F_living_space, location_0F_clothes_store]
 location_0F_living_space.connections = [location_0F_corridor]
 location_0F_food_court.connections = [location_0F_corridor, location_0F_elevator]
 location_0F_elevator.connections = [location_0F_food_court]
@@ -145,6 +146,16 @@ let currentLocation = location_0F_entrance_ground;
 
 getAllActionsAsJSON();
 
+// images
+let image_0F_entrance;
+
+function preload() {
+  image_0F_entrance = loadImage('assets/img/entrance.png');
+  fontFira = loadFont('assets/font/fira-light.ttf');
+  fontFiraRegular = loadFont('assets/font/fira-regular.ttf');
+}
+
+
 function setup() {
 
   noStroke();
@@ -163,37 +174,88 @@ function setup() {
 
   // class testing
   
-
+  console.log(currentLocation);
+  console.log(location_0F_food_court.floor);
   
   
 
 }
 
 function draw() {
+
+  let main_box_offset = 375;
+
   // rendering
   background(220);
+
+  // background image
+  
+  image(image_0F_entrance,0,0, windowWidth,400,0,0,0,0,COVER);
+
+
+  // background card
+  fill("#FAF9F7");
+  rect(0, 340, windowWidth, 630, 20);
+
+  fill("#27241D");
+
   textStyle(NORMAL);
 
+  textFont('DIN Offc');
 
-  textSize(30);
-  text(currentLocation.name, 50, 50);
+  
+  // main location text
+  textSize(48);
+  text(currentLocation.name, 40, main_box_offset + 30);
+  main_box_offset += 30;
 
-  textSize(15)
-  text(currentLocation.description, 50, 90);
 
-  text("Possible actions:", 50, 150);
+  // floor number 
+  textFont(fontFira);
+  textSize(24)
+  text(currentLocation.floor, 40, main_box_offset + 30);
+  main_box_offset += 40;
+
+  // Description text
+  textFont(fontFiraRegular);
+  textSize(12)
+
+  text(currentLocation.description, 40, main_box_offset + 30, 900, 800);
+  main_box_offset += 140;
+
+  // Possible actions header
+
+  textFont("DIN Offc");
+  textSize(24)
+  text("Select action", 40, main_box_offset + 40);
+  main_box_offset += 46;
+
+  // all of the possible actions text
+
+  textFont(fontFiraRegular);
+  textSize(12)
 
   let availableActions = currentLocation.getAllActions();
 
   for (let i = 1; i < availableActions.length +1; i++) {
     let actionString = i + ") " + availableActions[i -1].name;
-    text(actionString, 50, 150 + i * 30);
+    text(actionString, 40, main_box_offset + i * 20);
   }
+
+  
 
   // status text 
   textStyle(ITALIC);
-  text(statusText, 50, 400)
+  textFont(fontFiraRegular);
+  text(statusText, 40, 800)
 
+
+  // inventory text
+  textStyle(NORMAL);
+  textFont("DIN Offc");
+  textSize(24)
+  text("Inventory", 1100, 375 + 10)
+  
 
 
   
