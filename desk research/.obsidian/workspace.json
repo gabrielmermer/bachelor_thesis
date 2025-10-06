@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 371.5,
+    "collapsed": true
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -163,10 +164,10 @@
   },
   "active": "a48f0e8b290a439d",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
     "testing kanban.md",
     "Untitled 1.base",
     "Untitled.base",
-    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
     "Excalidraw/Drawing 2025-09-19 14.38.12.excalidraw.md",
     "Excalidraw",
     "ngrok.md",

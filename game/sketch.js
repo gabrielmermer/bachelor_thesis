@@ -36,10 +36,19 @@ let game = {
 
 // images
 let image_0F_entrance;
+let image_0F_clothes_shop;
+let image_0F_storage;
+let image_PLACEHOLDER;
 
 function preload() {
-  image_0F_entrance = loadImage('assets/img/entrance.png');
+
+  // images
+  image_0F_entrance = loadImage('assets/img/0F_entrance.png');
   image_0F_clothes_shop = loadImage('assets/img/0F_clothes_store.png');
+  image_0F_storage = loadImage('assets/img/0F_storage.png');
+  image_PLACEHOLDER = loadImage('assets/img/placeholder.jpg')
+
+  // fonts
   fontFira = loadFont('assets/font/fira-light.ttf');
   fontFiraRegular = loadFont('assets/font/fira-regular.ttf');
 }
@@ -344,6 +353,8 @@ function initialiseLocations() {
     }
   )
 
+  // 0F locations
+
 
   // location Ground Entrance 
   game.locations.location_0F_entrance_ground = new Place(
@@ -356,9 +367,10 @@ function initialiseLocations() {
   game.locations.location__0F_entrance_shed = new Place(
     "Storage Shed",
     "Small room with a few brooms, and shelves with cleaning supplies",
-    "0F") 
+    "0F",
+    image_0F_storage) 
 
-  // location Entrance Shed
+  // location Clothes Store
   game.locations.location_0F_clothes_store = new Place(
     "Clothes Store",
     "Big clothing store with a bunch of clothes all around on the floor",
@@ -369,35 +381,234 @@ function initialiseLocations() {
   game.locations.location_0F_corridor = new Place(
     "Small Corridor",
     "The link between stores linking food court with stores on ground floor",
-    "0F") 
+    "0F",
+    image_PLACEHOLDER) 
 
   // location food court
   game.locations.location_0F_food_court = new Place(
     "Food court",
     "Big hall dedicated to eating food from the nearby restaurants",
-    "0F") 
+    "0F",
+    image_PLACEHOLDER ) 
 
   // location living space
   game.locations.location_0F_living_space = new Place(
     "Fishing Store",
     "Small dark space turned into a living quarters for someone",
-    "0F") 
+    "0F",
+    image_PLACEHOLDER ) 
 
   // location elevator 0F
   game.locations.location_0F_elevator = new Place(
     "Elevator",
     "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
-    "0F") 
+    "0F",
+    image_PLACEHOLDER)
+    
+  game.locations.location_0F_restaurant = new Place(
+    "Greek Fast Food restaurant",
+    "This is an fast food restaurant nothing special here outside of food on the floor",
+    "0F",
+    image_PLACEHOLDER )
+    
+  game.locations.location_0F_bubble_tea = new Place(
+    "Bubble Tea Store",
+    "There's nothing here outside of empty cups on the floor",
+    "0F",
+    image_PLACEHOLDER )
+    
+  game.locations.location_0F_stairs = new Place(
+    "Stairway going up",
+    "Just stairs going up one floor",
+    "0F",
+    image_PLACEHOLDER ) 
 
-  // connections
+  game.locations.location_0F_service_stairs = new Place(
+  "Service stairs 0F",
+  "These seem to be only for workers of the building",
+  "0F",
+  image_PLACEHOLDER)
+
+  // 1F locations
+  game.locations.location_1F_elevator = new Place(
+    "Elevator",
+    "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
+    "1F",
+    image_PLACEHOLDER)
+
+
+  game.locations.location_1F_electronics_store = new Place(
+    "Electronics store",
+    "Store holding up a lot fo electronic equipment",
+    "1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_1F_bathroom = new Place(
+    "Bathroom",
+    "Big bathroom place with ample room, seems like the cleanest place in the whole building",
+    "1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_1F_lounge = new Place(
+    "Lounge",
+    "Big empty hallway with ample space and relaxing chairs connecting multiple stores",
+    "1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_1F_stairs = new Place(
+    "Stairway going down",
+    "Musty stairs going down one floor",
+    "1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_1F_korean_store = new Place(
+    "Korean snack store",
+    "Plenty of korean food all around",
+    "1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_1F_gun_store = new Place(
+    "Gun store",
+    "There used to be guns here, it seems like they're all gone",
+    "1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_1F_hidden_storage = new Place(
+  "Hidden storage room",
+  "Special equipment inside",
+  "1F",
+  image_PLACEHOLDER)
+
+  game.locations.location_1F_food_market = new Place(
+    "Food supermarket",
+    "Despite the appocalypse there's still some products on the shelves",
+    "1F",
+    image_PLACEHOLDER)
+  
+  game.locations.location_1F_service_stairs = new Place(
+    "Service stairs 1F",
+    "These seem to be only for workers of the building",
+    "1F",
+    image_PLACEHOLDER)
+
+  
+
+
+  // 2F locations
+
+  game.locations.location_2F_service_stairs = new Place(
+    "Service stairs",
+    "These seem to be only for workers of the building",
+    "2F",
+    image_PLACEHOLDER)
+
+  game.locations.location_2F_rooftop = new Place(
+    "Rooftop",
+    "Empty roof with a lonely tent in the distance",
+    "2F",
+    image_PLACEHOLDER)
+
+  game.locations.location_2F_tent = new Place(
+    "Tent",
+    "Small camping tent with a corpse inside",
+    "2F",
+    image_PLACEHOLDER)
+
+
+  // -1F locations
+
+
+  game.locations.location_minus1F_elevator = new Place(
+    "Elevator",
+    "Open entrance to an elevaror shaft going going up",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_service_stairs = new Place(
+    "Service stairs",
+    "These seem to be only for workers of the building",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_parking = new Place(
+    "Parking area",
+    "There's very little around here, most cars are gone",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_security_office = new Place(
+    "Security Office",
+    "Empty security office, there's no one inside",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_entrance = new Place(
+    "Garage door",
+    "Garage door, seems to be locked",
+    "-1F",
+    image_PLACEHOLDER)
+    
+  game.locations.location_minus1F_car_sport = new Place(
+    "Sport car",
+    "The windows are broken",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_car_4x4 = new Place(
+    "4x4 car",
+    "This one seems to be not in the worst condition",
+    "-1F",
+    image_PLACEHOLDER)
+
+  // connections 0F
 
   game.locations.location_0F_entrance_ground.connections = [game.locations.location__0F_entrance_shed, game.locations.location_0F_clothes_store];
+
   game.locations.location__0F_entrance_shed.connections = [game.locations.location_0F_entrance_ground];
   game.locations.location_0F_clothes_store.connections = [game.locations.location_0F_entrance_ground, game.locations.location_0F_corridor];
+
   game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space, game.locations.location_0F_clothes_store]
-  game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor]
-  game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_elevator]
-  game.locations.location_0F_elevator.connections = [game.locations.location_0F_food_court]
+  game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor, game.locations.location_0F_service_stairs];
+
+  game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_elevator, game.locations.location_0F_restaurant, game.locations.location_0F_bubble_tea, game.locations.location_0F_stairs];
+
+  game.locations.location_0F_elevator.connections = [game.locations.location_0F_food_court];
+
+  game.locations.location_0F_restaurant.connections = [game.locations.location_0F_food_court];
+
+  game.locations.location_0F_bubble_tea.connections = [game.locations.location_0F_food_court];
+
+  game.locations.location_0F_stairs.connections = [game.locations.location_1F_stairs, game.locations.location_0F_food_court]
+
+  game.locations.location_0F_service_stairs.connections = [game.locations.location_0F_living_space, game.locations.location_1F_service_stairs]
+
+
+
+    // connections 1F
+
+  game.locations.location_1F_elevator.connections = [game.locations.location_0F_elevator, game.locations.location_1F_lounge];
+
+  game.locations.location_1F_lounge.connections = [game.locations.location_1F_electronics_store, game.locations.location_1F_bathroom, game.locations.location_1F_stairs, game.locations.location_1F_korean_store, game.locations.location_1F_food_market];
+
+  game.locations.location_1F_electronics_store.connections = [game.locations.location_1F_lounge];
+
+  game.locations.location_1F_bathroom.connections = [game.locations.location_1F_lounge];
+
+  game.locations.location_1F_korean_store.connections = [game.locations.location_1F_lounge, game.locations.location_1F_gun_store, game.locations.location_1F_service_stairs];
+
+  game.locations.location_1F_gun_store.connections = [game.locations.location_1F_korean_store]; 
+
+  game.locations.location_1F_food_market.connections = [game.locations.location_1F_lounge];
+
+  game.locations.location_1F_stairs.connections = [game.locations.location_0F_stairs, game.locations.location_1F_lounge];
+
+  game.locations.location_1F_service_stairs.connections = [game.locations.location_1F_hidden_storage, game.locations.location_0F_service_stairs, game.locations.location_1F_korean_store];
+
+  game.locations.location_1F_hidden_storage.connections = [game.locations.location_1F_service_stairs];
+
+
+
+
 
 
 
