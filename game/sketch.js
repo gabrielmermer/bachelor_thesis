@@ -515,7 +515,7 @@ function initialiseLocations() {
     image_PLACEHOLDER)
 
 
-  // -1F locations
+  // locations -1F 
 
 
   game.locations.location_minus1F_elevator = new Place(
@@ -560,6 +560,10 @@ function initialiseLocations() {
     "-1F",
     image_PLACEHOLDER)
 
+
+
+
+
   // connections 0F
 
   game.locations.location_0F_entrance_ground.connections = [game.locations.location__0F_entrance_shed, game.locations.location_0F_clothes_store];
@@ -580,7 +584,7 @@ function initialiseLocations() {
 
   game.locations.location_0F_stairs.connections = [game.locations.location_1F_stairs, game.locations.location_0F_food_court]
 
-  game.locations.location_0F_service_stairs.connections = [game.locations.location_0F_living_space, game.locations.location_1F_service_stairs]
+  game.locations.location_0F_service_stairs.connections = [game.locations.location_0F_living_space, game.locations.location_1F_service_stairs, game.locations.location_minus1F_service_stairs]
 
 
 
@@ -607,6 +611,25 @@ function initialiseLocations() {
   game.locations.location_1F_hidden_storage.connections = [game.locations.location_1F_service_stairs];
 
 
+  // connections 2F 
+  game.locations.location_2F_service_stairs.connections = [game.locations.location_2F_rooftop];
+
+  game.locations.location_2F_rooftop.connections = [game.locations.location_2F_service_stairs, game.locations.location_2F_tent];
+
+  game.locations.location_2F_tent.connections = [game.locations.location_2F_rooftop];
+
+  // connections -1F 
+  game.locations.location_minus1F_elevator.connections = [game.locations.location_minus1F_parking, game.locations.location_0F_elevator];
+
+  game.locations.location_minus1F_service_stairs.connections = [game.locations.location_0F_service_stairs, game.locations.location_minus1F_parking];
+
+  game.locations.location_minus1F_parking.connections = [game.locations.location_minus1F_elevator, game.locations.location_minus1F_service_stairs, game.locations.location_minus1F_car_sport, game.locations.location_minus1F_car_4x4, game.locations.location_minus1F_security_office, game.locations.location_minus1F_entrance];
+
+  game.locations.location_minus1F_car_sport.connections = [game.locations.location_minus1F_parking];
+
+  game.locations.location_minus1F_car_4x4.connections = [game.locations.location_minus1F_parking];
+
+  game.locations.location_minus1F_security_office.connections = [game.locations.location_minus1F_parking];
 
 
 
