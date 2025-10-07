@@ -20,11 +20,13 @@ window.addEventListener("keydown", function(e) {
 // player inventory
 let player = { inventory: [] };
 
+
 // master game object
 let game = {
   actions: {},
   locations: {},
-  currentLocation: null
+  currentLocation: null,
+  items: {}
 };
 
 
@@ -90,6 +92,9 @@ function setup() {
 
   initialiseLocations();
   game.currentLocation = game.locations.location_0F_entrance_ground
+
+  // debug
+  player.inventory.push(game.items.Pistol);
   
 
   noStroke();
@@ -178,7 +183,7 @@ function draw() {
     // console.log(game.currentLocation.actions);
     availableActions.push(...game.currentLocation.actions)
     // availableActions.push( game.currentLocation.getNormalActions());
-    console.log(availableActions);
+    // console.log(availableActions);
 
   }
 
@@ -196,13 +201,12 @@ function draw() {
 
 
 
-  // default rendering
+  // default acitons rendering mode agnostic
   for (let i = 1; i < availableActions.length +1; i++) {
     let actionString = i + ") " + availableActions[i -1].name;
     text(actionString, 40, main_box_offset + i * 20);
   }
 
-  console.log(menu_mode);
 
   // status text 
   textStyle(ITALIC);
@@ -210,11 +214,25 @@ function draw() {
   text(statusText, 40, 800)
 
 
-  // inventory text
+  // inventory text rendering
   textStyle(NORMAL);
   textFont("DIN Offc");
   textSize(24)
   text("Inventory", 1100, 375 + 10)
+
+  textFont(fontFira);
+  textSize(12)
+
+  // console.log(player.inventory);
+  // console.log(game.items);
+  
+  for (let i = 1; i < player.inventory.length +1; i++) {
+    let itemString = player.inventory[i -1].name;
+    // console.log(itemString);
+    text(itemString, 1100, 390 + i * 20);
+    
+  }
+
   
 
 
@@ -396,17 +414,40 @@ window.onresize = function() {
   resizeCanvas(windowWidth, windowHeight + 30);
 }
 
+
+// helper function for adding items
+function addItem(item) {
+  game.items[item.name] = item;
+}
+
+
 function initialiseLocations() {
-  // bunker actions
+  
+  // init all of the items
+  let key = new Item(
+    "Key",
+    "Rusty key",
+  )
+
+  let handgun = new Item(
+    "Pistol",
+    "Old trusted pistol",
+    "Gun Parts"
+  )
+  
+  
+  
+  // demo bunker actions
 
 
   let pickUpKey  = new Action(
     "Pick up key",
     "A rusty key lies on the floor",
     ( player ) => {
-      player.inventory.push("key")
+      player.inventory.push(key)
       console.log("You picked up the key!");
       statusText = "You picked up the key!"
+      game.locations.location_0F_entrance_ground.removeAction(pickUpKey);
       // location_bunker.removeAction(pickUpKey);
     }
   )
@@ -701,6 +742,12 @@ function initialiseLocations() {
 
   // 0F actions
   game.locations.location_0F_entrance_ground.actions = [pickUpKey];
+
+
+
+  // 0F items
+  addItem(key);
+  addItem(handgun);
 
 
 
