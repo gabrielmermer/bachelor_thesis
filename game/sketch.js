@@ -40,6 +40,37 @@ let image_0F_clothes_shop;
 let image_0F_storage;
 let image_PLACEHOLDER;
 
+// current menu action - NORMAL, TRAVEL, CRAFTING, COMBAT
+let menu_mode = "NORMAL";
+
+// gloval actions always visible
+let action_travel  = new Action(
+    "Travel",
+    "Travel to a new place, list all of the travel possibilites",
+    ( player ) => {
+      menu_mode = "TRAVEL";
+    }
+  )
+
+let action_gobacktonormal  = new Action(
+    "Go back to main list",
+    "Go back to the main list of actions",
+    ( player ) => {
+      menu_mode = "NORMAL";
+    }
+  )
+
+let action_crafting  = new Action(
+    "Crafting",
+    "Combine your items into some other new ones",
+    ( player ) => {
+      menu_mode = "CRAFTING";
+    }
+  )
+
+
+  
+
 function preload() {
 
   // images
@@ -137,16 +168,41 @@ function draw() {
   // all of the possible actions text
 
   textFont(fontFiraRegular);
-  textSize(12)
+  textSize(12);
 
-  let availableActions = game.currentLocation.getAllActions();
+  let availableActions = [];
 
+  if (menu_mode == "NORMAL") {
+    availableActions.push(action_travel);
+
+    // console.log(game.currentLocation.actions);
+    availableActions.push(...game.currentLocation.actions)
+    // availableActions.push( game.currentLocation.getNormalActions());
+    console.log(availableActions);
+
+  }
+
+  if (menu_mode == "TRAVEL") {
+
+    availableActions.push(action_gobacktonormal);
+
+    // let availableActions = game.currentLocation.generateTravelActions();
+    availableActions.push(...game.currentLocation.generateTravelActions())
+
+
+  }
+
+  // let availableActions = game.currentLocation.getAllActions();
+
+
+
+  // default rendering
   for (let i = 1; i < availableActions.length +1; i++) {
     let actionString = i + ") " + availableActions[i -1].name;
     text(actionString, 40, main_box_offset + i * 20);
   }
 
-  
+  console.log(menu_mode);
 
   // status text 
   textStyle(ITALIC);
@@ -297,6 +353,7 @@ function runCommand(commandArray) {
         game.currentLocation = destination;
         console.log("You travel to " + destination.name);
         statusText = "";
+        menu_mode = "NORMAL";
       } else {
         console.log("Cannot travel to " + destinationName + " from here.");
       }
@@ -312,11 +369,20 @@ function runCommand(commandArray) {
 
 
 function executeAction(i) {
-  print("1")
-  let availableActions = game.currentLocation.getAllActions();
+  let availableActions = [];
+
+  if (menu_mode === "NORMAL") {
+    availableActions.push(action_travel);
+    availableActions.push(...game.currentLocation.actions);
+  } else if (menu_mode === "TRAVEL") {
+    availableActions.push(action_gobacktonormal);
+    availableActions.push(...game.currentLocation.generateTravelActions());
+  }
+
   const action = availableActions[i - 1];
   if (!action) return;
   action.execute(player);
+  
 }
 
 // function getAllActionsAsJSON() {
@@ -333,6 +399,7 @@ window.onresize = function() {
 function initialiseLocations() {
   // bunker actions
 
+
   let pickUpKey  = new Action(
     "Pick up key",
     "A rusty key lies on the floor",
@@ -340,7 +407,7 @@ function initialiseLocations() {
       player.inventory.push("key")
       console.log("You picked up the key!");
       statusText = "You picked up the key!"
-      location_bunker.removeAction(pickUpKey);
+      // location_bunker.removeAction(pickUpKey);
     }
   )
   let lookAround  = new Action(
@@ -632,7 +699,8 @@ function initialiseLocations() {
   game.locations.location_minus1F_security_office.connections = [game.locations.location_minus1F_parking];
 
 
-
+  // 0F actions
+  game.locations.location_0F_entrance_ground.actions = [pickUpKey];
 
 
 

@@ -23,11 +23,11 @@ class Place {
             game.currentLocation = neighbor;
             console.log("You travel to " + neighbor.name);
             statusText = "";
+            menu_mode = "NORMAL";
         }
         )
     );
     }
-
 
     getAllActions() {
         return [
@@ -36,5 +36,13 @@ class Place {
             ...this.generateTravelActions()
         ];
     }
+
+    getNormalActions() {
+        return [
+            this.actions
+        ]
+    }
+
+
 }
 
