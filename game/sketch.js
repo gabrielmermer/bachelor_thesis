@@ -45,6 +45,9 @@ let image_PLACEHOLDER;
 // current menu action - NORMAL, TRAVEL, CRAFTING, COMBAT
 let menu_mode = "NORMAL";
 
+// crafting vars
+let crafting_attempt_index = 0;
+
 // gloval actions always visible
 let action_travel  = new Action(
     "Travel",
@@ -67,6 +70,7 @@ let action_crafting  = new Action(
     "Combine your items into some other new ones",
     ( player ) => {
       menu_mode = "CRAFTING";
+      crafting_attempt_index = 0;
     }
   )
 
@@ -95,6 +99,9 @@ function setup() {
 
   // debug
   player.inventory.push(game.items.Pistol);
+  player.inventory.push(game.items.Silencer);
+
+  console.log(player.inventory);
   
 
   noStroke();
@@ -179,6 +186,7 @@ function draw() {
 
   if (menu_mode == "NORMAL") {
     availableActions.push(action_travel);
+    availableActions.push(action_crafting);
 
     // console.log(game.currentLocation.actions);
     availableActions.push(...game.currentLocation.actions)
@@ -197,6 +205,73 @@ function draw() {
 
   }
 
+  if (menu_mode == "CRAFTING") {
+     availableActions.push(action_gobacktonormal);
+
+     // draw selection for the first item
+     // draw selection for the second item
+       // status text 
+    textStyle(ITALIC);
+    textFont(fontFiraRegular);
+    text(statusText, 40, 800)
+
+
+    // inventory text rendering
+    textStyle(NORMAL);
+    textFont("DIN Offc");
+    textSize(24)
+
+    
+    text("Inventory", 1100, 375 + 10)
+
+    textFont(fontFira);
+    textSize(12)
+
+  
+  for (let i = 1; i < player.inventory.length +1; i++) {
+    let itemString = player.inventory[i -1].name;
+    // console.log(itemString);
+    console.log(crafting_attempt_index);
+    // console.log(i);
+    if(i -1 == crafting_attempt_index){
+      text(">", 1090, 390 + i * 20);
+      text(itemString, 1100, 390 + i * 20);
+    } else {
+       text(itemString, 1100, 390 + i * 20);
+    }
+
+   
+    
+  }
+
+
+  } else {
+
+    // status text 
+    textStyle(ITALIC);
+    textFont(fontFiraRegular);
+    text(statusText, 40, 800)
+
+
+    // inventory text rendering
+    textStyle(NORMAL);
+    textFont("DIN Offc");
+    textSize(24)
+    text("Inventory", 1100, 375 + 10)
+
+    textFont(fontFira);
+    textSize(12)
+
+    
+    for (let i = 1; i < player.inventory.length +1; i++) {
+      let itemString = player.inventory[i -1].name;
+      // console.log(itemString);
+      text(itemString, 1100, 390 + i * 20);
+      
+    }
+
+  }
+
   // let availableActions = game.currentLocation.getAllActions();
 
 
@@ -208,31 +283,7 @@ function draw() {
   }
 
 
-  // status text 
-  textStyle(ITALIC);
-  textFont(fontFiraRegular);
-  text(statusText, 40, 800)
-
-
-  // inventory text rendering
-  textStyle(NORMAL);
-  textFont("DIN Offc");
-  textSize(24)
-  text("Inventory", 1100, 375 + 10)
-
-  textFont(fontFira);
-  textSize(12)
-
-  // console.log(player.inventory);
-  // console.log(game.items);
-  
-  for (let i = 1; i < player.inventory.length +1; i++) {
-    let itemString = player.inventory[i -1].name;
-    // console.log(itemString);
-    text(itemString, 1100, 390 + i * 20);
-    
-  }
-
+ 
   
 
 
@@ -265,7 +316,19 @@ function keyPressed() {
     let fs = fullscreen();
     fullscreen(!fs);
   }
+
+  // item selection for crafting
+  if (keyCode === DOWN_ARROW && menu_mode === "CRAFTING") {
+    crafting_attempt_index +=1;
+  }
+  if (keyCode === UP_ARROW && menu_mode === "CRAFTING") {
+    crafting_attempt_index -=1;
+  }
+
+  
 }
+
+
 
 function keyReleased() {
   if (key === "r") {
@@ -391,10 +454,13 @@ function executeAction(i) {
 
   if (menu_mode === "NORMAL") {
     availableActions.push(action_travel);
+    availableActions.push(action_crafting);
     availableActions.push(...game.currentLocation.actions);
   } else if (menu_mode === "TRAVEL") {
     availableActions.push(action_gobacktonormal);
     availableActions.push(...game.currentLocation.generateTravelActions());
+  } else if (menu_mode === "CRAFTING") {
+    availableActions.push(action_gobacktonormal);
   }
 
   const action = availableActions[i - 1];
@@ -432,6 +498,12 @@ function initialiseLocations() {
   let handgun = new Item(
     "Pistol",
     "Old trusted pistol",
+    "Gun Parts"
+  )
+
+  let silencer = new Item(
+    "Silencer",
+    "Makes the gun silent",
     "Gun Parts"
   )
   
@@ -748,6 +820,11 @@ function initialiseLocations() {
   // 0F items
   addItem(key);
   addItem(handgun);
+  addItem(silencer);
+
+
+  // crafting recipes
+
 
 
 
