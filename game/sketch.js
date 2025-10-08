@@ -188,7 +188,14 @@ function draw() {
 
   textFont("DIN Offc");
   textSize(24)
-  text("Select action", 40, main_box_offset + 40);
+
+  if (menu_mode === "NORMAL") {
+    text("Select action", 40, main_box_offset + 40);
+  }
+  if (menu_mode === "CRAFTING") {
+    text("Select 2 items on the right", 40, main_box_offset + 40);
+  }
+  
   main_box_offset += 46;
 
   // all of the possible actions text
@@ -301,7 +308,9 @@ function draw() {
 
 
 
+
   // default acitons rendering mode agnostic
+  textFont(fontFira);
   for (let i = 1; i < availableActions.length +1; i++) {
     let actionString = i + ") " + availableActions[i -1].name;
     text(actionString, 40, main_box_offset + i * 20);
@@ -344,10 +353,19 @@ function keyPressed() {
 
   // item selection for crafting
   if (keyCode === DOWN_ARROW && menu_mode === "CRAFTING") {
-    crafting_attempt_index +=1;
+    if (crafting_attempt_index < player.inventory.length -1) {
+      crafting_attempt_index +=1;
+      console.log(crafting_attempt_index);
+
+    }
+    
+    
   }
   if (keyCode === UP_ARROW && menu_mode === "CRAFTING") {
-    crafting_attempt_index -=1;
+    if (crafting_attempt_index >= 1 ) {
+      crafting_attempt_index -=1;
+      console.log(crafting_attempt_index);
+    }
   }
 
   // item 1
