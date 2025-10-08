@@ -246,18 +246,22 @@ function draw() {
     let itemString = player.inventory[i -1].name;
 
     if (player.inventory[i -1]== item1) {
-      console.log("MATCH");
-      fill("RED");
+      // console.log("MATCH");
+      textFont(fontFiraRegular);
+      fill("GREY");
     }
     else {
       fill("BLACK");
+      textFont(fontFira);
     }
 
     // if this is the item at the cursour
     if(i -1 == crafting_attempt_index){
+      textFont(fontFiraRegular);
       text(">", 1090, 390 + i * 20);
       text(itemString, 1100, 390 + i * 20);
     } else {
+       textFont(fontFira);
        text(itemString, 1100, 390 + i * 20);
     }
 
