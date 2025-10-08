@@ -20,13 +20,16 @@ window.addEventListener("keydown", function(e) {
 // player inventory
 let player = { inventory: [] };
 
+let craftingSystem = new CraftingSystem();
+
 
 // master game object
 let game = {
   actions: {},
   locations: {},
   currentLocation: null,
-  items: {}
+  items: {},
+  craftingSystem: craftingSystem
 };
 
 
@@ -47,6 +50,11 @@ let menu_mode = "NORMAL";
 
 // crafting vars
 let crafting_attempt_index = 0;
+// varaible for knowing how many items are selected atm 
+let crafting_items_selected = 0;
+// empty item slots
+let item1;
+let item2;
 
 // gloval actions always visible
 let action_travel  = new Action(
@@ -62,6 +70,12 @@ let action_gobacktonormal  = new Action(
     "Go back to the main list of actions",
     ( player ) => {
       menu_mode = "NORMAL";
+
+      // reset crafting 
+      item1 = {}
+      item2 = {}
+      crafting_attempt_index = 0;
+      crafting_items_selected = 0;
     }
   )
 
@@ -230,9 +244,16 @@ function draw() {
   
   for (let i = 1; i < player.inventory.length +1; i++) {
     let itemString = player.inventory[i -1].name;
-    // console.log(itemString);
-    console.log(crafting_attempt_index);
-    // console.log(i);
+
+    if (player.inventory[i -1]== item1) {
+      console.log("MATCH");
+      fill("RED");
+    }
+    else {
+      fill("BLACK");
+    }
+
+    // if this is the item at the cursour
     if(i -1 == crafting_attempt_index){
       text(">", 1090, 390 + i * 20);
       text(itemString, 1100, 390 + i * 20);
@@ -292,7 +313,7 @@ function draw() {
 
 
 
-
+// player input
 function keyPressed() {
 
   let num = parseInt(key);
@@ -325,7 +346,46 @@ function keyPressed() {
     crafting_attempt_index -=1;
   }
 
+  // item 1
+  if (keyCode === ENTER && menu_mode === "CRAFTING" && crafting_items_selected == 0) {
   
+    crafting_items_selected = 1;
+    item1 = player.inventory[crafting_attempt_index];
+    // console.log(item1);
+    return false
+  }
+
+  // item 2
+  if (keyCode === ENTER && menu_mode === "CRAFTING" && crafting_items_selected == 1) {
+  
+    console.log("second item");
+    crafting_items_selected = 2;
+    item2 = player.inventory[crafting_attempt_index];
+    // console.log(item2);
+    const craftSuccess = game.craftingSystem.attemptCraft(item1,item2, player);
+    console.log(craftSuccess.success);
+    if (craftSuccess.success) {
+      statusText = "Crafting successful! You've made " + craftSuccess.result;
+      item1 = {};
+      item2 = {};
+      crafting_attempt_index = 0;
+      crafting_items_selected = 0;
+      menu_mode = "NORMAL";  
+
+    } else {
+      statusText = "These items can't be combined...  ";
+      item1 = {};
+      item2 = {};
+      crafting_attempt_index = 0;
+      crafting_items_selected = 0;
+      
+
+    }
+
+  }
+
+
+
 }
 
 
@@ -487,6 +547,8 @@ function addItem(item) {
 }
 
 
+
+
 function initialiseLocations() {
   
   // init all of the items
@@ -503,6 +565,12 @@ function initialiseLocations() {
 
   let silencer = new Item(
     "Silencer",
+    "Makes the gun silent",
+    "Gun Parts"
+  )
+
+   let silencedHandgun = new Item(
+    "Silenced Handgun",
     "Makes the gun silent",
     "Gun Parts"
   )
@@ -821,10 +889,11 @@ function initialiseLocations() {
   addItem(key);
   addItem(handgun);
   addItem(silencer);
+  addItem(silencedHandgun);
 
 
   // crafting recipes
-
+  game.craftingSystem.addRecipe(handgun, silencer, silencedHandgun);
 
 
 
