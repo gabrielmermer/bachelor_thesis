@@ -3,7 +3,7 @@ let initialise_audio = false;
 // current voice command
 
 
-let statusText;
+let statusText = "";
 
 
 
@@ -85,6 +85,14 @@ let action_crafting  = new Action(
     ( player ) => {
       menu_mode = "CRAFTING";
       crafting_attempt_index = 0;
+    }
+  )
+
+let action_use_item  = new Action(
+    "Use item",
+    "Try to use any items that you have",
+    ( player ) => {
+      menu_mode = "USE_ITEM";
     }
   )
 
@@ -192,6 +200,14 @@ function draw() {
   if (menu_mode === "NORMAL") {
     text("Select action", 40, main_box_offset + 40);
   }
+  if (menu_mode === "TRAVEL") {
+    text("Select destination", 40, main_box_offset + 40);
+  }
+
+ if (menu_mode === "USE_ITEM") {
+    text("Select the item you want to use on the right", 40, main_box_offset + 40);
+  }
+
   if (menu_mode === "CRAFTING") {
     text("Select 2 items on the right", 40, main_box_offset + 40);
   }
@@ -208,6 +224,7 @@ function draw() {
   if (menu_mode == "NORMAL") {
     availableActions.push(action_travel);
     availableActions.push(action_crafting);
+    availableActions.push(action_use_item);
 
     // console.log(game.currentLocation.actions);
     availableActions.push(...game.currentLocation.actions)
@@ -225,6 +242,50 @@ function draw() {
 
 
   }
+
+  if (menu_mode === "USE_ITEM") {
+    availableActions.push(action_gobacktonormal);
+
+        // inventory text rendering
+    textStyle(NORMAL);
+    textFont("DIN Offc");
+    textSize(24)
+
+    
+    text("Inventory", 1100, 375 + 10)
+
+    textFont(fontFira);
+    textSize(12)
+
+  
+  for (let i = 1; i < player.inventory.length +1; i++) {
+    let itemString = player.inventory[i -1].name;
+
+    // showing the selected item in grey
+    if (player.inventory[i -1]== item1) {
+      // console.log("MATCH");
+      textFont(fontFiraRegular);
+      fill("GREY");
+    }
+    else {
+      fill("BLACK");
+      textFont(fontFira);
+    }
+
+    // if this is the item at the cursour
+    if(i -1 == crafting_attempt_index){
+      textFont(fontFiraRegular);
+      text(">", 1090, 390 + i * 20);
+      text(itemString, 1100, 390 + i * 20);
+    } else {
+       textFont(fontFira);
+       text(itemString, 1100, 390 + i * 20);
+    }
+   
+  }
+}
+
+
 
   if (menu_mode == "CRAFTING") {
      availableActions.push(action_gobacktonormal);
@@ -368,6 +429,8 @@ function keyPressed() {
     }
   }
 
+  
+
   // item 1
   if (keyCode === ENTER && menu_mode === "CRAFTING" && crafting_items_selected == 0) {
   
@@ -404,6 +467,27 @@ function keyPressed() {
 
     }
 
+  }
+
+    // item selection for item use
+  if (keyCode === DOWN_ARROW && menu_mode === "USE_ITEM") {
+    if (crafting_attempt_index < player.inventory.length -1) {
+      crafting_attempt_index +=1;
+      console.log(crafting_attempt_index);
+
+    }
+    
+    
+  }
+  if (keyCode === UP_ARROW && menu_mode === "USE_ITEM") {
+    if (crafting_attempt_index >= 1 ) {
+      crafting_attempt_index -=1;
+      console.log(crafting_attempt_index);
+    }
+  }
+
+  if (keyCode === ENTER && menu_mode === "USE_ITEM") {
+    tryUseItemInPlace(player.inventory[crafting_attempt_index])
   }
 
 
@@ -537,11 +621,16 @@ function executeAction(i) {
   if (menu_mode === "NORMAL") {
     availableActions.push(action_travel);
     availableActions.push(action_crafting);
+    availableActions.push(action_use_item);
     availableActions.push(...game.currentLocation.actions);
   } else if (menu_mode === "TRAVEL") {
     availableActions.push(action_gobacktonormal);
     availableActions.push(...game.currentLocation.generateTravelActions());
-  } else if (menu_mode === "CRAFTING") {
+  } else if (menu_mode === "USE_ITEM") {
+    availableActions.push(action_gobacktonormal)
+  }
+  
+  else if (menu_mode === "CRAFTING") {
     availableActions.push(action_gobacktonormal);
   }
 
@@ -569,6 +658,38 @@ function addItem(item) {
 }
 
 
+function tryUseItemInPlace(item){
+  // try to do all the item Actions in the current place
+
+  console.log(game.currentLocation.itemActions.length)
+  for (let i = 0; i < game.currentLocation.itemActions.length ; i++) {
+
+    // loop each action and check if the item in requirements
+
+    let currentItemAction = game.currentLocation.itemActions[i];
+
+    console.log("Checking action:", currentItemAction.name);
+    console.log("Required item:", currentItemAction.requiredItem);
+    console.log("Current item:", item);
+
+
+    if (currentItemAction.itemsNeeded === item) {
+
+      console.log("ITEM MATCH")
+      console.log(currentItemAction);
+
+      currentItemAction.execute(player);
+      menu_mode = "NORMAL";
+      crafting_attempt_index = 0;
+      
+      return true;
+      
+    }
+  }
+  statusText = "You can't use that item here.";
+  menu_mode = "NORMAL";
+  return false
+ }
 
 
 function initialiseLocations() {
@@ -597,6 +718,11 @@ function initialiseLocations() {
     "Gun Parts"
   )
   
+   let crowbar = new Item(
+    "Crowbar",
+    "Sturdy crowbar",
+    "Metal scrap"
+  )
   
   
   // demo bunker actions
@@ -613,6 +739,18 @@ function initialiseLocations() {
       // location_bunker.removeAction(pickUpKey);
     }
   )
+
+   let pickUpCrowbar  = new Action(
+    "Pick up crowbar",
+    "Pick up the crowbar on the floor",
+    ( player ) => {
+      player.inventory.push(crowbar)
+      statusText = "You picked up the crowbar!"
+      game.locations.location_0F_storage_shed.removeAction(pickUpCrowbar);
+    
+    }
+  )
+
   let lookAround  = new Action(
     "Look around yourself",
     "This place needs a better look doesn't it?",
@@ -621,6 +759,18 @@ function initialiseLocations() {
       console.log("You looked around");
       statusText = "You looked around, there's nothing interesting";
     }
+  )
+
+    let openClothesDoor  = new Action(
+    "Open the door to the clothes store",
+    "Use the crowbar to open the doors to the store",
+    ( player ) => {
+      // player.inventory.push("key")
+      game.locations.location_0F_corridor.connections.push(game.locations.image_0F_clothes_shop)
+      game.locations.location_0F_clothes_store.connections.push(game.locations.location_0F_corridor)
+      statusText = "You managed to unlock the doors to the corridor";
+    },
+    crowbar
   )
 
   // 0F locations
@@ -634,7 +784,7 @@ function initialiseLocations() {
     image_0F_entrance) 
 
   // location Entrance Shed
-  game.locations.location__0F_entrance_shed = new Place(
+  game.locations.location_0F_storage_shed = new Place(
     "Storage Shed",
     "Small room with a few brooms, and shelves with cleaning supplies",
     "0F",
@@ -836,12 +986,12 @@ function initialiseLocations() {
 
   // connections 0F
 
-  game.locations.location_0F_entrance_ground.connections = [game.locations.location__0F_entrance_shed, game.locations.location_0F_clothes_store];
+  game.locations.location_0F_entrance_ground.connections = [game.locations.location_0F_storage_shed, game.locations.location_0F_clothes_store];
 
-  game.locations.location__0F_entrance_shed.connections = [game.locations.location_0F_entrance_ground];
-  game.locations.location_0F_clothes_store.connections = [game.locations.location_0F_entrance_ground, game.locations.location_0F_corridor];
+  game.locations.location_0F_storage_shed.connections = [game.locations.location_0F_entrance_ground];
+  game.locations.location_0F_clothes_store.connections = [game.locations.location_0F_entrance_ground, ];
 
-  game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space, game.locations.location_0F_clothes_store]
+  game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space]
   game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor, game.locations.location_0F_service_stairs];
 
   game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_elevator, game.locations.location_0F_restaurant, game.locations.location_0F_bubble_tea, game.locations.location_0F_stairs];
@@ -904,6 +1054,9 @@ function initialiseLocations() {
 
   // 0F actions
   game.locations.location_0F_entrance_ground.actions = [pickUpKey];
+  game.locations.location_0F_storage_shed.actions = [pickUpCrowbar];
+
+  game.locations.location_0F_clothes_store.itemActions = [openClothesDoor];
 
 
 
@@ -912,6 +1065,7 @@ function initialiseLocations() {
   addItem(handgun);
   addItem(silencer);
   addItem(silencedHandgun);
+  addItem(crowbar);
 
 
   // crafting recipes

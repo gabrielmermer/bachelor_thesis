@@ -1,11 +1,12 @@
 class Place {
-    constructor(name, description, floor, picture, connections = [], actions = []) {
+    constructor(name, description, floor, picture, connections = [], actions = [], itemActions = []) {
         this.name = name;
         this.description = description;
         this.floor = floor;
         this.picture = picture;
         this.connections = connections;
         this.actions = actions;
+        this.itemActions = itemActions;
         
     }
 
