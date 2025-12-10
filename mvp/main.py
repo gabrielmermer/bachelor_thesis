@@ -1,9 +1,16 @@
 # local API endpoint
 from fastapi import FastAPI, UploadFile
+from fastapi.staticfiles import StaticFiles
 # for cors
 from fastapi.middleware.cors import CORSMiddleware
 # for the request body
 from pydantic import BaseModel
+
+from fastapi.routing import APIRoute
+
+import asyncio
+
+
 # llama.cpp backend request
 import httpx
 
@@ -25,17 +32,11 @@ tools_file = "tools-text.json"
 
 app = FastAPI()
 
-# for cors - More permissive approach
-origins = [
-    "http://127.0.0.1:5500",
-    "http://127.0.0.1:8000", 
-    "http://localhost:5500",
-    "http://localhost:8000",
-    "*"  # Allow all origins (remove this in production)
-]
 
-# OR alternatively, just use:
-# origins = ["*"]
+
+
+origins = ["*"]
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -167,6 +168,18 @@ async def restart_audio_backend():
     return response.text
 
 @app.post("/restart_audio")
-async def restart_audio():
-    return await restart_audio_backend()
+async def restart_audio_backend():
+    async with httpx.AsyncClient() as client:
+        response = await client.post(url_restart, timeout=10)
+        return response.text
 
+
+# Serve frontend
+app.mount("/", StaticFiles(directory="../game", html=True), name="frontend")
+
+
+print("\n=== ROUTES ===")
+for route in app.routes:
+    if isinstance(route, APIRoute):
+        print(route.path, route.methods)
+print("================\n")
