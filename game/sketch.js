@@ -587,30 +587,137 @@ function runCommand(commandArray) {
     }
   }
 
-  // mapping voice commmands
+  // Helper function to find item in inventory by name (case-insensitive)
+  const findItemInInventory = (itemName) => {
+    return player.inventory.find(item => 
+      item.name.toLowerCase() === itemName.toLowerCase()
+    );
+  };
+
+  // Helper function to find action by partial name match
+  const findActionByName = (actionName) => {
+    return game.currentLocation.actions.find(action =>
+      action.name.toLowerCase().includes(actionName.toLowerCase())
+    );
+  };
+
+  // mapping voice commands
   const commandMap = {
-    "PickUpKey": () => pickUpKey.execute(player),
-    "LookAround": () => lookAround.execute(player),
-    "OpenTheSafe": () => openTheSafe.execute(player),
     "Travel": () => {
-      const destinationName = params.destination;
-      // find the connected location by name
-      const destination = game.currentLocation.connections.find(loc => loc.name.toLowerCase() === destinationName);
+      const destinationName = params.destination.toLowerCase();
+      // Find the connected location by name (case-insensitive)
+      const destination = game.currentLocation.connections.find(loc => 
+        loc.name.toLowerCase().includes(destinationName) ||
+        destinationName.includes(loc.name.toLowerCase())
+      );
+      
       if (destination) {
         game.currentLocation = destination;
         console.log("You travel to " + destination.name);
-        statusText = "";
+        statusText = "You traveled to " + destination.name;
         menu_mode = "NORMAL";
       } else {
         console.log("Cannot travel to " + destinationName + " from here.");
+        statusText = "Cannot travel to " + params.destination + " from here.";
       }
+    },
+
+    "CraftItems": () => {
+      const item1Name = params.item1;
+      const item2Name = params.item2;
+      
+      // Find items in inventory
+      const craftItem1 = findItemInInventory(item1Name);
+      const craftItem2 = findItemInInventory(item2Name);
+      
+      if (!craftItem1) {
+        statusText = "You don't have " + item1Name + " in your inventory.";
+        console.log(statusText);
+        return;
+      }
+      
+      if (!craftItem2) {
+        statusText = "You don't have " + item2Name + " in your inventory.";
+        console.log(statusText);
+        return;
+      }
+      
+      // Attempt crafting
+      const craftSuccess = game.craftingSystem.attemptCraft(craftItem1, craftItem2, player);
+      
+      if (craftSuccess.success) {
+        statusText = "Crafting successful! You've made " + craftSuccess.result;
+        console.log(statusText);
+      } else {
+        statusText = "These items can't be combined: " + item1Name + " and " + item2Name;
+        console.log(statusText);
+      }
+    },
+
+    "UseItem": () => {
+      const itemName = params.itemName;
+      const item = findItemInInventory(itemName);
+      
+      if (!item) {
+        statusText = "You don't have " + itemName + " in your inventory.";
+        console.log(statusText);
+        return;
+      }
+      
+      // Try to use the item at current location
+      const success = tryUseItemInPlace(item);
+      
+      if (success) {
+        console.log("Successfully used " + itemName);
+      } else {
+        console.log("Cannot use " + itemName + " here.");
+      }
+    },
+
+    "PickUpItem": () => {
+      const itemName = params.itemName.toLowerCase();
+      
+      // Find matching action (e.g., "Pick up key" for "key")
+      const pickupAction = game.currentLocation.actions.find(action =>
+        action.name.toLowerCase().includes("pick up") &&
+        action.name.toLowerCase().includes(itemName)
+      );
+      
+      if (pickupAction) {
+        pickupAction.execute(player);
+        console.log("Picked up " + itemName);
+      } else {
+        statusText = "Cannot find " + itemName + " to pick up here.";
+        console.log(statusText);
+      }
+    },
+
+    "LookAround": () => {
+      const lookAction = findActionByName("look around");
+      if (lookAction) {
+        lookAction.execute(player);
+      } else {
+        statusText = "You look around. " + game.currentLocation.description;
+        console.log(statusText);
+      }
+    },
+
+    "CheckInventory": () => {
+      if (player.inventory.length === 0) {
+        statusText = "Your inventory is empty.";
+      } else {
+        const itemNames = player.inventory.map(item => item.name).join(", ");
+        statusText = "You have: " + itemNames;
+      }
+      console.log(statusText);
     }
   };
 
   if (commandMap[commandName]) {
     commandMap[commandName]();
   } else {
-    console.log("unknown command: ", commandName, " ", params);
+    console.log("Unknown command: " + commandName);
+    statusText = "I didn't understand that command.";
   }
 }
 

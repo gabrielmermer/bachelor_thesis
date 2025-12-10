@@ -2,76 +2,80 @@
   {
     "type": "function",
     "function": {
-      "name": "MoveUp",
-      "description": "Move the player or object up by a specified distance.",
+      "name": "Travel",
+      "description": "Move the player to a different location. Use this when the user says 'go to', 'travel to', 'move to', or mentions wanting to visit a place. Extract the destination name from their speech.",
       "parameters": {
         "type": "object",
         "properties": {
-          "x": {
-            "type": "number",
-            "description": "Distance to move up (positive number)"
+          "destination": {
+            "type": "string",
+            "description": "The name of the location to travel to (e.g., 'Storage Shed', 'Food Court', 'Entrance')"
           }
         },
-        "required": ["x"]
+        "required": ["destination"]
       }
     }
   },
   {
     "type": "function",
     "function": {
-      "name": "MoveDown",
-      "description": "Move the player or object down by a specified distance.",
+      "name": "UseItem",
+      "description": "Use an item from the player's inventory. Call this when the user says 'use', 'activate', or 'try' followed by an item name.",
       "parameters": {
         "type": "object",
         "properties": {
-          "x": {
-            "type": "number",
-            "description": "Distance to move down (positive number)"
+          "itemName": {
+            "type": "string",
+            "description": "The name of the item to use (e.g., 'Pistol', 'Crowbar', 'Key')"
           }
         },
-        "required": ["x"]
+        "required": ["itemName"]
       }
     }
   },
   {
     "type": "function",
     "function": {
-      "name": "MoveLeft",
-      "description": "Move the player or object left by a specified distance.",
+      "name": "CraftItems",
+      "description": "Combine two items together to create a new item. Use when the user says 'craft', 'combine', 'merge', or 'put together'.",
       "parameters": {
         "type": "object",
         "properties": {
-          "x": {
-            "type": "number",
-            "description": "Distance to move left (positive number)"
+          "item1": {
+            "type": "string",
+            "description": "The name of the first item to combine"
+          },
+          "item2": {
+            "type": "string",
+            "description": "The name of the second item to combine"
           }
         },
-        "required": ["x"]
+        "required": ["item1", "item2"]
       }
     }
   },
   {
     "type": "function",
     "function": {
-      "name": "MoveRight",
-      "description": "Move the player or object right by a specified distance.",
+      "name": "PickUpItem",
+      "description": "Pick up an item from the current location. Use when the user says 'pick up', 'take', 'grab', or 'get'.",
       "parameters": {
         "type": "object",
         "properties": {
-          "x": {
-            "type": "number",
-            "description": "Distance to move right (positive number)"
+          "itemName": {
+            "type": "string",
+            "description": "The name of the item to pick up"
           }
         },
-        "required": ["x"]
+        "required": ["itemName"]
       }
     }
   },
   {
     "type": "function",
     "function": {
-      "name": "Pause",
-      "description": "Pause the game.",
+      "name": "LookAround",
+      "description": "Examine the current location. Use when the user says 'look around', 'examine', 'search', or asks about the surroundings.",
       "parameters": {
         "type": "object",
         "properties": {},
@@ -82,44 +86,8 @@
   {
     "type": "function",
     "function": {
-      "name": "SaveGame",
-      "description": "Save the current game state.",
-      "parameters": {
-        "type": "object",
-        "properties": {},
-        "required": []
-      }
-    }
-  },
-  {
-    "type": "function",
-    "function": {
-      "name": "MuteGame",
-      "description": "Mute or unmute the game audio.",
-      "parameters": {
-        "type": "object",
-        "properties": {},
-        "required": []
-      }
-    }
-  },
-  {
-    "type": "function",
-    "function": {
-      "name": "Interact",
-      "description": "Interact with objects or NPCs in the game world.",
-      "parameters": {
-        "type": "object",
-        "properties": {},
-        "required": []
-      }
-    }
-  },
-  {
-    "type": "function",
-    "function": {
-      "name": "Restart",
-      "description": "Restart the game from the beginning.",
+      "name": "CheckInventory",
+      "description": "Check what items the player is carrying. Use when the user says 'inventory', 'check items', 'what do I have', or similar.",
       "parameters": {
         "type": "object",
         "properties": {},
