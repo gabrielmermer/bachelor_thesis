@@ -40,8 +40,7 @@
               "title": "Commands to run dev"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,10 +182,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "56524c500dfd59f2",
+  "active": "a48f0e8b290a439d",
   "lastOpenFiles": [
-    "testing kanban.md",
     "Commands to run dev.md",
+    "testing kanban.md",
     "Untitled.base",
     "Untitled 1.base",
     "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",

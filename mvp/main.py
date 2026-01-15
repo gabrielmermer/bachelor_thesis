@@ -67,58 +67,56 @@ with open(tools_file, 'r') as tools_json_file:
     tools = json.load(tools_json_file)
 
 
-# @app.get("/")
-# async def root():
-#     return {"message": "Hello World"}
 
+def llm_process(prompt: str, context: dict = None):
 
-# def llm_process(prompt: str):
-#     payload = {
-#     "model": "gpt-3.5-turbo",
-#     "tools": tools,
-#     "messages": [
-#         {
-#             "role": "user",
-#             "content": prompt
-#         }
-#         ]
-#     }
-#     llm_response = httpx.post(url, json=payload, timeout=200.0)
-#     response_json = json.loads(llm_response.text)
-#     # print(type(response_json))
+     # Parse context if it's a JSON string
+    if isinstance(context, str):
+        try:
+            context = json.loads(context)
+        except:
+            context = {}
+    
+    if context is None:
+        context = {}
 
-#     # only for debug
-#     #data_string_json = json.dumps(response_json, indent=4, sort_keys=True)
-
-#     # only for debug
-#     #print(data_string_json)
-
-
-#     # JSON tool call extraction
-#     try:
-#         llm_function_call_name = response_json["choices"][0]["message"]["tool_calls"][0]["function"]["name"]
-#         llm_function_call_param = response_json["choices"][0]["message"]["tool_calls"][0]["function"]["arguments"]
-#         return llm_function_call_name, llm_function_call_param
-#     except ValueError:
-#         print("no tool call detected")
-#     except KeyError:
-#         print("no tool call detected")
-
-def llm_process(prompt: str):
+    inventory_str = ", ".join(context.get("inventory", [])) if context.get("inventory") else "empty"
+    locations_str = ", ".join(context.get("possibleLocations", [])) if context.get("possibleLocations") else "none available"
+    current_location = context.get("currentLocation", "unknown")
+    
     # Create a better system message for the LLM
-    system_message = """You are a game command parser. The user will speak commands to control their character in a text adventure game.
+    system_message = f"""
+    You are a game command parser. The user will speak commands to control their character in a text adventure game.
 
-Your job is to identify the user's intent and call the appropriate function with the correct parameters.
+    CURRENT GAME STATE:
+    - Current Location: {current_location}
+    - Available Locations to Travel: {locations_str}
+    - Player Inventory: {inventory_str}
 
-Common commands:
-- Travel: "go to [location]", "travel to [location]", "move to [location]"
-- UseItem: "use [item]", "use the [item]"
-- CraftItems: "craft [item1] and [item2]", "combine [item1] with [item2]"
-- PickUpItem: "pick up [item]", "take [item]", "grab [item]"
-- LookAround: "look around", "examine area"
+    Your job is to identify the user's intent and call the appropriate function with the correct parameters.
+    When the user mentions items or locations, match them to the available options above, even if they use:
+    - Partial names (e.g., "storage" matches "Storage Shed")
+    - Synonyms (e.g., "go" for travel, "grab" for pick up)
+    - Informal references (e.g., "the gun" matches "Pistol")
+    - Abbreviations or casual speech
 
-Extract location names, item names from the user's speech and pass them as parameters.
-ALWAYS call a function - do not respond with text only."""
+    IMPORTANT MATCHING RULES:
+    - For travel commands: Match the destination to one of the Available Locations (case-insensitive, partial matches OK)
+    - For item commands: Match items to the Player Inventory (case-insensitive, partial matches OK)
+    - If multiple matches are possible, choose the closest/most logical match
+    - If the user says something vague like "go there" or "use it", try to infer from context
+
+    Common commands:
+    - Travel: "go to [location]", "travel to [location]", "move to [location]", "head to [location]"
+    - UseItem: "use [item]", "use the [item]", "equip [item]"
+    - CraftItems: "craft [item1] and [item2]", "combine [item1] with [item2]", "make [item1] with [item2]"
+    - PickUpItem: "pick up [item]", "take [item]", "grab [item]", "get [item]"
+    - LookAround: "look around", "examine area", "what's here"
+    - CheckInventory: "check inventory", "what do I have", "show items"
+
+    ALWAYS call a function - do not respond with text only.
+    Use the exact item/location names from the game state above in your function parameters.
+    """
 
     payload = {
         "model": "gpt-3.5-turbo",
@@ -173,58 +171,16 @@ async def root():
     return {"status": "ok"}
 
 
+# dead funciton?
 @app.post("/process_prompt")
 async def process_prompt(prompt: Prompt):
     return llm_process(prompt.prompt)
 
-# @app.post("/process_audio")
-# async def process_audio(audio_file: UploadFile):
-#     # print(type(audio_file))
-#     with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
-#         shutil.copyfileobj(audio_file.file, tmp)
-#         tmp_path = tmp.name
-#         # print(tmp_path)
-
-#         # the needed file conversion for whisper.cpp transcription
-#         # ffmpeg -i input.mp3 -ar 16000 -ac 1 -c:a pcm_s16le output.wav
-#         # I know this looks like a mess but it's needed
-#         # the processed_audio_file is ready to be passed to whisper.cpp server
-#         processed_audio_file = subprocess.run([
-#             "ffmpeg", "-y",
-#             "-i", tmp_path,
-#             "-ar",
-#             "16000",
-#             "-ac",
-#             "1",
-#             "-c:a",
-#             "pcm_s16le",
-#             "output.wav"])
-        
-#         # print(type(processed_audio_file))
-#         # Send the file to the whisper cpp request
-        
-#         files = {'file': open('output.wav', 'rb')}
-#         # data = {"audio_filee": file}
 
 
-
-#         # restarting audio
-#         await restart_audio_backend()
-#         time.sleep(5)
-
-#         transcription_string = httpx.post(url_whisper, files=files, timeout=120.0)
-#         transcription_JSON = json.loads(transcription_string.text)
-
-#         print(json.dumps(transcription_JSON, indent=2))
-#         transcription_clean = transcription_JSON['text']
-#         transcription_clean = json.dumps(transcription_clean)
-
-
-#         # send the transcript to the LLM
-#         return llm_process(transcription_clean)
-
+# processing the audio to text
 @app.post("/process_audio")
-async def process_audio(audio_file: UploadFile):
+async def process_audio(audio_file: UploadFile, user_context: str = ""):
     with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
         shutil.copyfileobj(audio_file.file, tmp)
         tmp_path = tmp.name
@@ -251,12 +207,35 @@ async def process_audio(audio_file: UploadFile):
         print(json.dumps(transcription_JSON, indent=2))
         transcription_clean = transcription_JSON['text'].strip()
         
+     
         print(f"\n=== Transcription ===")
         print(f"User said: {transcription_clean}")
         print("====================\n")
 
+        print(f"\n=== User context ===")
+        print(f"User said: {user_context}")
+        print("====================\n")
+
+        context = None
+        if user_context:
+            try:
+                context = json.loads(user_context)
+            except:
+                print("Failed to parse context JSON")
+                context = {}
+
         # Send to LLM (don't JSON stringify it - send as plain string)
-        result = llm_process(transcription_clean)
+
+        # TODO test passing more data to LLM here in the pipeline
+
+        transcription_plus_context = transcription_clean + "and the user context is:" + user_context
+
+        print(f"\n=== Transcription + context ===")
+        print(f"User said: {transcription_plus_context}")
+        print("====================\n")
+
+        # result = llm_process(transcription_clean)
+        result = llm_process(transcription_clean, context)
         
         if result[0] is None:
             # Fallback to a generic interact command

@@ -548,6 +548,7 @@ async function stopRecording() {
   // this is to prevent reload?
   return false; 
 }
+// sending the sound to the server
 async function sendSound() {
   console.log("sending sound to server");
   let soundBlob = soundFile.getBlob(); // p5.SoundFile blob
@@ -555,8 +556,16 @@ async function sendSound() {
   let formData = new FormData();
   formData.append('audio_file', soundBlob, 'recording.wav'); // name must match FastAPI
 
+  // TODO pass inventory and possible locations
+  print(getContext())
+  let myContext = getContext();
+
+  // api_string = "http://127.0.0.1:8000/process_audio?user_context=" + myContext
+    
+  api_string = "http://127.0.0.1:8000/process_audio?user_context=" + myContext
+
   try {
-    const response = await fetch('http://127.0.0.1:8000/process_audio', {
+    const response = await fetch(api_string, {
       method: 'POST',
       body: formData
     });
@@ -798,6 +807,14 @@ function tryUseItemInPlace(item){
   return false
  }
 
+
+ function getContext() {
+  var player_context = {};
+  player_context.possibleLocations = game.currentLocation.connections.map(loc => loc.name);
+  player_context.inventory = player.inventory.map(item => item.name);
+  print(player_context);
+  return JSON.stringify(player_context);
+ }
 
 function initialiseLocations() {
   
