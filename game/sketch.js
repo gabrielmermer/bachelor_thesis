@@ -5,7 +5,10 @@ let initialise_audio = false;
 
 let statusText = "";
 
-let renderingMode = "text";
+// text or voice
+let renderingMode = "voice";
+let scene = "splash"
+let isRecordingAudio = false;
 
 
 
@@ -146,7 +149,7 @@ function setup() {
   
   console.log(game.currentLocation);
   console.log(game.locations.location_0F_food_court.floor);
-  
+
   
 
 }
@@ -158,7 +161,7 @@ function draw() {
   // rendering
   background("#FAF9F7");
 
-  // background image
+  // background image 
   
   // image(image_0F_entrance,0,0, windowWidth,400,0,0,0,0,COVER);
   image(game.currentLocation.picture,0,0, windowWidth,400,0,0,0,0,COVER);
@@ -196,25 +199,41 @@ function draw() {
 
   // Possible actions header
 
-  textFont("DIN Offc");
-  textSize(24)
+  if (renderingMode == "text") {
 
-  if (menu_mode === "NORMAL") {
-    text("Select action", 40, main_box_offset + 40);
-  }
-  if (menu_mode === "TRAVEL") {
-    text("Select destination", 40, main_box_offset + 40);
+    textFont("DIN Offc");
+    textSize(24)
+
+    if (menu_mode === "NORMAL") {
+      text("Select action", 40, main_box_offset + 40);
+    }
+    if (menu_mode === "TRAVEL") {
+      text("Select destination", 40, main_box_offset + 40);
+    }
+
+  if (menu_mode === "USE_ITEM") {
+      text("Select the item you want to use on the right", 40, main_box_offset + 40);
+    }
+
+    if (menu_mode === "CRAFTING") {
+      text("Select 2 items on the right", 40, main_box_offset + 40);
+    }
+    
+    main_box_offset += 46;
+
   }
 
- if (menu_mode === "USE_ITEM") {
-    text("Select the item you want to use on the right", 40, main_box_offset + 40);
+  if (renderingMode == "voice") {
+    if (isRecordingAudio == false) {
+      text("Press R and say your command", 40, main_box_offset + 40);
+    }
+    if (isRecordingAudio) {
+       text("Listening...", 40, main_box_offset + 40);
+    }
+    
   }
 
-  if (menu_mode === "CRAFTING") {
-    text("Select 2 items on the right", 40, main_box_offset + 40);
-  }
-  
-  main_box_offset += 46;
+
 
   // all of the possible actions text
 
@@ -374,10 +393,15 @@ function draw() {
 
   // default acitons rendering mode agnostic
   textFont(fontFira);
-  for (let i = 1; i < availableActions.length +1; i++) {
-    let actionString = i + ") " + availableActions[i -1].name;
-    text(actionString, 40, main_box_offset + i * 20);
+
+  if (renderingMode == "text") {
+    for (let i = 1; i < availableActions.length +1; i++) {
+      let actionString = i + ") " + availableActions[i -1].name;
+      text(actionString, 40, main_box_offset + i * 20);
   }
+
+  }
+
 
 
  
@@ -402,16 +426,26 @@ function keyPressed() {
   if (key === "r") {
     if (!initialise_audio) {
       initialiseAudio()
+      isRecordingAudio = true;
       return false;
     }
     else {
       startRecording();
+      isRecordingAudio = true;
       return false;
     }
   }
   if (key === "f") {
     let fs = fullscreen();
     fullscreen(!fs);
+  }
+
+  // rendering mode
+  if (key === "p") {
+    renderingMode = "text";
+  }
+  if (key === "l") {
+    renderingMode = "voice";
   }
 
   // item selection for crafting
@@ -502,6 +536,7 @@ function keyReleased() {
   if (key === "r") {
     stopRecording();
     // runCommand(voice_command);
+    isRecordingAudio = false;
     return false;
   }
 }
@@ -816,6 +851,14 @@ function tryUseItemInPlace(item){
   player_context.inventory = player.inventory.map(item => item.name);
   print(player_context);
   return JSON.stringify(player_context);
+ }
+
+
+
+ // text rendering
+
+ function drawTextUI() {
+  
  }
 
 function initialiseLocations() {
