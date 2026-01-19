@@ -27,6 +27,18 @@
             }
           },
           {
+            "id": "ba761c06f599fb5c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
+          },
+          {
             "id": "56524c500dfd59f2",
             "type": "leaf",
             "state": {
@@ -40,7 +52,8 @@
               "title": "Commands to run dev"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a48f0e8b290a439d",
+  "active": "ba761c06f599fb5c",
   "lastOpenFiles": [
     "Commands to run dev.md",
     "testing kanban.md",

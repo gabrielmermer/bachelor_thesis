@@ -5,6 +5,8 @@ let initialise_audio = false;
 
 let statusText = "";
 
+let renderingMode = "text";
+
 
 
 
@@ -154,7 +156,7 @@ function draw() {
   let main_box_offset = 375;
 
   // rendering
-  background(220);
+  background("#FAF9F7");
 
   // background image
   
