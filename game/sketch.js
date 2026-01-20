@@ -839,7 +839,7 @@ function tryUseItemInPlace(item){
       
     }
   }
-  statusText = "You can't use that item here.";
+  statusText = "You can't use " + item.name + " here.";
   menu_mode = "NORMAL";
   return false
  }
@@ -948,21 +948,21 @@ function initialiseLocations() {
   // location Ground Entrance 
   game.locations.location_0F_entrance_ground = new Place(
     "Ground Entrance",
-    "The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock. A constant, low hum from the geothermal core vibrates through the ferro-concrete floors, a metallic heartbeat for this subterranean world. The meticulously recycled air carries the scent of sterile ozone and cultivated soil, a stark reminder that behind immense blast doors, this grim fortress is the only universe its weary people know.The Elysian Deep is a buried city-state, its central atrium plunging fifty stories deep under the glow of a colossal sunlamp. This artificial star illuminates terraced gardens and living quarters carved directly from the rock",
+    "You stand at the ground entrance of an abandoned shopping mall, where cracked tiles lead to wide glass doors stuck half open. The air smells of dust and old plastic, and faint light filters through dirty skylights above the empty atrium. Faded posters hang crooked on the walls, advertising sales that ended years ago, while escalators sit frozen in place. To one side, a dark clothes store waits behind a bent metal shutter, and nearby a narrow path leads toward a small storage shed used long ago for deliveries. Wind pushes litter across the floor. Near the entrance, a single key lies on the ground, dull but intact, as if dropped in a hurry during the mall's final chaotic days.",
     "0F",
     image_0F_entrance) 
 
   // location Entrance Shed
   game.locations.location_0F_storage_shed = new Place(
     "Storage Shed",
-    "Small room with a few brooms, and shelves with cleaning supplies",
+    "You step into a storage shed tucked behind the abandoned shopping mall, once used for deliveries and maintenance. The space is narrow and cluttered, with metal shelves lining the walls and cardboard boxes collapsed from moisture and age. Dust hangs in the air, and the smell of rust and damp concrete is strong. A flickering utility light casts uneven shadows across old cleaning equipment and broken carts. The ground entrance of the mall is just outside, reachable through a dented door that no longer closes properly. Footprints are visible in the dirt, suggesting recent movement. On the floor near a tipped crate lies a heavy crowbar, scratched and worn, but still solid enough to be useful in this silent space.",
     "0F",
     image_0F_storage) 
 
   // location Clothes Store
   game.locations.location_0F_clothes_store = new Place(
     "Clothes Store",
-    "Big clothing store with a bunch of clothes all around on the floor",
+    "You step into a clothes store inside the abandoned shopping mall, where rows of empty racks stretch across the floor. The lights are off, but dim daylight seeps in from the ground entrance just outside, reflecting off dusty mirrors along the walls. Torn price tags still hang from shelves, and piles of discarded hangers crunch underfoot. The air feels stale, mixed with the faint smell of old fabric and mold. Changing rooms line the back wall, their curtains half torn and doors slightly open, revealing nothing but darkness inside. The store feels oddly untouched compared to the rest of the mall, yet clearly stripped of anything useful. From here, the ground entrance remains the only clear way back out.",
     "0F",
     image_0F_clothes_shop) 
 
