@@ -125,8 +125,8 @@ function setup() {
   game.currentLocation = game.locations.location_0F_entrance_ground
 
   // debug
-  player.inventory.push(game.items.Pistol);
-  player.inventory.push(game.items.Silencer);
+  // player.inventory.push(game.items.Pistol);
+  // player.inventory.push(game.items.Silencer);
 
   console.log(player.inventory);
   
@@ -598,8 +598,11 @@ async function sendSound() {
   let myContext = getContext();
 
   // api_string = "http://127.0.0.1:8000/process_audio?user_context=" + myContext
-    
-  api_string = "http://127.0.0.1:8000/process_audio?user_context=" + myContext
+
+  // TODO FIX THE LOCALHOST
+  
+  // api running on the MacBook
+  api_string = "http://100.82.236.65:8000/process_audio?user_context=" + myContext
 
   try {
     const response = await fetch(api_string, {
@@ -869,9 +872,9 @@ function initialiseLocations() {
     "Rusty key",
   )
 
-  let handgun = new Item(
-    "Pistol",
-    "Old trusted pistol",
+  let pistol = new Item(
+    "Empty pistol",
+    "Old trusted pistol with no magazine inside",
     "Gun Parts"
   )
 
@@ -881,21 +884,100 @@ function initialiseLocations() {
     "Gun Parts"
   )
 
-   let silencedHandgun = new Item(
+  let silencedHandgun = new Item(
     "Silenced Handgun",
     "Makes the gun silent",
     "Gun Parts"
   )
   
-   let crowbar = new Item(
+  let crowbar = new Item(
     "Crowbar",
     "Sturdy crowbar",
     "Metal scrap"
   )
-  
-  
-  // demo bunker actions
 
+  let magazine = new Item(
+    "Magazine",
+    "Gun magazine full of bullets",
+    "Bullets and magazine"
+  )
+
+  let keycard = new Item(
+    "Keycard",
+    "Key card for the building workers",
+    "Plastic"
+  )
+
+  let rope = new Item(
+    "Rope",
+    "Long piece of thick rope",
+    "Strands"
+  )
+
+  let legStabiliser = new Item(
+    "Leg Stabiliser",
+    "Medical device that allows to hold the leg in place",
+    "Strands"
+  )
+
+  let lockedGasolineTank = new Item(
+    "Locked Gasoline Tank",
+    "A full gasoline tank with a cap that's too hard to open by hand",
+    "Gasoline"
+  )
+
+  let matchsticks = new Item(
+    "Matchsticks",
+    "Small pack of 32 matchsticks",
+    "wood"
+  )
+
+  // crafting items
+  let makeshiftBomb = new Item(
+    "Makeshift Bomb",
+    "Gasoline tank with a fuse that can blow up any obstacle",
+    "Gasoline"
+  )
+  
+  let armedPistol = new Item(
+    "Armed pistol",
+    "Gasoline tank with a fuse that can blow up any obstacle",
+    "magazine"
+  )
+  
+  let openCanister = new Item(
+    "Open Gasoline Tank",
+    "Gasoline tank with a functional car opening ",
+    "Gasoline"
+  )
+  
+
+
+
+
+  // -1F actions
+
+  let pickUpMagazine  = new Action(
+    "Pick up magazine",
+    "Pick up the Magazine laying on the floor",
+    ( player ) => {
+      player.inventory.push(magazine)
+      statusText = "You picked up the Magazine!"
+      game.locations.location_minus1F_security_office.removeAction(pickUpMagazine);
+    
+    }
+  )
+
+  let pickUpLockedGasolineTank  = new Action(
+    "Pick up Locked Gasoline Tank",
+    "Pick up the Locked Gasoline Tank laying on the floor",
+    ( player ) => {
+      player.inventory.push(lockedGasolineTank)
+      statusText = "You picked up the Locked Gasoline Tank!"
+      game.locations.location_0F_restaurant.removeAction(pickUpLockedGasolineTank);
+    
+    }
+  )
 
   let pickUpKey  = new Action(
     "Pick up key",
@@ -904,12 +986,16 @@ function initialiseLocations() {
       player.inventory.push(key)
       console.log("You picked up the key!");
       statusText = "You picked up the key!"
-      game.locations.location_0F_entrance_ground.removeAction(pickUpKey);
-      // location_bunker.removeAction(pickUpKey);
+      game.locations.location_minus1F_car_sport.removeAction(pickUpKey);
+
     }
   )
 
-   let pickUpCrowbar  = new Action(
+
+
+  // 0F actions
+
+  let pickUpCrowbar  = new Action(
     "Pick up crowbar",
     "Pick up the crowbar on the floor",
     ( player ) => {
@@ -919,6 +1005,52 @@ function initialiseLocations() {
     
     }
   )
+
+  let pickUpKeyCard  = new Action(
+    "Pick up Key Card",
+    "Pick up the Key Card on the floor",
+    ( player ) => {
+      player.inventory.push(crowbar)
+      statusText = "You picked up the Key Card!"
+      game.locations.location_0F_restaurant.removeAction(pickUpKeyCard);
+    
+    }
+  )
+
+  // 1F actions
+  let pickUpLegStabiliser  = new Action(
+    "Pick up Leg Stabiliser",
+    "Pick up the Leg Stabiliser on the floor",
+    ( player ) => {
+      player.inventory.push(legStabiliser)
+      statusText = "You picked up the Leg Stabiliser!"
+      game.locations.location_1F_pharmacy.removeAction(pickUpLegStabiliser);
+    
+    }
+  )
+
+  let pickUpPistol  = new Action(
+    "Pick up the Pistol",
+    "Pick up the Pistol that's on the floor",
+    ( player ) => {
+      player.inventory.push(pistol)
+      statusText = "You picked up the Pistol!"
+      game.locations.location_1F_pharmacy.removeAction(pickUpPistol);
+    
+    }
+  )
+
+  let pickUpRope  = new Action(
+    "Pick up the Rope",
+    "Pick up the Rope that's on the floor",
+    ( player ) => {
+      player.inventory.push(rope)
+      statusText = "You picked up the Rope!"
+      game.locations.location_1F_hidden_storage.removeAction(pickUpRope);
+    
+    }
+  )
+  
 
   let lookAround  = new Action(
     "Look around yourself",
@@ -1026,7 +1158,7 @@ function initialiseLocations() {
     image_PLACEHOLDER)
 
 
-  game.locations.location_1F_electronics_store = new Place(
+  game.locations.location_1F_pharmacy = new Place(
     "Electronics store",
     "Store holding up a lot fo electronic equipment",
     "1F",
@@ -1181,9 +1313,9 @@ function initialiseLocations() {
 
   game.locations.location_1F_elevator.connections = [game.locations.location_0F_elevator, game.locations.location_1F_lounge];
 
-  game.locations.location_1F_lounge.connections = [game.locations.location_1F_electronics_store, game.locations.location_1F_bathroom, game.locations.location_1F_stairs, game.locations.location_1F_korean_store, game.locations.location_1F_food_market];
+  game.locations.location_1F_lounge.connections = [game.locations.location_1F_pharmacy, game.locations.location_1F_bathroom, game.locations.location_1F_stairs, game.locations.location_1F_korean_store, game.locations.location_1F_food_market];
 
-  game.locations.location_1F_electronics_store.connections = [game.locations.location_1F_lounge];
+  game.locations.location_1F_pharmacy.connections = [game.locations.location_1F_lounge];
 
   game.locations.location_1F_bathroom.connections = [game.locations.location_1F_lounge];
 
@@ -1221,33 +1353,51 @@ function initialiseLocations() {
   game.locations.location_minus1F_security_office.connections = [game.locations.location_minus1F_parking];
 
 
+  // -1F actions
+  game.locations.location_minus1F_car_sport.actions = [pickUpKey, pickUpLockedGasolineTank];
+  game.locations.location_minus1F_security_office.actions = [pickUpMagazine];
+
   // 0F actions
-  game.locations.location_0F_entrance_ground.actions = [pickUpKey];
+  // game.locations.location_0F_entrance_ground.actions = [pickUpKey];
   game.locations.location_0F_storage_shed.actions = [pickUpCrowbar];
 
   game.locations.location_0F_clothes_store.itemActions = [openClothesDoor];
 
+  game.locations.location_0F_restaurant.actions = [pickUpKeyCard];
 
 
-  // 0F items
+  // 1F actions
+  game.locations.location_1F_pharmacy.actions = [pickUpLegStabiliser];
+  game.locations.location_1F_hidden_storage.actions = [pickUpRope];
+  game.locations.location_1F_gun_store.actions = [pickUpPistol];
+
+  // findable items
   addItem(key);
-  addItem(handgun);
+  addItem(pistol);
   addItem(silencer);
   addItem(silencedHandgun);
   addItem(crowbar);
+  addItem(magazine);
+  addItem(keycard);
+  addItem(rope);
+  addItem(legStabiliser);
+  addItem(lockedGasolineTank);
+  addItem(matchsticks);
+
+  // crafting items
+  addItem(makeshiftBomb);
+  addItem(armedPistol);
+  addItem(openCanister);
+
+
+
 
 
   // crafting recipes
-  game.craftingSystem.addRecipe(handgun, silencer, silencedHandgun);
+  game.craftingSystem.addRecipe(pistol, silencer, silencedHandgun);
+  
+  game.craftingSystem.addRecipe(lockedGasolineTank, matchsticks, makeshiftBomb);
+  game.craftingSystem.addRecipe(pistol, magazine, armedPistol);
+  game.craftingSystem.addRecipe(lockedGasolineTank, crowbar, openCanister);
 
-
-
-
-  // demo
-  // location_house.connections = [location_bunker];
-  // location_bunker.connections = [location_house];
-
-
-  // location_bunker.actions = [pickUpKey, lookAround];
-  // location_house.actions = [openTheSafe];
-}
+  }

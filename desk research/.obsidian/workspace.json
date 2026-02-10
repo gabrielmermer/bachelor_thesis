@@ -11,31 +11,12 @@
             "id": "a48f0e8b290a439d",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "testing kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md"
               },
-              "icon": "lucide-trello",
-              "title": "testing kanban"
-            }
-          },
-          {
-            "id": "ba761c06f599fb5c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-19 14.37.55.excalidraw"
             }
           },
           {
@@ -52,8 +33,7 @@
               "title": "Commands to run dev"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 371.5,
+    "collapsed": true
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -195,10 +176,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ba761c06f599fb5c",
+  "active": "a48f0e8b290a439d",
   "lastOpenFiles": [
-    "Commands to run dev.md",
     "testing kanban.md",
+    "Commands to run dev.md",
     "Untitled.base",
     "Untitled 1.base",
     "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
