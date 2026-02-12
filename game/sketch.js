@@ -101,6 +101,10 @@ let action_use_item  = new Action(
     }
   )
 
+// used to check if the brother can walk
+let can_brother_walk = false;
+// is the brother following the player
+let is_brother_following = false;
 
   
 
@@ -1010,7 +1014,7 @@ function initialiseLocations() {
     "Pick up Key Card",
     "Pick up the Key Card on the floor",
     ( player ) => {
-      player.inventory.push(crowbar)
+      player.inventory.push(keycard)
       statusText = "You picked up the Key Card!"
       game.locations.location_0F_restaurant.removeAction(pickUpKeyCard);
     
@@ -1062,7 +1066,7 @@ function initialiseLocations() {
     }
   )
 
-    let openClothesDoor  = new Action(
+  let openClothesDoor  = new Action(
     "Open the door to the clothes store",
     "Use the crowbar to open the doors to the store",
     ( player ) => {
@@ -1073,6 +1077,24 @@ function initialiseLocations() {
     },
     crowbar
   )
+
+  let helpBrother  = new Action(
+    "Pick up your brother",
+    "Pick up your brother from the floor",
+    ( player ) => {
+
+      if (can_brother_walk == true) {
+        is_brother_following = true;
+        statusText = "Your brother managed to stand up and is following you!";
+      }
+      else {
+        statusText = "Your brother can't stand on his own. He needs help with his leg";
+
+      }
+      
+    }
+  )
+
 
   // 0F locations
 
@@ -1371,6 +1393,7 @@ function initialiseLocations() {
   game.locations.location_1F_pharmacy.actions = [pickUpLegStabiliser];
   game.locations.location_1F_hidden_storage.actions = [pickUpRope];
   game.locations.location_1F_gun_store.actions = [pickUpPistol];
+  game.locations.location_1F_food_market.actions = [helpBrother];
 
   // findable items
   addItem(key);
