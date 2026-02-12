@@ -1067,7 +1067,7 @@ function initialiseLocations() {
     "Use the crowbar to open the doors to the store",
     ( player ) => {
       // player.inventory.push("key")
-      game.locations.location_0F_corridor.connections.push(game.locations.image_0F_clothes_shop)
+      game.locations.location_0F_corridor.connections.push(game.locations.location_0F_clothes_store)
       game.locations.location_0F_clothes_store.connections.push(game.locations.location_0F_corridor)
       statusText = "You managed to unlock the doors to the corridor";
     },
@@ -1290,9 +1290,10 @@ function initialiseLocations() {
   game.locations.location_0F_entrance_ground.connections = [game.locations.location_0F_storage_shed, game.locations.location_0F_clothes_store];
 
   game.locations.location_0F_storage_shed.connections = [game.locations.location_0F_entrance_ground];
-  game.locations.location_0F_clothes_store.connections = [game.locations.location_0F_entrance_ground, ];
+  game.locations.location_0F_clothes_store.connections = [game.locations.location_0F_entrance_ground];
 
-  game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space]
+  game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space];
+
   game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor, game.locations.location_0F_service_stairs];
 
   game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_elevator, game.locations.location_0F_restaurant, game.locations.location_0F_bubble_tea, game.locations.location_0F_stairs];
