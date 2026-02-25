@@ -133,7 +133,10 @@ function setup() {
   // debug
   // player.inventory.push(game.items.Pistol);
   player.inventory.push(game.items.Keycard);
-  player.inventory.push(game.items["Makeshift Bomb"]);
+  // player.inventory.push(game.items["Makeshift Bomb"]);
+  player.inventory.push(game.items["Locked Gasoline Tank"]);
+  player.inventory.push(game.items.Crowbar);
+  player.inventory.push(game.items.Matchsticks);
   // player.inventory.push(game.items.Silencer);
 
   console.log(player.inventory);
@@ -999,6 +1002,16 @@ function initialiseLocations() {
     }
   )
 
+  let pickUpMatchsticks = new Action(
+    "Pick up Matchsticks",
+    "A small pack of matchsticks on a shelf",
+    ( player ) => {
+        player.inventory.push(matchsticks)
+        statusText = "You picked up the Matchsticks!"
+        game.locations.location_1F_korean_store.removeAction(pickUpMatchsticks);
+    }
+)
+
   let getAwayInCar  = new Action(
     "Drive out of the mall",
     "Drive the car outside of the shopping mall",
@@ -1135,6 +1148,7 @@ function initialiseLocations() {
     ( player ) => {
       game.locations.location_2F_service_stairs.connections.push(game.locations.location_2F_rooftop);      
       statusText = "You managed to blow up the doors to the roof!";
+      game.craftingSystem.removeItem(makeshiftBomb, player);
     },
     makeshiftBomb
   )
@@ -1474,6 +1488,7 @@ function initialiseLocations() {
   game.locations.location_1F_pharmacy.actions = [pickUpLegStabiliser];
   game.locations.location_1F_hidden_storage.actions = [pickUpRope];
   game.locations.location_1F_gun_store.actions = [pickUpPistol];
+  game.locations.location_1F_korean_store.actions = [pickUpMatchsticks];
   game.locations.location_1F_food_market.actions = [helpBrother];
 
   // 1F item actions
@@ -1518,7 +1533,7 @@ function initialiseLocations() {
   // crafting recipes
   game.craftingSystem.addRecipe(pistol, silencer, silencedHandgun);
   
-  game.craftingSystem.addRecipe(lockedGasolineTank, matchsticks, makeshiftBomb);
+  game.craftingSystem.addRecipe(openCanister, matchsticks, makeshiftBomb);
   game.craftingSystem.addRecipe(pistol, magazine, armedPistol);
   game.craftingSystem.addRecipe(lockedGasolineTank, crowbar, openCanister);
 
