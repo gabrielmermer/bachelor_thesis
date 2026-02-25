@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7dcc58866944c4e2",
+        "id": "ff80b49d10096257",
         "type": "tabs",
         "children": [
           {
-            "id": "a48f0e8b290a439d",
+            "id": "64256eb65e2ed16e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -162,13 +162,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f6ef740da90c70c4",
+  "active": "64256eb65e2ed16e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
+    "Untitled 5.base",
+    "Untitled.canvas",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
     "testing kanban.md",
     "Commands to run dev.md",
     "Untitled.base",
     "Untitled 1.base",
-    "Excalidraw/Drawing 2025-09-19 14.37.55.excalidraw.md",
     "Excalidraw/Drawing 2025-09-19 14.38.12.excalidraw.md",
     "Excalidraw",
     "ngrok.md",
@@ -198,7 +203,6 @@
     "Pasted image 20250623160031.png",
     "Pasted image 20250623152303.png",
     "Pasted image 20250623151343.png",
-    "Shallow scope of voice control integration.md",
     "Pasted image 20250529145421.png"
   ]
 }

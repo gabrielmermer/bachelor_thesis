@@ -126,10 +126,13 @@ function setup() {
 
 
   initialiseLocations();
-  game.currentLocation = game.locations.location_0F_entrance_ground
+  // game.currentLocation = game.locations.location_0F_entrance_ground
+  game.currentLocation = game.locations.location_minus1F_parking 
+
 
   // debug
   // player.inventory.push(game.items.Pistol);
+  player.inventory.push(game.items.Keycard);
   // player.inventory.push(game.items.Silencer);
 
   console.log(player.inventory);
@@ -745,25 +748,25 @@ function runCommand(commandArray) {
       }
     },
 
-    "LookAround": () => {
-      const lookAction = findActionByName("look around");
-      if (lookAction) {
-        lookAction.execute(player);
-      } else {
-        statusText = "You look around. " + game.currentLocation.description;
-        console.log(statusText);
-      }
-    },
+    // "LookAround": () => {
+    //   const lookAction = findActionByName("look around");
+    //   if (lookAction) {
+    //     lookAction.execute(player);
+    //   } else {
+    //     statusText = "You look around. " + game.currentLocation.description;
+    //     console.log(statusText);
+    //   }
+    // },
 
-    "CheckInventory": () => {
-      if (player.inventory.length === 0) {
-        statusText = "Your inventory is empty.";
-      } else {
-        const itemNames = player.inventory.map(item => item.name).join(", ");
-        statusText = "You have: " + itemNames;
-      }
-      console.log(statusText);
-    }
+    // "CheckInventory": () => {
+    //   if (player.inventory.length === 0) {
+    //     statusText = "Your inventory is empty.";
+    //   } else {
+    //     const itemNames = player.inventory.map(item => item.name).join(", ");
+    //     statusText = "You have: " + itemNames;
+    //   }
+    //   console.log(statusText);
+    // }
   };
 
   if (commandMap[commandName]) {
@@ -995,6 +998,28 @@ function initialiseLocations() {
     }
   )
 
+  let getAwayInCar  = new Action(
+    "Drive out of the mall",
+    "Drive the car outside of the shopping mall",
+    ( player ) => {
+      // player.inventory.push("key")
+      statusText = "Congratulations! You've won the game!";
+    },
+    
+  )
+
+  // let unlockShaftMinusOne  = new Action(
+  //   "Unlock Shaft at Floor -1",
+  //   "Drive the car outside of the shopping mall",
+  //   ( player ) => {
+
+  //     statusText = "You used the card to unlock the key shaft";
+  //     // TODO open all shafts 
+  //     game.locations.location_minus1F_elevator.removeAction(unlockShaftMinusOne);
+  //   },
+  //   keycard
+  // )
+
 
 
   // 0F actions
@@ -1078,6 +1103,31 @@ function initialiseLocations() {
     crowbar
   )
 
+  // broken atm
+  let openShafts  = new Action(
+    "Use the key to open the shaft door",
+    "Use the metal key  to open the service stair door",
+    ( player ) => {
+      game.locations.location_0F_living_space.connections.push(game.locations.location_0F_service_stairs);
+      game.locations.location_minus1F_parking.connections.push(game.locations.location_minus1F_service_stairs);
+      statusText = "You opened all the doors in this shaft - you can now use the stairs";
+    },
+    key
+  )
+
+  let openElevators  = new Action(
+    "Use the keycard to unlock the elevator",
+    "Use the key card to open the elevator",
+    ( player ) => {
+      game.locations.location_0F_food_court.connections.push(game.locations.location_0F_elevator);
+      game.locations.location_minus1F_parking.connections.push(game.locations.location_minus1F_elevator);
+      game.locations.location_1F_lounge.connections.push(game.locations.location_1F_elevator);
+      
+      statusText = "You opened all the doors for the elevator - you can now use the building elevator";
+    },
+    keycard
+  )
+
   let helpBrother  = new Action(
     "Pick up your brother",
     "Pick up your brother from the floor",
@@ -1095,6 +1145,51 @@ function initialiseLocations() {
     }
   )
 
+
+    // locations -1F 
+
+
+  game.locations.location_minus1F_elevator = new Place(
+    "Elevator -1F",
+    "Open entrance to an elevaror shaft going going up",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_service_stairs = new Place(
+    "Service stairs -1F",
+    "These seem to be only for workers of the building",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_parking = new Place(
+    "Parking area",
+    "There's very little around here, most cars are gone",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_security_office = new Place(
+    "Security Office",
+    "Empty security office, there's no one inside",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_entrance = new Place(
+    "Garage door",
+    "Garage door leading to the outside world",
+    "-1F",
+    image_PLACEHOLDER)
+    
+  game.locations.location_minus1F_car_sport = new Place(
+    "Sport car",
+    "The windows are broken",
+    "-1F",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_car_4x4 = new Place(
+    "4x4 car",
+    "This one seems to be not in the worst condition",
+    "-1F",
+    image_PLACEHOLDER)
 
   // 0F locations
 
@@ -1143,7 +1238,7 @@ function initialiseLocations() {
 
   // location elevator 0F
   game.locations.location_0F_elevator = new Place(
-    "Elevator",
+    "Elevator 0F",
     "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
     "0F",
     image_PLACEHOLDER)
@@ -1174,7 +1269,7 @@ function initialiseLocations() {
 
   // 1F locations
   game.locations.location_1F_elevator = new Place(
-    "Elevator",
+    "Elevator 1F",
     "Open entrance to an elevaror shaft going both up and down. The cabin is missing",
     "1F",
     image_PLACEHOLDER)
@@ -1240,7 +1335,7 @@ function initialiseLocations() {
   // 2F locations
 
   game.locations.location_2F_service_stairs = new Place(
-    "Service stairs",
+    "Service stairs 2F",
     "These seem to be only for workers of the building",
     "2F",
     image_PLACEHOLDER)
@@ -1258,53 +1353,23 @@ function initialiseLocations() {
     image_PLACEHOLDER)
 
 
-  // locations -1F 
-
-
-  game.locations.location_minus1F_elevator = new Place(
-    "Elevator",
-    "Open entrance to an elevaror shaft going going up",
-    "-1F",
-    image_PLACEHOLDER)
-
-  game.locations.location_minus1F_service_stairs = new Place(
-    "Service stairs",
-    "These seem to be only for workers of the building",
-    "-1F",
-    image_PLACEHOLDER)
-
-  game.locations.location_minus1F_parking = new Place(
-    "Parking area",
-    "There's very little around here, most cars are gone",
-    "-1F",
-    image_PLACEHOLDER)
-
-  game.locations.location_minus1F_security_office = new Place(
-    "Security Office",
-    "Empty security office, there's no one inside",
-    "-1F",
-    image_PLACEHOLDER)
-
-  game.locations.location_minus1F_entrance = new Place(
-    "Garage door",
-    "Garage door, seems to be locked",
-    "-1F",
-    image_PLACEHOLDER)
-    
-  game.locations.location_minus1F_car_sport = new Place(
-    "Sport car",
-    "The windows are broken",
-    "-1F",
-    image_PLACEHOLDER)
-
-  game.locations.location_minus1F_car_4x4 = new Place(
-    "4x4 car",
-    "This one seems to be not in the worst condition",
-    "-1F",
-    image_PLACEHOLDER)
 
 
 
+
+
+  // connections -1F 
+  game.locations.location_minus1F_elevator.connections = [game.locations.location_minus1F_parking, game.locations.location_0F_elevator];
+
+  game.locations.location_minus1F_service_stairs.connections = [game.locations.location_0F_service_stairs, game.locations.location_minus1F_parking];
+
+  game.locations.location_minus1F_parking.connections = [game.locations.location_minus1F_car_sport, game.locations.location_minus1F_car_4x4, game.locations.location_minus1F_security_office, game.locations.location_minus1F_entrance];
+
+  game.locations.location_minus1F_car_sport.connections = [game.locations.location_minus1F_parking];
+
+  game.locations.location_minus1F_car_4x4.connections = [game.locations.location_minus1F_parking];
+
+  game.locations.location_minus1F_security_office.connections = [game.locations.location_minus1F_parking];
 
 
   // connections 0F
@@ -1316,9 +1381,9 @@ function initialiseLocations() {
 
   game.locations.location_0F_corridor.connections = [game.locations.location_0F_food_court, game.locations.location_0F_living_space];
 
-  game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor, game.locations.location_0F_service_stairs];
+  game.locations.location_0F_living_space.connections = [game.locations.location_0F_corridor];
 
-  game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_elevator, game.locations.location_0F_restaurant, game.locations.location_0F_bubble_tea, game.locations.location_0F_stairs];
+  game.locations.location_0F_food_court.connections = [game.locations.location_0F_corridor, game.locations.location_0F_restaurant, game.locations.location_0F_bubble_tea, game.locations.location_0F_stairs];
 
   game.locations.location_0F_elevator.connections = [game.locations.location_0F_food_court];
 
@@ -1342,7 +1407,7 @@ function initialiseLocations() {
 
   game.locations.location_1F_bathroom.connections = [game.locations.location_1F_lounge];
 
-  game.locations.location_1F_korean_store.connections = [game.locations.location_1F_lounge, game.locations.location_1F_gun_store, game.locations.location_1F_service_stairs];
+  game.locations.location_1F_korean_store.connections = [game.locations.location_1F_lounge, game.locations.location_1F_gun_store];
 
   game.locations.location_1F_gun_store.connections = [game.locations.location_1F_korean_store]; 
 
@@ -1362,23 +1427,17 @@ function initialiseLocations() {
 
   game.locations.location_2F_tent.connections = [game.locations.location_2F_rooftop];
 
-  // connections -1F 
-  game.locations.location_minus1F_elevator.connections = [game.locations.location_minus1F_parking, game.locations.location_0F_elevator];
 
-  game.locations.location_minus1F_service_stairs.connections = [game.locations.location_0F_service_stairs, game.locations.location_minus1F_parking];
-
-  game.locations.location_minus1F_parking.connections = [game.locations.location_minus1F_elevator, game.locations.location_minus1F_service_stairs, game.locations.location_minus1F_car_sport, game.locations.location_minus1F_car_4x4, game.locations.location_minus1F_security_office, game.locations.location_minus1F_entrance];
-
-  game.locations.location_minus1F_car_sport.connections = [game.locations.location_minus1F_parking];
-
-  game.locations.location_minus1F_car_4x4.connections = [game.locations.location_minus1F_parking];
-
-  game.locations.location_minus1F_security_office.connections = [game.locations.location_minus1F_parking];
 
 
   // -1F actions
   game.locations.location_minus1F_car_sport.actions = [pickUpKey, pickUpLockedGasolineTank];
   game.locations.location_minus1F_security_office.actions = [pickUpMagazine];
+
+  // -1F item actions
+  game.locations.location_minus1F_parking.itemActions = [openElevators];
+
+
 
   // 0F actions
   // game.locations.location_0F_entrance_ground.actions = [pickUpKey];
@@ -1388,12 +1447,19 @@ function initialiseLocations() {
 
   game.locations.location_0F_restaurant.actions = [pickUpKeyCard];
 
+  // 0F item actions
+  game.locations.location_0F_living_space.itemActions = [openShafts];
+  game.locations.location_0F_food_court.itemActions = [openElevators];
+
 
   // 1F actions
   game.locations.location_1F_pharmacy.actions = [pickUpLegStabiliser];
   game.locations.location_1F_hidden_storage.actions = [pickUpRope];
   game.locations.location_1F_gun_store.actions = [pickUpPistol];
   game.locations.location_1F_food_market.actions = [helpBrother];
+
+  // 1F item actions
+  game.locations.location_1F_korean_store = [openShafts];
 
   // findable items
   addItem(key);
