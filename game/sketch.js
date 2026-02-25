@@ -127,12 +127,13 @@ function setup() {
 
   initialiseLocations();
   // game.currentLocation = game.locations.location_0F_entrance_ground
-  game.currentLocation = game.locations.location_minus1F_parking 
+  game.currentLocation = game.locations.location_2F_service_stairs
 
 
   // debug
   // player.inventory.push(game.items.Pistol);
   player.inventory.push(game.items.Keycard);
+  player.inventory.push(game.items["Makeshift Bomb"]);
   // player.inventory.push(game.items.Silencer);
 
   console.log(player.inventory);
@@ -1128,6 +1129,16 @@ function initialiseLocations() {
     keycard
   )
 
+  let open2FDoor  = new Action(
+    "Open the door on the top floor with armed gasoline tank",
+    "Open the door on the top floor with armed gasoline tank",
+    ( player ) => {
+      game.locations.location_2F_service_stairs.connections.push(game.locations.location_2F_rooftop);      
+      statusText = "You managed to blow up the doors to the roof!";
+    },
+    makeshiftBomb
+  )
+
   let helpBrother  = new Action(
     "Pick up your brother",
     "Pick up your brother from the floor",
@@ -1342,7 +1353,7 @@ function initialiseLocations() {
 
   game.locations.location_2F_rooftop = new Place(
     "Rooftop",
-    "Empty roof with a lonely tent in the distance",
+    "Empty roof with a lonely tent in the distance.",
     "2F",
     image_PLACEHOLDER)
 
@@ -1352,6 +1363,11 @@ function initialiseLocations() {
     "2F",
     image_PLACEHOLDER)
 
+  game.locations.location_2F_exit = new Place(
+    "Edge of the rooftop",
+    "Edge of the rooftop with a metal railing. You could potentially get a rope to get over it.",
+    "2F",
+    image_PLACEHOLDER)
 
 
 
@@ -1421,9 +1437,11 @@ function initialiseLocations() {
 
 
   // connections 2F 
-  game.locations.location_2F_service_stairs.connections = [game.locations.location_2F_rooftop];
+  game.locations.location_2F_service_stairs.connections = [game.locations.location_1F_service_stairs];
 
-  game.locations.location_2F_rooftop.connections = [game.locations.location_2F_service_stairs, game.locations.location_2F_tent];
+  game.locations.location_2F_rooftop.connections = [game.locations.location_2F_service_stairs, game.locations.location_2F_tent, game.locations.location_2F_exit];
+
+  game.locations.location_2F_exit.connections = [game.locations.location_2F_rooftop];
 
   game.locations.location_2F_tent.connections = [game.locations.location_2F_rooftop];
 
@@ -1459,7 +1477,21 @@ function initialiseLocations() {
   game.locations.location_1F_food_market.actions = [helpBrother];
 
   // 1F item actions
-  game.locations.location_1F_korean_store = [openShafts];
+  game.locations.location_1F_korean_store.itemActions = [openShafts];
+
+  // 2F actions
+
+  // there is none atm
+
+  // 2F item actions
+  // todo door
+  game.locations.location_2F_service_stairs.itemActions = [open2FDoor];
+
+
+
+  // todo exit
+
+
 
   // findable items
   addItem(key);
