@@ -11,6 +11,11 @@ let scene = "splash"
 let isRecordingAudio = false;
 
 
+// TODO add a win screen
+// TODO add start screen
+let isGameOver = false
+
+
 
 
 // block refresh 
@@ -137,6 +142,9 @@ function setup() {
   player.inventory.push(game.items["Locked Gasoline Tank"]);
   player.inventory.push(game.items.Crowbar);
   player.inventory.push(game.items.Matchsticks);
+  player.inventory.push(game.items["Empty pistol"]);
+  player.inventory.push(game.items.Magazine);
+  player.inventory.push(game.items.Rope);
   // player.inventory.push(game.items.Silencer);
 
   console.log(player.inventory);
@@ -1153,6 +1161,28 @@ function initialiseLocations() {
     makeshiftBomb
   )
 
+  let open2FDoorGun  = new Action(
+    "Open the door on the top floor with a gun",
+    "Open the door on the top floor with an armed gun",
+    ( player ) => {
+      game.locations.location_2F_service_stairs.connections.push(game.locations.location_2F_rooftop);      
+      statusText = "You managed to shoot through the locker to the roof!";
+      game.craftingSystem.removeItem(makeshiftBomb, player);
+    },
+    armedPistol
+  )
+
+  let ropeExit  = new Action(
+    "Use the rope to exit the building",
+    "Use the rope hung over to exit the building",
+    ( player ) => {
+     
+      statusText = "You managed to push the rope through the roof and escape!";
+      
+    },
+    rope
+  )
+
   let helpBrother  = new Action(
     "Pick up your brother",
     "Pick up your brother from the floor",
@@ -1466,6 +1496,7 @@ function initialiseLocations() {
   game.locations.location_minus1F_car_sport.actions = [pickUpKey, pickUpLockedGasolineTank];
   game.locations.location_minus1F_security_office.actions = [pickUpMagazine];
 
+
   // -1F item actions
   game.locations.location_minus1F_parking.itemActions = [openElevators];
 
@@ -1499,12 +1530,12 @@ function initialiseLocations() {
   // there is none atm
 
   // 2F item actions
-  // todo door
-  game.locations.location_2F_service_stairs.itemActions = [open2FDoor];
+ 
+  game.locations.location_2F_service_stairs.itemActions = [open2FDoor, open2FDoorGun];
+  game.locations.location_2F_exit.itemActions = [ropeExit];
 
 
-
-  // todo exit
+  // todo rope exit
 
 
 
