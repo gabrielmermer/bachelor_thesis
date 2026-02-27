@@ -13,7 +13,7 @@ let isRecordingAudio = false;
 
 // TODO add a win screen
 // TODO add start screen
-let isGameOver = false
+let isGameWon = false;
 
 
 
@@ -132,7 +132,7 @@ function setup() {
 
   initialiseLocations();
   // game.currentLocation = game.locations.location_0F_entrance_ground
-  game.currentLocation = game.locations.location_2F_service_stairs
+  game.currentLocation = game.locations.location_minus1F_car_sport;
 
 
   // debug
@@ -1178,10 +1178,38 @@ function initialiseLocations() {
     ( player ) => {
      
       statusText = "You managed to push the rope through the roof and escape!";
+      isGameWon = true;
       
     },
     rope
   )
+
+  let fuelCar  = new Action(
+    "Use the canister to fuel the car and make it ready to go",
+    "Use the rope hung over to exit the building",
+    ( player ) => {
+     
+      statusText = "The car seems to be working. You can use it to drive now!";
+      game.locations.location_minus1F_car_4x4.actions.push(carExit);
+      game.craftingSystem.removeItem(openCanister, player);
+      
+    },
+    openCanister
+  )
+
+  let carExit  = new Action(
+    "Drive out of the building",
+    "Use the car to drive out of the building",
+    ( player ) => {
+     
+      statusText = "";
+      isGameWon = true;
+      game.currentLocation = game.locations.location_minus1F_exit_win;
+      
+    },
+    
+  )
+
 
   let helpBrother  = new Action(
     "Pick up your brother",
@@ -1427,6 +1455,18 @@ function initialiseLocations() {
     "2F",
     image_PLACEHOLDER)
 
+  game.locations.location_2F_exit_win = new Place(
+    "Epilogue",
+    "You've made it off the roof together. Your brother somehow managed to get there with you too. You survived another day.",
+    "",
+    image_PLACEHOLDER)
+
+  game.locations.location_minus1F_exit_win = new Place(
+    "Epilogue",
+    "You've made if off in a car together. You managed to survive another day.",
+    "",
+    image_PLACEHOLDER)
+
 
 
 
@@ -1513,6 +1553,7 @@ function initialiseLocations() {
 
   // -1F item actions
   game.locations.location_minus1F_parking.itemActions = [openElevators];
+  game.locations.location_minus1F_car_4x4.itemActions = [fuelCar];
 
 
 
