@@ -1200,6 +1200,20 @@ function initialiseLocations() {
     }
   )
 
+    let fixBrotherLeg  = new Action(
+    "Stabilise your brother leg",
+    "Use the leg stabiliser to help out your brother be able to get up",
+    ( player ) => {
+      // player.inventory.push("key")
+      game.locations.location_0F_corridor.connections.push(game.locations.location_0F_clothes_store)
+      game.locations.location_0F_clothes_store.connections.push(game.locations.location_0F_corridor)
+      statusText = "Your brother can stand on his own now! Your goal now is to somehow exit the building";
+      
+    },
+    legStabiliser
+  )
+  
+
 
     // locations -1F 
 
@@ -1331,7 +1345,7 @@ function initialiseLocations() {
 
 
   game.locations.location_1F_pharmacy = new Place(
-    "Electronics store",
+    "Pharmacy",
     "Store holding up a lot fo electronic equipment",
     "1F",
     image_PLACEHOLDER)
@@ -1524,6 +1538,7 @@ function initialiseLocations() {
 
   // 1F item actions
   game.locations.location_1F_korean_store.itemActions = [openShafts];
+  game.locations.location_1F_food_market.itemActions = [fixBrotherLeg];
 
   // 2F actions
 
