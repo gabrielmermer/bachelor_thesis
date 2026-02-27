@@ -132,7 +132,7 @@ function setup() {
 
   initialiseLocations();
   // game.currentLocation = game.locations.location_0F_entrance_ground
-  game.currentLocation = game.locations.location_minus1F_car_sport;
+  game.currentLocation = game.locations.location_2F_rooftop;
 
 
   // debug
@@ -1172,13 +1172,29 @@ function initialiseLocations() {
     armedPistol
   )
 
-  let ropeExit  = new Action(
-    "Use the rope to exit the building",
+  let throwRope  = new Action(
+    "Throw the rope off the rooftop",
     "Use the rope hung over to exit the building",
     ( player ) => {
      
-      statusText = "You managed to push the rope through the roof and escape!";
-      isGameWon = true;
+      game.craftingSystem.removeItem(rope, player);
+      statusText = "You managed to push the rope through the roof. It looks like it will hold.";
+      game.locations.location_2F_exit.actions.push(ropeEscape);
+      
+      
+    },
+    rope
+  )
+
+  let ropeEscape  = new Action(
+    "Use the rope to escape the building",
+    "Use the rope hung over to exit the building",
+    ( player ) => {
+     
+      game.currentLocation = game.locations.ropeEscape
+      statusText = "You managed to push the rope through the roof. It looks like it will hold.";
+      game.currentLocation = game.locations.location_2F_exit_win;
+      
       
     },
     rope
@@ -1588,7 +1604,7 @@ function initialiseLocations() {
   // 2F item actions
  
   game.locations.location_2F_service_stairs.itemActions = [open2FDoor, open2FDoorGun];
-  game.locations.location_2F_exit.itemActions = [ropeExit];
+  game.locations.location_2F_exit.itemActions = [throwRope];
 
 
   // todo rope exit
