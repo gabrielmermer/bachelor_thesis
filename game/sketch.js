@@ -1191,9 +1191,15 @@ function initialiseLocations() {
     "Use the rope hung over to exit the building",
     ( player ) => {
      
-      game.currentLocation = game.locations.ropeEscape
-      statusText = "You managed to push the rope through the roof. It looks like it will hold.";
-      game.currentLocation = game.locations.location_2F_exit_win;
+      if (is_brother_following == true) {
+        game.currentLocation = game.locations.ropeEscape
+        statusText = "You managed to push the rope through the roof. It looks like it will hold.";
+        game.currentLocation = game.locations.location_2F_exit_win;
+      } else {
+        statusText = "Did you forget about your brother? You can't leave him behind";
+      }
+
+      
       
       
     },
@@ -1218,9 +1224,14 @@ function initialiseLocations() {
     "Use the car to drive out of the building",
     ( player ) => {
      
-      statusText = "";
-      isGameWon = true;
-      game.currentLocation = game.locations.location_minus1F_exit_win;
+      if (is_brother_following == true) {
+        statusText = "";
+        isGameWon = true;
+        game.currentLocation = game.locations.location_minus1F_exit_win;
+      } else {
+        statusText = "Did you forget about your brother? You can't leave him behind";
+      }
+      
       
     },
     
