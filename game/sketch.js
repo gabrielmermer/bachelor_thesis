@@ -10,6 +10,7 @@ let renderingMode = "voice";
 let scene = "splash"
 let isRecordingAudio = false;
 
+let isProcessingCommand = false;
 
 // TODO add a win screen
 // TODO add start screen
@@ -209,14 +210,14 @@ function draw() {
   }
 
   if (renderingMode == "voice") {
-    if (isRecordingAudio == false) {
-      text("Press R and say your command", 40, main_box_offset + 40);
-    }
-    if (isRecordingAudio) {
-       text("Listening...", 40, main_box_offset + 40);
-    }
-    
+  if (isProcessingCommand) {
+    text("Processing...", 40, main_box_offset + 40);
+  } else if (isRecordingAudio) {
+    text("Listening...", 40, main_box_offset + 40);
+  } else {
+    text("Press R and say your command", 40, main_box_offset + 40);
   }
+}
 
 
 
@@ -561,10 +562,12 @@ async function stopRecording() {
   await new Promise(resolve => setTimeout(resolve, 200));
 
   // debug
-  soundFile.play();
+  // soundFile.play();
 
-
+  isProcessingCommand = true;
   const voice_command = await sendSound();
+  isProcessingCommand = false;
+
   if (voice_command) {
     runCommand(voice_command);
   }

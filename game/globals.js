@@ -12,6 +12,7 @@ let game = {
 
 let player = { inventory: [] };
 
+// helper function
 function addItem(item) {
   game.items[item.name] = item;
 }
