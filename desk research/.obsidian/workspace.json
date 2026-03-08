@@ -45,8 +45,7 @@
               "title": "ComfyUI"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,12 +188,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1be78fec9cce6f9c",
+  "active": "736ea0936d1c4637",
   "lastOpenFiles": [
     "Excalidraw/gamemap.excalidraw.md",
     "Excalidraw/networking.excalidraw.md",
-    "Commands to run dev.md",
     "ComfyUI.md",
+    "Commands to run dev.md",
     "Pasted image 20260305102710.png",
     "Untitled 9.base",
     "Untitled 8.base",

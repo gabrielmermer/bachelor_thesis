@@ -106,11 +106,9 @@ let is_brother_following = false;
 
 function preload() {
 
-  // images
-  image_0F_entrance = loadImage('assets/img/0F_entrance.png');
-  image_0F_clothes_shop = loadImage('assets/img/0F_clothes_store.png');
-  image_0F_storage = loadImage('assets/img/0F_storage.png');
-  image_PLACEHOLDER = loadImage('assets/img/placeholder.jpg')
+  
+
+  loadImages()
 
   // fonts
   fontFira = loadFont('assets/font/fira-light.ttf');
@@ -126,7 +124,7 @@ function setup() {
   console.log("3 - recipes done");
   
   // game.currentLocation = game.locations.location_2F_rooftop;
-  game.currentLocation = game.locations.location_0F_entrance_ground;
+  game.currentLocation = game.locations.location_minus1F_parking;
   console.log("4 - current location set");
 
   noStroke();
