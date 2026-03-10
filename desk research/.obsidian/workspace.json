@@ -11,12 +11,23 @@
             "id": "736ea0936d1c4637",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "kanban",
               "state": {
-                "file": "Excalidraw/gamemap.excalidraw.md"
+                "file": "testing kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "gamemap.excalidraw"
+              "icon": "lucide-trello",
+              "title": "testing kanban"
             }
           },
           {
@@ -98,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,6 +203,7 @@
   "active": "736ea0936d1c4637",
   "lastOpenFiles": [
     "Excalidraw/gamemap.excalidraw.md",
+    "Untitled Kanban.md",
     "Excalidraw/networking.excalidraw.md",
     "ComfyUI.md",
     "Commands to run dev.md",
@@ -213,7 +226,6 @@
     "ngrok.md",
     "2025-09-16.md",
     "chrome prototype.png",
-    "Untitled Kanban.md",
     "Potential system for voice input model.md",
     "Talon deep script integration.md",
     "Kinnect voice commands.md",

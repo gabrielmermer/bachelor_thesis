@@ -14,6 +14,8 @@ function loadImages() {
     image_minus1F_entrance = loadImage('assets/img/image_minus1F_entrance.png');
     image_minus1F_car_sport = loadImage('assets/img/image_minus1F_car_sport.png');
     image_minus1F_car_4x4 = loadImage('assets/img/image_minus1F_car_4x4.png');
+    image_minus1F_exit_win = loadImage('assets/img/image_minus1F_exit_win.png');
+   
     
 
 
@@ -23,7 +25,7 @@ function loadImages() {
     image_0F_clothes_shop = loadImage('assets/img/0F_clothes_store.png');
     image_0F_restaurant = loadImage('assets/img/0F_restaurant.png');
     image_0F_bubble_tea = loadImage('assets/img/0F_bubble_tea.png');
-    image_0F_stairs = image_PLACEHOLDER;
+    image_0F_stairs = loadImage('assets/img/0F_stairs.png');
     image_0F_service_stairs = loadImage('assets/img/0F_service_stairs.png');
     image_0F_living_space = image_PLACEHOLDER
     image_0F_food_court = loadImage('assets/img/0F_food_court.png');
@@ -38,16 +40,16 @@ function loadImages() {
     image_1F_korean_store = loadImage('assets/img/1F_korean_store.png');
     image_1F_gun_store = loadImage('assets/img/1F_gun_store.png');
     image_1F_hidden_storage = loadImage('assets/img/1F_hidden_storage.png');
-    image_1F_food_market = image_PLACEHOLDER
+    image_1F_food_market = loadImage('assets/img/1F_food_market.png');
     image_1F_service_stairs = loadImage('assets/img/1F_service_stairs.png');
 
     // 2F
     image_2F_service_stairs = loadImage('assets/img/2F_service_stairs.png');
     image_2F_rooftop = loadImage('assets/img/2F_rooftop.png');
     image_2F_tent = loadImage('assets/img/2F_tent.png');
-    image_2F_exit = image_PLACEHOLDER
-    image_2F_exit_win = image_PLACEHOLDER
-    image_minus1F_exit_win = image_PLACEHOLDER
+    image_2F_exit = loadImage('assets/img/2F_exit.png');
+    image_2F_exit_win = loadImage('assets/img/2F_exit_win.png');
+  
 }
 
 
