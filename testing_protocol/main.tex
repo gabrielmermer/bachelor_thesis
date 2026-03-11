@@ -14,7 +14,27 @@
 \usepackage{listings}
 \usepackage{xcolor}
 
+% table 
+\usepackage{float}
+
+
+
 \usepackage{enumitem,amssymb}
+
+\usepackage{enumitem}
+
+% QnA command
+\newenvironment{QandA}
+    {\begin{enumerate}[label=\bfseries\arabic*.]\bfseries}
+    {\end{enumerate}}
+
+\newenvironment{answered}
+    {\par\normalfont}
+    {}
+
+\usepackage{lipsum}
+\pagestyle{empty}
+
 \newlist{todolist}{itemize}{2}
 \setlist[todolist]{label=$\square$}
 \usepackage{pifont}

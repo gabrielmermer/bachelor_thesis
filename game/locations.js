@@ -182,14 +182,14 @@ function initialiseLocations() {
     // 1F locations
     game.locations.location_1F_elevator = new Place(
     "Elevator 1F",
-    "A broad open hallway runs along the spine of the first floor, designed to give shoppers room to breathe between stores. Padded chairs and low tables are pushed against both walls, most of them undisturbed, as though the floor's residents cleared the centre of the space deliberately for some purpose that is no longer obvious. The upholstery on the chairs has faded and some has split, the foam inside spilling out in yellowish handfuls. Tall potted plants stand at intervals along the hall, their dried stalks still held upright by the soil in their tubs, their leaves long since crumbled to dust on the floor around the bases. Weak light comes down from skylights that are intact but coated with grime, the daylight arriving thin and grey. The lounge branches off in several directions — the pharmacy and bathrooms are reachable from here, as are the Korean snack store and the food supermarket. Stairs at one end lead back down to the ground floor. There is also an elevator door set into one wall, sealed with a panel-mounted lock. The keycard reader beside it is dormant but functional. The right access card would unlock the elevator at every floor in the building simultaneously.",
+    "It's the building elevator, somehow still working. You ponder on which keys to use. You can clearly see that it can go to -1F, 0F or 1F which you're at currently",
     "1F",
     image_elevator)
 
 
     game.locations.location_1F_pharmacy = new Place(
     "Pharmacy",
-    "Shelving units line three walls of this store from floor to ceiling, built to hold a dense inventory of boxed medication and health products. Most of the boxes are gone — pulled down and taken or simply knocked to the floor and left in piles that have since been kicked into corners. A few products remain on the higher shelves where nobody bothered to climb, their packaging swollen from humidity and their labels illegible. The glass dispensing counter at the back is shattered, its display case swept clean, whatever was inside long since removed. Behind the counter, the dispensing area has been gone through thoroughly — drawer units pulled open, their contents scattered, a pill counter knocked off a shelf and lying face-down on the floor. On the floor near the rear dispensing area, two items stand out against the debris: a leg stabiliser, the rigid medical kind with adjustable straps designed to hold a fractured or injured leg in alignment, and an empty pistol, old-model, the barrel scratched but the mechanism visibly intact. Neither of these belongs in a pharmacy, which means they were brought here and left here. The lounge is the only way out.",
+    "This place has been almost fully stripped clean. There doesn't seem to be too much left around. Thankfully you nocica a leg stabiliser laying on the floor. Behind you is the Lounge.",
     "1F",
     image_1F_pharmacy)
 
@@ -201,13 +201,13 @@ function initialiseLocations() {
 
     game.locations.location_1F_lounge = new Place(
     "Lounge",
-    "Big empty hallway with ample space and relaxing chairs connecting multiple stores",
+    "Big empty hallway with ample space and relaxing chairs connecting multiple stores. You can see the Pharmacy here with bathroom being right next to it. On the other side there seems to be a Korean food store next to stairs that look like they're going down. In the distance you can also see an elevator and a big Food supermarket",
     "1F",
     image_1F_lounge)
 
     game.locations.location_1F_stairs = new Place(
     "Stairway going down",
-    "Musty stairs going down one floor",
+    "Musty stairs going down one floor. Publicly accessible.",
     "1F",
     image_0F_stairs)
 
