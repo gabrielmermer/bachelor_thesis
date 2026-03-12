@@ -109,16 +109,16 @@ function initialiseLocations() {
     // location Ground Entrance 
     game.locations.location_0F_entrance_ground = new Place(
     "Ground Entrance",
-    "A narrow maintenance shed sits tucked just off the ground entrance, wedged between the outer wall of the mall and the loading bay that was once used for stock deliveries. The space is cramped and close, with metal shelving lining both long walls and cardboard boxes collapsed from years of moisture and neglect, their contents long since turned to mulch. The smell is immediate and thick — rust and damp concrete and something organically wrong underneath it all. A single utility light is mounted to the ceiling on a rusted bracket, its bulb flickering in an uneven rhythm that throws the far corners of the shed in and out of shadow. Old cleaning equipment lines the back wall: mop heads, squeegees, a broken floor polisher with its cord knotted around its own body. Metal carts with seized wheels sit in a row, going nowhere. Footprints in the dust suggest someone has been here recently — more than once, by the look of it. You can see an entrance to a clothing store in front of you, and also a small storage shed to the right, just past the main doors.",
+    "A narrow maintenance shed sits tucked just off the ground entrance, wedged between the outer wall of the mall and the loading bay that was once used for stock deliveries. The space is cramped and close, with metal shelving lining both long walls and cardboard boxes collapsed from years of moisture and neglect, their contents long since turned to mulch. The smell is immediate and thick — rust and damp concrete and something organically wrong underneath it all. A single utility light is mounted to the ceiling on a rusted bracket, its bulb flickering in an uneven rhythm that throws the far corners of the shed in and out of shadow. Old cleaning equipment lines the back wall: mop heads, squeegees, a broken floor polisher with its cord knotted around its own body. Metal carts with seized wheels sit in a row, going nowhere. Footprints in the dust suggest someone has been here recently — more than once, by the look of it. You can see an entrance to a Clothing store in front of you, and also a small Storage shed to the right, just past the main doors.",
     "0F",
     image_0F_entrance) 
 
     // location Entrance Shed
     game.locations.location_0F_storage_shed = new Place(
     "Storage Shed",
-    "sotrage shed that houses different boxes and the crowbar on the floor MISSING On the floor near a tipped crate, half-buried under a torn plastic sheet, lies a heavy crowbar. It's scratched and worn along the shaft but solid at both ends, the kind of tool that has seen real use and has more left to give.",
+    "A cramped utility storage room branches off from the entrance area, little more than a narrow rectangle lined with metal shelving that has partially collapsed under the slow weight of time and moisture. Cardboard boxes sit stacked in uneven towers, most of them softened and sagging where damp air has eaten through the bottom layers. Some have split open entirely, spilling warped packaging, cleaning supplies, and brittle paper labels onto the floor. The air smells strongly of wet cardboard and rusted metal. A few plastic crates are scattered around the room, one tipped on its side where someone clearly rummaged through it in a hurry. On the floor near that crate, half-buried under a torn plastic sheet, lies a heavy crowbar. Its metal surface is scratched and worn from years of use, but the shaft is still perfectly solid and the curved end looks more than capable of prying open something that doesn’t want to move. The room itself offers little else of value. Behind you lies the Main Entrance.",
     "0F",
-    image_0F_storage) 
+    image_0F_storage)
 
     // location Clothes Store
     game.locations.location_0F_clothes_store = new Place(
@@ -189,7 +189,7 @@ function initialiseLocations() {
 
     game.locations.location_1F_pharmacy = new Place(
     "Pharmacy",
-    "This place has been almost fully stripped clean. There doesn't seem to be too much left around. Thankfully you nocica a leg stabiliser laying on the floor. Behind you is the Lounge.",
+    "The pharmacy occupies a small storefront just off the lounge, its glass display counters mostly empty and coated in a dull film of dust. Whatever medicine and supplies were once kept here have long since been taken — either by desperate people passing through or by someone who knew exactly what to look for. The shelves behind the counter are almost bare, though faded labels still mark where painkillers, antiseptics, and cold remedies once sat in neat rows. A few cardboard boxes lie torn open on the floor near the back wall, their contents scattered and useless. The air smells faintly of disinfectant, the chemical scent clinging stubbornly to the tile even after everything else has disappeared. Near one of the overturned boxes you notice a leg stabiliser lying on the ground — the kind used to immobilise a broken limb until proper treatment is possible. It looks worn but intact, as though it was pulled from a medical kit and never used. The lounge is just outside behind you.",
     "1F",
     image_1F_pharmacy)
 
@@ -201,25 +201,25 @@ function initialiseLocations() {
 
     game.locations.location_1F_lounge = new Place(
     "Lounge",
-    "Big empty hallway with ample space and relaxing chairs connecting multiple stores. You can see the Pharmacy here with bathroom being right next to it. On the other side there seems to be a Korean food store next to stairs that look like they're going down. In the distance you can also see an elevator and a big Food supermarket",
+    "Big empty hallway with ample space and relaxing chairs connecting multiple stores. You can see the Pharmacy here with bathroom being right next to it. On the other side there seems to be a Korean snack store next to stairs that look like they're going down. In the distance you can also see an elevator and a big Food supermarket",
     "1F",
     image_1F_lounge)
 
     game.locations.location_1F_stairs = new Place(
     "Stairway going down",
-    "Musty stairs going down one floor. Publicly accessible.",
+    "A public stairwell descends from this landing back toward the floor below. The steps are wide and shallow, designed for the slow movement of crowds rather than quick escape, and each one echoes softly underfoot in the enclosed space. The tiled walls are stained with years of use, scuffed by bags and shoes and the slow erosion of time. Dust has collected along the edges of the steps where no one has walked in a long while, and the metal handrail feels cold and slightly rough beneath your grip. Faded directional signs still cling to the walls, pointing toward shops and departments that no longer exist. The air carries a faint smell of stale concrete and old air circulation. The stairs disappear downward into the darker level below, while behind you the open space of the Lounge remains visible.",
     "1F",
     image_0F_stairs)
 
     game.locations.location_1F_korean_store = new Place(
     "Korean snack store",
-    "Shelves of bright, busy packaging line every wall, the colours still vivid in a building that has grown steadily greyer everywhere else — foil chip bags, boxed snacks, dried seaweed in stacked cellophane envelopes. Most of it is expired and has bloated slightly from internal gas, the packaging distended in a way that looks wrong. The smell of stale seaweed and old sweetness drifts through the space, not unpleasant but definitely off. The floor near the central display is sticky underfoot from a spill that was never cleaned up, the substance having gone through several chemical stages since it was fresh. Near the back of the store, on a shelf that's been only partially disturbed, a small pack of matchsticks sits propped against a box of defunct instant noodles. Thirty-two matches, the packaging says. Most of them should still work. The store connects through a short passage to the gun store next door and opens out the other way into the lounge. Built into the wall near the entrance is a shaft lock mechanism — the kind that takes a metal key — connected to the building's service access system. It looks like it's been tried before: scratches around the keyhole, faint drag marks on the plate.",
+    "Shelves of bright, busy packaging line every wall, the colours still vivid in a building that has grown steadily greyer everywhere else — foil chip bags, boxed snacks, dried seaweed in stacked cellophane envelopes. Most of it is expired and has bloated slightly from internal gas, the packaging distended in a way that looks wrong. The smell of stale seaweed and old sweetness drifts through the space, not unpleasant but definitely off. The store connects through a short passage to the gun store next door and opens out the other way into the lounge. Built into the wall near the entrance is a shaft lock mechanism — the kind that takes a metal key — connected to the building's service access system. It looks like it's been tried before: scratches around the keyhole, faint drag marks on the plate.",
     "1F",
     image_1F_korean_store)
 
     game.locations.location_1F_gun_store = new Place(
     "Gun store",
-    "THERE IS A GUN HERE - LOOK AT THE GAME LOGIC",
+    "The interior of the gun store is stark and quiet, the kind of space that was once tightly controlled and meticulously organised. Glass display cases run along the center of the room, most of them shattered or forced open, their interiors completely stripped of anything that once sat inside. Metal racks on the walls still show the outlines where rifles and shotguns were once mounted, each empty bracket marking the absence of something that someone decided they needed more than the next person. Boxes of ammunition once stored behind the counter are gone as well, leaving only torn packaging and scattered cardboard sleeves on the floor. Dust covers everything now, dulling the hard surfaces and muting the room into the same grey tone as the rest of the building. Among the wreckage, one pistol remains — overlooked somehow in the chaos that emptied the store. It rests near the back counter, small but unmistakable in shape. Behind you the doorway leads back into the Korean snack store.",
     "1F",
     image_1F_gun_store)
 
@@ -231,7 +231,7 @@ function initialiseLocations() {
 
     game.locations.location_1F_food_market = new Place(
     "Food supermarket",
-    "Despite the appocalypse there's still some products on the shelves",
+    "The supermarket is one of the largest spaces on this floor, a wide grid of tall shelving units that once held a dense maze of food and household supplies. Now most of those shelves sit half-empty, their remaining contents scattered and picked through by whoever passed here before you. A few dented cans still stand in crooked rows, some packets of dry goods remain where they were dropped, and entire sections have been stripped clean down to bare metal racks. The tiled floor is littered with torn packaging and plastic wrapping that shifts softly underfoot when you move. The air smells faintly stale — old flour, cardboard, and the dry dust of a place that has been opened and abandoned too many times. Near the middle of the store, sitting on the floor beside one of the shelves, is your brother. He looks exhausted and pale, one leg stretched out awkwardly in front of him. Even from a distance the problem is obvious: the leg is badly broken, twisted in a way it shouldn't be. He’s conscious, but barely holding himself together. He needs help, and he’s not going anywhere without it. Behind you lies the Lounge.",
     "1F",
     image_1F_food_market)
 
@@ -254,7 +254,7 @@ function initialiseLocations() {
 
     game.locations.location_2F_rooftop = new Place(
     "Rooftop",
-    "You push through into open air and it hits you immediately — the first genuine outside you've experienced since entering the building. The roof is wide and flat, bordered by a low parapet wall with a rusted metal railing bolted along its top edge. The sky above is grey, or blue, or somewhere between the two, and the wind up here carries the smell of the city — exhaust, wet asphalt, something burning in the middle distance. It feels enormous after the corridors below. The roof surface is covered in the standard layered membrane of commercial flat roofing, cracked and blistered in places, with the joints between sections raised in low ridges that cross the space in parallel lines. Heat exchanger units and ventilation boxes are spaced across the roof in a grid, most of them dead and rusting, their casings pitted by weather. In the far corner, visible from the service stair entrance, a lone camping tent stands pitched between two ventilation boxes, its guy ropes tight and its entrance zipped shut. A short walk the other way leads to the edge of the roof and the railing overlooking the drop below. The service stairs are the only way back down — and currently the only way up.",
+    "You push through into open air and it hits you immediately — the first genuine outside you've experienced since entering the building. The roof is wide and flat, bordered by a low parapet wall with a rusted metal railing bolted along its top edge. The sky above is grey, or blue, or somewhere between the two, and the wind up here carries the smell of the city — exhaust, wet asphalt, something burning in the middle distance. It feels enormous after the corridors below. The roof surface is covered in the standard layered membrane of commercial flat roofing, cracked and blistered in places, with the joints between sections raised in low ridges that cross the space in parallel lines. Heat exchanger units and ventilation boxes are spaced across the roof in a grid, most of them dead and rusting, their casings pitted by weather. In the far corner, visible from the service stair entrance, a lone camping tent stands pitched between two ventilation boxes, its guy ropes tight and its entrance zipped shut. A short walk the other way leads to the edge of the roof and the railing overlooking the drop below. The Service stairs are the only way back down — and currently the only way up.",
     "2F",
     image_2F_rooftop)
 
