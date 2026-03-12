@@ -198,8 +198,8 @@ async def process_audio(audio_file: UploadFile, user_context: str = ""):
         files = {'file': open('output.wav', 'rb')}
 
         # Restart audio backend
-        await restart_audio_backend()
-        time.sleep(5)
+        await _restart_audio_backend()
+        await asyncio.sleep(5)
 
         transcription_string = httpx.post(url_whisper, files=files, timeout=120.0)
         transcription_JSON = json.loads(transcription_string.text)
@@ -246,7 +246,7 @@ async def process_audio(audio_file: UploadFile, user_context: str = ""):
     
 
 
-async def restart_audio_backend():
+async def _restart_audio_backend():
     response = httpx.post(url_restart, timeout=10)
     return response.text
 

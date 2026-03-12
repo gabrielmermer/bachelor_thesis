@@ -11,29 +11,30 @@
             "id": "736ea0936d1c4637",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/gamemap.excalidraw.md"
+                "file": "Commands to run dev.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "gamemap.excalidraw"
+              "icon": "lucide-file",
+              "title": "Commands to run dev"
             }
           },
           {
             "id": "7cd5a2ec8dd7d680",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "ComfyUI.md",
-                "mode": "preview",
-                "source": false
+                "file": "Excalidraw/networking.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "ComfyUI"
+              "icon": "excalidraw-icon",
+              "title": "networking.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "commands",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5,
-    "collapsed": true
+    "width": 371.5
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -177,15 +177,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "736ea0936d1c4637",
+  "active": "7cd5a2ec8dd7d680",
   "lastOpenFiles": [
-    "testing kanban.md",
-    "ComfyUI.md",
-    "Untitled 10.base",
+    "Commands to run dev.md",
     "Excalidraw/networking.excalidraw.md",
     "Excalidraw/gamemap.excalidraw.md",
+    "ComfyUI.md",
+    "testing kanban.md",
+    "Untitled 10.base",
     "Untitled Kanban.md",
-    "Commands to run dev.md",
     "Pasted image 20260305102710.png",
     "Untitled 9.base",
     "Untitled 8.base",

@@ -558,7 +558,7 @@ async function stopRecording() {
   recorder.stop();
 
   // simple timer for the buffer 
-  await new Promise(resolve => setTimeout(resolve, 200));
+  await new Promise(resolve => setTimeout(resolve, 500));
 
   // debug
   // soundFile.play();
