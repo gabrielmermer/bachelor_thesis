@@ -10,6 +10,7 @@ let pickUpMagazine  = new Action(
     player.inventory.push(magazine)
     statusText = "You picked up the Magazine!"
     game.locations.location_minus1F_security_office.removeAction(pickUpMagazine);
+    game.locations.location_minus1F_security_office.description = "A cramped room sits behind reinforced glass, the kind designed to make whoever's inside feel safer than they probably were. The monitors have been dead for a long time — their screens dull and coated in a thin film of dust that records every breath of air that has passed through here. A swivel chair lies tipped over beside the desk, one wheel still spinning faintly when disturbed, as though the person who knocked it over has only just left. Papers are scattered across the metal desk and the floor around it: shift rosters, incident logs, a half-completed crossword. Someone left in a real hurry. A coffee mug sits upright on the corner of the desk, its contents evaporated down to a dark ring of residue. The room smells of stale air and old electronics. If you walk back the entrance door you you can go back to the main Parking area";
 
 }
 )
@@ -21,6 +22,7 @@ let pickUpLockedGasolineTank  = new Action(
     player.inventory.push(lockedGasolineTank)
     statusText = "You picked up the Locked Gasoline Tank!"
     game.locations.location_0F_restaurant.removeAction(pickUpLockedGasolineTank);
+    // game.locations.location_0F_restaurant.(pickUpLockedGasolineTank);
 
 }
 )

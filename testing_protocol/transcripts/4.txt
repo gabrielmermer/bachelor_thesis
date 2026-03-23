@@ -1,0 +1,204 @@
+[SPEAKER_00]: okay this is just a start uh all right so I'm sending the recording very good um so the the way this is gonna go down uh first let me just ask you a few simple questions um so first question as I remember is uh what is your gaming expertise so are you a pro gamer are you a casual gamer I know you play the sims
+[SPEAKER_01]: I'm a casual gamer, I don't play that much often, and I also play like two games at once, so I wouldn't say I'm a pro gamer.
+[SPEAKER_00]: I mean you play two at once, most people only play one game at a time, so I don't know, I don't know, you tell me.
+[SPEAKER_00]: Okay, and what is your familiarity with voice assistants, like Siri, Google, Alexa?
+[SPEAKER_01]: I know of them, but I don't use them at all.
+[SPEAKER_00]: Okay, that's great.
+[SPEAKER_01]: I think I'm not comfortable with talking to my phone.
+[SPEAKER_00]: Okay, we'll get back to it then.
+[SPEAKER_00]: And just for the record, if you want to share, from the accessibility point of view, do you have any accessibility constraints like vision impairments, mobility impairments, stuff like that?
+[SPEAKER_01]: No, not any I'm aware of.
+[SPEAKER_00]: Okay, that's very good.
+[SPEAKER_00]: Don't worry, this vlog will not test you if you have them.
+[SPEAKER_00]: okay so let me just give you like a brief intro to this this is what you're gonna be playing is a simple video game that I created and the body of my work is about testing the different control modality which is voice based so this game right here I will give you 10 minutes to play it and
+[SPEAKER_00]: if there's any problems or whatever just ask me as we go along, right?
+[SPEAKER_00]: But the idea is that you control the game with your voice and you don't have to express it with direct commands like do this or do that or I want to do this.
+[SPEAKER_00]: You can speak using a natural voice and the game should be able to comprehend and understand you.
+[SPEAKER_00]: of course sometimes things break and then we'll like navigate, circumnavigate it but the game itself is a text-based game so that's the UI, you have the location, oh and
+[SPEAKER_00]: Let me give you a brief story intro, 32nd version.
+[SPEAKER_00]: So it's a post-apocalypse Warsaw and you have a brother and you both, he went for a food run to a shopping mall.
+[SPEAKER_00]: That was two days ago, he hadn't returned.
+[SPEAKER_00]: So you feel like, okay, he's there somewhere, probably like something happened to him and you try and like either confirm he's dead or help him, yeah?
+[SPEAKER_00]: So the navigation is right now purely voice-based.
+[SPEAKER_00]: The way you talk, you are,
+[SPEAKER_00]: press this button or yeah you hold it you say what you want to say and then you release the button and then you wait a little bit because it's gonna be like here like tell you it's processing and then you're gonna give you a result okay all right so again if you have any questions let me know
+[SPEAKER_00]: And if things will be broken, just for the record of this transcription, I will have to restart things.
+[SPEAKER_00]: Okay, so let me start.
+[SPEAKER_00]: And I'll be taking small notes, but I will not be judging how you play.
+[SPEAKER_00]: Don't worry.
+[SPEAKER_00]: And you don't have to finish the game in 10 minutes.
+[SPEAKER_00]: It's not about that.
+[SPEAKER_00]: It's also not about testing the game itself.
+[SPEAKER_00]: It's more about testing the interaction layer, let's say.
+[SPEAKER_00]: Okay?
+[SPEAKER_01]: Okay.
+[SPEAKER_00]: Fantastic.
+[SPEAKER_00]: So, please, you can start.
+[SPEAKER_00]: i'll just start a timer in the background yeah take the computer i mean okay
+[SPEAKER_00]: Do you have a pen?
+[SPEAKER_00]: Excuse me to ask now, but I don't think I have that.
+[SPEAKER_01]: I have a few of them actually.
+[SPEAKER_00]: Very good.
+[SPEAKER_00]: Thank you.
+[SPEAKER_00]: Alright.
+[SPEAKER_01]: Okay, so I can just tell you anything I want to do right now?
+[SPEAKER_00]: Yeah, yeah, yeah, yeah.
+[SPEAKER_00]: hold this button right here and then you say something like oh oh shit i clicked it so you have to wait a few seconds uh but you hold it and then you say like i wanna maybe travel there or i want to do this pick this up yeah i want to enter the clothing store
+[SPEAKER_01]: okay so it's like a chocolate something like that uh maybe a little bit we'll talk about it but don't worry okay
+[SPEAKER_01]: I want to open the door with crowbar I don't think
+[SPEAKER_00]: This is the one part I have not explained.
+[SPEAKER_00]: Here you have your inventory.
+[SPEAKER_00]: Here are the items that you have currently empty.
+[SPEAKER_00]: Yeah, so yeah, you don't have a crowbar in your inventory.
+[SPEAKER_01]: Okay.
+[SPEAKER_01]: Can I go through the ground entrance?
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: I want to enter via ground entrance.
+[SPEAKER_00]: Typically, you're gonna be having the
+[SPEAKER_00]: wall of text of like what you can do yeah and at the end are the possible locations you can travel to okay so that just to like make it a little bit clearer can i pick items like around me can i like go to the clothing store and pick the shirt and something like that technically yeah yeah yeah okay also take note that you can go to another place as well which is the this place right here yeah i know yeah uh
+[SPEAKER_01]: but yeah you okay yeah please i want to enter the small storage shed
+[SPEAKER_01]: Crowbar.
+[SPEAKER_01]: You got it, you got it.
+[SPEAKER_01]: I want to pick up the crowbar I want to leave this place
+[SPEAKER_01]: I want to enter the clothing store.
+[SPEAKER_01]: And now I want to open the door.
+[SPEAKER_01]: Do I have to say that I want to open the door, the thing, or can I just say that?
+[SPEAKER_00]: We'll see, I'm not sure.
+[SPEAKER_00]: As far as I'm, it really depends.
+[SPEAKER_01]: Oh, okay.
+[SPEAKER_01]: I want to enter the unlocked room.
+Oh, okay.
+Okay, I want to enter a clothing store.
+[SPEAKER_01]: i want to enter the corridor hey
+[SPEAKER_01]: I want to enter the fishing store.
+[SPEAKER_00]: The fishing store has no graphic, but it's just very dark here.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: okay so i cannot use anything if it's not mentioned in the text you mean yeah you you can try right i'm not saying you can't but the text should be a guidance here right yeah i would say it's rather improbable that you can use i think there are a few cases but only a few cases
+[SPEAKER_01]: Okay, I want to leave the fishing store.
+[SPEAKER_01]: I want to enter the food court.
+[SPEAKER_01]: can I enter the bubble tea store?
+[SPEAKER_01]: go for it I want to enter a bubble tea store yay
+Just for the record, we'll have to leave at what time? 17.20?
+[SPEAKER_01]: Yeah, I think something like that.
+[SPEAKER_00]: Okay, okay, okay.
+[SPEAKER_00]: Well, then we're gonna do this part two minutes shorter than usual.
+[SPEAKER_00]: Don't worry about that.
+[SPEAKER_00]: So, right now I will do one thing, which is to do this.
+[SPEAKER_00]: And now I want you to play for another eight minutes, maybe six minutes, using the keyboard.
+[SPEAKER_00]: So now, no talking.
+[SPEAKER_00]: you use the keyboard here to navigate arrows and enter sometimes when you like use items you select them from here okay so i see that i don't have any other options than leave this place yeah but i see that there's an action crafting yeah with crafting you can combine two items to get another item
+[SPEAKER_01]: ♪ Shadow me through all the hurt and pain ♪ ♪ Let the heart do the talking ♪ ♪ When you have nothing left to say ♪
+[SPEAKER_01]: ♪ Church bells, do you still remember?
+♪ ♪ Oh, let me be your housekeeper, yeah ♪ ♪ Come to me, come to me ♪ ♪ Oh, let me be your housekeeper, yeah ♪ ♪ Come to me, come to me ♪
+[SPEAKER_00]: here there's a small arrow so you use the arrows here then return enter to try and use it yeah
+[SPEAKER_01]: Oh, OK. You can't, yeah, not here.
+[SPEAKER_01]: OK.
+Yeah.
+Yeah.
+Oh.
+oh okay
+th th
+[SPEAKER_01]: I'm going to try and get out of here as quickly as possible.
+and an
+[SPEAKER_01]: Can I click 4 once again if it didn't... Yeah, that is a bug actually.
+[SPEAKER_00]: Technically you could pick up 10 of them if you want to, or 20.
+[SPEAKER_01]: Okay, I see.
+[SPEAKER_00]: It's a very big gun store, okay?
+[SPEAKER_01]: That's what I thought at first, but I see that it should be 1.
+[SPEAKER_00]: It should be 1, technically yes.
+[SPEAKER_00]: The last person I tested with picked up 10 of them, without saying anything.
+[SPEAKER_00]: They were very happy about it.
+th th
+[SPEAKER_00]: That's a bug.
+[SPEAKER_00]: Let's assume that this works, okay?
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: Yeah, he's with you.
+[SPEAKER_00]: Just the one thing, because of this bug, you cannot leave the building the same way you came.
+[SPEAKER_00]: So just the way you interact with the game, you cannot just leave through the main door.
+[SPEAKER_00]: okay yeah you have to figure out some other way of quitting the building let's say okay
+[SPEAKER_01]: get broken
+[SPEAKER_01]: can I have any hints from you?
+[SPEAKER_00]: I mean technically to be fair we are running out of time so let's just assume that you can leave the building so like you know how to do this so technically like you beat the game let's say okay not that it matters a lot in this context but
+[SPEAKER_00]: Congratulations, I think you did it.
+[SPEAKER_01]: Thanks.
+[SPEAKER_00]: Yeah, yeah, yeah, so a pro gamer after all.
+[SPEAKER_00]: Okay, so I know that we have to go, so I propose that I will have to ask you a few questions, so I can ask them as we walk.
+[SPEAKER_00]: If that's okay, I'll just have to send them to my phone.
+[SPEAKER_00]: Yeah, because we have to get going, right?
+[SPEAKER_01]: Do you think we can leave 6 minutes?
+[SPEAKER_00]: Ok, then maybe we can.
+[SPEAKER_00]: Let me just ask you a few simple questions.
+[SPEAKER_00]: Now that you tried and replayed both of these versions, how are you feeling and was there anything that immediately surprised you?
+[SPEAKER_01]: okay so um i think it was easier to play with like clicking buttons than speaking but it's because i'm not comfortable speaking i'm not used to it and i think that
+[SPEAKER_01]: It's a pretty creative way to play games.
+[SPEAKER_01]: I haven't played any games like this before, so it was something new for me.
+[SPEAKER_01]: And I think it gives you the illusion of choice, because you don't know what you can do and what you cannot do.
+[SPEAKER_01]: Yeah, I think it was great.
+Okay.
+[SPEAKER_00]: And if you had to describe the difference between the two games to a person that hasn't played the game at all, how would you describe the difference?
+[SPEAKER_01]: Okay, so I would say that the second version with clicking is more simple and can be much faster because you don't have to think what you can do and what you cannot.
+[SPEAKER_01]: You have simple choices that you can see.
+[SPEAKER_01]: And with talking you have to use your imagination with what you can do and what you want to do.
+[SPEAKER_01]: So I would say its second version is more limited to something.
+[SPEAKER_01]: Yeah, I think I would explain it that way.
+[SPEAKER_00]: From the moment that you used your voice to navigate, what were you thinking as you decided what to say to the game?
+[SPEAKER_01]: I didn't know how to pick the best words because I thought to myself, will it understand me?
+[SPEAKER_01]: So I was trying to be as clear as possible and as official as I can be.
+[SPEAKER_00]: Yeah, I understand you.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: And how was it like to use the voice input in the game?
+[SPEAKER_00]: How was it like to use your voice to navigate?
+[SPEAKER_01]: It was weird.
+[SPEAKER_01]: As I said, it's because I don't use my voice to anything else than communicate with others, with other people.
+[SPEAKER_01]: I do not use anything that requires voice guidance.
+[SPEAKER_01]: Yo, yo, yo.
+[SPEAKER_01]: So I think It was weird for me, but it will be easier for people that use voice comments to communicate via Alexa or Google Assistant You don't talk to chat GPT for instance, do you?
+[SPEAKER_00]: No That's okay, no worries
+[SPEAKER_00]: In which version did you feel more inside the game, more inside the story world?
+[SPEAKER_01]: I think in the second one, because I could look at the screen and don't have to think too much of what to pick.
+[SPEAKER_01]: and how to create proper sentence and I think it's easier for me to pick options that are already available and not to give comments on my own because I
+[SPEAKER_01]: I think if I had an idea of what I would be playing, then I would be more comfortable with talking, but because it was like told me on the spot, I couldn't prepare myself and I think the second option was more comfortable for me.
+[SPEAKER_00]: And how did the effort of thinking what to say compare to the effort of just pressing, knowing which key to press?
+[SPEAKER_01]: I think that I read much faster than I speak.
+[SPEAKER_01]: I think I was doing much much better in the second option because I was just sometimes I didn't finish reading and I could pick an option for finishing reading so it was easier for me and I think I saved some time before because of that and I did better progress in the second time
+[SPEAKER_00]: I understand.
+[SPEAKER_00]: And did the freedom, you know, to express anything, to say anything to the game, did it make you feel more in control or was it more overwhelming than the second version?
+[SPEAKER_01]: I think it was overwhelming, but it's because English is not my first language.
+[SPEAKER_01]: I think it will be easier when I would
+[SPEAKER_01]: be able to speak Polish and because I'm stressed because we're in public.
+[SPEAKER_01]: But I think if I was in like more comfortable place for me then it would be easier for me and it wouldn't be as stressful as it was.
+[SPEAKER_00]: I understand.
+[SPEAKER_00]: And how would you compare the overall experience of these two versions?
+[SPEAKER_00]: Which one would you choose and why?
+[SPEAKER_01]: I think
+[SPEAKER_01]: On the first thought, I would choose the second one.
+[SPEAKER_01]: But when I think about it more, I think the first option would be more challenging for me.
+[SPEAKER_01]: And if I could test it, I don't know, in my home, in some more quiet environment, that it would be a good way to practice speaking to the machines, I guess.
+[SPEAKER_00]: Yeah, yeah.
+[SPEAKER_00]: I understand.
+[SPEAKER_01]: I think it's a good way to be more comfortable with speaking.
+[SPEAKER_01]: If you have any problems with communicating with others and you are worried of talking to other people, I think it's a good exercise for that.
+[SPEAKER_01]: Because you need to think and properly... How to say that?
+[SPEAKER_01]: Exonerate?
+[SPEAKER_01]: I think I would say that.
+[SPEAKER_01]: Your thoughts.
+[SPEAKER_00]: In the beginning you said that it is kind of like a chatbot.
+[SPEAKER_00]: What do you mean by that?
+[SPEAKER_01]: When I was in the high school, there was this chatbot game when you picked some options and then the game, I mean the chatbot, the chatbot will show you the plot.
+[SPEAKER_01]: You can just choose something and it will
+[SPEAKER_01]: walk you through their plot.
+[SPEAKER_01]: I don't know how to explain.
+[SPEAKER_01]: I can't even remember what the game is called.
+[SPEAKER_01]: But it was something like that.
+[SPEAKER_01]: So I've played something similar and it was Childhood Mechanics.
+[SPEAKER_01]: I think it was on Nintendo.
+[SPEAKER_01]: Okay, I see, I see.
+[SPEAKER_00]: Okay, interesting.
+[SPEAKER_00]: Is there anything else that you would like to add or ask me?
+[SPEAKER_01]: I think it's something new and it's cool to see something new.
+[SPEAKER_01]: It's a pretty chill game to play and it's cool that you can interact with every room that you enter and you can take a look around and see what's around you.
+[SPEAKER_01]: Yeah, I think it would be even cooler if you could do more things and if you could try to do more stuff.
+[SPEAKER_01]: But overall, I think it's something new and something that can be revolutionary.
+[SPEAKER_00]: Okay, thank you very much for your input.
+[SPEAKER_00]: This is tremendously helpful.
+[SPEAKER_00]: And this is the end of this recording.

@@ -123,7 +123,7 @@ function setup() {
   setupRecipes();
   console.log("3 - recipes done");
   
-  // game.currentLocation = game.locations.location_2F_rooftop;
+  // game.currentLocation = game.locations.location_minus1F_parking;
   game.currentLocation = game.locations.location_0F_entrance_ground;
   console.log("4 - current location set");
 
