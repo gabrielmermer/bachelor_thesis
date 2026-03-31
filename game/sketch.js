@@ -125,6 +125,7 @@ function setup() {
   
   // game.currentLocation = game.locations.location_minus1F_parking;
   game.currentLocation = game.locations.location_0F_entrance_ground;
+  
   console.log("4 - current location set");
 
   noStroke();

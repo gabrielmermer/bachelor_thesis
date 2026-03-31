@@ -1,0 +1,904 @@
+Gabriel: Aha, tak, okej.
+
+Gabriel: Tutaj i muszę zacząć jeszcze tutaj.
+
+Wiktoria: Nie wiem czy... Czekaj, to jak audio, to żeby chociaż przyzwoite było.
+
+Gabriel: Dzięki.
+
+Gabriel: Dobra.
+
+Gabriel: Dobra.
+
+Gabriel: Czyli co?
+
+Gabriel: Grałaś na konsoli.
+
+Gabriel: Ale to co, jakaś Forza Horizon czy... Tak, tak.
+
+Wiktoria: Horizon przeszłam?
+
+Gabriel: No.
+
+Wiktoria: Wiedźminka, Asasynka.
+
+Wiktoria: Z kolegami też próbowałam pekać w Metina.
+
+Gabriel: Ty, Metin chyba kochasz, kurwa.
+
+Gabriel: Ja nigdy nie grałem w Metina.
+
+Wiktoria: CSka próbowałam.
+
+Gabriel: No, w LoLa, nie?
+
+Wiktoria: W LoLa próbowałam na supportcie.
+
+Gabriel: Okej, okej, no spoko.
+
+Wiktoria: Z Soraką.
+
+Gabriel: Soraką?
+
+Wiktoria: Tak.
+
+Gabriel: Ja grałem z Soraką pod AP, kiedyś tam idzie.
+
+Wiktoria: Nie wiem, z Soraką na supportcie.
+
+Gabriel: No.
+
+Wiktoria: I jeszcze z gierek... O, jakieś strategiczne, nie wiem, Civilization chyba było na Epic Games.
+
+Wiktoria: Pewnie było.
+
+Wiktoria: Za darmo.
+
+Wiktoria: Albo jakiś Prompter.
+
+Gabriel: No.
+
+Gabriel: Spoko.
+
+Gabriel: Dobra, a jeżeli chodzi o używanie asystentów głosowych, to gadasz czasami z Ciri?
+
+Wiktoria: Nie, nie, nie lubię.
+
+Gabriel: A z chatem gpt?
+
+Wiktoria: Nie, w sensie nawet nie wiem za bardzo jak włączyć tą funkcję, nie wchodziłam w to, bo na telefonie bardzo rzadko używam chata GPT.
+
+Gabriel: Ok.
+
+Wiktoria: Chata GPT używam w sumie tylko do tekstów albo do Excel.
+
+Wiktoria: Ok, ok, ok.
+
+Gabriel: No tak, praca.
+
+Wiktoria: Próbowałam też generować...
+
+Wiktoria: generować obrazy, ale generalnie uważam, że chat GPT jeszcze dużo do życzenia pozostawia.
+
+Gabriel: Dobra, ja się zgadzam.
+
+Wiktoria: Nie potrafi mi sprawdzić Excela.
+
+Gabriel: No nie powinnaś mu ufać, jakby zauważył o takich rzeczach.
+
+Gabriel: Dobra.
+
+Gabriel: Okej.
+
+Gabriel: To jeszcze, to ja muszę tylko tak... Dobra, to...
+
+Gabriel: No żeby nie, żeby Boże ją sobie mógł zupełnić akustycznie, otoczeni jesteśmy w pokoju.
+
+Gabriel: Tak, to dobrze, jesteśmy w jakichś lepszych warunkach.
+
+Gabriel: Mikrofon jest, nagrywamy, tak, podstawiła swoją osobowość.
+
+Gabriel: Cyk, cyk, to działa, to działa, to działa i to działa.
+
+Gabriel: Fantastycznie, dobra.
+
+Gabriel: Okej, to w takim wypadku, to teraz jakby zaczniemy taki faktycznie test.
+
+Gabriel: test, bo to tylko jest jakiś taki setup i też będzie wyglądał tak, że na początku będę chciał, żebyś przetestowała grę, którą ja zrobiłem i zarysuje ci w dwóch zdaniach jaka jest fabuła tej gry, bo gra od razu ci rzuca do niemal dużego intro.
+
+Gabriel: Fabuła jest taka, że jesteś w warunkach
+
+Gabriel: W Warszawie doszło do apokalipsy i masz brata i ten brat wyszedł do galerii handlowej
+
+Gabriel: No i próbujesz go znaleźć po prostu.
+
+Gabriel: Taka jest idea, że twoim celem jest znalezienie go w tej galerii.
+
+Gabriel: Wiesz, że przynajmniej tam poszedł, nie?
+
+Gabriel: Więc jakby znalezienie go w tej galerii i w jakiś sposób zobaczenie gdzie on jest, nie?
+
+Gabriel: No tak jak w zasadzie.
+
+Wiktoria: Dobra.
+
+Gabriel: Tak, dobra.
+
+Gabriel: Okej, to tak.
+
+Gabriel: Ja sobie tutaj pozwolę odpalić to.
+
+Gabriel: Muszę oddać stronę.
+
+Gabriel: Nie działa na fullscreenie.
+
+Gabriel: To bez fullscreena.
+
+Gabriel: Nie wiem czemu.
+
+Gabriel: Może takie tak się robi w domu?
+
+Gabriel: Dobra, okej.
+
+Gabriel: To tak, teraz jest nam 10 minut na próbę rozgrywki w takiej formie, w jakiej jest.
+
+Gabriel: A potem zobaczmy, co będzie dalej.
+
+Gabriel: Ale to jest taka baza, w której teraz wyjdziemy.
+
+Gabriel: Jeżeli jakikolwiek jest problem z językiem,
+
+Gabriel: to też daj mi znać.
+
+Gabriel: W sensie jest tam jakieś słówko czy coś czy tam ten bo tu jest dużo takiego i tekst jest trochę mały ale.
+
+Gabriel: Tajmer cyk.
+
+Gabriel: Można mi oczywiście zadać wszelkiego rodzaju pytania.
+
+Gabriel: Ja sobie będę wiesz.
+
+Gabriel: Czyli to wszystko sam zrobiłeś?
+
+Gabriel: Tak.
+
+Gabriel: Zresztą obrazki nie, ale tak.
+
+Wiktoria: Boże, jaki opis otoczenia.
+
+Gabriel: Jeżeli chodzi o sterowanie, to tutaj domyślnie w tej wersji sterowanie jest za pomocą klawiatury.
+
+Gabriel: Tutaj masz... 1, 2, 3.
+
+Gabriel: 1, 2, 3 to są te przyciski, tak?
+
+Gabriel: Po prawej stronie jest twój klikunek, inaczej nic nie posiadasz.
+
+Wiktoria: Okej, czyli travel.
+
+Gabriel: Tak, dokładnie.
+
+Wiktoria: Idziemy do sklepu na ubrania.
+
+Wiktoria: Czy tam się wyświetliła inna ta?
+
+Wiktoria: Czy... O nie.
+
+Wiktoria: Było coś innego napisane, czy były dwa razy select action w osobę?
+
+Wiktoria: Tam wcześniej.
+
+Gabriel: Też było select action.
+
+Wiktoria: Ale dobra, ale tekst był ten sam.
+
+Wiktoria: Tam się nic nie wydarzyło.
+
+Wiktoria: Nie, nie, nie.
+
+Gabriel: Tak, tak, tak.
+
+Gabriel: Tam było pewnie napisane o select destination, że gdzie chcesz być.
+
+Gabriel: No tak.
+
+Wiktoria: Ok, nie ma tutaj niczego.
+
+Wiktoria: To było wcześniej.
+
+Wiktoria: Mam itema!
+
+Wiktoria: Ha, ha!
+
+Wiktoria: To mogę kręcić.
+
+Wiktoria: Nie mogę jeszcze kręcić.
+
+Wiktoria: Iść tamte drzwi, coś z nimi zrobić.
+
+Wiktoria: W tym... Crowe Store.
+
+Gabriel: Mogę tutaj coś zrobić?
+
+Gabriel: Wytłumaczysz teraz te trzy opcje, nie?
+
+Gabriel: Travel pozwala ci na przemieszczanie się, tak?
+
+Wiktoria: Crafting pozwala ci na te... But a good crowbar... I ja mam crowbar.
+
+Wiktoria: Use item.
+
+Gabriel: Możesz spróbować.
+
+Gabriel: Tutaj wybierasz zapłacą strzałek i entrenę zatwierdzasz.
+
+Gabriel: No to lecę dalej.
+
+Gabriel: Go to small corridor.
+
+Wiktoria: Co to jest corridor?
+
+Gabriel: A nie hoł?
+
+Gabriel: Hoł to jest kurde też.
+
+Gabriel: Hoł to jest po dwóch przypadkach.
+
+Gabriel: To jest chyba brytyjski, angielski, amerykański, angielski.
+
+Wiktoria: Wszystko jest w porządku.
+
+Wiktoria: Tutaj jest nic niebezpiecznego.
+
+Wiktoria: Przepraszam.
+
+Wiktoria: Tym razem nie jest.
+
+Wiktoria: Nie jest ciepło.
+
+Wiktoria: Jaki kat!
+
+Wiktoria: Ogólnie już mam takie, że mogłabym tego nie czytać.
+
+Wiktoria: To jest super na zasadzie... Możesz sobie wyobrazić i tak dalej, ale czuję, że strasznie długo przy tym schodzisz.
+
+Wiktoria: Teraz teścik.
+
+Wiktoria: Bez czytania.
+
+Gabriel: Dobra i teraz minęło dziesięć minut i teraz chciałbym zrobić jedną zmianę.
+
+Gabriel: Teraz to w jaki sposób sterujesz ulega zmianie.
+
+Gabriel: To znaczy nie używasz już klawiatury.
+
+Gabriel: ale w momencie, w którym chcesz cokolwiek zrobić to klikasz tutaj kluczyk R jak record i mówisz do komputera co chcesz zrobić i wtedy puszczasz.
+
+Gabriel: Czekasz parę sekund.
+
+Wiktoria: Okej, okej.
+
+Wiktoria: Tylko ja nie wiem jak się nazywała ta ta ostatnia lokalizacja.
+
+Wiktoria: Tam były schody?
+
+Gabriel: Tutaj gieranie gra powinna ci powiedzieć miejsca, do których możesz dojść na koniec tego opisu.
+
+Wiktoria: Z reguły są napisane... Możesz próbować zapytać o to.
+
+Wiktoria: Ale mam zapytać, czy możemy iść na schody, czy powiedzieć, że... Możesz zrobić, co chcesz.
+
+Wiktoria: Jezus, naprawdę?
+
+Wiktoria: Spróbuję.
+
+Wiktoria: Okej.
+
+Wiktoria: Musisz przy...
+
+Wiktoria: A, poczekaj.
+
+Gabriel: Zaczekajmy parę sekund, aż to się minie, ale powinienem kliknąć i przytrzymać, powiedzieć i dopiero puścić.
+
+Gabriel: Dobra.
+
+Gabriel: Ok. Spróbuję jeszcze raz.
+
+Gabriel: To może zdemonstruję.
+
+Gabriel: Ok, teraz wskoczyło.
+
+Gabriel: Dobra.
+
+Gabriel: To tak.
+
+Wiktoria: Klikasz, trzymasz wciśnięte w dół.
+
+Gabriel: Wtedy mówisz i dopiero wtedy puszczasz.
+
+Wiktoria: Czy możemy pójść na prawo, żeby sprawdzić góry?
+
+Wiktoria: No i to trzeba czytać już.
+
+Wiktoria: Idź na pierwszy poziom.
+
+Wiktoria: Okej.
+
+Wiktoria: Mhm.
+
+Wiktoria: Mhm.
+
+Gabriel: Tutaj widać piętrą, na której jesteś.
+
+Gabriel: Czyli teraz jesteś na pierwszym piętrze.
+
+Gabriel: Ok. Obratek się nie zmienił, to muszę to naprawić, ale weszłaś wyżej.
+
+Wiktoria: Dobra, dobra, dobra.
+
+Wiktoria: Jak to się czyta?
+
+Wiktoria: Lounge.
+
+Wiktoria: Lounge, ale to jest coś innego niż ten foodcourt.
+
+Gabriel: Lounge to po polsku będzie coś w rodzaju takiego, nie wiem, takiego lobby?
+
+Wiktoria: No właśnie, tak.
+
+Wiktoria: Check the lounge.
+
+Wiktoria: Czekaj na otwartą przestrzeń.
+
+Wiktoria: Go to the lounge.
+
+Wiktoria: Spotkaliśmy się?
+
+Wiktoria: Możemy teraz pozwolić sobie na...
+
+Gabriel: Jeszcze troszeczkę.
+
+Wiktoria: Go to the pharmacy.
+
+Wiktoria: Go to the pharmacy.
+
+Wiktoria: Weź stabilizator nogi.
+
+Wiktoria: Idź z powrotem do lounge.
+
+Wiktoria: Can we go to the food supermarket?
+
+Wiktoria: Go to the food supermarket.
+
+No.
+
+Wiktoria: Tutaj znowu coś nieskakuje.
+
+Gabriel: Dobra, na tym etapie.
+
+Gabriel: Finał kolejnych 10 minut.
+
+Gabriel: Udało ci się w ogóle znoczyć do tego pyrbeta, on tutaj jest.
+
+Gabriel: Dobra, także jakby... I nawet załapałaś ten stabilizator, bo ma złamaną nogę.
+
+Gabriel: Także jakby zrobiłaś właściwie...
+
+Gabriel: Reszta gry polega na tym, żeby jakoś stąd wyjść, bo...
+
+Gabriel: Jeżeli mu teraz pomożesz, tylko teraz... O, cyk.
+
+Gabriel: Potrzebuje pomocy, możesz mu pomóc.
+
+Gabriel: Już, już.
+
+Wiktoria: Już, już.
+
+Wiktoria: O tak.
+
+Gabriel: Tak, dokładnie, że możesz teraz iść i teraz możesz go podnieść teoretycznie.
+
+Gabriel: Co?
+
+Gabriel: Okej, jest nawet dalej błąd jakiś w silniku, może to też zaraz zanotuję.
+
+Gabriel: Ale...
+
+Gabriel: No, musiałabyś jeszcze wymyślić jak wyjść z budynku z nim, nie?
+
+Gabriel: Okej, tam... Co mieć tam drogę?
+
+Gabriel: No, tą drogą się nie da wrócić.
+
+Wiktoria: Aha, okej.
+
+Gabriel: No.
+
+Gabriel: Tą drogą się nie da wrócić.
+
+Gabriel: Dobra.
+
+Gabriel: Dobra, to teraz...
+
+Gabriel: Czy można zapomnieć?
+
+Gabriel: Ale zajebiście!
+
+Gabriel: Kurde.
+
+Gabriel: Dobra, czekaj, czekaj, ja to sprzedpalam.
+
+Gabriel: Dobra.
+
+Gabriel: Mhm.
+
+Gabriel: Mhm.
+
+Gabriel: Mhm.
+
+Gabriel: Mhm.
+
+Gabriel: Dobra.
+
+Gabriel: Mhm.
+
+Gabriel: Powiedz mi.
+
+Gabriel: Będę miał teraz kilka pytań.
+
+Gabriel: I te pytania zadam Ci po polsku, tłumacząc, bo one są wydane po angielsku i Ci je zadam po prostu po polsku.
+
+Gabriel: Ok.
+
+Gabriel: Teraz zagrałaś obie wersje.
+
+Gabriel: Jak się czujesz po tym ćwiczeniu tak na świeżo?
+
+Wiktoria: To tak.
+
+Wiktoria: Pierwsza sprawa to, że bardzo dobrze opisane otoczenie i to sprawia, że te obrazki w sumie nie są tak potrzebne, bo to oddaje, że wyobrażasz sobie przestrzennie.
+
+Wiktoria: Tylko, że widząc opcję szybciej,
+
+Wiktoria: Szybciej to mogłabym skipować niektóre opisy, no bo widzę, jakie są opcje i tak dalej, ale to nie o to chodzi w sumie do końca.
+
+Wiktoria: A to, że ty rzeczywiście się wczuwasz, jak musisz zadać komendę, to musisz wiedzieć, co się dzieje wokół ciebie.
+
+Wiktoria: Więc na przykład, że jeżeli nie byłoby tekstu, gdzie zaznaczasz te obiekty, zaznaczasz te drogi, to mogłoby być takie confusing trochę, że nie wiesz za bardzo, co możesz zrobić, co możesz podnieść.
+
+Wiktoria: To musiałaby być naprawdę taka... dojechałabym na po prostu świat, otoczenie interaktywne.
+
+Wiktoria: Ale...
+
+Wiktoria: No właśnie, zastanawiałam się jak zadać komendy, żeby na pewno mnie zrozumiało.
+
+Gabriel: Tak, tak, tak.
+
+Gabriel: A było coś na początku, co cię zaskoczyło?
+
+Gabriel: Tak?
+
+Gabriel: Na samym starcie?
+
+Wiktoria: W sensie, jak mogłam wybierać opcję, czy jak właściwie przyłączyliśmy się?
+
+Wiktoria: Gdzie mówisz o drugim wariancie?
+
+Gabriel: Nie, chyba nie.
+
+Wiktoria: Nie.
+
+Wiktoria: Taki exploring po prostu.
+
+Gabriel: Mhm.
+
+Gabriel: Dobra.
+
+Gabriel: A jakbyś miała opisać różnicę pomiędzy tymi dwoma wariantami?
+
+Gabriel: Osobie, która nie grała w tę grę.
+
+Gabriel: To co byś powiedziała?
+
+Wiktoria: Że...
+
+Wiktoria: Opisać.
+
+Gabriel: Mhm.
+
+Gabriel: Wyjaśnić może bardziej po polsku.
+
+Gabriel: Czyli...
+
+Wiktoria: Tak jakbym czytała książkę i miała wpływ na to, co wydarzy się dalej i wybierała opcję.
+
+Wiktoria: Tylko niby czytam książkę, ale z nią rozmawiam.
+
+Wiktoria: Też nie wiem, właśnie próbowałam testować, czy jeżeli nie byłam pewna, czy mogę tam iść, to zadałam pytanie, can we go?
+
+Wiktoria: I może fajnie jakbym odpowiedziała czegoś pełniejszym zdaniem, że nie, bo drzwi są zamknięte na przykład, nie?
+
+Wiktoria: Albo nie możesz czegoś podnieść, co jest w tym tekście, bo jest za ciężkie.
+
+Gabriel: Mhm.
+
+Wiktoria: To by nadało takiego, że musisz kminić i rzeczywiście się wczytywać w ten tekst.
+
+Gabriel: Mhm, mhm, mhm.
+
+Wiktoria: Ale to wtedy tekst musiałby być dopracowany do takiego.
+
+Wiktoria: Albo właśnie taki rozmyty, żebyś ty nie wiedział, żeby to też była część zabawy.
+
+Wiktoria: Że ty testujesz i dostajesz różne odpowiedzi, nie?
+
+Wiktoria: Taki pomysł może.
+
+Wiktoria: Mhm.
+
+Wiktoria: Okej.
+
+Gabriel: Odpowiedziałam na pytanie?
+
+Gabriel: Trochę nie, ale twoja odpowiedź jest bardzo cerna.
+
+Gabriel: Jak czułaś tę różnicę pomiędzy jednym a drugim?
+
+Gabriel: Jak byś miała opisać tę różnicę?
+
+Wiktoria: No właśnie, że nie za bardzo wiedziałam, co mogę zrobić.
+
+Wiktoria: Tak to miałam dostępne opcje?
+
+Gabriel: Okej.
+
+Gabriel: Okej.
+
+Gabriel: Czy mogłabyś mi... Wiem, że ja przeczytałem jak grałaś, ale czy mogłabyś mi opisać ścieżkę, którą przebyłaś w grze?
+
+Gabriel: Znaczy... Od początku do końca jakby.
+
+Gabriel: Co...
+
+Gabriel: Co zrobiłaś?
+
+Gabriel: Nie musisz mi opisać oczywiście wszystkiego, tylko... po angielsku słowo to journey, czyli...
+
+Gabriel: No, jak etapem można powiedzieć.
+
+Wiktoria: No, no, no.
+
+Wiktoria: Czyli... w bubbleteamie odebrałeś mi te opcje.
+
+Wiktoria: Pokazałeś mi mówić, który w momencie.
+
+Wiktoria: Na food court?
+
+Wiktoria: Tak mi się wydaje.
+
+Wiktoria: Ej, wyszłam z bubble tea chyba.
+
+Wiktoria: Tak.
+
+Wiktoria: No to...
+
+Wiktoria: Zaczęliśmy na zewnątrz.
+
+Gabriel: Mhm.
+
+Wiktoria: Weszliśmy do środka.
+
+Wiktoria: Tam był hall.
+
+Mhm.
+
+Wiktoria: Pierwszy.
+
+Wiktoria: Miałam do wyboru sklep z ubraniami i... counter jakiś.
+
+Wiktoria: W sklepie z ubraniami znalazłam... Jezu, nie pamiętam słowa.
+
+Gabriel: Łom.
+
+Wiktoria: Łom, właśnie, łom.
+
+Wiktoria: Udało mi się otworzyć drzwi na hols, którego dotarłam do foodcourt.
+
+Wiktoria: Foodcourt to tam była winda, bubble tea i schody.
+
+Wiktoria: Poszłam na schody.
+
+Wiktoria: Na pierwsze piętro była lounge.
+
+Wiktoria: Pierwsze co mi się, w sensie zwróciłam uwagę na pharmacy, bo jeżeli brat poszedł do galerii, to może właśnie po coś przydatnego, czyli w sumie bubble tea było bez sensu, żebym poszła do bubble tea, ale...
+
+Wiktoria: Ja bym poszedł do bubble tea.
+
+Wiktoria: Farmacy.
+
+Wiktoria: Mhm.
+
+Wiktoria: I food supermarket to były takie obvious places to go to.
+
+Wiktoria: Okej.
+
+Wiktoria: Okej, okej, okej.
+
+Gabriel: I w momencie, w którym używałaś głosu, to co myślałaś?
+
+Wiktoria: Aha.
+
+Gabriel: I czym się kierowałaś myśląc?
+
+Gabriel: Jak rozmawiać systemem?
+
+Wiktoria: To znaczy mówiłaś, że...
+
+Wiktoria: Proste komendy.
+
+Wiktoria: Takie same, jakie były.
+
+Wiktoria: Starałam się tak samo, jak były wcześniej.
+
+Wiktoria: Napisane.
+
+Wiktoria: Czyli go to pick up.
+
+Wiktoria: Już bym pewnie też użyła głosu.
+
+Gabriel: Też wspominałaś wcześniej, że używałaś zapytania, czy możemy.
+
+Wiktoria: Jak nie byłam pewna, czy właśnie, czy nie jestem zablokowana, przejdźcie, no bo też zdajemy sobie sprawę z ograniczeń.
+
+Gabriel: Okej, okej, okej, okej.
+
+Gabriel: A jakie to było?
+
+Gabriel: używanie głosu.
+
+Gabriel: Jak się z tym czułaś?
+
+Gabriel: Jakie to było wrażenie dla ciebie?
+
+Wiktoria: Przez to, że to były takie krótkie komendy, bo zasugerowałam się tym wyborem opcji, to
+
+Wiktoria: Tak jakbym właśnie chciała wpisać coś w wyszukiwarkę.
+
+Wiktoria: Czyli, że niby nie muszę klikać, ale trochę tak grać jestem nauczona.
+
+Wiktoria: Czyli przełamanie tego, do czego jestem przyzwyczajona, grając w grę.
+
+Wiktoria: Rozumiem.
+
+Gabriel: zanurzona w grę, bardziej w doświadczeniu.
+
+Wiktoria: No to w tej drugiej.
+
+Gabriel: Mhm.
+
+Wiktoria: Ta pierwsza pozwalała na szybkie przeskipowanie, nie?
+
+Gabriel: Mhm.
+
+Gabriel: Okej.
+
+Gabriel: I jak byś porównała wysiłek, wysiłek, który musiałem dokonać w mówieniu i wysiłek, który wykonywałem właśnie klikając?
+
+Wiktoria: Pewnie jakbym dłużej grała, to by mi łatwiej przychodziło mówienie, bo było dużo przejść pomiędzy, że trzeba było travel to, go back to main list i use item, trzeba było wybrać.
+
+Wiktoria: W sumie to było tylko, gdybym grała dłużej używając głosu miałabym tylko inventory i miałabym tylko tą listę i czytając.
+
+Wiktoria: byłoby szybciej mówić.
+
+Wiktoria: Mhm.
+
+Wiktoria: Ale musiałabym dłużej zagrać, jakby bardziej się zaznajomić z dynamiką tego.
+
+Wiktoria: Mhm.
+
+Wiktoria: Okej.
+
+Gabriel: Czy to, że mówiłaś o tej grze sprawiało, że czułaś się bardziej, jakbyś miała kontrolę nad tym, co robisz?
+
+Gabriel: Czy było to bardziej przetłaczające od posiadania tej zamkniętej listy w pierwszym wariancie?
+
+Wiktoria: Kontrolę...
+
+Gabriel: Kontrolę to jest może złe słowo.
+
+Gabriel: Czy byłaś bardziej...
+
+Gabriel: No nie, kontrolę to jest słowo po polsku.
+
+Gabriel: Czyli czuć się, że masz taką świadczość.
+
+Wiktoria: Może gdybym dłużej zagrała, poznała zakres możliwości, to pewnie bym mówiła.
+
+Wiktoria: I może bardziej byłabym in control.
+
+Wiktoria: ale przez to, że właśnie nie wiedziałam za bardzo, właśnie, na ile mogę sobie pozwolić, mówiąc, to wtedy...
+
+Wiktoria: Gdyby to było takie interaktywne, że ja bym zadała jakieś pytania i uzyskałabym odpowiedź w nawiązaniu do gry, tak jak ci powiedziałam, że czy możemy tam iść, nie możemy, bo i wyciągałoby np. fragment z tekstu i powód, dla którego nie możemy tam iść.
+
+Wiktoria: To by było op.
+
+Gabriel: Okej, okej, okej.
+
+Gabriel: A takie, chciałem porównać, jakbyś porównała ogólne doświadczenia.
+
+Wiktoria: Ogólne.
+
+Gabriel: Pomiędzy jednym a drugim.
+
+Gabriel: I które byś wybrała i do czego?
+
+Wiktoria: Pierwsze, nuda.
+
+Wiktoria: Proste, szybkie, żeby zobaczyć wersję świata, którą sobie wyobraziłeś w apokalipsie, żeby się zapoznać.
+
+Wiktoria: Szybciutkie.
+
+Wiktoria: A to drugie?
+
+Wiktoria: No to jak takie zanurzenie się w świecie.
+
+Wiktoria: Głębsze.
+
+Wiktoria: Głębsze.
+
+Wiktoria: No a jak jeszcze byłyby bardziej rozbudowane dialogi?
+
+Wiktoria: To by było... mocne.
+
+Gabriel: I którą byś wybrała?
+
+Wiktoria: Drugą.
+
+Gabriel: Okej.
+
+Gabriel: Teraz sobie troszkę zobaczę... Okej, a jak się czułaś z tym, że ten system nie łapał cię w momencie, w którym mówiłaś?
+
+Gabriel: To znaczy, mówiłaś, że czułaś większe zanurzenie, tak?
+
+Gabriel: Ale jak się czułaś w momencie, w którym mówiłaś do tego komputera, a on się nie rozumiał?
+
+Wiktoria: No, że muszę to inaczej sformułować.
+
+Wiktoria: Ale to też bariera językowa może, inny akcent.
+
+Wiktoria: Więc to jest troszeczkę frustrujące, ale...
+
+Wiktoria: Ale nie miałabym z tym problemu.
+
+Gabriel: Okej.
+
+Gabriel: Mhm.
+
+Gabriel: Mhm.
+
+Wiktoria: Może gdybym więcej niż 5 razy próbowała się gdzieś dostać i miałabym komunikat, że mnie nie rozumie, to wtedy bym się zdenerwowała.
+
+Gabriel: Ja też bym się zdenerwował.
+
+Gabriel: Gdyby grał przez pięć lat, to nie potrafiłem.
+
+Gabriel: Jeżeli to jest jedyny sposób sterowania, to bym się bardzo zirytował nawet.
+
+Gabriel: Okej.
+
+Gabriel: A myślisz, że gdyby te opisy były krótsze, połowe?
+
+Wiktoria: Mhm.
+
+Gabriel: I miały być dalej sterowanie głosowe?
+
+Wiktoria: Mhm.
+
+Gabriel: To czy...
+
+Wiktoria: Nie.
+
+Wiktoria: Nie.
+
+Gabriel: Okej.
+
+Wiktoria: Musiałoby być wizualnie wtedy.
+
+Wiktoria: Musiałoby być.
+
+Gabriel: Okej, okej.
+
+Wiktoria: Bo te opisy naprowadzały.
+
+Wiktoria: W sensie...
+
+Wiktoria: wiesz, opisywać co jest na ścianach, że jakbyś się rozejrzał, nie wiem, tak jak w tym bubble tea, że masz jakieś plakaty, że rzeczywiście możesz pomyśleć, co mógłbyś z tego pomieszczenia wykorzystać.
+
+Wiktoria: Więc jeżeli by nie było tego opisu, to ty byś nie wiedział, co tam jest.
+
+Wiktoria: Nie wiedziałbyś, co zrobić.
+
+Wiktoria: Nie, nie, nie.
+
+Wiktoria: Więc właśnie w którąś stronę musiał...
+
+Wiktoria: Nie da się zrezygnować z opisów takiej postaci gry.
+
+Wiktoria: To musiałaby być ewentualnie wizualizacja grafiką.
+
+Wiktoria: Rozumiem.
+
+Wiktoria: Wydaje mi się, że...
+
+Wiktoria: grafika, to te obiekty, które możesz podnieść są podświetlone na przykład, albo jakieś bardziej zarysowane, nie?
+
+Gabriel: Prominentne, zarysowane, tak?
+
+Gabriel: Tak, tak, tak.
+
+Gabriel: Czyli jedyną taką rzeczą był ten, ten, ten brak, który tam widziałaś w którymś momencie tam na samym końcu, nie?
+
+Gabriel: No, no, no.
+
+Gabriel: To wszystko.
+
+Gabriel: Mhm.
+
+Gabriel: A tak to, kiedy coś się działo, to nie, nie było to zwierciedlone na formę tej grafiki, na przykład jak podejmowałaś ten łąk z próbki.
+
+Gabriel: No, no, no.
+
+Gabriel: To nie, nie byłoby widać na obrazku, prawda?
+
+Gabriel: No, no, tak.
+
+Gabriel: Mhm.
+
+Gabriel: Okej, a z tego co mówisz to wygląda tak jakby jakby ta grafika mogła odgrywać też dodatkową rolę w tym doświadczeniu w jakimś tam stopniu.
+
+Wiktoria: Tak, ale czy to nie spłuciłoby doświadczenia, bo wszystkie... Właśnie, tu jest kolejny problem.
+
+Wiktoria: Czy jesteś typem, który woli filmy, czy typem, który woli książki?
+
+Wiktoria: Wiesz, są ludzie...
+
+Wiktoria: A którym ty jesteś typem?
+
+Wiktoria: Ja lubię książki... Lubię książki dla innego...
+
+Wiktoria: Zdaję sobie sprawę z różnicy doświadczeń, więc wybieram jakiego doświadczenia chcę zaznać.
+
+Wiktoria: Film jest szybki.
+
+Wiktoria: Książka jest angażująca, więc jeszcze ja czytając długie książki czasami muszę robić przerwy, żeby się za bardzo nie wciągnąć w historię, bo za bardzo to przeżywam i się tak łączy z bohaterami przez to, że
+
+Wiktoria: Oni są tylko w mojej głowie, więc ja sobie wyobrażam ich jak chcę i czuję.
+
+Wiktoria: Też nie jesteś w stanie myśli usłyszeć, widząc płacz aktora i jeżeli czegoś nie powie, to nie będziesz tego wiedzieć, a w książce możesz poznać myśli bohaterów i tak dalej.
+
+Wiktoria: Więc to są dwa zupełnie inne doświadczenia.
+
+Wiktoria: Film, obraz dużo płytsze niż to, co możesz osiągnąć za pomocą tekstu.
+
+Wiktoria: Ciężko porównać, bo to są inne zamysły w ogóle.
+
+Wiktoria: No, inny rodzaj doświadczeń.
+
+Gabriel: Tak, jedno nie jest koniecznie gorsze od drugiego.
+
+Wiktoria: Tak, tak, jest inne, no.
+
+Gabriel: Rozumiem.
+
+Gabriel: Okej.
+
+Gabriel: Dobra, i patrząc się na wszystko o czym dzisiaj mówiliśmy, to czy jest jeszcze coś, co przychodzić na myśl albo coś, o czym chciałabyś wspomnieć, o czym nie rozmawialiśmy?
+
+Wiktoria: No na teraz nie, ale może on mi się coś przyśni, to ci napiszę.
+
+Gabriel: Dobra.
+
+Gabriel: Okej.
+
+Gabriel: Dobra, to kończę partię...
+

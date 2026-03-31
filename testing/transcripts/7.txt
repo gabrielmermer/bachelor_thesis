@@ -1,0 +1,440 @@
+[SPEAKER_01]: Okay, right now...
+[SPEAKER_01]: Okay, so let me explain a little bit.
+[SPEAKER_01]: This is how the game looks.
+[SPEAKER_01]: This is a text-based game, and the idea is that this is a post-apocalyptic Warsaw, and your brother went looking for food to a shopping mall, and he hadn't returned in the past two days.
+[SPEAKER_01]: So now you want to go and try to find him, essentially.
+[SPEAKER_01]: You think that he might still be there.
+[SPEAKER_01]: In the game UI, it looks like this.
+[SPEAKER_01]: This is like, here you have your inventory.
+[SPEAKER_01]: If you're going to pick up any items in the game, they're going to end up here.
+[SPEAKER_01]: Here is the location name, the description of the location.
+[SPEAKER_01]: Towards the end of the description, there is typically any hints towards, like, the things you can pick up.
+[SPEAKER_01]: Or at the very end, there is always, like, the places that you can go to connected to this location.
+[SPEAKER_01]: And the main takeaway is that when you want to interact with the game, instead of using traditional input, what you do is you press and hold the R button, and then you say whatever you want to say, like, oh, maybe, I don't know, I want to look around, or maybe I want to do something else.
+[SPEAKER_01]: You can be very descriptive about it if you want to.
+[SPEAKER_00]: How can we be precise?
+[SPEAKER_01]: yeah and then after you're done you release the key it like gives you like processing whatever it takes a few seconds to do that and then once that's done you get some feedback here on the bottom yeah it did not understand me
+[SPEAKER_01]: and yeah and then you can repeat that and I'll give you 10 minutes to play and you're not being like I'll be making some notes on the side but you're not being judged for how you play the game this is not really about that whatsoever and if the text is too small then you can try to make it bigger I'm sorry about that part
+[SPEAKER_01]: yeah remember at the end there's like a bit of hints if you ever feel lost and I'll be making some small notes about mostly about how the game is not working as it should be so yeah don't worry about me and if you have any questions as we go on just feel free to ask them
+[SPEAKER_00]: Okay, I'd like to enter this shed on the right Okay
+[SPEAKER_01]: There's a lot of reading here.
+[SPEAKER_01]: Yeah, I know, I know.
+[SPEAKER_01]: But if it's too heavy, then you can like scan maybe.
+[SPEAKER_01]: What do you mean scan?
+[SPEAKER_01]: You don't have to read everything, right?
+[SPEAKER_00]: Can I ask to bullet point all of the items?
+[SPEAKER_00]: Sadly, no.
+[SPEAKER_01]: Okay, sure.
+[SPEAKER_01]: But as I said, towards the end there is information about the items typically.
+[SPEAKER_00]: I'd like to pick up the crowbar.
+[SPEAKER_00]: Okay, I have a crowbar in my inventory.
+[SPEAKER_00]: Cool.
+[SPEAKER_00]: What is the floor made of?
+[SPEAKER_01]: I'm afraid this is a bit too general.
+[SPEAKER_00]: After I had the shed?
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: As it is, you cannot ask questions to the game, you can more or less just do actions.
+[SPEAKER_00]: Okay, I'd like to exit the room with my crowbar.
+[SPEAKER_01]: You can't use... Oh, it thought that you're gonna use it.
+[SPEAKER_01]: You thought that you want to use the crowbar or whatever.
+[SPEAKER_01]: Okay, I'd like to exit the shed.
+[SPEAKER_00]: I'd like to enter the clothing store in front of me.
+[SPEAKER_01]: Maybe you want to swap places, but you can rest the computer on your knees or something.
+[SPEAKER_01]: That's a bit more comfortable.
+[SPEAKER_01]: Everything again, like if it's too much reading, just skip through it.
+[SPEAKER_00]: I'd like to scan the room for any items of value.
+[SPEAKER_01]: It's a little bit direct.
+[SPEAKER_00]: I'd like to force open the doors with the crowbar.
+[SPEAKER_00]: Do you have to say that I'd like to or just throw a command?
+[SPEAKER_01]: You can throw a command, you don't have to say that you like something.
+[SPEAKER_00]: Enter the door opened with the crowbar.
+[SPEAKER_01]: You can be as direct as you want to be.
+[SPEAKER_01]: I wonder if it's gonna work now.
+[SPEAKER_01]: Yeah, I think it didn't fully understand the context.
+[SPEAKER_01]: Maybe you can say... Like, if you mention the name, maybe it will work.
+[SPEAKER_01]: So they have the corridor.
+[SPEAKER_01]: Oh, the corridor.
+[SPEAKER_00]: Okay, sure.
+[SPEAKER_00]: I'd like to enter the corridor behind the unlocked doors.
+[SPEAKER_00]: Did I get that?
+[SPEAKER_01]: I hope so.
+[SPEAKER_01]: Sometimes it doesn't fully get you.
+[SPEAKER_00]: Oh yeah.
+[SPEAKER_00]: Enter food court.
+[SPEAKER_00]: Look around for any food.
+[SPEAKER_01]: Yeah, I don't think you can get food here.
+[SPEAKER_00]: Okay, enter the bubble tea store.
+[SPEAKER_00]: exit the bubble tea store.
+[SPEAKER_01]: I'm sorry, some of the places are a little bit empty.
+[SPEAKER_00]: I mean, still, you're trying to, like, modernize the RPG text-based games with voice commands.
+[SPEAKER_00]: It sounds really cool.
+[SPEAKER_00]: Is it like pre-generated, right?
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Okay, sure.
+[SPEAKER_01]: The locations are not dynamically created on the fly or whatever.
+[SPEAKER_01]: It's like a hard-coded scenario more or less.
+[SPEAKER_01]: Walk up to the stairs.
+[SPEAKER_01]: Okay, with the stairs, you can say that you want to go, because you're going to be on the ground level with the stairs.
+[SPEAKER_01]: And you can say that you want to go up the stairs.
+[SPEAKER_01]: That's like the only thing you can do here, go up or go down.
+[SPEAKER_01]: And the image won't change, but you will be able to go up and it will change the name, because it's a little bit unintuitive with the way it's going to be framed.
+[SPEAKER_01]: But yeah, so you can just like, if you want to go up the stairs, you can just say it.
+[SPEAKER_00]: Okay, and I can also go downstairs, right?
+[SPEAKER_00]: These stairs only go up.
+[SPEAKER_00]: Okay, sure.
+[SPEAKER_00]: Go upstairs.
+[SPEAKER_01]: Yeah, same image but right now on the first floor.
+[SPEAKER_01]: So you can go to another place now.
+[SPEAKER_00]: Nikon also go up once.
+[SPEAKER_00]: Salino.
+[SPEAKER_01]: Not all the stairs in the game go to all places and this is only like two floors.
+[SPEAKER_00]: Okay, so I went... Where is it?
+[SPEAKER_01]: Hola, hola, hola.
+[SPEAKER_00]: Maybe I'm not correct.
+[SPEAKER_00]: I think the game said there are two floors.
+[SPEAKER_01]: Yeah, yeah, yeah.
+[SPEAKER_01]: Maybe I'm wrong.
+[SPEAKER_01]: Maybe you can go up.
+[SPEAKER_01]: Okay, try to go upstairs.
+[SPEAKER_01]: I'm not sure if these stairs go up or if there's a second floor stairs go up because that was a while since I coded that in.
+[SPEAKER_01]: But I think these stairs are only going to the first floor.
+[SPEAKER_01]: No, yeah, it misunderstood you.
+[SPEAKER_01]: Okay, let me just...
+[SPEAKER_01]: Okay, yeah.
+[SPEAKER_00]: Follow the signs to one of the stores.
+[SPEAKER_00]: Okay, I think that one's gonna work.
+[SPEAKER_01]: see okay didn't get you but right now and since we passed the 10 minutes and we'll switch the
+[SPEAKER_01]: controls and now this is a more traditional control in which you control using the numbers one two three and sometimes the arrow keys and return depending on if you're crafting or using items then you use those to select things from your inventory but for travel you just use your keyboard for actions and there is something else below so okay so for the next 10 minutes yeah if you could just try playing like this
+[SPEAKER_01]: here yeah
+[SPEAKER_01]: when you want to use something, if you press it, there's like a small, and then you navigate and do return to.
+[SPEAKER_00]: Can I burn the place down?
+[SPEAKER_01]: But I wanted to implement that actually.
+[SPEAKER_00]: They didn't let me do it.
+[SPEAKER_00]: And crafting, how do you do crafting?
+[SPEAKER_01]: idea but you select return the first item and then select the other item and also select select here we press and then we select the other item and then we cannot combine this two okay so I can just combine you combine two different items to something fair mm-hmm yeah that's how crafting works
+[SPEAKER_00]: Okay, this is much more intuitive since you already have all the options available, right?
+[SPEAKER_00]: You don't have to read the text.
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: Yeah, there's a phone bug here.
+[SPEAKER_01]: You can walk out with like 20 pistols.
+[SPEAKER_01]: One of the players did that.
+[SPEAKER_01]: She just pressed it 10 times and they're staring at me, you know.
+[SPEAKER_01]: I think it's good to be armed.
+[SPEAKER_01]: I don't blame you.
+[SPEAKER_00]: Can I use this item, the pistol?
+[SPEAKER_00]: It's empty right now.
+[SPEAKER_00]: So I travel back to the store.
+[SPEAKER_00]: And I go up to the lounge.
+[SPEAKER_00]: And now I enter the pharmacy.
+[SPEAKER_00]: Oh, I found my brother.
+[SPEAKER_00]: Yeah, he's here.
+[SPEAKER_00]: And I'll have to...
+[SPEAKER_00]: I'll have to give him the legs table.
+[SPEAKER_00]: The legs thing, yeah.
+[SPEAKER_00]: Okay, sure.
+[SPEAKER_00]: So I just use item?
+[SPEAKER_00]: Yes, number three.
+[SPEAKER_00]: And then I can pick up my brother.
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: okay you're gonna can stand up yeah there's a small bug if you press number four nothing's gonna change it's a bug but let's just assume that like he's with you okay okay so it and if i try to use that again maybe often
+[SPEAKER_00]: Sorry?
+[SPEAKER_00]: If I try to use the stabilizer again?
+[SPEAKER_01]: Oh, you know, it just... No, yeah, this should be removed and something else should change.
+[SPEAKER_01]: But now, let's say that you're supposed to exit the building, but because there is a bug here, something else doesn't activate.
+[SPEAKER_01]: But you cannot exit the same way you came, because assuming this would have not been bugged, there is some event that happens, but it doesn't happen currently.
+[SPEAKER_01]: So you have to find another way out of the building.
+[SPEAKER_01]: And there is more than one way of getting out.
+[SPEAKER_00]: Okay, sure.
+[SPEAKER_00]: So I just leave without any problem, right?
+[SPEAKER_01]: No, no, no, he's here, he's here.
+[SPEAKER_01]: Technically, like, let's just assume that he's with you, right?
+[SPEAKER_01]: Again, like, you're not being judged by how well you play, right?
+[SPEAKER_00]: Okay, so there is a different way out.
+[SPEAKER_00]: To the bathroom, I wasn't, I didn't visit the bathroom.
+[SPEAKER_01]: yeah nothing in this room so I have to go downstairs again yeah you there's
+[SPEAKER_00]: And stairs going up.
+[SPEAKER_01]: Yeah, the location doesn't make sense, but if you press number two, you're gonna go down.
+[SPEAKER_01]: Okay, sure.
+[SPEAKER_01]: Yeah, and now you can go to the food court again, technically.
+[SPEAKER_00]: And there is a... Greek food.
+[SPEAKER_00]: Oh, I wanna visit the Greek food.
+[SPEAKER_00]: Stairway's going up.
+[SPEAKER_00]: That's the one I just entered.
+[SPEAKER_00]: The small corridor is the one that led me up here, right?
+[SPEAKER_00]: So... Yeah.
+[SPEAKER_00]: Let's visit the Greek food.
+[SPEAKER_00]: Oh, a keycard.
+[SPEAKER_01]: That would be useful.
+[SPEAKER_01]: I'm not sure how obvious that is, but if you go back to the food court and try to use the keycard for instance, maybe this will work now, but I'm not sure.
+[SPEAKER_00]: Okay, so if I have to go to main list and user item... Yeah, exactly.
+[SPEAKER_01]: This is not very obvious because of the description, but
+[SPEAKER_01]: Right now you have to go to another place, you can go to technically from here, which is the, there is a small bug, but you can go to the elevator.
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: Oh.
+[SPEAKER_01]: Excuse me?
+[SPEAKER_01]: That shouldn't be possible.
+[SPEAKER_00]: What the hell was that?
+[SPEAKER_01]: You'd have to use the keycard again.
+[SPEAKER_01]: Let's try, yeah, but... Oh, you can't use the keycard here?
+[SPEAKER_01]: Oh, come on.
+[SPEAKER_00]: This could be a bug on my end.
+[SPEAKER_00]: Yeah, let's try to re-enter.
+[SPEAKER_01]: Yeah, I think I bugged it.
+[SPEAKER_01]: Hold on, hold on, hold on.
+[SPEAKER_01]: We can just pause this and try to take over the controls here.
+[SPEAKER_01]: Just give me a second.
+[SPEAKER_01]: I'll just pause the whatever just so that you can continue here.
+[SPEAKER_01]: Okay.
+[SPEAKER_01]: okay oh yeah i'll just now undo that oh excuse me so it restarted right yeah but uh oh yeah technically i cleared the inventory i'm very sorry but i think you should be able to okay
+[SPEAKER_01]: Oh, but that's okay It's all right, it's all right.
+[SPEAKER_00]: Mm-hmm.
+[SPEAKER_00]: You should be able to still I think I think so.
+[SPEAKER_01]: I was a security of Yeah, but you don't have your empty gun I'm sorry about that.
+[SPEAKER_01]: I can go back right?
+[SPEAKER_01]: You can go to the parking area, but I don't know if we can go with you can go to it Let's okay.
+[SPEAKER_01]: Let's just see
+[SPEAKER_01]: Yeah, because we need to use the key card to unlock the elevator but you don't have the key card I could give it to you like to like We could like restart this again But don't worry I can modify the
+[SPEAKER_01]: The wind conditioned a little bit for you, okay?
+[SPEAKER_01]: Because the game is not really cooperating.
+[SPEAKER_01]: Just a second, I cannot... Oh, there's another bug here.
+[SPEAKER_01]: You just...
+[SPEAKER_01]: Okay, you got trapped inside of the...
+[SPEAKER_01]: Okay, okay, okay.
+[SPEAKER_01]: Hold up.
+[SPEAKER_01]: Let me pause this again.
+[SPEAKER_01]: I'm sorry, this is pretty difficult to debug.
+[SPEAKER_01]: So, let me just do... No, no, no, no, no.
+[SPEAKER_01]: Unsetup again.
+[SPEAKER_01]: Why am I not pushing this into the inventory?
+[SPEAKER_01]: No, I don't think I can push this so easily because I removed the debug things I had so I'm terribly sorry we can let's just let's Because we have what?
+[SPEAKER_01]: One minute to go so but we're back.
+[SPEAKER_01]: Yeah, we're back.
+[SPEAKER_01]: I restarted.
+[SPEAKER_00]: Oh, that's how yeah, because we start from the parking now Okay, and again the key for yeah so technically
+[SPEAKER_00]: Don't go to the door.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Yeah pick up a gasoline time.
+[SPEAKER_00]: Yeah, you can also pick it up forever Yeah, you can have a lot of gasoline tanks.
+[SPEAKER_00]: Yeah, man.
+[SPEAKER_01]: Why not right and keys invisible to how interesting
+[SPEAKER_01]: That's true.
+[SPEAKER_00]: Okay, so I just picked up the gasoline tank from the sports car and I'm going to do a 4x4.
+[SPEAKER_00]: And I use an item, but I can't use the key.
+[SPEAKER_00]: But that key was to the other car.
+[SPEAKER_01]: What I can tell you, because we're nearing the time here.
+[SPEAKER_01]: technically if you had your crowbar with you you could use the crowbar with the and open up the gasoline tank with the crowbar but we don't have a crowbar since it's okay and it should be like a key car right?
+[SPEAKER_01]: yeah yeah yeah you don't even have to have a no you yeah yeah yeah the key to open the yeah exactly exactly exactly yeah and this should be enough to to get you the car and then you can drive off yeah that's the so technically like if not for the stupid bugs you did it right yeah like
+[SPEAKER_01]: What else can I do here?
+[SPEAKER_01]: No, you made it here.
+[SPEAKER_01]: The only other thing here is if you have the key from floor 0, you can also open, there is not only the elevator, but also like a secret shaft in the building that you can also travel to get on the roof if you really want that.
+[SPEAKER_01]: But you are the only player who actually managed to go down, so like, congratulations.
+[SPEAKER_01]: As you can see, it's not a very...
+[SPEAKER_01]: I mean, it's a pretty buggy experience, I'm afraid, but making any game has bugs.
+[SPEAKER_01]: This one has a lot of them.
+[SPEAKER_01]: Okay, so now I will have a few questions about your... Yeah, before we go... About the controls themselves, yeah?
+[SPEAKER_01]: Yeah, but also just before we go, I would like to ask you, so what is your, like, how...
+[SPEAKER_01]: What is your gaming experience?
+[SPEAKER_01]: So would you describe yourself as more of a casual gamer, more of a frequent gamer?
+[SPEAKER_00]: I used to be like a hardcore online competitive gamer, but I quit that.
+[SPEAKER_00]: I just play RPGs.
+[SPEAKER_00]: So this is like right up my alley.
+[SPEAKER_01]: Oh, but by RPGs you mean like pen and paper, like online or like stuff like Baldur's Gate?
+[SPEAKER_00]: either Baldur's Gate, the old Fallout, the action RPGs like The Witcher, maybe Fallout, stuff like that.
+[SPEAKER_00]: The new Fallout.
+[SPEAKER_01]: I see, I see.
+[SPEAKER_01]: And what's your familiarity with like voice assistants like Amazon Alexa or Siri?
+[SPEAKER_00]: To be honest, I never use Siri on my phone.
+[SPEAKER_00]: I just
+[SPEAKER_00]: I try to, but it's also buggy as hell.
+[SPEAKER_00]: You have to speak really clearly for Siri to understand you.
+[SPEAKER_00]: So my experience is basically zero.
+[SPEAKER_00]: She's not the sharpest tool in the shed.
+[SPEAKER_01]: I swear to God, she cannot skip my songs half the time.
+[SPEAKER_01]: I ask her what the time is and she's like, I'm afraid I can't do that.
+[SPEAKER_01]: Like, what do you mean?
+[SPEAKER_01]: So I get you, I get you.
+[SPEAKER_01]: And do you use any, when you use your computer, do you use any accessibility features like screen reader or some people have to use different color schemes for vision impairments?
+[SPEAKER_00]: No, I don't.
+[SPEAKER_01]: Okay, so you just use this.
+[SPEAKER_01]: Okay, okay, okay.
+[SPEAKER_01]: I see, I see, that's alright.
+[SPEAKER_01]: I used to play League of Legends and some other games, I used to switch my colors to like this like color blindness.
+[SPEAKER_01]: Ah, yes, so the enemy is more visible.
+[SPEAKER_01]: Yeah, yeah, yeah, stuff like that.
+[SPEAKER_01]: Health bar are more visible.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Okay, and could you tell me, now looking more into it, now that you have tried both of the game versions, how are you feeling?
+[SPEAKER_00]: I have to say that from the descriptions themselves it would be really hard for me to follow where I should go or when I even can go.
+[SPEAKER_00]: The places are there but it's not as obvious to me.
+[SPEAKER_00]: It's also because English is a second language, so you really have to read carefully, because if something is listed, but it says that you cannot enter, you know...
+[SPEAKER_00]: It's easy to miss.
+[SPEAKER_00]: Yeah, it's easy to miss.
+[SPEAKER_00]: Yes, but I really like the idea.
+[SPEAKER_00]: I imagine if there were a completely AI-generated
+[SPEAKER_00]: like live generation, right?
+[SPEAKER_00]: So any action you do, you get a response from the language models.
+[SPEAKER_00]: This is a really fun experience.
+[SPEAKER_00]: If you could just move around just using voice.
+[SPEAKER_00]: Integrate it deeper.
+[SPEAKER_01]: like color maybe so like if we have a description and like all of the locations are like purple or something you know what a map would be good a map yeah and you like unlock certain parts of the map when you go there or when you investigate those areas yeah yeah that would be really helpful I feel you and when you played it was there anything that like immediately surprised you or not really I mean the idea itself is kind of
+[SPEAKER_00]: for me at least, it's very new.
+[SPEAKER_00]: So that's a first.
+[SPEAKER_00]: And I think that's the main thing.
+[SPEAKER_00]: I only focus about what can I say, what should I say for
+[SPEAKER_00]: Yeah, I feel you, I feel you.
+[SPEAKER_00]: So I focus on that.
+[SPEAKER_01]: And if you had to describe the difference between these two versions to a person who haven't played neither, what would you say?
+[SPEAKER_00]: Well, the second with the manual control, so to speak, well, it's way easier.
+[SPEAKER_00]: I kind of have a short attention span.
+[SPEAKER_00]: I mean, most of us do right now, but
+[SPEAKER_00]: reading a whole paragraph is and then trying to figure out what you what commands should you use yeah by voice is way harder than just going through the list of what you can do yeah and just going for everyone would you say it would be a bit different if the descriptions were more factual and less like not poetic but like if it was like you stand in a room there lies a
+[SPEAKER_00]: played Disco Elysium?
+[SPEAKER_00]: No I haven't.
+[SPEAKER_00]: Okay but there's a lot of reading there.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: But you don't have to read those because there's a narrator.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: So you have a part with the description written to you by a narrator and then you have text of what
+[SPEAKER_01]: is important, right?
+[SPEAKER_01]: Oh, okay, I see, I see, I see.
+[SPEAKER_01]: So he reads you like the bigger story and then you have only the distilled important bits.
+[SPEAKER_00]: I mean, you still have it on text, but you don't have to follow it by eye, you can just listen to it.
+[SPEAKER_01]: Oh, that's pretty cool, that's pretty cool.
+[SPEAKER_01]: I can tell you that what I was thinking about was originally I wanted to highlight different items and possible locations by different colors in the text or like, you know, like italics or even different colors, but the game engine I chose did not allow me to do this.
+[SPEAKER_01]: I'm glad to hear that.
+[SPEAKER_01]: And when you were using voice to navigate, I know it's a tricky question, but what were you thinking as you decided what to say to the game?
+[SPEAKER_01]: Will the game understand me?
+[SPEAKER_01]: Yeah, that was the first question.
+[SPEAKER_00]: Yeah, sometimes the game can understand you pretty well and sometimes it doesn't understand you for shit.
+[SPEAKER_00]: That was the priority.
+[SPEAKER_00]: What I wanted to do in the game was secondary.
+[SPEAKER_01]: But the way you were framing, you were trying to think like, okay, will it get me?
+[SPEAKER_00]: Yeah, because that's my experience with voice-operated stuff.
+[SPEAKER_00]: Yeah, I hear you.
+[SPEAKER_00]: And how was it like to use the voice in the game?
+[SPEAKER_00]: I mean, most of the time I didn't think it got what I wanted to say, only the most obvious commands, right?
+[SPEAKER_00]: So, enter this location that's listed and you have to say it.
+[SPEAKER_00]: At least I did call it exactly as it was listed.
+[SPEAKER_00]: So, enter food court, not enter... Yeah, like we go to the restaurant.
+[SPEAKER_01]: We had this situation with the corridor, for instance, right?
+[SPEAKER_01]: You said I want to enter this room that
+[SPEAKER_01]: The next question would be in which version did you feel more inside of the story, more inside of the world?
+[SPEAKER_00]: I think the second one because it was easier to navigate so I could focus on the actual goal of why I'm there.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: So I think that was easier to follow the story.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Because if you don't know, you don't have to think thrice to enter a different room or go to a bathroom or something like that.
+[SPEAKER_00]: But I really like the idea itself.
+[SPEAKER_01]: I'm gonna be honest.
+[SPEAKER_01]: Of course, of course.
+[SPEAKER_01]: How did the effort of thinking of what to say compare to, you know, the effort of knowing, okay, which key do I need to press?
+[SPEAKER_01]: Can we go again?
+[SPEAKER_01]: Of course, of course.
+[SPEAKER_01]: So how did the effort of thinking, okay, what do I need to say and then saying it compare to the effort of like, okay, which key do I press?
+[SPEAKER_01]: Oh, it was way harder.
+[SPEAKER_01]: Way harder to speak?
+[SPEAKER_00]: Yeah, way harder for, as I said, the first worry was that the game won't understand me, so I really had to like triple check to say the most basic command, but also the most clear one, right?
+[SPEAKER_00]: Yeah, yeah, yeah, yeah, I feel you.
+[SPEAKER_01]: And did the freedom to say anything at all make you feel more in control or was it more overwhelming than having, you know, a fixed set of actions?
+[SPEAKER_00]: If there was a possibility in this game, so I picked up the crowbar and I asked what's the floor made of, because I just thought that maybe I can just rip all of the floor.
+[SPEAKER_00]: That would be very cool and that would make me feel very much in control of what I'm doing in the game.
+[SPEAKER_01]: Okay, I hear you.
+[SPEAKER_01]: So for you, you would say it entirely depends on the degree of implementation of the voice.
+[SPEAKER_01]: Okay, I see.
+[SPEAKER_01]: And in this version of the game,
+[SPEAKER_01]: you felt more in control in which version?
+[SPEAKER_00]: In the second one, because I knew what were the rules exactly, what are the listed options.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: So that's why.
+[SPEAKER_00]: I hear you.
+[SPEAKER_00]: I hear you.
+[SPEAKER_00]: And how would you compare the overall experience of using the two game versions?
+[SPEAKER_00]: Well, the second one, the manual one using the keys is way easier, but I really see the potential for the first one.
+[SPEAKER_00]: And as I said before,
+[SPEAKER_00]: If the game was finished and I could actually say just, look at that floor, can I rip it off, can I just smash some windows, do that, I really would enjoy that.
+[SPEAKER_00]: I hear you.
+[SPEAKER_00]: And just doing that with my voice, I really would like to see, I can say just the whole paragraph, just go on a tirade and my character will actually do it.
+[SPEAKER_00]: Like I want to do 20 different things and order and then it does them.
+[SPEAKER_01]: I go there, pick up this item and then I want to rescue the brother and after, let's go finish the game.
+[SPEAKER_01]: And you go and brew some tea and the game just does it.
+[SPEAKER_01]: Which of those versions would you choose?
+[SPEAKER_01]: I think the first one because it's...
+[SPEAKER_00]: I'd like to play with the voice commands on my own.
+[SPEAKER_00]: I'd just like to figure out what I can say and how I can use it.
+[SPEAKER_00]: I think the first version is more intriguing.
+[SPEAKER_00]: It's more engaging.
+[SPEAKER_01]: I see, I see.
+[SPEAKER_01]: And this is like the last question, but is there anything that, after everything we spoke about today, is there anything that you would like to add or to mention about this experience?
+[SPEAKER_00]: Yeah, I've never had an experience like that.
+[SPEAKER_00]: unless like tabletop RPGs, right?
+[SPEAKER_00]: So, D&D, something like that.
+[SPEAKER_00]: So, that's fun because that's exactly what it is.
+[SPEAKER_00]: You just say what you do and the Dungeon Master tells you if you can do that or what's the consequence of that.
+[SPEAKER_00]: And if I could do that, like, just here, I guess, in my home, playing a game by myself, that's a whole new world for me.
+[SPEAKER_00]: I mean, you hook up VR to that and you're a god, right?
+[SPEAKER_01]: Yeah, yeah, yeah.
+[SPEAKER_01]: I'm also with you when it comes to the dynamic generation of the world, right?
+[SPEAKER_01]: That was my original idea for this.
+[SPEAKER_01]: I wanted to make a game procedurally.
+[SPEAKER_01]: Procedurally or more like AI-generated, right?
+[SPEAKER_01]: But I also wanted to create a concrete game logic.
+[SPEAKER_01]: Like, for instance, you can set a fire to your location, right?
+[SPEAKER_01]: You wanted to set something on fire, right?
+[SPEAKER_01]: I wanted to create those kind of systems, right?
+[SPEAKER_01]: and then force the game to essentially do the creative parts based around AI to create this kind of role-playing experience where you would like, yeah, yeah, yeah.
+[SPEAKER_01]: hear you on that I feel like that's just like a very very cool idea in general and I also like that the main premise of this for me was that I really wanted to boost I wanted to test for me that the thesis the main like the main question I'm asking here with my thesis is that is this actually more immersive or does it have a potential to be more immersive and how different does the player feel when you use the voice right okay the visual thing when it comes like to video games does the
+[SPEAKER_00]: first thing that advances, right?
+[SPEAKER_00]: So we have VR now.
+[SPEAKER_00]: I don't know if you've played Half-Life Alyx.
+[SPEAKER_00]: I haven't, no.
+[SPEAKER_00]: I mean, you just walk around.
+[SPEAKER_00]: You don't have to play the game.
+[SPEAKER_00]: The story is like secondary.
+[SPEAKER_00]: You go up to a desk and you pick up all of the items.
+[SPEAKER_00]: You pick up a pen and just write something on the board.
+[SPEAKER_00]: I mean, it's insane.
+[SPEAKER_00]: I played it in a game room once.
+[SPEAKER_00]: I spent like four hours just doing that.
+[SPEAKER_00]: I didn't leave the first bed.
+[SPEAKER_00]: There was a jar with a spider, so I gave him some food.
+[SPEAKER_00]: It was insane.
+[SPEAKER_00]: But you hook up something like that, you can do a backflip.
+[SPEAKER_00]: Do a backflip or kick the door in.
+[SPEAKER_00]: He does that.
+[SPEAKER_00]: I mean, that's ultimate immersion, right?
+[SPEAKER_01]: Yeah, yeah.
+[SPEAKER_01]: There is this game I used to play when I was a kid called Scribblenauts Universe or something like that.
+[SPEAKER_01]: And it's a little bit like that.
+[SPEAKER_01]: That was like many years before AI was a thing.
+[SPEAKER_01]: And in the game you could like, it was a 2D game, you would walk around and you had this magic pen and you could like write anything you want and the game would spawn it.
+[SPEAKER_01]: the game had a massive library of items and things so you could say oh I want to see Barack Obama here and there would be Barack Obama you know like just super super weird stuff and the game rewarded towards like puzzles you have to like you know there's a group of soldiers you have to distract them somehow so you could like draw a tank and like say I want a tank and you would like run over them or you could say I don't know like I want an ice cream booth and they would go and eat ice cream you know like that it's rewarding the creativity you know yeah yeah so
+[SPEAKER_01]: That was something I was looking at, and also D&D as you mentioned, I thought that maybe if you can articulate what you say, that it will boost the feeling that I am doing these things, but I noticed that the main difference is that
+[SPEAKER_01]: In D&D you speak in first person just to, I want to do something, I want to do something, but in here you still talk to a machine and the machine like lets you do it or doesn't let you do it, therefore you end up talking to like, for permission, like I want to do this, can we do this, can we do that, and that is not the best experience.
+[SPEAKER_01]: But what's also interesting is that this is number seven, I think, of all my tests, and half the people, roughly half the people are like, this is more immersive, and half the people this is less immersive.
+[SPEAKER_01]: So it's a very interesting experience to me looking at.
+[SPEAKER_01]: And then of course if the implementation was to be like deeper then we could argue but even in a current state there's like a split.
+[SPEAKER_00]: I think in the current state it is less immersive.
+[SPEAKER_00]: I mean if it would be like running really smoothly and also I think there should at least
+[SPEAKER_00]: dimensions of what should a command look like, right?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Just like a basic stuff, like you have to say that you want to do a certain thing.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: Not just go like completely free paragraphs.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: I mean, part of me also wanted to see what would you go for.
+[SPEAKER_01]: OK, sure.
+[SPEAKER_00]: But yeah, it's an experiment.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: If the rules for me would be clear or if I had some more time to figure out what I can say and cannot say for the game to understand me, I think the voice command one would be more immersive.
+[SPEAKER_01]: I mean there's a lot of factors that are immersion breaking, like for me one of the biggest things is that you have to wait for it and it doesn't work sometimes, right?
+[SPEAKER_01]: So that for me is a big immersion breaker.
+[SPEAKER_00]: That's true.
+[SPEAKER_00]: just look at the processing sign and... And you're in the same spot, I didn't understand you, so... Yeah, yeah, you're like, fuck it.
+[SPEAKER_01]: Repeating for the first...
+[SPEAKER_01]: There was one player, she was trying to get into the lounge, but her accent was so fucked, so she was saying it like five times, and the game just refused to understand.
+[SPEAKER_01]: Yeah, so that's... That's an immersion breaker.
+[SPEAKER_01]: Yeah, yeah, yeah.
+[SPEAKER_01]: Well, in any case, thank you very much.
+[SPEAKER_01]: And that was deeply thankful... Not deeply thankful, deeply valuable.

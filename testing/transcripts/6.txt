@@ -1,0 +1,303 @@
+[SPEAKER_00]: okay so hi just give me a second here first I'll have just a few simple questions before we begin just a second okay could you tell me okay
+[SPEAKER_00]: What is your gaming experience?
+[SPEAKER_00]: Would you say that you're like a frequent casual, non-gamer, pro-gamer?
+[SPEAKER_01]: In the past I played fairly regularly.
+[SPEAKER_01]: Nowhere near pro level.
+[SPEAKER_01]: I think that I'm casually competitive, like I can say that I have a somewhat like better than average or more than average time spent on games, I guess, than a normal person.
+[SPEAKER_01]: Yeah, I think I'm pretty experienced.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: What's your familiarity with voice assistants like Siri, Google, Gemini or the ones you talk to?
+[SPEAKER_01]: Pretty much none.
+[SPEAKER_01]: I don't use them, I never used them.
+[SPEAKER_01]: And I just found them kind of lacking, kind of annoying, and didn't even bother to give it a fair go at any point.
+[SPEAKER_00]: I'm sure I understand.
+[SPEAKER_00]: Siri cannot even skip songs on my phone sometimes.
+[SPEAKER_00]: Exactly.
+[SPEAKER_00]: And if you're comfortable with sharing that,
+[SPEAKER_00]: do you have to use any accessibility features like voice readers, like text screen readers or like color schemes for accessibility or anything else like that or would you say that you don't ever have to use anything like this?
+[SPEAKER_00]: No, I don't find myself in the need to use any sort of assistance.
+[SPEAKER_00]: All right, all right, let's say that.
+[SPEAKER_00]: I see, I see, I see.
+[SPEAKER_00]: Right now, let me just give you a quick intro to what's gonna happen next.
+[SPEAKER_00]: So, I'm gonna give you 10 minutes to play a video game that I created.
+[SPEAKER_00]: And the thing is, it's a text-based adventure game.
+[SPEAKER_00]: And the world is post-apocalyptic Warsaw.
+[SPEAKER_00]: And the idea is that you lost your brother.
+[SPEAKER_00]: in there and he went to a shopping mall a few days ago and he never returned.
+[SPEAKER_00]: So you want to go find him and rescue him from there somehow.
+[SPEAKER_00]: If he's still there, right?
+[SPEAKER_00]: But you think that he might be there.
+[SPEAKER_01]: And one question, what kind of apocalypse is it?
+[SPEAKER_00]: It's just like, doesn't really matter for the context of the game, but we can say that this is just a human-made apocalypse.
+[SPEAKER_00]: It's important in my opinion.
+[SPEAKER_00]: You're the first person to be asking such important questions.
+[SPEAKER_00]: Okay, so this is the game.
+[SPEAKER_00]: You can take the computer because I know the text is small, so you can have it here.
+[SPEAKER_01]: Oh my god, do you know that I need new glasses, right?
+[SPEAKER_01]: I can't see very well.
+[SPEAKER_00]: Hold on, hold on, hold on.
+[SPEAKER_00]: Let me take it bigger for you, okay?
+[SPEAKER_00]: Yes, please.
+[SPEAKER_00]: This is better?
+[SPEAKER_01]: A little bit bigger, please.
+[SPEAKER_00]: Okay, I don't know.
+[SPEAKER_01]: I'm getting my glasses like day after tomorrow.
+[SPEAKER_01]: Okay, this is okay?
+[SPEAKER_01]: The machine got worse, like so much worse.
+[SPEAKER_00]: I hope this is okay.
+[SPEAKER_00]: It's okay.
+[SPEAKER_00]: Alright.
+[SPEAKER_00]: We can make it work.
+[SPEAKER_00]: That's very good.
+[SPEAKER_00]: Okay, so the way the game works is that
+[SPEAKER_00]: here you have the location name this is the because the shopping mall you can go up and down as well so this is the level and here is the description yes and
+[SPEAKER_00]: just the practical hints would be that when it comes to like understanding where can you go or what can you do sometimes it's like mostly towards the end of the text so yeah I wouldn't skip everything yeah and if you're stuck just look at the end and it should give you some hint what to do and the way the way you interact with the game that's gonna be a bit different than normal so
+[SPEAKER_00]: When you want to do something, you press and hold, it even says here, the R button, and then you speak to the game what you want to do.
+[SPEAKER_00]: And you don't have to use commands, you can use natural language, you can be poetic about it, or can, you know, give very difficult statements and the game should be able to still interpret what you
+[SPEAKER_01]: okay so just say whatever don't be very like mechanical yeah you don't have to be very mechanical about the input you can be but you don't have to be all right all right yeah
+[SPEAKER_01]: So just break the system.
+[SPEAKER_00]: Not necessarily.
+[SPEAKER_01]: Your goal isn't necessarily to break the game.
+[SPEAKER_01]: I see.
+[SPEAKER_01]: Just have fun with it.
+[SPEAKER_00]: Yeah, more or less.
+[SPEAKER_00]: Just experience it and see how it goes.
+[SPEAKER_00]: I will be taking notes, but I'm not judging your performance.
+[SPEAKER_00]: Don't get me wrong.
+[SPEAKER_00]: It's not about seeing if you can beat the game or whatever.
+[SPEAKER_00]: And this is not even about the video game in itself, this is more about the experience and the interaction.
+[SPEAKER_00]: So right now, I'll give you 10 minutes and just a heads up, right, the way you interact again, you have an idea of what you want to say, you press this button, you hold it, you say, and then after you finish speaking, you release it, then you wait a few seconds, because it takes a little bit of time to process everything.
+[SPEAKER_00]: All right.
+[SPEAKER_00]: Understandable.
+[SPEAKER_00]: If you have any questions, just ask me as we go along.
+[SPEAKER_00]: I'll just start a timer.
+[SPEAKER_00]: Okay, so now you have like 10 minutes for this experience.
+[SPEAKER_00]: Here we go.
+[SPEAKER_00]: That's all right.
+[SPEAKER_01]: Quick question.
+[SPEAKER_01]: Can I ask a game about something or do I have to input actions only?
+[SPEAKER_00]: You have to input actions.
+[SPEAKER_01]: I'm going inside the clothing store but I'm trying to step inside the steps that I saw on the dusty floor so that I'm covering my tracks because fortunately we look like we have the same foot size so that's my game plan.
+[SPEAKER_01]: uh...
+[SPEAKER_01]: I'm a little bit confused.
+[SPEAKER_01]: I have some questions, like if I have a crowbar or not.
+[SPEAKER_00]: Oh, sorry, I didn't mention that.
+[SPEAKER_00]: Your inventory is here.
+[SPEAKER_00]: All right, that makes sense.
+[SPEAKER_00]: I'm so sorry.
+[SPEAKER_01]: So I don't have a crowbar.
+[SPEAKER_01]: You don't have a crowbar, yeah, yeah, yeah.
+[SPEAKER_00]: Okay, that's a little bit more clear now.
+[SPEAKER_01]: Understandable.
+[SPEAKER_01]: With this information I'm going back to the ground entrance and trying to go to this storage room and see what's in there.
+[SPEAKER_00]: You might have to... yeah.
+[SPEAKER_00]: The game doesn't support traveling to multiple locations at once.
+[SPEAKER_00]: You have to do it step by step.
+[SPEAKER_00]: So from here you have to go to storage room if you want to go there.
+[SPEAKER_01]: I'm going to the small storage shed to the right.
+[SPEAKER_01]: Give me my crow back.
+[SPEAKER_01]: Eh, crowbar.
+[SPEAKER_01]: I imagined a crow.
+[SPEAKER_01]: I don't think he understood.
+[SPEAKER_00]: Try again, try again.
+[SPEAKER_01]: Okay, okay.
+[SPEAKER_01]: No crows in my inventory.
+[SPEAKER_01]: I'm so sorry about that.
+[SPEAKER_01]: Why?
+[SPEAKER_01]: Give me my crowbar.
+[SPEAKER_01]: I take the crowbar with my fingertips and put it inside my
+[SPEAKER_00]: let's see let's see yeah yeah he's he's trying he's trying yes yes it's all about the fingertips i exit the room
+[SPEAKER_01]: I'm entering the clothing store with small little hops like a bunny.
+[SPEAKER_01]: I hope that it's not going to be too much.
+[SPEAKER_01]: So I got a crowbar and I know how to use it.
+[SPEAKER_01]: Use it.
+[SPEAKER_00]: I don't think he understood you.
+[SPEAKER_01]: Try again, try again.
+[SPEAKER_01]: You said to be poetic and I'm not poetic at all.
+[SPEAKER_00]: Not your fault.
+[SPEAKER_01]: I'm taking out my crowbar and using it to pry open the reinforced internal door.
+[SPEAKER_01]: Let's see about that.
+[SPEAKER_00]: We'll see, we'll see.
+[SPEAKER_00]: OK, don't worry about it.
+[SPEAKER_00]: Let's switch for now, OK?
+[SPEAKER_00]: Because it's been 10 minutes.
+[SPEAKER_00]: So right now, we will switch to more.
+[SPEAKER_00]: I'm sorry, the text will be smaller now.
+[SPEAKER_00]: What the hell?
+[SPEAKER_00]: Oh.
+[SPEAKER_00]: OK.
+[SPEAKER_00]: Oh, it worked actually.
+[SPEAKER_00]: You managed to unlock the doors, so the text was hidden.
+[SPEAKER_01]: We made the game bigger.
+[SPEAKER_00]: Okay, that's good to hear at least.
+[SPEAKER_00]: So right now, for the next 10 minutes, I would like you to play, but instead of using your voice, this is a more traditional keyboard-based navigation.
+[SPEAKER_00]: So you use the numbers here, 1, 2, 3, to select the type of action, and then either a keyboard or sometimes here arrows and enter, depending on
+[SPEAKER_00]: if you want to like use an item you're gonna select it from here you'll see yeah but for like most stuff you're gonna use the numbers okay so i managed to unlock the door so i'm gonna uh two small corridors oh because we unlocked it twice i guess
+[SPEAKER_00]: I don't know.
+[SPEAKER_00]: Number 4.
+[SPEAKER_00]: It's like parallel universe.
+[SPEAKER_00]: I can't read.
+[SPEAKER_00]: I'm sorry.
+[SPEAKER_00]: I'll just close the door.
+[SPEAKER_01]: Yeah, please.
+[SPEAKER_01]: I'm wondering, crafting?
+[SPEAKER_01]: Yeah, nothing.
+[SPEAKER_01]: Travel.
+[SPEAKER_00]: There's no graphic here because I'm
+[SPEAKER_01]: Oh, somebody steps here.
+[SPEAKER_01]: Let's use an item, fuck.
+[SPEAKER_00]: When you use an item, you see this tiny arrow?
+[SPEAKER_01]: Yeah?
+[SPEAKER_00]: You're supposed to select your item if there is multiples, and then you press return.
+[SPEAKER_01]: Oh!
+[SPEAKER_00]: And then it tells you, you cannot use this here.
+[SPEAKER_01]: I see, I see.
+[SPEAKER_01]: That makes sense.
+[SPEAKER_00]: It's okay, it's okay.
+[SPEAKER_01]: So... Back to the small corridor.
+[SPEAKER_01]: I guess I'm traveling.
+[SPEAKER_01]: Let's go to bubble tea because that's where my friend is gonna be at.
+[SPEAKER_00]: Is kiosk also an English word?
+[SPEAKER_00]: It is actually, yeah.
+[SPEAKER_00]: That's a shocker.
+[SPEAKER_00]: Maybe we can make it slightly bigger.
+[SPEAKER_00]: Yes, much better.
+[SPEAKER_01]: All right, throw me out.
+[SPEAKER_01]: All right, why did I bother doing all that?
+[SPEAKER_00]: I'm sorry, sometimes life gives you lemons.
+[SPEAKER_01]: Yeah, I guess now we have to unzoom because there's us.
+[SPEAKER_00]: It's okay, it's okay.
+[SPEAKER_01]: Perfect.
+[SPEAKER_01]: Now go to the Greek fast food restaurant.
+[SPEAKER_01]: Okay, I'm gonna read the last sentence because I'm impatient.
+[SPEAKER_01]: That's all right, I'm not judging.
+[SPEAKER_01]: Okay, okay, wait, wait, it's important.
+[SPEAKER_01]: Pick up.
+[SPEAKER_01]: All right.
+[SPEAKER_01]: Yes, yes, yes.
+[SPEAKER_00]: The second thing, it's already going down.
+[SPEAKER_00]: If you want to go up, you should select number 2.
+[SPEAKER_00]: The naming is not very obvious, and the image is going to be the same, but if you click that, you're on the first floor now, technically.
+[SPEAKER_01]: And you can go somewhere else from here.
+[SPEAKER_01]: I see a potential.
+[SPEAKER_01]: How do you say it?
+[SPEAKER_01]: Like in our language, first floor would be first floor, but first floor is the ground floor in English, isn't it?
+[SPEAKER_00]: In American English and British English.
+[SPEAKER_00]: Yeah, OK, OK. Yeah, but yeah, of course.
+[SPEAKER_00]: had this been a korean game it would have been different as well and german do it different too they have a letter for a ground floor like e or something i don't even remember
+I'm gay.
+[SPEAKER_00]: It's okay.
+[SPEAKER_00]: I think we can... You can travel from here, then we can put a pause.
+[SPEAKER_01]: Alright, you've made it this far, you can chill on the couch.
+[SPEAKER_00]: Yes.
+[SPEAKER_00]: Okay, I'll take the computer from now.
+[SPEAKER_00]: Alright, thank you.
+[SPEAKER_00]: And now I'll have a few questions for you.
+[SPEAKER_00]: Yes.
+[SPEAKER_01]: About your experience.
+[SPEAKER_00]: Just a second.
+[SPEAKER_01]: That's okay.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: I'm an open book, ask me anything.
+[SPEAKER_00]: I will, I will.
+[SPEAKER_00]: So now that you've tried both versions of the game, how are you feeling?
+[SPEAKER_01]: Hmm, tired.
+[SPEAKER_01]: My eyes are tired because my eyesight is so bad and I couldn't read.
+[SPEAKER_00]: The letters are too small anyways.
+[SPEAKER_01]: It's not your fault here.
+[SPEAKER_01]: I'm a little bit tired because I'm really not that much into story-like games, so it was a little bit tiring, but I suppose that's just my unique experience, I guess, in that sense.
+[SPEAKER_00]: Yeah, I mean, it doesn't make it a bad experience, don't worry about it.
+[SPEAKER_00]: And was there immediately something that, like, anything that, like, immediately surprised you when you were playing?
+[SPEAKER_01]: Surprised, I mean, let's think.
+[SPEAKER_01]: I guess that's an answer because I can think of something right away.
+[SPEAKER_01]: Fair enough.
+[SPEAKER_01]: I suppose not.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: If you had to describe the difference between these two games to a person who hasn't played either, what would you say?
+[SPEAKER_01]: The difference?
+[SPEAKER_01]: Okay, so the voice-operated game
+[SPEAKER_01]: left me with much more imagination in that sense that I was being creative about my actions maybe just a little bit but still it made me feel more involved I feel like and the second game was different in that sense that
+[SPEAKER_01]: I've had clear actions that I could do and I could navigate the field much faster but
+[SPEAKER_01]: Yeah, I've had less use of my imagination in the second game.
+[SPEAKER_01]: So I guess the main difference would be imagination in that sense.
+[SPEAKER_01]: I was being less imaginative in the second game, like in the text input game.
+[SPEAKER_01]: Not voice input, but keyboard input.
+[SPEAKER_00]: And from the moment you first used your voice to navigate, what were you thinking as you decided what to say to the system?
+[SPEAKER_00]: That's a tricky question, I know.
+[SPEAKER_01]: I was thinking about making an answer but in a fun way to somewhat test the system.
+[SPEAKER_01]: That's an honest answer.
+[SPEAKER_00]: Understandable.
+[SPEAKER_00]: And how was it like to use the voice input in the game?
+[SPEAKER_01]: It was fine.
+[SPEAKER_01]: It may be a little bit tiring after a while but in the time span that we had tested I didn't find that it was tiring but I was just slow with my inputs
+[SPEAKER_01]: And that's okay, I was more immersed into the situation than the keyboard version
+[SPEAKER_00]: And I know you briefly touched on it a little bit maybe, but in which version did you feel more inside of the story world?
+[SPEAKER_01]: Yeah, I definitely felt more immersed in the voice controlled version of the game.
+[SPEAKER_01]: even if the system didn't necessarily included my little fun quirky additions to the inputs.
+[SPEAKER_00]: I encourage you to be poetic about it.
+[SPEAKER_01]: Yes, even if it didn't include or even mention nothing about my ambitions, it was way more fun in that sense.
+[SPEAKER_01]: I was way more immersed in the story.
+[SPEAKER_01]: I really cared about my friend.
+[SPEAKER_01]: I didn't leave no trace or anything, true, true, true, but with the keyboard version I just was moving, just doing robotic tasks and basically speedrunning the game.
+[SPEAKER_00]: And how did the effort of thinking what to say naturally?
+[SPEAKER_00]: compared to the effort of knowing which key to press?
+[SPEAKER_01]: Well, thinking what to say takes more effort than pressing a key, obviously.
+[SPEAKER_01]: I mean, maybe it's not obvious, but...
+[SPEAKER_01]: It takes more effort because you don't have your actions laid out in front of you and you have an open field, creative open field as of what you can really do.
+[SPEAKER_01]: specific number of inputs or actions you can do and you can navigate it more quickly so it takes much less effort I think.
+[SPEAKER_00]: Did the freedom to say anything to the game make you feel more in control?
+[SPEAKER_00]: Or was it more overwhelming than having a fixed list of keys?
+[SPEAKER_01]: Well...
+[SPEAKER_01]: It gave me a sense of more freedom.
+[SPEAKER_01]: But when I saw that my actions are fairly limited, I felt like my freedom was taken away from me a little bit.
+[SPEAKER_01]: I don't think...
+[SPEAKER_01]: I can see how it could be a little bit overwhelming.
+[SPEAKER_01]: It was a little bit because I was moving slow and processing a lot of stuff and thinking about what I'm going to say.
+[SPEAKER_01]: But I think the freedom was winning in that battle.
+[SPEAKER_01]: Freedom opposed to being overwhelmed.
+[SPEAKER_00]: And how would you compare the overall experience of using the two game versions, and which one would you choose and why?
+[SPEAKER_01]: So, overall experience...
+[SPEAKER_01]: In the first game I've had, the voice activated game, I've had much more fun, to be honest.
+[SPEAKER_01]: I was being creative, I was being silly, I was thinking about my actions and that was way more engaging in that sense.
+[SPEAKER_01]: In the keyboard input game I had my actions laid out in front of me so
+[SPEAKER_01]: It was way more of a speedrunning contest for me, like I wanted to do things as quickly as I can.
+[SPEAKER_01]: I sort of started to skip the storyline and just...
+[SPEAKER_01]: I had my options in front of me, so I knew kind of what to do.
+[SPEAKER_01]: And it became way less fun.
+[SPEAKER_01]: So I had to create the fun myself in trying to do the game faster.
+[SPEAKER_01]: And that was my engagement.
+[SPEAKER_01]: So I think, like,
+[SPEAKER_01]: If you, as a developer, are wanting to get the engagement of just the story and just the game, how you design it, the first one, in my experience, was way more fun and engaging and interesting because I had to think about it.
+[SPEAKER_00]: So which one would you choose then?
+[SPEAKER_01]: I would choose the first one.
+[SPEAKER_00]: Okay.
+[SPEAKER_01]: Because of?
+[SPEAKER_01]: Because of it being more interesting.
+[SPEAKER_01]: more engaging because I don't use normally any sort of voice input utilities and I don't play games that include that sort of thing.
+[SPEAKER_01]: So it was something new for me, something more fun, more interesting, not the same old, same old.
+[SPEAKER_00]: compared to the keyboard type games.
+[SPEAKER_00]: It looks like you really value creativity when it comes to playing games.
+[SPEAKER_00]: Would you agree with that?
+[SPEAKER_01]: I would agree with that because
+[SPEAKER_01]: If I played, let's say, a lot of games, then they can become kind of dull.
+[SPEAKER_01]: So if something is new for me, or it's like, you know, creative or interesting,
+[SPEAKER_01]: I value that because I'm pretty worn out by some normal or usual type of games like the second one.
+[SPEAKER_01]: It was way more similar to the games that I played in the past, I would say.
+[SPEAKER_00]: And this is the last question now.
+[SPEAKER_00]: After reflecting and looking back on everything we said today, is there anything else you would like to add about your experience that we haven't talked about?
+[SPEAKER_00]: Or anything that you have inside of you that you want to share?
+[SPEAKER_00]: Anything that I want to add?
+[SPEAKER_01]: Well, I felt like I was a little bit limited by my eyesight and the small font was holding me back because most of my efforts was made to even read the text.
+[SPEAKER_01]: But that's the personal issue, I guess.
+[SPEAKER_01]: No, no, the text is too small.
+[SPEAKER_00]: It's not just your issue.
+[SPEAKER_00]: I guess it's aesthetic.
+[SPEAKER_00]: No, no, it's just my poor choice.
+[SPEAKER_01]: Please carry on.
+[SPEAKER_01]: So if I were to make a change or add something, I would add
+[SPEAKER_01]: just change the text to be bigger or more easily read.
+[SPEAKER_01]: I was getting a little bit tired by reading so much text about like
+[SPEAKER_01]: describing the scene yeah it was very specific a lot of things and I get that it wants to create a scene maybe I'm lazy in that sense that when I read so much of it I get a little bit overwhelmed so I don't know if that's something to add but this is like a comment I
+[SPEAKER_01]: I don't think I have anything in mind specifically.
+[SPEAKER_01]: Well, thank you very much.
+[SPEAKER_01]: This has been very very helpful and very valuable.
