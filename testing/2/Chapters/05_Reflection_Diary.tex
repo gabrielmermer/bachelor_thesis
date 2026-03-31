@@ -2,37 +2,25 @@
 
 The role of this chapter is to provide reflections post interview and to refine the process for the next interview.
 
-\section{Methodology reflecion}
-\begin{enumerate}
-    \item Wait time \& silence: 
-    
-    Did I provide the participant with time and space to voice out their opinions or did I fill the silence gap due to my own discomfort?
-
-    Due to the fact that this was the first test I admit that I jumped in to fill the silence a bit too much. I take that as a reflection for future tests.
-    \item Lexical mirroring 
-    
-    Identify 1-2 times where I used participants own words to deepen his narrative and answer.
-\end{enumerate}
-
 \section{Defensive self-probing}
 
 \begin{QandA}
    \item Wait time \& silence: Did I provide the participant with time and space to voice out their opinions or did I fill the silence gap due to my own discomfort?
-         \begin{answered}
-            Due to the fact that this was the first test I admit that I jumped in to fill the silence a bit too much. I take that as a reflection for future tests.
-         \end{answered}
+        \begin{answered}
+        I did a better job than during the test \#1 and I made sure to take pauses to propel the participant to speak more.
+        \end{answered}
 
    \item Lexical mirroring: Identify 1-2 times where I used participants own words to deepen his narrative and answer.
 
-         \begin{answered}
-         The participant used the word "zanurzenie" - it's a specific word that can mean immersion ``No to jak takie zanurzenie się w świecie'' (This is the immersion in the game world) and the researcher used the same word asking a qustion ``To znaczy, mówiłaś, że czułaś większe zanurzenie, tak?'' (This means that you felt a deeper immersion right?)
-         \end{answered}
+        \begin{answered}
+        In this interview I self-mirroed with the "inside of the story world" and immediately “Yeah, so in which version did you feel that you were more inside?” right after. This is not as good as mirroring the participant directly but it still was an effective word choice,
+        \end{answered}
 
     \item The "Vessel trap": Did I treat the participant as a way to prove my internal bias that this system might be more immersive than traditional input?
 
-         \begin{answered}
-        I don't think I treated the participant as a way to prove my internal bias here. I thought that since the system was breaking so much that there would be no way that it is more immersive in the first place. The amount of embarasment for every single bug that the participant had to experience made me not focused on proving my internal bias, instead I tried to distance myself from my own creation mostly due to that embarasment that I felt.
-         \end{answered}
+        \begin{answered}
+        Same as in the last test the amount of shame that I felt due to the bugs present in the game and the voice interaction layer made me not defend the system as I felt a deep sense of embarassment. 
+        \end{answered}
 \end{QandA}
 
 \section{Sticky moments analysis}
@@ -40,50 +28,39 @@ Analysis of the meaning of the sticky moments noted in the chapter 3
 
 
 \begin{enumerate}
-    \item \textbf{Location description length}
+    \item \textbf{Missing image on the fishing store}
     
-    The player complained about the length of the location descriptions.
-    The descripions are too long I agree. They should have been maybe 50\% of their length.
-
-
-    \item \textbf{Item usage}
-    
-    It was not directly obvious how to use items in the keyboard version.
-
-    The UX of that interaction can use some improvement. As is currently the item selection arrow is too small.
-
-
-    \item \textbf{Reading time}
-    
-    The player returned to this: \textit{``I could be not reading this at all. This takes too long.''}
-
+    The fishing store location seems to be missing a background image. It appears as just a pure black box.
 
     \item \textbf{Stair naming}
     
-    The naming convention for the stairs was not intuitive.
-    The stairs are called "Stairway going up" and "Stairway going down". Therefore if the player wants to go up the stairs they have to travel to "Stariway going down". It's unitntuitive. 
+    Just like in the last test, the naming convention for the stairs was not intuitive, making the player confuse stairs going up with stairs going down.
 
-    \item \textbf{Recording UX}
+
+    \item \textbf{Game loop broken}
     
-    The UX of the recording mechanic was not obvious.
-
-    The player pressed the R button, released it and then said their command.
+    This includes two sticky moments that stem from the same source. The main bug is that the player can't activate the action to pick up his brother after stabilising his leg. That action should trigger the main entrance collapsing, forcing the player to find another exit out of the game, but since the first action couldn't be triggered the second one also didn't come off. 
 
 
-    \item \textbf{Stair image bug}
+    \item \textbf{Interaction need}
     
-    The 1F stairs displayed the same image as 0F. I defended the game more than I should have.
+    The player expressed that they would like to have more interaction with the given game world. He said that he would like to be able to do more with the items that he collects. 
 
 
-    \item \textbf{Lounge entry}
+
+    \item \textbf{Item pickup impossible}
     
-    Double UX fail entering the lounge. The word lounge was problematic to say for the participant due to their accent.
+    It seems like the leg stabiliser can't be picked up. Upon log inspection it turned out that it was due to termporary voice recognition pipeline failure.
 
 
-    \item \textbf{Pharmacy pickup}
+    \item \textbf{Infinite pistols}
     
-    The leg stabiliser refused to be picked up on the first attempt but succeeded on the second. Seems like a voice recognition error.
+    Due to a bug in the game logic the player could pick up infinite ammount of pistols form the gun store location. This led to him picking up 4 of them before moving on.
 
+
+    \item \textbf{Double teleporation}
+    
+    At some point the voice control system malfunctioned and instead of moving from the Gun store to the Korean Snack Store it moved the player straight to the Lounge, which shoulnd't be possible. This bug was unable to be reproduced later and hasn't showed up and with any subsequent testing participants.
 
 \end{enumerate}
 
@@ -94,11 +71,11 @@ Analysis of the meaning of the sticky moments noted in the chapter 3
 \begin{QandA}
     \item Do any questions need changes or refinements based on my observations?
     \begin{answered}
-        Yes, the first Grand tour question about describing the user journey has left the player confused and didn't provide any tangible benefit in my opinion. The player just restated what they did in the game.
+        I don't believe that the questions need changes or refinements at this point. I removed the first Grand Tour question from the last test and the testing procedure seems to have improved, as the conversation flows more naturally.
     \end{answered}
 
     \item Does the testing procedure need any changes based on the observations from this session?
     \begin{answered}
-        I feel like the fact that the player was initially exposed to commands in version A of the game made them choose their words differently in the version B. The order of those experiences seems to be influencing one another. I'll verify this with future tests
+        My hypothesis about the player's choices on which language to use when using voice controls being influenced by the keyboard version served first has only gotten stronger. I will verify with one more test just to rule out if it's purely a hunch.
     \end{answered}
 \end{QandA}

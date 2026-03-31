@@ -1,228 +1,228 @@
-[SPEAKER_00]: All right, now we're recording here as well.
-[SPEAKER_00]: OK, let me just grab a few things.
-[SPEAKER_00]: First, I have to go through the documents for the procedures.
-[SPEAKER_00]: OK, just to double check.
-[SPEAKER_00]: You're consenting to this interview?
-[SPEAKER_00]: Yes.
-[SPEAKER_00]: Very good.
-[SPEAKER_00]: You agree to being recorded.
-[SPEAKER_00]: Okay, what's your anonymity choice?
-[SPEAKER_00]: You can use my name, Kasper.
-[SPEAKER_00]: Kasper, very good.
-[SPEAKER_00]: Okay, what's your gaming experience?
-[SPEAKER_00]: Would you consider yourself a frequent casual or non-gamer?
-[SPEAKER_01]: I guess for most of my life a frequent gamer.
-[SPEAKER_01]: Now a bit less than I used to, but I still think of myself as a gamer.
-[SPEAKER_00]: Very good, very good.
-[SPEAKER_00]: What's your familiarity level with voice assistants like Siri, Alexa, Google Home?
-[SPEAKER_01]: Not so good.
-[SPEAKER_01]: I don't really use it.
-[SPEAKER_01]: I have Siri turned off on my phone because it's doing more damage than good.
-[SPEAKER_01]: Random calls or things like that.
-[SPEAKER_01]: It was really cold from your phone?
-[SPEAKER_01]: Yeah, I had an accident.
-[SPEAKER_01]: My phone started calling someone from my high school that I haven't talked to in three years.
-[SPEAKER_01]: No way.
-[SPEAKER_00]: Siri just decided to take control of your social life.
-[SPEAKER_00]: She was like, ah, you missed the guy, you know?
-[SPEAKER_00]: Yeah, yeah, yeah, exactly.
-[SPEAKER_01]: Hold on, hold on, hold on.
-[SPEAKER_01]: Let me grab my notebook.
-[SPEAKER_00]: Well, that's pretty funny.
-[SPEAKER_00]: I just need to take my notes.
-[SPEAKER_01]: Oh, yeah, of course.
-[SPEAKER_01]: Okay.
-[SPEAKER_01]: Yeah, so my experience with them is not so good.
-[SPEAKER_01]: Never actually used Google Voice Assistant.
-[SPEAKER_01]: I didn't have a home phone or anything like that, so mainly just bad experiences with Siri.
-[SPEAKER_01]: Okay, okay, okay.
-[SPEAKER_00]: And your accessibility, you consider yourself like a fully body-able person?
-[SPEAKER_00]: Yes, yes.
-[SPEAKER_00]: Outside of my vision impairment.
-[SPEAKER_00]: Okay, so like wearing glasses.
-[SPEAKER_00]: Wearing glasses, but I don't feel that's a disability.
-[SPEAKER_00]: Alright, cool.
-[SPEAKER_00]: Very nice.
-[SPEAKER_00]: Let's go through here.
-[SPEAKER_00]: Just for a note, the acoustic environment, we are sitting inside of a living room with a washing machine in the background, sitting in a rain vent, we are sitting on a sofa, there are microphones on the table, and the identity choice is done, this part is redundant, like, to be removed, let's say.
-[SPEAKER_00]: We started to do primary, secondary recording, we got everything running, and yes...
-[SPEAKER_00]: Okay, so the way this is going to go is here is...
-[SPEAKER_00]: Okay, so the way this is going to go is I'm going to give you 10 minutes first to play this game and if you have any questions you can ask them in my direction but just to give you a quick like
-[SPEAKER_00]: filling you in on the details.
-[SPEAKER_00]: The game premise is that we are in post-apocalyptic Warsaw environment and you have a brother and said brother went for food a few days ago to a shopping mall and he never came back.
-[SPEAKER_00]: So you're trying to
-[SPEAKER_00]: go and try to find him, essentially.
-[SPEAKER_00]: You think that he's inside of there, somewhere, and your task here is trying to rescue him.
-[SPEAKER_00]: The navigation right now is fully keyboard-based, so here is the location name, the level, and then there's text about the place.
-[SPEAKER_00]: You can go with keyboard, you can do traveling, you can craft with your items, and you can use items that you already have.
-[SPEAKER_00]: You can try to do that.
-[SPEAKER_00]: Any items that you collect will be displayed here in the inventory.
-[SPEAKER_00]: Okay, so navigation is with number keys, sometimes arrows and return for confirming without crafting stuff like that.
-[SPEAKER_00]: Okay, so let me just grab my phone to start a timer.
-[SPEAKER_00]: But right now, yeah, I'll give you 10 minutes to get comfortable with this.
-[SPEAKER_00]: Oh, you can take the computer on your lap too, that's fine.
-[SPEAKER_00]: Yeah, because I know the text is pretty small.
-[SPEAKER_00]: I think there is a bug in this version, in this current build, but let's assume that...
-[SPEAKER_01]: He can't still stand?
-[SPEAKER_01]: No, he can.
-[SPEAKER_01]: Yeah, because I tried to pick him up.
-[SPEAKER_00]: Oh, there is a bug there.
-[SPEAKER_00]: Yeah, let's just assume that you picked him up, okay?
-[SPEAKER_01]: It's gonna work out, don't worry about it.
-[SPEAKER_01]: I'm sorry.
-[SPEAKER_01]: He just ran away.
-[SPEAKER_00]: Yep.
-[SPEAKER_01]: So it's closed for three times.
-[SPEAKER_00]: Ah, wonderful.
-[SPEAKER_01]: So I think I'm...
-[SPEAKER_01]: I exited, I think.
-[SPEAKER_00]: Alright.
-[SPEAKER_00]: So, you know, it's been about ten minutes.
-[SPEAKER_00]: Um... Now I would like you to...
-[SPEAKER_00]: Try and replay the scenario.
-[SPEAKER_00]: Yeah?
-[SPEAKER_00]: But...
-[SPEAKER_01]: This time... Can I even turn up the volume?
-[SPEAKER_01]: Yeah, of course you can.
-[SPEAKER_00]: Okay, so there are two bugs here.
-[SPEAKER_00]: Because you couldn't pick him up, there was another thing that did not fire.
-[SPEAKER_00]: Therefore, I would like you to try slightly different this time.
-[SPEAKER_00]: Let's assume that you picked him up, right?
-[SPEAKER_00]: But this time you won't be able to leave this way.
-[SPEAKER_00]: I know that technically you can, but try to find another exit out of the building.
-[SPEAKER_00]: Okay, that's one thing.
-[SPEAKER_00]: Second thing.
-[SPEAKER_00]: This time, for the next 10 minutes, I would like you to try and play, but instead of using the keyboard to navigate, this time, the way to navigate would be to, whenever you want to interact with the game, you press this key right here, so you press R, you say what you want to do, and then you release the key and wait till it completes.
-[SPEAKER_00]: Okay, so let's refresh because we've got all the equipment.
-[SPEAKER_01]: Okay.
+\Gabriel: All right, now we're recording here as well.
+\Gabriel: OK, let me just grab a few things.
+\Gabriel: First, I have to go through the documents for the procedures.
+\Gabriel: OK, just to double check.
+\Gabriel: You're consenting to this interview?
+\Gabriel: Yes.
+\Gabriel: Very good.
+\Gabriel: You agree to being recorded.
+\Gabriel: Okay, what's your anonymity choice?
+\Gabriel: You can use my name, Kacper.
+\Gabriel: Kacper, very good.
+\Gabriel: Okay, what's your gaming experience?
+\Gabriel: Would you consider yourself a frequent casual or non-gamer?
+\Kacper: I guess for most of my life a frequent gamer.
+\Kacper: Now a bit less than I used to, but I still think of myself as a gamer.
+\Gabriel: Very good, very good.
+\Gabriel: What's your familiarity level with voice assistants like Siri, Alexa, Google Home?
+\Kacper: Not so good.
+\Kacper: I don't really use it.
+\Kacper: I have Siri turned off on my phone because it's doing more damage than good.
+\Kacper: Random calls or things like that.
+\Kacper: It was really cold from your phone?
+\Kacper: Yeah, I had an accident.
+\Kacper: My phone started calling someone from my high school that I haven't talked to in three years.
+\Kacper: No way.
+\Gabriel: Siri just decided to take control of your social life.
+\Gabriel: She was like, ah, you missed the guy, you know?
+\Gabriel: Yeah, yeah, yeah, exactly.
+\Kacper: Hold on, hold on, hold on.
+\Kacper: Let me grab my notebook.
+\Gabriel: Well, that's pretty funny.
+\Gabriel: I just need to take my notes.
+\Kacper: Oh, yeah, of course.
+\Kacper: Okay.
+\Kacper: Yeah, so my experience with them is not so good.
+\Kacper: Never actually used Google Voice Assistant.
+\Kacper: I didn't have a home phone or anything like that, so mainly just bad experiences with Siri.
+\Kacper: Okay, okay, okay.
+\Gabriel: And your accessibility, you consider yourself like a fully body-able person?
+\Gabriel: Yes, yes.
+\Gabriel: Outside of my vision impairment.
+\Gabriel: Okay, so like wearing glasses.
+\Gabriel: Wearing glasses, but I don't feel that's a disability.
+\Gabriel: Alright, cool.
+\Gabriel: Very nice.
+\Gabriel: Let's go through here.
+\Gabriel: Just for a note, the acoustic environment, we are sitting inside of a living room with a washing machine in the background, sitting in a rain vent, we are sitting on a sofa, there are microphones on the table, and the identity choice is done, this part is redundant, like, to be removed, let's say.
+\Gabriel: We started to do primary, secondary recording, we got everything running, and yes...
+\Gabriel: Okay, so the way this is going to go is here is...
+\Gabriel: Okay, so the way this is going to go is I'm going to give you 10 minutes first to play this game and if you have any questions you can ask them in my direction but just to give you a quick like
+\Gabriel: filling you in on the details.
+\Gabriel: The game premise is that we are in post-apocalyptic Warsaw environment and you have a brother and said brother went for food a few days ago to a shopping mall and he never came back.
+\Gabriel: So you're trying to
+\Gabriel: go and try to find him, essentially.
+\Gabriel: You think that he's inside of there, somewhere, and your task here is trying to rescue him.
+\Gabriel: The navigation right now is fully keyboard-based, so here is the location name, the level, and then there's text about the place.
+\Gabriel: You can go with keyboard, you can do traveling, you can craft with your items, and you can use items that you already have.
+\Gabriel: You can try to do that.
+\Gabriel: Any items that you collect will be displayed here in the inventory.
+\Gabriel: Okay, so navigation is with number keys, sometimes arrows and return for confirming without crafting stuff like that.
+\Gabriel: Okay, so let me just grab my phone to start a timer.
+\Gabriel: But right now, yeah, I'll give you 10 minutes to get comfortable with this.
+\Gabriel: Oh, you can take the computer on your lap too, that's fine.
+\Gabriel: Yeah, because I know the text is pretty small.
+\Gabriel: I think there is a bug in this version, in this current build, but let's assume that...
+\Kacper: He can't still stand?
+\Kacper: No, he can.
+\Kacper: Yeah, because I tried to pick him up.
+\Gabriel: Oh, there is a bug there.
+\Gabriel: Yeah, let's just assume that you picked him up, okay?
+\Kacper: It's gonna work out, don't worry about it.
+\Kacper: I'm sorry.
+\Kacper: He just ran away.
+\Gabriel: Yep.
+\Kacper: So it's closed for three times.
+\Gabriel: Ah, wonderful.
+\Kacper: So I think I'm...
+\Kacper: I exited, I think.
+\Gabriel: Alright.
+\Gabriel: So, you know, it's been about ten minutes.
+\Gabriel: Um... Now I would like you to...
+\Gabriel: Try and replay the scenario.
+\Gabriel: Yeah?
+\Gabriel: But...
+\Kacper: This time... Can I even turn up the volume?
+\Kacper: Yeah, of course you can.
+\Gabriel: Okay, so there are two bugs here.
+\Gabriel: Because you couldn't pick him up, there was another thing that did not fire.
+\Gabriel: Therefore, I would like you to try slightly different this time.
+\Gabriel: Let's assume that you picked him up, right?
+\Gabriel: But this time you won't be able to leave this way.
+\Gabriel: I know that technically you can, but try to find another exit out of the building.
+\Gabriel: Okay, that's one thing.
+\Gabriel: Second thing.
+\Gabriel: This time, for the next 10 minutes, I would like you to try and play, but instead of using the keyboard to navigate, this time, the way to navigate would be to, whenever you want to interact with the game, you press this key right here, so you press R, you say what you want to do, and then you release the key and wait till it completes.
+\Gabriel: Okay, so let's refresh because we've got all the equipment.
+\Kacper: Okay.
 All right.
-[SPEAKER_00]: Okay, and hold up.
-[SPEAKER_00]: Yellow rubber duck.
-[SPEAKER_00]: Okay, and if there's another bug, this is gonna say processing for now, just ignore this, and when you're ready, press R and say your thing.
-[SPEAKER_00]: Okay, yeah.
-[SPEAKER_00]: Can I go for it?
-[SPEAKER_00]: Yeah, go for it, go for it.
-[SPEAKER_01]: Enter a small storage shed.
-[SPEAKER_01]: Pick up the crowbar.
-[SPEAKER_01]: I have a question.
-[SPEAKER_01]: In the previous game I had a set of options.
-[SPEAKER_01]: Can I now take something else from the room that wasn't possible earlier or shouldn't I try it at all?
-[SPEAKER_00]: You can try asking for it, but it's the same set of rules.
-[SPEAKER_00]: So, in this room there is only one thing on the floor.
-[SPEAKER_00]: Okay, I get it.
-[SPEAKER_00]: Yeah, yeah, yeah.
-[SPEAKER_01]: So, okay.
-[SPEAKER_01]: Because I thought, for example, I think supplies could be used as a medikit or something like a game.
-[SPEAKER_01]: Understandable, understandable.
-[SPEAKER_01]: Yeah, yeah, yeah.
-[SPEAKER_01]: Okay, I understand that.
-[SPEAKER_01]: Thank you.
-[SPEAKER_01]: Let's go back to the main entrance.
-[SPEAKER_01]: Let's go in the clothing store.
-[SPEAKER_01]: Let's use the crowbar on the heavy door.
-[SPEAKER_00]: Can you try again?
-[SPEAKER_00]: Sorry, I'm not recording.
-[SPEAKER_00]: Please carry on.
-[SPEAKER_01]: Let's go to the corner.
-[SPEAKER_01]: Let's go into the food court.
-[SPEAKER_01]: Let's go to the stairway.
+\Gabriel: Okay, and hold up.
+\Gabriel: Yellow rubber duck.
+\Gabriel: Okay, and if there's another bug, this is gonna say processing for now, just ignore this, and when you're ready, press R and say your thing.
+\Gabriel: Okay, yeah.
+\Gabriel: Can I go for it?
+\Gabriel: Yeah, go for it, go for it.
+\Kacper: Enter a small storage shed.
+\Kacper: Pick up the crowbar.
+\Kacper: I have a question.
+\Kacper: In the previous game I had a set of options.
+\Kacper: Can I now take something else from the room that wasn't possible earlier or shouldn't I try it at all?
+\Gabriel: You can try asking for it, but it's the same set of rules.
+\Gabriel: So, in this room there is only one thing on the floor.
+\Gabriel: Okay, I get it.
+\Gabriel: Yeah, yeah, yeah.
+\Kacper: So, okay.
+\Kacper: Because I thought, for example, I think supplies could be used as a medikit or something like a game.
+\Kacper: Understandable, understandable.
+\Kacper: Yeah, yeah, yeah.
+\Kacper: Okay, I understand that.
+\Kacper: Thank you.
+\Kacper: Let's go back to the main entrance.
+\Kacper: Let's go in the clothing store.
+\Kacper: Let's use the crowbar on the heavy door.
+\Gabriel: Can you try again?
+\Gabriel: Sorry, I'm not recording.
+\Gabriel: Please carry on.
+\Kacper: Let's go to the corner.
+\Kacper: Let's go into the food court.
+\Kacper: Let's go to the stairway.
 Let's go up.
-[SPEAKER_01]: Let's go to the lounge.
-[SPEAKER_01]: Went down again.
-[SPEAKER_01]: Let's go back up.
-[SPEAKER_01]: Let's enter the open space of the lounge.
-[SPEAKER_00]: In case it doesn't work, we will just temporarily switch to the keyboard navigation and get rid of it, so no worries.
-[SPEAKER_00]: Yeah, there is a bug.
-[SPEAKER_00]: It wasn't present last time, so no worries.
-[SPEAKER_00]: Let's go to the pharmacy.
-[SPEAKER_01]: Go to, go to, go to, go to, go to from here.
-[SPEAKER_01]: Should I try again?
-[SPEAKER_01]: Try again, yeah, try again.
-[SPEAKER_01]: Let's go to the pharmacy.
-[SPEAKER_00]: Okay, let's try in my home.
-[SPEAKER_00]: Maybe there is another... some locations or...
-[SPEAKER_01]: Let's pick up the next stabilizer.
-[SPEAKER_00]: Let's try again.
-[SPEAKER_01]: Let's pick up the leg stabilizer.
-[SPEAKER_01]: Let's go back to the lounge.
-[SPEAKER_01]: Let's go inside the big food supermarket.
-[SPEAKER_01]: Let's help my brother with the leg stabilizer.
-[SPEAKER_00]: Okay, so now we assume that you helped him.
-[SPEAKER_00]: Again, the same bug is present.
-[SPEAKER_01]: Of course, so now I need to find another exit.
-[SPEAKER_00]: Yes, another exit out of the building.
-[SPEAKER_01]: So let's go back to the lounge.
-[SPEAKER_01]: Let's go to the Korean snack store.
-[SPEAKER_01]: Let's go to the gun store Let's pick up the pistol
-[SPEAKER_01]: Let's go to the gun store.
-[SPEAKER_01]: Went back to the lounge.
-[SPEAKER_01]: We don't need it again.
-[SPEAKER_01]: Let's go to the elevator.
-[SPEAKER_00]: Okay, I think we can pause for now.
-[SPEAKER_00]: Let me just take the computer out.
-[SPEAKER_00]: Now I'm going to ask you a few questions.
-[SPEAKER_00]: So, now that you've tried both versions of the game, how are you feeling?
-[SPEAKER_00]: Was there anything that immediately surprised you?
-[SPEAKER_01]: I mean the fact that in the one you can control with your keyboard you always know at first what you can do.
-[SPEAKER_01]: Everything is predictable.
-[SPEAKER_01]: There's almost no need to read the text or anything.
-[SPEAKER_01]: You could just speedrun through the buttons and see what happens.
-[SPEAKER_01]: In the speech one you cannot do that because the only way to know what you can do is from the text.
-[SPEAKER_01]: I thought for a second that maybe I could, for example, take some other items than in the previous version.
-[SPEAKER_01]: Because they were present in the text, I could assume, for example, in the shed, there is no way of knowing that the crowbar is the thing you should get if you don't go to the entrance first, if you know what I mean.
-[SPEAKER_01]: If I played it the other way around, I don't think I could find the brother in the speaking one.
-[SPEAKER_01]: besides the bugs that happened, just like from the gameplay, in the 10 minutes that it took me to get him in and out, I don't think I could do that in the speech one.
-[SPEAKER_00]: Okay, we'll get back to that.
-[SPEAKER_00]: If you had to describe the difference between these two versions of the game to the person who hadn't played either, what would you say?
-[SPEAKER_00]: Could you repeat the last part?
-[SPEAKER_00]: a person who hasn't played either, right?
-[SPEAKER_00]: Who hasn't played at all, what would you say?
-[SPEAKER_01]: I mean, I would describe them both as like a text adventure kind of game.
-[SPEAKER_01]: The first one I would describe as pretty simple because of the way the game says what you can do.
-[SPEAKER_01]: The other one is a bit more complex and you need to think about solutions a bit more.
-[SPEAKER_01]: So it's more interesting in that sense for me, and I think that's how I would describe it to someone.
-[SPEAKER_00]: And from the moment you first used your voice to navigate, what were you thinking as you decided what to say to the game?
-[SPEAKER_01]: I thought it should be as easy to understand, as simple as it can be.
-[SPEAKER_01]: To not use like complex sentences and things like that, just go say the name of the room, the name of the thing and like a simple command.
-[SPEAKER_00]: And how was it like to use the voice input in the game?
-[SPEAKER_01]: I mean, it was fine.
-[SPEAKER_01]: I have not ever, I think, used the voice like strictly to input things into a game.
-[SPEAKER_01]: So it was something different.
-[SPEAKER_01]: But yeah, in this formula of a game, it could be fun to use.
-[SPEAKER_00]: And moving on.
-[SPEAKER_00]: In which version did you feel more inside of the story world?
-[SPEAKER_00]: Yeah, so in which version did you feel that you were more inside?
-[SPEAKER_01]: I think in the talking one, because you had to immerse more in the text and more focus on where you are, what you're doing.
-[SPEAKER_01]: When you talk to the computer you feel like you have a conversation with the game, so it's also pretty interesting.
-[SPEAKER_01]: But you need to be more focused, you cannot rely on the game telling you what to do.
-[SPEAKER_00]: And how did the effort of thinking what to say and then saying it compare to the effort of knowing which key should I press?
-[SPEAKER_01]: I mean, both were pretty simple.
-[SPEAKER_01]: As I said, I tried to make the commands as simple and on point as possible.
-[SPEAKER_01]: So for me, it wasn't much difference.
-[SPEAKER_01]: like just input wise because it was a simple very simple things freedom to say anything make you feel more in control
-[SPEAKER_00]: Or was it more like overwhelming than having, you know, the fixed set of keys?
-[SPEAKER_01]: I mean, it wasn't overwhelming for me.
-[SPEAKER_01]: It was more like a freedom that I could think of another solution.
-[SPEAKER_01]: I could try something else.
-[SPEAKER_01]: I really like in like other video games when you can, for example, pick some random item at the beginning of the game and then two hours later it turns out you can do something with it.
-[SPEAKER_01]: It's pretty cool and satisfying feeling.
-[SPEAKER_01]: So when I don't have a strict list of things I can do, I can have that feeling that I can do something with it and try to find other solutions.
-[SPEAKER_01]: So it's pretty fun.
-[SPEAKER_00]: How would you compare the overall experience of using the two game versions and which one would you choose and why?
-[SPEAKER_01]: I mean, how I said, the first one, the one with the keyboard inputs is pretty simple and you could go through it without really thinking about it, if you want.
-[SPEAKER_01]: But the second one is like, you need to be taken in the story to be able to play it, because without reading and being invested somehow in this world, you cannot even move forward.
-[SPEAKER_01]: So if I would want to play one of those games, I would want to play the second one, the voice one, I think.
-[SPEAKER_00]: During the play-through, there were a lot of, I mean, I know that four separate instances of, you know, you saying something and the game doing something completely different, right?
-[SPEAKER_00]: How did that make you feel in those moments?
-[SPEAKER_01]: I mean, a bit frustrated, as every time something bugs and doesn't work as it should be.
-[SPEAKER_01]: Also, it was a bit funny that the game, I said something, the game did something completely different.
-[SPEAKER_01]: maybe for a moment I thought about it like it could it could be intended as such like have fun with the player to like invert expectations a bit it's like a breaking of a fourth wall kind of thing but maybe it's just my imagination running wild next time I have to explain myself to a committee
-[SPEAKER_00]: guys, I swear to God, you're not getting my jokes.
-[SPEAKER_00]: But it looks like you enjoyed the process, let's say, despite the... Would you agree with this statement?
-[SPEAKER_00]: To me, it looks like you, despite those errors, you still somehow enjoyed the process.
-[SPEAKER_01]: Yes, I did.
-[SPEAKER_01]: And one of the things is that it was a new experience to me and it was fun to try something new.
-[SPEAKER_01]: Like a new way to play a game.
-[SPEAKER_01]: Okay, okay.
-[SPEAKER_00]: And, you know, is there, like, after us talking, right, this is like the last question, so is there anything else that you would like to, like, say or add or maybe ask me or add to what we've been talking that we just haven't talked about?
-[SPEAKER_00]: uh i don't know for for this moment i don't think so all right all right well thank you very much um this is very very valuable so right now i will stop the recording here and here
+\Kacper: Let's go to the lounge.
+\Kacper: Went down again.
+\Kacper: Let's go back up.
+\Kacper: Let's enter the open space of the lounge.
+\Gabriel: In case it doesn't work, we will just temporarily switch to the keyboard navigation and get rid of it, so no worries.
+\Gabriel: Yeah, there is a bug.
+\Gabriel: It wasn't present last time, so no worries.
+\Gabriel: Let's go to the pharmacy.
+\Kacper: Go to, go to, go to, go to, go to from here.
+\Kacper: Should I try again?
+\Kacper: Try again, yeah, try again.
+\Kacper: Let's go to the pharmacy.
+\Gabriel: Okay, let's try in my home.
+\Gabriel: Maybe there is another... some locations or...
+\Kacper: Let's pick up the next stabilizer.
+\Gabriel: Let's try again.
+\Kacper: Let's pick up the leg stabilizer.
+\Kacper: Let's go back to the lounge.
+\Kacper: Let's go inside the big food supermarket.
+\Kacper: Let's help my brother with the leg stabilizer.
+\Gabriel: Okay, so now we assume that you helped him.
+\Gabriel: Again, the same bug is present.
+\Kacper: Of course, so now I need to find another exit.
+\Gabriel: Yes, another exit out of the building.
+\Kacper: So let's go back to the lounge.
+\Kacper: Let's go to the Korean snack store.
+\Kacper: Let's go to the gun store Let's pick up the pistol
+\Kacper: Let's go to the gun store.
+\Kacper: Went back to the lounge.
+\Kacper: We don't need it again.
+\Kacper: Let's go to the elevator.
+\Gabriel: Okay, I think we can pause for now.
+\Gabriel: Let me just take the computer out.
+\Gabriel: Now I'm going to ask you a few questions.
+\Gabriel: So, now that you've tried both versions of the game, how are you feeling?
+\Gabriel: Was there anything that immediately surprised you?
+\Kacper: I mean the fact that in the one you can control with your keyboard you always know at first what you can do.
+\Kacper: Everything is predictable.
+\Kacper: There's almost no need to read the text or anything.
+\Kacper: You could just speedrun through the buttons and see what happens.
+\Kacper: In the speech one you cannot do that because the only way to know what you can do is from the text.
+\Kacper: I thought for a second that maybe I could, for example, take some other items than in the previous version.
+\Kacper: Because they were present in the text, I could assume, for example, in the shed, there is no way of knowing that the crowbar is the thing you should get if you don't go to the entrance first, if you know what I mean.
+\Kacper: If I played it the other way around, I don't think I could find the brother in the speaking one.
+\Kacper: besides the bugs that happened, just like from the gameplay, in the 10 minutes that it took me to get him in and out, I don't think I could do that in the speech one.
+\Gabriel: Okay, we'll get back to that.
+\Gabriel: If you had to describe the difference between these two versions of the game to the person who hadn't played either, what would you say?
+\Gabriel: Could you repeat the last part?
+\Gabriel: a person who hasn't played either, right?
+\Gabriel: Who hasn't played at all, what would you say?
+\Kacper: I mean, I would describe them both as like a text adventure kind of game.
+\Kacper: The first one I would describe as pretty simple because of the way the game says what you can do.
+\Kacper: The other one is a bit more complex and you need to think about solutions a bit more.
+\Kacper: So it's more interesting in that sense for me, and I think that's how I would describe it to someone.
+\Gabriel: And from the moment you first used your voice to navigate, what were you thinking as you decided what to say to the game?
+\Kacper: I thought it should be as easy to understand, as simple as it can be.
+\Kacper: To not use like complex sentences and things like that, just go say the name of the room, the name of the thing and like a simple command.
+\Gabriel: And how was it like to use the voice input in the game?
+\Kacper: I mean, it was fine.
+\Kacper: I have not ever, I think, used the voice like strictly to input things into a game.
+\Kacper: So it was something different.
+\Kacper: But yeah, in this formula of a game, it could be fun to use.
+\Gabriel: And moving on.
+\Gabriel: In which version did you feel more inside of the story world?
+\Gabriel: Yeah, so in which version did you feel that you were more inside?
+\Kacper: I think in the talking one, because you had to immerse more in the text and more focus on where you are, what you're doing.
+\Kacper: When you talk to the computer you feel like you have a conversation with the game, so it's also pretty interesting.
+\Kacper: But you need to be more focused, you cannot rely on the game telling you what to do.
+\Gabriel: And how did the effort of thinking what to say and then saying it compare to the effort of knowing which key should I press?
+\Kacper: I mean, both were pretty simple.
+\Kacper: As I said, I tried to make the commands as simple and on point as possible.
+\Kacper: So for me, it wasn't much difference.
+\Kacper: like just input wise because it was a simple very simple things freedom to say anything make you feel more in control
+\Gabriel: Or was it more like overwhelming than having, you know, the fixed set of keys?
+\Kacper: I mean, it wasn't overwhelming for me.
+\Kacper: It was more like a freedom that I could think of another solution.
+\Kacper: I could try something else.
+\Kacper: I really like in like other video games when you can, for example, pick some random item at the beginning of the game and then two hours later it turns out you can do something with it.
+\Kacper: It's pretty cool and satisfying feeling.
+\Kacper: So when I don't have a strict list of things I can do, I can have that feeling that I can do something with it and try to find other solutions.
+\Kacper: So it's pretty fun.
+\Gabriel: How would you compare the overall experience of using the two game versions and which one would you choose and why?
+\Kacper: I mean, how I said, the first one, the one with the keyboard inputs is pretty simple and you could go through it without really thinking about it, if you want.
+\Kacper: But the second one is like, you need to be taken in the story to be able to play it, because without reading and being invested somehow in this world, you cannot even move forward.
+\Kacper: So if I would want to play one of those games, I would want to play the second one, the voice one, I think.
+\Gabriel: During the play-through, there were a lot of, I mean, I know that four separate instances of, you know, you saying something and the game doing something completely different, right?
+\Gabriel: How did that make you feel in those moments?
+\Kacper: I mean, a bit frustrated, as every time something bugs and doesn't work as it should be.
+\Kacper: Also, it was a bit funny that the game, I said something, the game did something completely different.
+\Kacper: maybe for a moment I thought about it like it could it could be intended as such like have fun with the player to like invert expectations a bit it's like a breaking of a fourth wall kind of thing but maybe it's just my imagination running wild next time I have to explain myself to a committee
+\Gabriel: guys, I swear to God, you're not getting my jokes.
+\Gabriel: But it looks like you enjoyed the process, let's say, despite the... Would you agree with this statement?
+\Gabriel: To me, it looks like you, despite those errors, you still somehow enjoyed the process.
+\Kacper: Yes, I did.
+\Kacper: And one of the things is that it was a new experience to me and it was fun to try something new.
+\Kacper: Like a new way to play a game.
+\Kacper: Okay, okay.
+\Gabriel: And, you know, is there, like, after us talking, right, this is like the last question, so is there anything else that you would like to, like, say or add or maybe ask me or add to what we've been talking that we just haven't talked about?
+\Gabriel: uh i don't know for for this moment i don't think so all right all right well thank you very much um this is very very valuable so right now i will stop the recording here and here
