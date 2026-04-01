@@ -1,0 +1,351 @@
+Gabriel: Okay, this is the third test right now.
+Gabriel: Okay, I just turned on the first recording.
+Gabriel: Let me turn on the second recording.
+Zuzia:: The second?
+Gabriel: Yeah, on my computer.
+Gabriel: Just in case I fuck up and press the wrong button.
+Gabriel: Okay.
+Gabriel: Alright.
+Gabriel: Let me go through the protocol, because there is a protocol for this.
+Gabriel: Don't laugh, this is very serious research Okay, slowly Alright, just a minute I love a cat Aren't you too quiet?
+Gabriel: What?
+Zuzia:: because when you speak the sound is very little.
+Gabriel: Okay, I will speak loud and clear.
+Gabriel: Okay, let's just see real quick.
+Gabriel: Yes, you're consenting to being recorded, you're consenting to the interview.
+Zuzia:: Yes.
+Gabriel: Very nice.
+Gabriel: Okay, so could you tell me what is your gaming experience?
+Gabriel: Would you describe yourself as a
+Gabriel: Capricorn gamer, more of a casual gamer, hardcore gamer?
+Zuzia:: Hardcore when it comes to time-consuming aspect, but not really hardcore if we talk about the skill that I have and also how much my mind is invested in a game, more for fun than
+Gabriel: I hate my phone sometimes.
+Zuzia:: Okay.
+Gabriel: So, the way the game, the UI works is that this is a text-based adventure game.
+Zuzia:: Okay, so like the old RPGs.
+Gabriel: Yeah, something like that, right?
+Gabriel: And there's like some art in the background, location name, description of the location.
+Gabriel: whole navigation is done using keyboard so you can yeah exactly using the arrows sometimes to like choose things in your inventory on the right here we're gonna have your items and you use return for navigation yeah okay so right now I'll give you 10 minutes of course you can ask me any questions if you have them
+Zuzia:: Okay, so I have 10 minutes for the whole game.
+Gabriel: You don't have to finish it in 10 minutes, right?
+Gabriel: But right now you're gonna have 10 minutes.
+Gabriel: And obviously I'm making small notes as we go along.
+Gabriel: Nothing that you do incorrectly, just my observations about the game.
+Gabriel: You know, things that are broken, things that I can't see, stuff like that.
+Gabriel: I know the text is quite small, so you can also take the computer.
+Zuzia:: Oh, I guess it's okay.
+you.
+Zuzia:: So, this is the place, not that I live in, but I went to the mall and this is the first thing, what I see when I go out.
+Gabriel: Yeah, this is the idea, the ground entrance.
+Gabriel: Okay.
+Zuzia:: So if I don't have anything in inventory, I can't use item?
+Gabriel: Yeah, exactly.
+Zuzia:: Okay.
+Zuzia:: Okay, so do I click it here?
+Zuzia:: Do you want to use it?
+Zuzia:: No picture.
+Gabriel: Yeah, yeah, I'm aware.
+Gabriel: It's a bug.
+Gabriel: I mean you're armed very well by now I have to say.
+Zuzia:: If it's possible to have 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 pistols.
+Gabriel: Yeah, 10 pistols.
+Gabriel: You know, Blackbeard supposedly had 27 pistols on him.
+Zuzia:: So, I'm also almost him.
+Gabriel: Yeah, okay.
+Gabriel: The time is up.
+Gabriel: Before we go further, yes, your pistols, right now we'll do a small change.
+Gabriel: So, 10 minutes are up and now we will switch things up a little bit.
+Gabriel: So, instead of using a keyboard now,
+Gabriel: What I would like you to do is navigate using your voice.
+Zuzia:: Okay, sure.
+Gabriel: The way this works is you click R and hold it.
+Gabriel: After a split second, you say what you would like to say.
+Gabriel: And then you release it, wait a few seconds because it takes a little bit of time to process.
+Zuzia:: Okay, but I'm releasing it and then waiting after I said something.
+Zuzia:: Yeah, so first press, say, unclick, and then, okay.
+Gabriel: Exactly.
+Gabriel: And just as a side note, you don't have to use the exact words that were displayed on the screen before.
+Zuzia:: Okay, so I don't have the comments, I'm just saying.
+Zuzia:: Yes.
+Zuzia:: Okay.
+Zuzia:: Go back to...
+Zuzia:: Lounge.
+Zuzia:: Lounge.
+Zuzia:: It's a weird word.
+Gabriel: It is, I agree.
+Gabriel: In case it messes up, let me just check real quick.
+Gabriel: OK. All right, all right, all right.
+Gabriel: First time we do this, we have to repeat.
+Gabriel: So because there's a bug, only first time.
+Zuzia:: OK. Travel to long.
+Zuzia:: Go back to place before.
+Gabriel: Okay.
+Gabriel: In this case, I don't understand you because lounge is a problematic location.
+Gabriel: Let's just manually move you there.
+Zuzia:: Okay.
+Zuzia:: Go to pharmacy.
+Zuzia:: Travel to pharmacy.
+Zuzia:: Maybe my Siri doesn't work because I'm the pro.
+Gabriel: Hold on.
+Gabriel: I'm just trying to guess why it's happening.
+Gabriel: Yeah, just give me a second here.
+Zuzia:: Of course.
+Gabriel: Please travel to the pharmacy.
+Gabriel: Okay, let me just pause the timer real quick because we seem to be having a little technical problem.
+Gabriel: please travel to the pharmacy.
+Gabriel: please travel to the pharmacy.
+Zuzia:: Just for the record,
+Gabriel: Processing just broke.
+Gabriel: I need one minute.
+Zuzia:: Of course.
+Zuzia:: I'm sorry.
+Gabriel: I mean, it's okay.
+Gabriel: Things like this happen.
+Gabriel: Please go to the pharmacy.
+Gabriel: Please go to the pharmacy.
+Gabriel: Please, I would like you to go to the pharmacy.
+Zuzia:: I'm going to start with this one.
+Zuzia:: It's hard, I'm trying to see.
+Gabriel: Maybe it's race condition to the microphone.
+Gabriel: I'm wondering, it's pretty strong.
+Gabriel: I'm throwing it out.
+Gabriel: Wait a second.
+Gabriel: There is some bitrate, but...
+Gabriel: Yes, you are patient zero.
+Gabriel: Because before... Everything was flashing.
+Gabriel: Yes, everything was flashing.
+Gabriel: And now I'm wondering what to do.
+Zuzia:: Do you know what?
+Gabriel: There is a chance that we will have to...
+Gabriel: I won't fix it in 5 minutes If it would be ok for you, we could just meet again and... Yeah, sure.
+Gabriel: Ok. Fuck.
+Gabriel: Ok, so I'll pause the recording here.
+Gabriel: Yikes.
+Gabriel: So I can see that it's just a flat.
+Gabriel: Yes, because...
+Gabriel: All right, this is the next waste of coding.
+Gabriel: I'm doing this only on my phone right now.
+Gabriel: And okay, so if you don't mind, I had to restart the experience for this to work.
+Gabriel: Okay.
+Gabriel: Okay.
+Gabriel: All right, so as I said, you'll have to redo your steps here.
+Gabriel: You no longer have 10 empty pistols, I'm afraid.
+Zuzia: Shit.
+Zuzia: OK.
+Zuzia: So I will do the steps.
+Zuzia: But can I click it fast so we will go to the part?
+Zuzia: It doesn't matter.
+Zuzia: OK. And how much time do I have?
+Zuzia: 10 minutes.
+Zuzia: Same story.
+Gabriel: No worries.
+Gabriel: Just let it do its thing, I guess.
+Gabriel: It takes a second.
+Zuzia: Go to small storage shed.
+Zuzia: Take the crowbar.
+Zuzia: Go back to main entrance.
+Zuzia: Go to clothing store.
+Zuzia: Okay, open the doors with a crowbar.
+Zuzia: Go through a small corridor.
+Zuzia: Okay, go to food court.
+Zuzia: Go to Greek restaurant.
+Zuzia: Take the keycard.
+Zuzia: Keycard.
+Gabriel: I have to go.
+Gabriel: Why?
+Gabriel: Because I have a car accident.
+Gabriel: I have to give him the number of the police station where I live.
+Zuzia: Will you give him the number of the police station?
+Zuzia: No.
+Zuzia: Why?
+Zuzia: You didn't do it.
+Gabriel: Go back to food court.
+Zuzia: Take the stairs.
+Go down.
+Zuzia: Go to lounge Not sure Go to Korean snack store
+Zuzia: Go to the gun store.
+Zuzia: Take 10 empty guns.
+Zuzia: Can I find empty guns to pick up here?
+Zuzia: Take the gun Go back to launch Can I skip?
+Zuzia: Like two times?
+Zuzia: Like go to launch, not the Korean stuff?
+Gabriel: I'm afraid not.
+Zuzia: That's lame.
+Zuzia: Cannot travel to lunch from here.
+Zuzia: I love it.
+Zuzia: Go back to Korean store?
+Zuzia: Go back to lunch.
+Zuzia: Go to pharmacy.
+Zuzia: Take the, like, stabilizer.
+Zuzia: I cannot find, like, stabilizer to pick up it.
+Zuzia: Pick up the leg.
+Zuzia: Stabilizer lying on the ground.
+Gabriel: Okay, there seems to be an error.
+Gabriel: Let's just do it like this.
+Zuzia: Go back to launch.
+Zuzia: I'm hungry.
+Zuzia: I'm going to sleep.
+Gabriel: Okay, last 10 minutes.
+Zuzia: Okay.
+Gabriel: You were very close.
+Gabriel: Okay.
+Gabriel: She is like...
+Zuzia: In food market?
+Zuzia: Yeah.
+Zuzia: Yeah, so I thought so, but I wanted to take all the things I can.
+Zuzia: All the items.
+Zuzia: Yeah, so I can stabilize his leg.
+Zuzia: Yeah.
+Zuzia: Threaten someone with an empty can.
+Gabriel: Yeah.
+Zuzia: run through a door with a keycard and then smack someone with crowbar over the head.
+Gabriel: Perfect.
+Gabriel: And take 10 Epsigons, you know, just in case things get heated.
+Zuzia: But I think almost I did it and also 10 minutes from the start I was looking for the keys.
+Gabriel: Yeah, it was about the process, not necessarily about having to finish it in 10 minutes, of course.
+Zuzia: But I want to finish it.
+Zuzia: Understandable.
+Gabriel: Let me just tell that no one managed to finish it.
+Gabriel: No, Casper did, because there was a bug in the game.
+Gabriel: Oh, okay.
+Gabriel: Okay, sure.
+Gabriel: I can just say that the way this is constructed, you cannot return the same way you entered the building.
+Zuzia: So you have to...
+Gabriel: out how to leave, in some other way.
+Gabriel: Okay, I'm just gonna ask you a few simple questions.
+Gabriel: Let me just double check that we're still recording.
+Gabriel: Yes, we are.
+Gabriel: Wonderful.
+Gabriel: Okay, so looking back, looking back, where's my document here?
+Gabriel: I have to go to this folder.
+Gabriel: This folder.
+Zuzia: I will send one thing to myself over there.
+Zuzia: Yeah, of course, of course.
+Zuzia: Go for it.
+Zuzia: OK. OK, I found it.
+OK. Hm.
+Gabriel: I think I'm just going to go use the bathroom.
+Gabriel: So now that you tried both of these versions, how are you feeling?
+Gabriel: Was there immediately something that surprised you?
+Zuzia: No, I wouldn't say there was anything that surprised me.
+Zuzia: I would say I prefer the first version because there wasn't the delay between saying something and clicking it.
+Zuzia: But it was also a nice experience that it was working after the case.
+Zuzia: Yeah, because normally, for me, it doesn't work.
+Zuzia: So that was a nice experience.
+Zuzia: I would say, I don't really know how to say it in Russian.
+Gabriel: The way, okay, the ability, let's say.
+Zuzia: Yeah, the ability to make things do a work and they have more impact.
+Zuzia: Maybe translation the other way, yeah.
+Gabriel: And if you have to describe the difference between these two games, so, you know, a person who hadn't played either, what would you say?
+Zuzia: that it would be more tiring the second version after a longer time because you can't just sit and click you can't sit and click on things you have to say them so I guess it's more tiring after some time but I would imagine for some people
+Zuzia: Problems with accessibility that would be a nice alternative I would say, you know to click on things and for example If there will be an audio description with it, so it would be you know more more accessible or even not more but They could be able to play if you're applying so that would be nice But I would say
+Zuzia: For me, as a person who likes to sit quiet in her own time, the first alternative would be nicer.
+Gabriel: And from the moment that you first used your voice to navigate, what were you thinking as you decided what to say?
+Zuzia: I have background with computers, so my first thing, and also with AI.
+Zuzia: and stuff like that, so my first thing was to say something that would be the most understandable for a computer.
+Gabriel: I understand.
+Zuzia: And then to see how much the range of things I can say that he will understand.
+Zuzia: You know, like, we can add guns and see if we can skip two places to go back to the first one.
+Gabriel: You already touched on it a little bit by the delay, but how was it like to use the voice input?
+Zuzia: I mean, it was nice.
+Zuzia: It understood me.
+Zuzia: And it was sometimes funny, like, you can't go back to lunch from here.
+Zuzia: It would be nice to go to lunch, I guess, in the situation that they have If they had to go for a food run, so it would be nice to go back to lunch, not lounge I would say I mean, I like trying new things, so it was nice for me to experiment with it, like, can I pick hands and everything, how much you can do by clicking and how much the computer, when you say things, processes
+Zuzia: So yeah, that was fun in this way.
+Zuzia: But still, I'm not the biggest fan of speaking when playing games.
+Zuzia: For example, there is a game that is called Yap Yap, and it's about mages right now.
+Zuzia: And you cast spells by saying them.
+Zuzia: This one was much better, the accessibility of voice than the one in the game, because I have a problem with casting spells.
+Zuzia: So I turned it off and turned
+Zuzia: option with clicking buttons and it's much more enjoyable for me so I guess it's me but this one was more pleasant than the the other one because you know sometimes polish words were taken for other things and I think if this one understood much better because there you have to say like aero for from you know aerodynamic and everything but it only works when you say euro
+Zuzia: So I guess lunch is closer than euro and euro.
+Gabriel: That's true, that's true.
+Gabriel: Yeah, sometimes it can get twisted with the words, like for instance, I want to go to somewhere, it can understand that as two as a number.
+Gabriel: Yeah, yeah.
+Gabriel: But like, okay, also looking back and how you felt, in which version did you feel more inside of the story?
+Gabriel: The first one.
+Gabriel: The first one.
+Zuzia: can think in my mind I go there but when I'm saying go back there as a immersive play style you don't really speak you go there you know you don't say to your legs go there maybe it would be better if it was in the first person maybe if I would be speaking in the first person but my mind was like you know it was written like that so I'm not saying
+Zuzia: will go there now I want to pick up maybe this way would be more immersive but as I did it the first one is more immersive because it happens in my head and doesn't really go out in the realistic world that is my couch right now you know I understand I understand of course of
+Gabriel: have some experience with playing TRPG games like Dungeons & Dragons and stuff like that and when you control your character do you control it with the first person or third person?
+Zuzia: Depends because sometimes when I explain things to people I say you see now that the character does this and this and the spell looks like that or like that yeah but I say I want to go there and do that
+Zuzia: It depends on the narrative, if I'm explaining things to someone, what they see, to make them more immersed or outplaying me.
+Zuzia: It's hard for me sometimes because it's another wall that you have to cross when you say I go there or I say that and you say it and don't explain what you are saying but mostly in the first person.
+Gabriel: What would you think would be the difference that makes you
+Gabriel: person when you played D&D compared to the fact that you chose the third person.
+Zuzia: I didn't even chose the third person.
+Zuzia: I was speaking in the first person to the computer.
+Zuzia: That's the reason.
+Zuzia: Because I was saying go to launch.
+Zuzia: So I'm not saying I want to go to, character goes to, but I'm speaking to the computer that he has to get me there.
+Zuzia: He has to go there, not me.
+Gabriel: okay because when you control your character you are in character and myself and yes there is not not a layer of control that you have to go through there is not a dungeon master that says i will take you there right i'm not speaking to my friend go to
+Zuzia: yeah this place so i can do that and that i'm saying i want to go there maybe it's because there is more people and he's just a narrator but for me i guess computer is a tool and also when we speak about siri and we were talking about siri our siri is also a tool that you use i see i'm trying to understand if there's like a
+Gabriel: authority here like when you play D&D you are the ultimate authority that decides what can happen outside of the dungeon master telling you that you cannot do something but you say that I'm going there I'm doing that and yeah and you're not you you're not piloting anything yeah okay okay and speaking of the effort also how did the effort of thinking what to say compare to the effort of knowing which key to press
+Zuzia: say the only thing that was different is that you didn't see the comments you have to think them in their head and I had to do the rerun from the start but because I have a good memory I remembered the exact places it could be more immersive because you have to think what can you do but again in this version you don't have a
+Zuzia: many opportunities to do things because you can't go somewhere else that is not prescribed in the exact room.
+Zuzia: You know, you can go back two times, you can only go one time back or forward.
+Zuzia: So I think you have to think like the comments you had before.
+Zuzia: So you automatically thinking not out of the box.
+Zuzia: So there isn't much effort, but
+Zuzia: It's also, I think, because I'm...
+Zuzia: Sorry, he has a strange face.
+Zuzia: It's also because I know the comments and I'm thinking more computerically.
+Zuzia: Yeah, I'm thinking more like a computer than I think many other persons.
+Zuzia: So I'm going to start thinking how it was presented to me at first.
+Gabriel: Okay.
+Zuzia: But I think it could be frustrating sometimes if I didn't see the numbers version before because I wouldn't know how the program is thinking and what should I say and how it would work.
+Gabriel: I understand.
+Gabriel: And did the freedom to...
+Gabriel: I mean, I know that you said that you know what are the constraints because you played the previous version, but did the freedom to say anything, right, to structure what you're trying to say made you feel more in control of the game environment or was it more overwhelming than just having the keys?
+Zuzia: no difference for me okay but i have this problem when something is presented for me before it very gets in my mind the same i have i think because of the spectrum that i'm on you know when i have rules that are shown to me i don't really look for ways to get around them i really stick to them from the start to the end
+Zuzia: So I have some problems in life because of that.
+Zuzia: Because I'm thinking less out of the box.
+Zuzia: So for me it's natural and I don't really think in other ways.
+Zuzia: I don't have to feel the other aspects of it that you are speaking of.
+Zuzia: And it was, yeah, the control, the sprawczość that I was talking about.
+Zuzia: It was nice.
+Zuzia: And it was nice that I can say something and it's processing.
+Zuzia: And then it works.
+Gabriel: That felt good in a way.
+Zuzia: Yeah, because it's something new.
+Zuzia: I never had this experience before.
+Zuzia: Even with people, I guess.
+Gabriel: And how would you compare the overall experience of using the two game versions?
+Gabriel: And I know you've already touched on it, but which one would you choose?
+Gabriel: And why?
+Zuzia: To have the experience?
+Zuzia: For a moment I would say the second version, because it's something new, but long time you have to play.
+Zuzia: For some hours I would choose the first one, because it's just more immersive and easier in the long term to use.
+Zuzia: You know, you just click the buttons and it's not like that you're sitting alone in a computer and you're just saying, go to launch, pick up the crowbar.
+Zuzia: No, I'm maybe not the most expressive person when it comes to comments because I'm just built like that.
+Zuzia: But I would feel more comfortable with the first version.
+Gabriel: Okay.
+Gabriel: This is the last question, so after looking at everything today, is there anything that you would like to add that we haven't discussed?
+Gabriel: Any other thoughts that come to mind?
+Gabriel: Closing remarks?
+Zuzia: I think the picture should be a little bit bigger, just for immersive aspects.
+Zuzia: You know, if I didn't have the time, I would probably read more.
+Zuzia: of the text more immersively, not just go through this because I wanted to see the most of the things that you came up with, yeah.
+Zuzia: Most rooms and everything like that.
+Zuzia: And I was interested if there will be a plot twist and more dense action than going through places.
+Zuzia: And also because you have things like, you know, you have the
+Zuzia: Keyhole that was scratched and someone tried to open it in a korean store You know Then you have metal key card And okay, it doesn't match there, but for example why I can't use a crowbar If I could use a crowbar before Because I could do that if I wanted So it's better not to include things like that
+Zuzia: in the same place if I can use the crowbar maybe if there is no use for a crowbar later you can just discard it after the opening the clothing store doors because then you have a feeling that you could do it in the real life but the game doesn't let you I guess maybe in the supermarket store or later you could find the key for the doors in the korean store but still you
+Zuzia: it was a little bit not satisfying that I couldn't use it.
+Gabriel: It takes away your agency in a way, right?
+Zuzia: Yeah.
+Zuzia: It's better not to include it there.
+Zuzia: Or maybe if you go back to the room, maybe it would be more hard because, you know, if you would want to go back after, then you can say, look for, you know, get a new option in game, look for the way out or something.
+Zuzia: But another thing, if you are
+Zuzia: using voice control and you see that you don't have that option there it wouldn't work, you know because with voice option I would like to try to use the crowbar because I would see I wouldn't see the comments so I would not know what are my limits and I would try to use things and try for example to say different words so it would work but it wouldn't work so I would get frustrated I guess
+Zuzia: You know, the voice comment is nice, but also if you don't know your limitation, it's easy to get frustrated because you want to say stuff and you don't know if there are keywords that will work.
+Zuzia: Yeah, I see.
+Gabriel: I see.
+Gabriel: I see.
+Gabriel: I understand.
+Gabriel: That's all from my side.
+Gabriel: Thank you very much.
+Gabriel: This has been deeply valuable.
+Zuzia: I hope so.
+Zuzia: Okay.
