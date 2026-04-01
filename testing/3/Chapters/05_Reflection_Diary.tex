@@ -7,19 +7,39 @@ The role of this chapter is to provide reflections post interview and to refine 
 \begin{QandA}
    \item Wait time \& silence: Did I provide the participant with time and space to voice out their opinions or did I fill the silence gap due to my own discomfort?
         \begin{answered}
-        I did a better job than during the test \#1 and I made sure to take pauses to propel the participant to speak more.
+            I made sure to provide the participants with 1-2 second gaps when anwering.
         \end{answered}
 
    \item Lexical mirroring: Identify 1-2 times where I used participants own words to deepen his narrative and answer.
 
         \begin{answered}
-        In this interview I self-mirroed with the "inside of the story world" and immediately “Yeah, so in which version did you feel that you were more inside?” right after. This is not as good as mirroring the participant directly but it still was an effective word choice,
+        First example: I mirrored the word the word "delay" as can be observed below:
+        \begin{quote}
+            Zuzia: “I would say I prefer the first version because there wasn't the delay between saying something and clicking it.”
+            
+            
+            [...]
+
+
+            Gabriel: “You already touched on it a little bit by the delay, but how was it like to use the voice input?”
+        \end{quote}
+
+
+        The second mirroring that I've done was more accidental. The participant used the word "control" and I used the same word in the pre-planned question. I still believe that it applies even though I admit that it wasn't my reactive mirroring that led to this interaction:
+
+        \begin{quote}
+            Zuzia: “the control, the sprawczość that I was talking about. It was nice.”
+
+            [...]
+
+            Gabriel: “did the freedom to say anything … make you feel more in control of the game environment or was it more overwhelming…”
+        \end{quote}
         \end{answered}
 
     \item The "Vessel trap": Did I treat the participant as a way to prove my internal bias that this system might be more immersive than traditional input?
 
         \begin{answered}
-        Same as in the last test the amount of shame that I felt due to the bugs present in the game and the voice interaction layer made me not defend the system as I felt a deep sense of embarassment. 
+            Just like in first two tests I believe that I didn't use the participant to prove my hypothesis. I was curious about what they have to say and the transcript can demonstrate that I didn't try to force the participant into a stance that using the voice navigation is more immersive than tha keyboard navigation.
         \end{answered}
 \end{QandA}
 
@@ -30,38 +50,49 @@ Analysis of the meaning of the sticky moments noted in the chapter 3
 \begin{enumerate}
     \item \textbf{Missing image on the fishing store}
     
-    The fishing store location seems to be missing a background image. It appears as just a pure black box.
+    Just like in last two tests the participant had a immediate reaction when the background image for the Fishing Store location was missing.
+
+
+    \item \textbf{Confusing item usage}
+    
+    In the keyboard version of the game the UX of item usage was confuisng for the player. When using the items the player is suppoused to press the return key on the highlited item in the inventory. That flow seemed to be intuitive for the researcher, but the user completely missed it and it had to be explained.
+
+
+
+
+
+
 
     \item \textbf{Stair naming}
     
-    Just like in the last test, the naming convention for the stairs was not intuitive, making the player confuse stairs going up with stairs going down.
+    This player managed to travel up the stairs without stopping here but she was visibly confused. 
 
 
-    \item \textbf{Game loop broken}
+    \item \textbf{Item usage frustration}
     
-    This includes two sticky moments that stem from the same source. The main bug is that the player can't activate the action to pick up his brother after stabilising his leg. That action should trigger the main entrance collapsing, forcing the player to find another exit out of the game, but since the first action couldn't be triggered the second one also didn't come off. 
+    In both presented game versions there is a limited amount of cases in which items can be used. In this situation the player seen metal doors and expressed her frustation that she can't open them using her crowbar.
 
 
-    \item \textbf{Interaction need}
+    \item \textbf{Lounge fail}
     
-    The player expressed that they would like to have more interaction with the given game world. He said that he would like to be able to do more with the items that he collects. 
+    Similar to last two player test the word "Lounge" didn't properly register in the voice recognition pipeline leaving the player frustrated.
 
 
 
-    \item \textbf{Item pickup impossible}
+    \item \textbf{Travel to place before pattern}
     
-    It seems like the leg stabiliser can't be picked up. Upon log inspection it turned out that it was due to termporary voice recognition pipeline failure.
+    This is the first player to be using this type of syntax. As a researcher I was considering adding "Last place visited" into the context of the tool calling LLM but ultimately ran out of time before being able to implement it. Going into the tests I was curious if it would come up as an interaction and this player proves that it did.
+
+
+    \item \textbf{Total voice processing faliure}
+    
+    The install of WhisperCPP used in this project has a tendency to hallucinate - generate output that's not real, notably it produces "You" when confused. This seems to be a bug deep inside WhisperCPP when running on GPU. The CPU version doesn't have this issue but it runs more than 20x slower on the hardware that was used for this demo. The observed bug would clear up on WhisperCPP restart and come back after about 2-3 requests. 
+    To go around this issue I built an API responsible for restarting WhisperCPP on every incoming request. This solution broke during this test, since the behaviour of WhisperCPP persisted despite the restarts. What ultimately fixed it was rebooting the machine running WhisperCPP. I go deeper into this in the thesis document itself.
 
 
     \item \textbf{Infinite pistols}
     
-    Due to a bug in the game logic the player could pick up infinite ammount of pistols form the gun store location. This led to him picking up 4 of them before moving on.
-
-
-    \item \textbf{Double teleporation}
-    
-    At some point the voice control system malfunctioned and instead of moving from the Gun store to the Korean Snack Store it moved the player straight to the Lounge, which shoulnd't be possible. This bug was unable to be reproduced later and hasn't showed up and with any subsequent testing participants.
-
+    Just like the last participant the player noticed that she could pick up an infinite amount of pistols at the Gun Store. She picked up 10 before stopping herself, suggesting a playful nature and a natural tendency of Stress Testing the game fitting her professional background in the Video Game industry.
 \end{enumerate}
 
 
@@ -71,11 +102,11 @@ Analysis of the meaning of the sticky moments noted in the chapter 3
 \begin{QandA}
     \item Do any questions need changes or refinements based on my observations?
     \begin{answered}
-        I don't believe that the questions need changes or refinements at this point. I removed the first Grand Tour question from the last test and the testing procedure seems to have improved, as the conversation flows more naturally.
+        The questions themselves seem to be working as intended. No changes are needed.
     \end{answered}
 
     \item Does the testing procedure need any changes based on the observations from this session?
     \begin{answered}
-        My hypothesis about the player's choices on which language to use when using voice controls being influenced by the keyboard version served first has only gotten stronger. I will verify with one more test just to rule out if it's purely a hunch.
+        After doing this test I'm sure about putting the baseline keyboard version after the voice control version. I can see a direct impact that the first one has on the second one. For one the player's command's structure seems to be clearly influenced by the exposure to the keyboard version. When the player sees "Travel to X" on the screen, they tend to use same/similar language when iteracting via their voice. I want to see what kind of language would they use when not having this initial experience of having to use the keyboard. This will be carried over in the next tests moving forward.
     \end{answered}
 \end{QandA}
