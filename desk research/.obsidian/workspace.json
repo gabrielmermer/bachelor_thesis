@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "736ea0936d1c4637",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/gamemap.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "gamemap.excalidraw"
-            }
-          },
-          {
             "id": "7cd5a2ec8dd7d680",
             "type": "leaf",
             "state": {
@@ -45,8 +33,7 @@
               "title": "WhisperX"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,8 +179,8 @@
   "active": "7cd5a2ec8dd7d680",
   "lastOpenFiles": [
     "Excalidraw/gamemap.excalidraw.md",
-    "WhisperX.md",
     "Excalidraw/networking.excalidraw.md",
+    "WhisperX.md",
     "Commands to run dev.md",
     "ComfyUI.md",
     "testing kanban.md",
