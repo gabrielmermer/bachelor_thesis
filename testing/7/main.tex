@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % for images
+\usepackage{amsmath}  % for equations
+
+\usepackage[T1]{fontenc}
+\usepackage{helvet}   % Latin Modern
+\renewcommand{\familydefault}{\sfdefault} % Sans serif as default
+
+% my custom packages
+% comments 
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% table 
+\usepackage{float}
+
+
+
+\usepackage{enumitem,amssymb}
+
+\usepackage{enumitem}
+
+% QnA command
+\newenvironment{QandA}
+    {\begin{enumerate}[label=\bfseries\arabic*.]\bfseries}
+    {\end{enumerate}}
+
+\newenvironment{answered}
+    {\par\normalfont}
+    {}
+
+\usepackage{lipsum}
+\pagestyle{empty}
+
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+
+
+\title{Arkada Game Qualitative User Testing Card}
+\author{Participant \#5 - Szymon Wasyl}
+\date{\today}
+
+% numbering fix
+\setcounter{secnumdepth}{0}
+\newcommand{\gddchapter}[1]{%
+  \chapter*{#1}%
+  \addcontentsline{toc}{chapter}{#1}%
+}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\include{Chapters/01_Research_objectives}
+\include{Chapters/02_Setup}
+\include{Chapters/03_Testing_Sequence}
+\include{Chapters/04_Interview_Sequence}
+\include{Chapters/05_Reflection_Diary}
+\include{Chapters/06_Transcription_Analisis}
+
+
+\end{document}

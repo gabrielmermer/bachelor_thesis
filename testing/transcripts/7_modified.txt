@@ -1,440 +1,880 @@
 Gabriel: Okay, right now...
+
 Gabriel: Okay, so let me explain a little bit.
+
 Gabriel: This is how the game looks.
+
 Gabriel: This is a text-based game, and the idea is that this is a post-apocalyptic Warsaw, and your brother went looking for food to a shopping mall, and he hadn't returned in the past two days.
+
 Gabriel: So now you want to go and try to find him, essentially.
+
 Gabriel: You think that he might still be there.
+
 Gabriel: In the game UI, it looks like this.
+
 Gabriel: This is like, here you have your inventory.
+
 Gabriel: If you're going to pick up any items in the game, they're going to end up here.
+
 Gabriel: Here is the location name, the description of the location.
+
 Gabriel: Towards the end of the description, there is typically any hints towards, like, the things you can pick up.
+
 Gabriel: Or at the very end, there is always, like, the places that you can go to connected to this location.
+
 Gabriel: And the main takeaway is that when you want to interact with the game, instead of using traditional input, what you do is you press and hold the R button, and then you say whatever you want to say, like, oh, maybe, I don't know, I want to look around, or maybe I want to do something else.
+
 Gabriel: You can be very descriptive about it if you want to.
+
 Szymon: How can we be precise?
+
 Gabriel: yeah and then after you're done you release the key it like gives you like processing whatever it takes a few seconds to do that and then once that's done you get some feedback here on the bottom yeah it did not understand me
+
 Gabriel: and yeah and then you can repeat that and I'll give you 10 minutes to play and you're not being like I'll be making some notes on the side but you're not being judged for how you play the game this is not really about that whatsoever and if the text is too small then you can try to make it bigger I'm sorry about that part
+
 Gabriel: yeah remember at the end there's like a bit of hints if you ever feel lost and I'll be making some small notes about mostly about how the game is not working as it should be so yeah don't worry about me and if you have any questions as we go on just feel free to ask them
+
 Szymon: Okay, I'd like to enter this shed on the right Okay
+
 Gabriel: There's a lot of reading here.
+
 Gabriel: Yeah, I know, I know.
+
 Gabriel: But if it's too heavy, then you can like scan maybe.
+
 Gabriel: What do you mean scan?
+
 Gabriel: You don't have to read everything, right?
+
 Szymon: Can I ask to bullet point all of the items?
-Szymon: Sadly, no.
-Gabriel: Okay, sure.
+
+Gabriel: Sadly, no.
+
+Szymon: Okay, sure.
+
 Gabriel: But as I said, towards the end there is information about the items typically.
+
 Szymon: I'd like to pick up the crowbar.
+
 Szymon: Okay, I have a crowbar in my inventory.
+
 Szymon: Cool.
+
 Szymon: What is the floor made of?
+
 Gabriel: I'm afraid this is a bit too general.
+
 Szymon: After I had the shed?
+
 Szymon: Yeah.
+
 Gabriel: As it is, you cannot ask questions to the game, you can more or less just do actions.
+
 Szymon: Okay, I'd like to exit the room with my crowbar.
+
 Gabriel: You can't use... Oh, it thought that you're gonna use it.
+
 Gabriel: You thought that you want to use the crowbar or whatever.
+
 Gabriel: Okay, I'd like to exit the shed.
+
 Szymon: I'd like to enter the clothing store in front of me.
+
 Gabriel: Maybe you want to swap places, but you can rest the computer on your knees or something.
+
 Gabriel: That's a bit more comfortable.
+
 Gabriel: Everything again, like if it's too much reading, just skip through it.
+
 Szymon: I'd like to scan the room for any items of value.
+
 Gabriel: It's a little bit direct.
+
 Szymon: I'd like to force open the doors with the crowbar.
+
 Szymon: Do you have to say that I'd like to or just throw a command?
+
 Gabriel: You can throw a command, you don't have to say that you like something.
+
 Szymon: Enter the door opened with the crowbar.
+
 Gabriel: You can be as direct as you want to be.
+
 Gabriel: I wonder if it's gonna work now.
+
 Gabriel: Yeah, I think it didn't fully understand the context.
+
 Gabriel: Maybe you can say... Like, if you mention the name, maybe it will work.
+
 Gabriel: So they have the corridor.
+
 Gabriel: Oh, the corridor.
+
 Szymon: Okay, sure.
+
 Szymon: I'd like to enter the corridor behind the unlocked doors.
+
 Szymon: Did I get that?
+
 Gabriel: I hope so.
+
 Gabriel: Sometimes it doesn't fully get you.
+
 Szymon: Oh yeah.
+
 Szymon: Enter food court.
+
 Szymon: Look around for any food.
+
 Gabriel: Yeah, I don't think you can get food here.
+
 Szymon: Okay, enter the bubble tea store.
+
 Szymon: exit the bubble tea store.
+
 Gabriel: I'm sorry, some of the places are a little bit empty.
+
 Szymon: I mean, still, you're trying to, like, modernize the RPG text-based games with voice commands.
+
 Szymon: It sounds really cool.
+
 Szymon: Is it like pre-generated, right?
+
 Gabriel: Yeah.
+
 Gabriel: Okay, sure.
+
 Gabriel: The locations are not dynamically created on the fly or whatever.
+
 Gabriel: It's like a hard-coded scenario more or less.
+
 Gabriel: Walk up to the stairs.
+
 Gabriel: Okay, with the stairs, you can say that you want to go, because you're going to be on the ground level with the stairs.
+
 Gabriel: And you can say that you want to go up the stairs.
+
 Gabriel: That's like the only thing you can do here, go up or go down.
+
 Gabriel: And the image won't change, but you will be able to go up and it will change the name, because it's a little bit unintuitive with the way it's going to be framed.
+
 Gabriel: But yeah, so you can just like, if you want to go up the stairs, you can just say it.
+
 Szymon: Okay, and I can also go downstairs, right?
+
 Szymon: These stairs only go up.
+
 Szymon: Okay, sure.
+
 Szymon: Go upstairs.
+
 Gabriel: Yeah, same image but right now on the first floor.
+
 Gabriel: So you can go to another place now.
+
 Szymon: Nikon also go up once.
+
 Szymon: Salino.
+
 Gabriel: Not all the stairs in the game go to all places and this is only like two floors.
+
 Szymon: Okay, so I went... Where is it?
+
 Gabriel: Hola, hola, hola.
+
 Szymon: Maybe I'm not correct.
+
 Szymon: I think the game said there are two floors.
+
 Gabriel: Yeah, yeah, yeah.
+
 Gabriel: Maybe I'm wrong.
+
 Gabriel: Maybe you can go up.
+
 Gabriel: Okay, try to go upstairs.
+
 Gabriel: I'm not sure if these stairs go up or if there's a second floor stairs go up because that was a while since I coded that in.
+
 Gabriel: But I think these stairs are only going to the first floor.
+
 Gabriel: No, yeah, it misunderstood you.
+
 Gabriel: Okay, let me just...
+
 Gabriel: Okay, yeah.
+
 Szymon: Follow the signs to one of the stores.
+
 Szymon: Okay, I think that one's gonna work.
+
 Gabriel: see okay didn't get you but right now and since we passed the 10 minutes and we'll switch the
+
 Gabriel: controls and now this is a more traditional control in which you control using the numbers one two three and sometimes the arrow keys and return depending on if you're crafting or using items then you use those to select things from your inventory but for travel you just use your keyboard for actions and there is something else below so okay so for the next 10 minutes yeah if you could just try playing like this
+
 Gabriel: here yeah
+
 Gabriel: when you want to use something, if you press it, there's like a small, and then you navigate and do return to.
+
 Szymon: Can I burn the place down?
+
 Gabriel: But I wanted to implement that actually.
+
 Szymon: They didn't let me do it.
+
 Szymon: And crafting, how do you do crafting?
+
 Gabriel: idea but you select return the first item and then select the other item and also select select here we press and then we select the other item and then we cannot combine this two okay so I can just combine you combine two different items to something fair mm-hmm yeah that's how crafting works
+
 Szymon: Okay, this is much more intuitive since you already have all the options available, right?
+
 Szymon: You don't have to read the text.
+
 Szymon: Yeah.
+
 Gabriel: Yeah, there's a phone bug here.
+
 Gabriel: You can walk out with like 20 pistols.
+
 Gabriel: One of the players did that.
+
 Gabriel: She just pressed it 10 times and they're staring at me, you know.
+
 Gabriel: I think it's good to be armed.
+
 Gabriel: I don't blame you.
+
 Szymon: Can I use this item, the pistol?
+
 Szymon: It's empty right now.
+
 Szymon: So I travel back to the store.
+
 Szymon: And I go up to the lounge.
+
 Szymon: And now I enter the pharmacy.
+
 Szymon: Oh, I found my brother.
+
 Szymon: Yeah, he's here.
+
 Szymon: And I'll have to...
+
 Szymon: I'll have to give him the legs table.
+
 Szymon: The legs thing, yeah.
+
 Szymon: Okay, sure.
+
 Szymon: So I just use item?
+
 Szymon: Yes, number three.
+
 Szymon: And then I can pick up my brother.
+
 Szymon: Yeah.
+
 Gabriel: okay you're gonna can stand up yeah there's a small bug if you press number four nothing's gonna change it's a bug but let's just assume that like he's with you okay okay so it and if i try to use that again maybe often
+
 Szymon: Sorry?
+
 Szymon: If I try to use the stabilizer again?
+
 Gabriel: Oh, you know, it just... No, yeah, this should be removed and something else should change.
+
 Gabriel: But now, let's say that you're supposed to exit the building, but because there is a bug here, something else doesn't activate.
+
 Gabriel: But you cannot exit the same way you came, because assuming this would have not been bugged, there is some event that happens, but it doesn't happen currently.
+
 Gabriel: So you have to find another way out of the building.
+
 Gabriel: And there is more than one way of getting out.
+
 Szymon: Okay, sure.
+
 Szymon: So I just leave without any problem, right?
+
 Gabriel: No, no, no, he's here, he's here.
+
 Gabriel: Technically, like, let's just assume that he's with you, right?
+
 Gabriel: Again, like, you're not being judged by how well you play, right?
+
 Szymon: Okay, so there is a different way out.
+
 Szymon: To the bathroom, I wasn't, I didn't visit the bathroom.
+
 Gabriel: yeah nothing in this room so I have to go downstairs again yeah you there's
+
 Szymon: And stairs going up.
+
 Gabriel: Yeah, the location doesn't make sense, but if you press number two, you're gonna go down.
+
 Gabriel: Okay, sure.
+
 Gabriel: Yeah, and now you can go to the food court again, technically.
+
 Szymon: And there is a... Greek food.
+
 Szymon: Oh, I wanna visit the Greek food.
+
 Szymon: Stairway's going up.
+
 Szymon: That's the one I just entered.
+
 Szymon: The small corridor is the one that led me up here, right?
+
 Szymon: So... Yeah.
+
 Szymon: Let's visit the Greek food.
+
 Szymon: Oh, a keycard.
+
 Gabriel: That would be useful.
+
 Gabriel: I'm not sure how obvious that is, but if you go back to the food court and try to use the keycard for instance, maybe this will work now, but I'm not sure.
+
 Szymon: Okay, so if I have to go to main list and user item... Yeah, exactly.
+
 Gabriel: This is not very obvious because of the description, but
+
 Gabriel: Right now you have to go to another place, you can go to technically from here, which is the, there is a small bug, but you can go to the elevator.
+
 Szymon: Yeah.
+
 Gabriel: Oh.
+
 Gabriel: Excuse me?
+
 Gabriel: That shouldn't be possible.
+
 Szymon: What the hell was that?
+
 Gabriel: You'd have to use the keycard again.
+
 Gabriel: Let's try, yeah, but... Oh, you can't use the keycard here?
+
 Gabriel: Oh, come on.
+
 Szymon: This could be a bug on my end.
+
 Szymon: Yeah, let's try to re-enter.
+
 Gabriel: Yeah, I think I bugged it.
+
 Gabriel: Hold on, hold on, hold on.
+
 Gabriel: We can just pause this and try to take over the controls here.
+
 Gabriel: Just give me a second.
+
 Gabriel: I'll just pause the whatever just so that you can continue here.
+
 Gabriel: Okay.
+
 Gabriel: okay oh yeah i'll just now undo that oh excuse me so it restarted right yeah but uh oh yeah technically i cleared the inventory i'm very sorry but i think you should be able to okay
+
 Gabriel: Oh, but that's okay It's all right, it's all right.
+
 Szymon: Mm-hmm.
+
 Szymon: You should be able to still I think I think so.
+
 Gabriel: I was a security of Yeah, but you don't have your empty gun I'm sorry about that.
+
 Gabriel: I can go back right?
+
 Gabriel: You can go to the parking area, but I don't know if we can go with you can go to it Let's okay.
+
 Gabriel: Let's just see
+
 Gabriel: Yeah, because we need to use the key card to unlock the elevator but you don't have the key card I could give it to you like to like We could like restart this again But don't worry I can modify the
+
 Gabriel: The wind conditioned a little bit for you, okay?
+
 Gabriel: Because the game is not really cooperating.
+
 Gabriel: Just a second, I cannot... Oh, there's another bug here.
+
 Gabriel: You just...
+
 Gabriel: Okay, you got trapped inside of the...
+
 Gabriel: Okay, okay, okay.
+
 Gabriel: Hold up.
+
 Gabriel: Let me pause this again.
+
 Gabriel: I'm sorry, this is pretty difficult to debug.
+
 Gabriel: So, let me just do... No, no, no, no, no.
+
 Gabriel: Unsetup again.
+
 Gabriel: Why am I not pushing this into the inventory?
+
 Gabriel: No, I don't think I can push this so easily because I removed the debug things I had so I'm terribly sorry we can let's just let's Because we have what?
+
 Gabriel: One minute to go so but we're back.
+
 Gabriel: Yeah, we're back.
+
 Gabriel: I restarted.
+
 Szymon: Oh, that's how yeah, because we start from the parking now Okay, and again the key for yeah so technically
+
 Szymon: Don't go to the door.
+
 Szymon: Okay.
+
 Szymon: Yeah.
+
 Szymon: Yeah pick up a gasoline time.
+
 Szymon: Yeah, you can also pick it up forever Yeah, you can have a lot of gasoline tanks.
+
 Szymon: Yeah, man.
+
 Gabriel: Why not right and keys invisible to how interesting
+
 Gabriel: That's true.
+
 Szymon: Okay, so I just picked up the gasoline tank from the sports car and I'm going to do a 4x4.
+
 Szymon: And I use an item, but I can't use the key.
+
 Szymon: But that key was to the other car.
+
 Gabriel: What I can tell you, because we're nearing the time here.
+
 Gabriel: technically if you had your crowbar with you you could use the crowbar with the and open up the gasoline tank with the crowbar but we don't have a crowbar since it's okay and it should be like a key car right?
+
 Gabriel: yeah yeah yeah you don't even have to have a no you yeah yeah yeah the key to open the yeah exactly exactly exactly yeah and this should be enough to to get you the car and then you can drive off yeah that's the so technically like if not for the stupid bugs you did it right yeah like
+
 Gabriel: What else can I do here?
+
 Gabriel: No, you made it here.
+
 Gabriel: The only other thing here is if you have the key from floor 0, you can also open, there is not only the elevator, but also like a secret shaft in the building that you can also travel to get on the roof if you really want that.
+
 Gabriel: But you are the only player who actually managed to go down, so like, congratulations.
+
 Gabriel: As you can see, it's not a very...
+
 Gabriel: I mean, it's a pretty buggy experience, I'm afraid, but making any game has bugs.
+
 Gabriel: This one has a lot of them.
+
 Gabriel: Okay, so now I will have a few questions about your... Yeah, before we go... About the controls themselves, yeah?
+
 Gabriel: Yeah, but also just before we go, I would like to ask you, so what is your, like, how...
+
 Gabriel: What is your gaming experience?
+
 Gabriel: So would you describe yourself as more of a casual gamer, more of a frequent gamer?
+
 Szymon: I used to be like a hardcore online competitive gamer, but I quit that.
+
 Szymon: I just play RPGs.
+
 Szymon: So this is like right up my alley.
+
 Gabriel: Oh, but by RPGs you mean like pen and paper, like online or like stuff like Baldur's Gate?
+
 Szymon: either Baldur's Gate, the old Fallout, the action RPGs like The Witcher, maybe Fallout, stuff like that.
+
 Szymon: The new Fallout.
+
 Gabriel: I see, I see.
+
 Gabriel: And what's your familiarity with like voice assistants like Amazon Alexa or Siri?
+
 Szymon: To be honest, I never use Siri on my phone.
+
 Szymon: I just
+
 Szymon: I try to, but it's also buggy as hell.
+
 Szymon: You have to speak really clearly for Siri to understand you.
+
 Szymon: So my experience is basically zero.
+
 Szymon: She's not the sharpest tool in the shed.
+
 Gabriel: I swear to God, she cannot skip my songs half the time.
+
 Gabriel: I ask her what the time is and she's like, I'm afraid I can't do that.
+
 Gabriel: Like, what do you mean?
+
 Gabriel: So I get you, I get you.
+
 Gabriel: And do you use any, when you use your computer, do you use any accessibility features like screen reader or some people have to use different color schemes for vision impairments?
+
 Szymon: No, I don't.
+
 Gabriel: Okay, so you just use this.
+
 Gabriel: Okay, okay, okay.
+
 Gabriel: I see, I see, that's alright.
+
 Gabriel: I used to play League of Legends and some other games, I used to switch my colors to like this like color blindness.
+
 Gabriel: Ah, yes, so the enemy is more visible.
+
 Gabriel: Yeah, yeah, yeah, stuff like that.
+
 Gabriel: Health bar are more visible.
+
 Gabriel: Yeah.
+
 Gabriel: Okay, and could you tell me, now looking more into it, now that you have tried both of the game versions, how are you feeling?
+
 Szymon: I have to say that from the descriptions themselves it would be really hard for me to follow where I should go or when I even can go.
+
 Szymon: The places are there but it's not as obvious to me.
+
 Szymon: It's also because English is a second language, so you really have to read carefully, because if something is listed, but it says that you cannot enter, you know...
+
 Szymon: It's easy to miss.
+
 Szymon: Yeah, it's easy to miss.
+
 Szymon: Yes, but I really like the idea.
+
 Szymon: I imagine if there were a completely AI-generated
+
 Szymon: like live generation, right?
+
 Szymon: So any action you do, you get a response from the language models.
+
 Szymon: This is a really fun experience.
+
 Szymon: If you could just move around just using voice.
+
 Szymon: Integrate it deeper.
+
 Gabriel: like color maybe so like if we have a description and like all of the locations are like purple or something you know what a map would be good a map yeah and you like unlock certain parts of the map when you go there or when you investigate those areas yeah yeah that would be really helpful I feel you and when you played it was there anything that like immediately surprised you or not really I mean the idea itself is kind of
+
 Szymon: for me at least, it's very new.
+
 Szymon: So that's a first.
+
 Szymon: And I think that's the main thing.
+
 Szymon: I only focus about what can I say, what should I say for
+
 Szymon: Yeah, I feel you, I feel you.
+
 Szymon: So I focus on that.
+
 Gabriel: And if you had to describe the difference between these two versions to a person who haven't played neither, what would you say?
+
 Szymon: Well, the second with the manual control, so to speak, well, it's way easier.
+
 Szymon: I kind of have a short attention span.
+
 Szymon: I mean, most of us do right now, but
+
 Szymon: reading a whole paragraph is and then trying to figure out what you what commands should you use yeah by voice is way harder than just going through the list of what you can do yeah and just going for everyone would you say it would be a bit different if the descriptions were more factual and less like not poetic but like if it was like you stand in a room there lies a
+
 Szymon: played Disco Elysium?
+
 Szymon: No I haven't.
+
 Szymon: Okay but there's a lot of reading there.
+
 Szymon: Yeah.
+
 Szymon: But you don't have to read those because there's a narrator.
+
 Szymon: Okay.
+
 Szymon: So you have a part with the description written to you by a narrator and then you have text of what
+
 Gabriel: is important, right?
+
 Gabriel: Oh, okay, I see, I see, I see.
+
 Gabriel: So he reads you like the bigger story and then you have only the distilled important bits.
+
 Szymon: I mean, you still have it on text, but you don't have to follow it by eye, you can just listen to it.
+
 Gabriel: Oh, that's pretty cool, that's pretty cool.
+
 Gabriel: I can tell you that what I was thinking about was originally I wanted to highlight different items and possible locations by different colors in the text or like, you know, like italics or even different colors, but the game engine I chose did not allow me to do this.
+
 Gabriel: I'm glad to hear that.
+
 Gabriel: And when you were using voice to navigate, I know it's a tricky question, but what were you thinking as you decided what to say to the game?
+
 Gabriel: Will the game understand me?
+
 Gabriel: Yeah, that was the first question.
+
 Szymon: Yeah, sometimes the game can understand you pretty well and sometimes it doesn't understand you for shit.
+
 Szymon: That was the priority.
+
 Szymon: What I wanted to do in the game was secondary.
+
 Gabriel: But the way you were framing, you were trying to think like, okay, will it get me?
+
 Szymon: Yeah, because that's my experience with voice-operated stuff.
+
 Szymon: Yeah, I hear you.
+
 Szymon: And how was it like to use the voice in the game?
+
 Szymon: I mean, most of the time I didn't think it got what I wanted to say, only the most obvious commands, right?
+
 Szymon: So, enter this location that's listed and you have to say it.
+
 Szymon: At least I did call it exactly as it was listed.
+
 Szymon: So, enter food court, not enter... Yeah, like we go to the restaurant.
+
 Gabriel: We had this situation with the corridor, for instance, right?
+
 Gabriel: You said I want to enter this room that
+
 Gabriel: The next question would be in which version did you feel more inside of the story, more inside of the world?
+
 Szymon: I think the second one because it was easier to navigate so I could focus on the actual goal of why I'm there.
+
 Szymon: Yeah.
+
 Szymon: So I think that was easier to follow the story.
+
 Szymon: Yeah.
+
 Szymon: Because if you don't know, you don't have to think thrice to enter a different room or go to a bathroom or something like that.
+
 Szymon: But I really like the idea itself.
+
 Gabriel: I'm gonna be honest.
+
 Gabriel: Of course, of course.
+
 Gabriel: How did the effort of thinking of what to say compare to, you know, the effort of knowing, okay, which key do I need to press?
+
 Gabriel: Can we go again?
+
 Gabriel: Of course, of course.
+
 Gabriel: So how did the effort of thinking, okay, what do I need to say and then saying it compare to the effort of like, okay, which key do I press?
+
 Gabriel: Oh, it was way harder.
+
 Gabriel: Way harder to speak?
+
 Szymon: Yeah, way harder for, as I said, the first worry was that the game won't understand me, so I really had to like triple check to say the most basic command, but also the most clear one, right?
+
 Szymon: Yeah, yeah, yeah, yeah, I feel you.
+
 Gabriel: And did the freedom to say anything at all make you feel more in control or was it more overwhelming than having, you know, a fixed set of actions?
+
 Szymon: If there was a possibility in this game, so I picked up the crowbar and I asked what's the floor made of, because I just thought that maybe I can just rip all of the floor.
+
 Szymon: That would be very cool and that would make me feel very much in control of what I'm doing in the game.
+
 Gabriel: Okay, I hear you.
+
 Gabriel: So for you, you would say it entirely depends on the degree of implementation of the voice.
+
 Gabriel: Okay, I see.
+
 Gabriel: And in this version of the game,
+
 Gabriel: you felt more in control in which version?
+
 Szymon: In the second one, because I knew what were the rules exactly, what are the listed options.
+
 Gabriel: Yeah.
+
 Szymon: Yeah.
+
 Szymon: So that's why.
+
 Szymon: I hear you.
+
 Szymon: I hear you.
+
 Szymon: And how would you compare the overall experience of using the two game versions?
+
 Szymon: Well, the second one, the manual one using the keys is way easier, but I really see the potential for the first one.
+
 Szymon: And as I said before,
+
 Szymon: If the game was finished and I could actually say just, look at that floor, can I rip it off, can I just smash some windows, do that, I really would enjoy that.
+
 Szymon: I hear you.
+
 Szymon: And just doing that with my voice, I really would like to see, I can say just the whole paragraph, just go on a tirade and my character will actually do it.
+
 Szymon: Like I want to do 20 different things and order and then it does them.
+
 Gabriel: I go there, pick up this item and then I want to rescue the brother and after, let's go finish the game.
+
 Gabriel: And you go and brew some tea and the game just does it.
+
 Gabriel: Which of those versions would you choose?
+
 Gabriel: I think the first one because it's...
+
 Szymon: I'd like to play with the voice commands on my own.
+
 Szymon: I'd just like to figure out what I can say and how I can use it.
+
 Szymon: I think the first version is more intriguing.
+
 Szymon: It's more engaging.
+
 Gabriel: I see, I see.
+
 Gabriel: And this is like the last question, but is there anything that, after everything we spoke about today, is there anything that you would like to add or to mention about this experience?
+
 Szymon: Yeah, I've never had an experience like that.
+
 Szymon: unless like tabletop RPGs, right?
+
 Szymon: So, D&D, something like that.
+
 Szymon: So, that's fun because that's exactly what it is.
+
 Szymon: You just say what you do and the Dungeon Master tells you if you can do that or what's the consequence of that.
+
 Szymon: And if I could do that, like, just here, I guess, in my home, playing a game by myself, that's a whole new world for me.
+
 Szymon: I mean, you hook up VR to that and you're a god, right?
+
 Gabriel: Yeah, yeah, yeah.
+
 Gabriel: I'm also with you when it comes to the dynamic generation of the world, right?
+
 Gabriel: That was my original idea for this.
+
 Gabriel: I wanted to make a game procedurally.
+
 Gabriel: Procedurally or more like AI-generated, right?
+
 Gabriel: But I also wanted to create a concrete game logic.
+
 Gabriel: Like, for instance, you can set a fire to your location, right?
+
 Gabriel: You wanted to set something on fire, right?
+
 Gabriel: I wanted to create those kind of systems, right?
+
 Gabriel: and then force the game to essentially do the creative parts based around AI to create this kind of role-playing experience where you would like, yeah, yeah, yeah.
+
 Gabriel: hear you on that I feel like that's just like a very very cool idea in general and I also like that the main premise of this for me was that I really wanted to boost I wanted to test for me that the thesis the main like the main question I'm asking here with my thesis is that is this actually more immersive or does it have a potential to be more immersive and how different does the player feel when you use the voice right okay the visual thing when it comes like to video games does the
+
 Szymon: first thing that advances, right?
+
 Szymon: So we have VR now.
+
 Szymon: I don't know if you've played Half-Life Alyx.
+
 Szymon: I haven't, no.
+
 Szymon: I mean, you just walk around.
+
 Szymon: You don't have to play the game.
+
 Szymon: The story is like secondary.
+
 Szymon: You go up to a desk and you pick up all of the items.
+
 Szymon: You pick up a pen and just write something on the board.
+
 Szymon: I mean, it's insane.
+
 Szymon: I played it in a game room once.
+
 Szymon: I spent like four hours just doing that.
+
 Szymon: I didn't leave the first bed.
+
 Szymon: There was a jar with a spider, so I gave him some food.
+
 Szymon: It was insane.
+
 Szymon: But you hook up something like that, you can do a backflip.
+
 Szymon: Do a backflip or kick the door in.
+
 Szymon: He does that.
+
 Szymon: I mean, that's ultimate immersion, right?
+
 Gabriel: Yeah, yeah.
+
 Gabriel: There is this game I used to play when I was a kid called Scribblenauts Universe or something like that.
+
 Gabriel: And it's a little bit like that.
+
 Gabriel: That was like many years before AI was a thing.
+
 Gabriel: And in the game you could like, it was a 2D game, you would walk around and you had this magic pen and you could like write anything you want and the game would spawn it.
+
 Gabriel: the game had a massive library of items and things so you could say oh I want to see Barack Obama here and there would be Barack Obama you know like just super super weird stuff and the game rewarded towards like puzzles you have to like you know there's a group of soldiers you have to distract them somehow so you could like draw a tank and like say I want a tank and you would like run over them or you could say I don't know like I want an ice cream booth and they would go and eat ice cream you know like that it's rewarding the creativity you know yeah yeah so
+
 Gabriel: That was something I was looking at, and also D&D as you mentioned, I thought that maybe if you can articulate what you say, that it will boost the feeling that I am doing these things, but I noticed that the main difference is that
+
 Gabriel: In D&D you speak in first person just to, I want to do something, I want to do something, but in here you still talk to a machine and the machine like lets you do it or doesn't let you do it, therefore you end up talking to like, for permission, like I want to do this, can we do this, can we do that, and that is not the best experience.
+
 Gabriel: But what's also interesting is that this is number seven, I think, of all my tests, and half the people, roughly half the people are like, this is more immersive, and half the people this is less immersive.
+
 Gabriel: So it's a very interesting experience to me looking at.
+
 Gabriel: And then of course if the implementation was to be like deeper then we could argue but even in a current state there's like a split.
+
 Szymon: I think in the current state it is less immersive.
+
 Szymon: I mean if it would be like running really smoothly and also I think there should at least
+
 Szymon: dimensions of what should a command look like, right?
+
 Szymon: Yeah.
+
 Szymon: Just like a basic stuff, like you have to say that you want to do a certain thing.
+
 Gabriel: Yeah.
+
 Szymon: Not just go like completely free paragraphs.
+
 Gabriel: Yeah.
+
 Gabriel: I mean, part of me also wanted to see what would you go for.
+
 Gabriel: OK, sure.
+
 Szymon: But yeah, it's an experiment.
+
 Szymon: Yeah.
+
 Szymon: If the rules for me would be clear or if I had some more time to figure out what I can say and cannot say for the game to understand me, I think the voice command one would be more immersive.
+
 Gabriel: I mean there's a lot of factors that are immersion breaking, like for me one of the biggest things is that you have to wait for it and it doesn't work sometimes, right?
+
 Gabriel: So that for me is a big immersion breaker.
+
 Szymon: That's true.
+
 Szymon: just look at the processing sign and... And you're in the same spot, I didn't understand you, so... Yeah, yeah, you're like, fuck it.
+
 Gabriel: Repeating for the first...
+
 Gabriel: There was one player, she was trying to get into the lounge, but her accent was so fucked, so she was saying it like five times, and the game just refused to understand.
+
 Gabriel: Yeah, so that's... That's an immersion breaker.
+
 Gabriel: Yeah, yeah, yeah.
+
 Gabriel: Well, in any case, thank you very much.
+
 Gabriel: And that was deeply thankful... Not deeply thankful, deeply valuable.
+
