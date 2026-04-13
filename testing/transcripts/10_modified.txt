@@ -1,840 +1,840 @@
-[SPEAKER_00]: Ok, dobrze.
+Gabriel: Ok, dobrze.
 
-[SPEAKER_00]: W takim wypadku to niech się nagrywa.
+Gabriel: W takim wypadku to niech się nagrywa.
 
-[SPEAKER_00]: I ja zacznę od takiego pytania.
+Gabriel: I ja zacznę od takiego pytania.
 
-[SPEAKER_00]: Jak ty określasz siebie, jeżeli chodzi o gry komputerowe, czy określasz siebie jako gracza?
+Gabriel: Jak ty określasz siebie, jeżeli chodzi o gry komputerowe, czy określasz siebie jako gracza?
 
-[SPEAKER_00]: W ogóle nie grasz, albo grasz, albo mobilna też, ale czy grasz trochę, czy grasz bardzo?
+Gabriel: W ogóle nie grasz, albo grasz, albo mobilna też, ale czy grasz trochę, czy grasz bardzo?
 
-[SPEAKER_01]: W ogóle nie gram.
+Maria: W ogóle nie gram.
 
-[SPEAKER_00]: W ogóle nie grasz w gry komputerowej?
+Gabriel: W ogóle nie grasz w gry komputerowej?
 
-[SPEAKER_01]: Ale dużo grałam, jak miałam 13 lat.
+Maria: Ale dużo grałam, jak miałam 13 lat.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: Chodź Casey, możesz skoczyć.
+Gabriel: Chodź Casey, możesz skoczyć.
 
-[SPEAKER_00]: Dobrze.
+Gabriel: Dobrze.
 
-[SPEAKER_00]: A co się tyczy natomiast asystentów głosowych w postaci Siri, albo Gemini, albo Aleksy, albo czegoś takiego?
+Gabriel: A co się tyczy natomiast asystentów głosowych w postaci Siri, albo Gemini, albo Aleksy, albo czegoś takiego?
 
-[SPEAKER_00]: To czy jaki jest twój stosunek do nich?
+Gabriel: To czy jaki jest twój stosunek do nich?
 
-[SPEAKER_01]: Bardzo to lubię i często korzystam.
+Maria: Bardzo to lubię i często korzystam.
 
-[SPEAKER_01]: Tylko z Syrii jest najgorsze.
+Maria: Tylko z Syrii jest najgorsze.
 
-[SPEAKER_01]: Z Syrii mam najgorsze doświadczenia, ale lubię też dyktować SMSy zamiast je pisać.
+Maria: Z Syrii mam najgorsze doświadczenia, ale lubię też dyktować SMSy zamiast je pisać.
 
-[SPEAKER_00]: Syrii jest faktycznie straszna.
+Gabriel: Syrii jest faktycznie straszna.
 
-[SPEAKER_00]: A ty w swoim telefonie masz taką nową Syrii, czy jeszcze w Polsce nie mamy jej?
+Gabriel: A ty w swoim telefonie masz taką nową Syrii, czy jeszcze w Polsce nie mamy jej?
 
-[SPEAKER_01]: Nie wiem.
+Maria: Nie wiem.
 
-[SPEAKER_00]: To jest taka jak klikacz TV to jest taki jak guzik jakby takie jak wiele kolorów na krawędzi czy nie?
+Gabriel: To jest taka jak klikacz TV to jest taki jak guzik jakby takie jak wiele kolorów na krawędzi czy nie?
 
-[SPEAKER_00]: Nie, nie, nie.
+Gabriel: Nie, nie, nie.
 
-[SPEAKER_00]: Stara TV.
+Gabriel: Stara TV.
 
-[SPEAKER_00]: Znaczy nawet ta nowa nie jest jakaś dobra więc... I czy jak używasz komputera albo telefonu to czy używasz jakichś takich ułatwień dostępności na zasadzie czy ktoś czyta co jest na ekranie albo zmienia kolory albo tego typu rzeczy czy nie?
+Gabriel: Znaczy nawet ta nowa nie jest jakaś dobra więc... I czy jak używasz komputera albo telefonu to czy używasz jakichś takich ułatwień dostępności na zasadzie czy ktoś czyta co jest na ekranie albo zmienia kolory albo tego typu rzeczy czy nie?
 
-[SPEAKER_01]: Używam filtra czarno-białego, bo zaprojektowałam sobie shortcut, że gdy uruchamia mi się Instagram, to włącza mi się ten filtr czarno-biały.
+Maria: Używam filtra czarno-białego, bo zaprojektowałam sobie shortcut, że gdy uruchamia mi się Instagram, to włącza mi się ten filtr czarno-biały.
 
-[SPEAKER_01]: I to mi pomaga nie korzystać z Instagrama tak jak wcześniej tak długo.
+Maria: I to mi pomaga nie korzystać z Instagrama tak jak wcześniej tak długo.
 
-[SPEAKER_01]: Bardzo to jest dobre.
+Maria: Bardzo to jest dobre.
 
-[SPEAKER_01]: Ale to jest kwestia mojego ograniczenia korzystania z telefonu, a nie konieczności.
+Maria: Ale to jest kwestia mojego ograniczenia korzystania z telefonu, a nie konieczności.
 
-[SPEAKER_00]: A nie konieczności, dokładnie.
+Gabriel: A nie konieczności, dokładnie.
 
-[SPEAKER_00]: Nie ma niczego, czego używasz przez konieczność.
+Gabriel: Nie ma niczego, czego używasz przez konieczność.
 
-[SPEAKER_00]: Nie, nie, nie.
+Gabriel: Nie, nie, nie.
 
-[SPEAKER_00]: Dobrze.
+Gabriel: Dobrze.
 
-[SPEAKER_00]: No to w takim wypadku idąc dalej.
+Gabriel: No to w takim wypadku idąc dalej.
 
-[SPEAKER_00]: Teraz jakby to co ja zrobię, zrobimy to.
+Gabriel: Teraz jakby to co ja zrobię, zrobimy to.
 
-[SPEAKER_00]: Tutaj jest kraj, o proszę.
+Gabriel: Tutaj jest kraj, o proszę.
 
-[SPEAKER_00]: To jest gra tekstowa.
+Gabriel: To jest gra tekstowa.
 
-[SPEAKER_00]: Idea jest taka, że to jest post apokalipsa w Warszawie.
+Gabriel: Idea jest taka, że to jest post apokalipsa w Warszawie.
 
-[SPEAKER_00]: Twój brat wyszedł po jedzenie do galerii handlowej, do garnita mu nie wrócił i myśli, że tam dalej może być.
+Gabriel: Twój brat wyszedł po jedzenie do galerii handlowej, do garnita mu nie wrócił i myśli, że tam dalej może być.
 
-[SPEAKER_00]: I interfejs wygląda w taki sposób, że tutaj jest nazwa miejsca, w którym jesteś, to obrazek jest jakby tego miejsca, taki poglądowy.
+Gabriel: I interfejs wygląda w taki sposób, że tutaj jest nazwa miejsca, w którym jesteś, to obrazek jest jakby tego miejsca, taki poglądowy.
 
-[SPEAKER_00]: Tutaj jest na którym piętrze jesteś, na parterze aktualnie.
+Gabriel: Tutaj jest na którym piętrze jesteś, na parterze aktualnie.
 
-[SPEAKER_00]: Tutaj jest opis, który jest dosyć długi.
+Gabriel: Tutaj jest opis, który jest dosyć długi.
 
-[SPEAKER_00]: Najważniejsze rzeczy w tym opisie to jest pierwsze zdanie i ostatnie tam zdanie, czy ostatnie dwa zdania, tam są jakieś wskazówki co do tego miejsca, powiedzmy reszta to jest taki opis lokalizacji, tak?
+Gabriel: Najważniejsze rzeczy w tym opisie to jest pierwsze zdanie i ostatnie tam zdanie, czy ostatnie dwa zdania, tam są jakieś wskazówki co do tego miejsca, powiedzmy reszta to jest taki opis lokalizacji, tak?
 
-[SPEAKER_00]: Jeżeli czego możesz mnie zapytać, jakby to było niezrozumiałe w tym, bo to jest taki język mocno poetycki.
+Gabriel: Jeżeli czego możesz mnie zapytać, jakby to było niezrozumiałe w tym, bo to jest taki język mocno poetycki.
 
-[SPEAKER_00]: Kawa przestała budkać.
+Gabriel: Kawa przestała budkać.
 
-[SPEAKER_00]: O, kawa.
+Gabriel: O, kawa.
 
-[SPEAKER_00]: Przemoczyć?
+Gabriel: Przemoczyć?
 
-[SPEAKER_01]: Tak, już idę.
+Maria: Tak, już idę.
 
 Zobaczmy, jak to wygląda.
 
-[SPEAKER_01]: Dzień dobry, panie prezydent.
+Maria: Dzień dobry, panie prezydent.
 
-[SPEAKER_01]: Dzień dobry.
+Maria: Dzień dobry.
 
-[SPEAKER_01]: Dzień dobry.
+Maria: Dzień dobry.
 
-[SPEAKER_01]: To teraz będę piła kawę.
+Maria: To teraz będę piła kawę.
 
-[SPEAKER_00]: I co?
+Gabriel: I co?
 
-[SPEAKER_00]: Tekst jest dosyć mały.
+Gabriel: Tekst jest dosyć mały.
 
-[SPEAKER_00]: Przepraszam tutaj.
+Gabriel: Przepraszam tutaj.
 
-[SPEAKER_00]: To co się różni, jako w tej grze typowego doświadczenia, to jest to, że nie sterujesz za pomocą jakiejś klawiatury albo kontrolera, tylko jeżeli chcesz coś zrobić, to klikasz tutaj dźwięk R, przytrzymujesz go, mówisz.
+Gabriel: To co się różni, jako w tej grze typowego doświadczenia, to jest to, że nie sterujesz za pomocą jakiejś klawiatury albo kontrolera, tylko jeżeli chcesz coś zrobić, to klikasz tutaj dźwięk R, przytrzymujesz go, mówisz.
 
-[SPEAKER_00]: Na przykład, tutaj możemy pójść do miejsca, które się nazywa clothing store.
+Gabriel: Na przykład, tutaj możemy pójść do miejsca, które się nazywa clothing store.
 
-[SPEAKER_00]: Napisane, że jest clothing store.
+Gabriel: Napisane, że jest clothing store.
 
-[SPEAKER_00]: Trzeba mu powiedzieć, OK, how about we go to the clothing store right now.
+Gabriel: Trzeba mu powiedzieć, OK, how about we go to the clothing store right now.
 
-[SPEAKER_00]: Może nie.
+Gabriel: Może nie.
 
-[SPEAKER_00]: Nie wiem dlaczego.
+Gabriel: Nie wiem dlaczego.
 
-[SPEAKER_00]: Albo za pierwszym razem jest bug.
+Gabriel: Albo za pierwszym razem jest bug.
 
-[SPEAKER_00]: Nieważne.
+Gabriel: Nieważne.
 
-[SPEAKER_00]: Sorry.
+Gabriel: Sorry.
 
-[SPEAKER_00]: Tylko raz.
+Gabriel: Tylko raz.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: A co jeśli chcę iść w sklep?
+Gabriel: A co jeśli chcę iść w sklep?
 
-[SPEAKER_00]: Bo za pierwszym razem jest jakiś błąd.
+Gabriel: Bo za pierwszym razem jest jakiś błąd.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: Dobra, a co jeśli wracamy?
+Gabriel: Dobra, a co jeśli wracamy?
 
-[SPEAKER_00]: I jak widzisz możesz używać jakby, tak jakby, zdania naturałe, nie musisz jakby myśleć...
+Gabriel: I jak widzisz możesz używać jakby, tak jakby, zdania naturałe, nie musisz jakby myśleć...
 
-[SPEAKER_01]: Jak to powinno być pogromnie.
+Maria: Jak to powinno być pogromnie.
 
-[SPEAKER_00]: Tak, nie ma tylko jednego słowa, tak?
+Gabriel: Tak, nie ma tylko jednego słowa, tak?
 
-[SPEAKER_00]: Tak.
+Gabriel: Tak.
 
-[SPEAKER_00]: Pogromnego.
+Gabriel: Pogromnego.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: No i okej.
+Gabriel: No i okej.
 
-[SPEAKER_00]: Tak jak mówiłem.
+Gabriel: Tak jak mówiłem.
 
-[SPEAKER_00]: Pierwsze zdanie jest jakaś taka wstępem, potem jest wzór takiego opisu, lokalizacji, takiego poetyckiego, a potem na końcu są zawsze informacje związane z tym...
+Gabriel: Pierwsze zdanie jest jakaś taka wstępem, potem jest wzór takiego opisu, lokalizacji, takiego poetyckiego, a potem na końcu są zawsze informacje związane z tym...
 
-[SPEAKER_00]: Just pass the money door.
+Gabriel: Just pass the money door.
 
-[SPEAKER_00]: gdzie możesz pójść, co jest połączone z tym miejscem.
+Gabriel: gdzie możesz pójść, co jest połączone z tym miejscem.
 
-[SPEAKER_00]: Okej, i teraz jakby przez 10 minut się może byś grała w to.
+Gabriel: Okej, i teraz jakby przez 10 minut się może byś grała w to.
 
-[SPEAKER_00]: I ja sobie będę robił jakieś takie małe notatki, ale ja nie oceniam tego jak ci idzie, to nie o to chodzi zupełnie.
+Gabriel: I ja sobie będę robił jakieś takie małe notatki, ale ja nie oceniam tego jak ci idzie, to nie o to chodzi zupełnie.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: Także tym się nie przejmuj, ja bardziej notuję rzeczy jak ten system coś się psuje w nim, na takiej zasadzie.
+Gabriel: Także tym się nie przejmuj, ja bardziej notuję rzeczy jak ten system coś się psuje w nim, na takiej zasadzie.
 
-[SPEAKER_01]: A, okej.
+Maria: A, okej.
 
-[SPEAKER_00]: No, dobra, to czekaj, ja tu sobie odpalę timer.
+Gabriel: No, dobra, to czekaj, ja tu sobie odpalę timer.
 
-[SPEAKER_00]: Cyk.
+Gabriel: Cyk.
 
-[SPEAKER_00]: A, i jeszcze jedno o czym nie wspomniałem.
+Gabriel: A, i jeszcze jedno o czym nie wspomniałem.
 
-[SPEAKER_00]: używać i tworzyć nowe i podnosić.
+Gabriel: używać i tworzyć nowe i podnosić.
 
-[SPEAKER_00]: I tutaj jest Twój ekwipunek po prawej stronie i one się tutaj będą pojawiać.
+Gabriel: I tutaj jest Twój ekwipunek po prawej stronie i one się tutaj będą pojawiać.
 
-[SPEAKER_00]: To wszystko z mojej strony.
+Gabriel: To wszystko z mojej strony.
 
-[SPEAKER_01]: Szukam brata.
+Maria: Szukam brata.
 
-[SPEAKER_01]: Tak?
+Maria: Tak?
 
-[SPEAKER_00]: Tak jest.
+Gabriel: Tak jest.
 
-[SPEAKER_00]: Ustrzegł przed wejściem teraz.
+Gabriel: Ustrzegł przed wejściem teraz.
 
-[SPEAKER_01]: I want to enter.
+Maria: I want to enter.
 
-[SPEAKER_01]: Fujka.
+Maria: Fujka.
 
-[SPEAKER_01]: Obawiam się, że to skarb.
+Maria: Obawiam się, że to skarb.
 
-[SPEAKER_01]: Chcę wyjść... O, tak, OK.
+Maria: Chcę wyjść... O, tak, OK.
 
-[SPEAKER_00]: To miejsce, które jest napisane, to jest połączone z dwoma miejscami.
+Gabriel: To miejsce, które jest napisane, to jest połączone z dwoma miejscami.
 
-[SPEAKER_00]: Clothing stores, klub z ubraniami i... Small storage.
+Gabriel: Clothing stores, klub z ubraniami i... Small storage.
 
-[SPEAKER_00]: Dokładnie.
+Gabriel: Dokładnie.
 
-[SPEAKER_01]: I want to go to clothing store.
+Maria: I want to go to clothing store.
 
-[SPEAKER_00]: Wszystko okej?
+Gabriel: Wszystko okej?
 
-[SPEAKER_00]: Wszystko okej?
+Gabriel: Wszystko okej?
 
-[SPEAKER_00]: Mhm.
+Gabriel: Mhm.
 
-[SPEAKER_01]: Nauka pomoże, nauka.
+Maria: Nauka pomoże, nauka.
 
-[SPEAKER_00]: Nie stwierdziłem.
+Gabriel: Nie stwierdziłem.
 
-[SPEAKER_01]: To jest crowbar.
+Maria: To jest crowbar.
 
-[SPEAKER_01]: To jest łom.
+Maria: To jest łom.
 
-[SPEAKER_01]: Mhm.
+Maria: Mhm.
 
-[SPEAKER_01]: I want to pick this crowbar.
+Maria: I want to pick this crowbar.
 
-[SPEAKER_01]: Please take me there.
+Maria: Please take me there.
 
-[SPEAKER_01]: Znaczy nie tak, tylko ja idę, prawda?
+Maria: Znaczy nie tak, tylko ja idę, prawda?
 
-[SPEAKER_01]: Mhm.
+Maria: Mhm.
 
-[SPEAKER_01]: No to zrozumiem.
+Maria: No to zrozumiem.
 
-[SPEAKER_00]: Tak, tylko że tutaj jest tak, że te drzwi są zablokowane.
+Gabriel: Tak, tylko że tutaj jest tak, że te drzwi są zablokowane.
 
-[SPEAKER_00]: Mhm.
+Gabriel: Mhm.
 
-[SPEAKER_00]: I tego musisz mówić jakby, że łom by je otworzył.
+Gabriel: I tego musisz mówić jakby, że łom by je otworzył.
 
-[SPEAKER_00]: Tylko, że tego łomu nie masz.
+Gabriel: Tylko, że tego łomu nie masz.
 
 Mhm.
 
-[SPEAKER_01]: Więc...
+Maria: Więc...
 
-[SPEAKER_00]: Nie widziałam tu krowa.
+Gabriel: Nie widziałam tu krowa.
 
-[SPEAKER_00]: Proszę odwiedź mnie do storażu.
+Gabriel: Proszę odwiedź mnie do storażu.
 
-[SPEAKER_00]: Chcę wyjść.
+Gabriel: Chcę wyjść.
 
-[SPEAKER_01]: I want to enter the small storage again.
+Maria: I want to enter the small storage again.
 
-[SPEAKER_00]: Nie wiem czy... Spróbuj jeszcze raz się nagrać, bo chłopak się nie złapał.
+Gabriel: Nie wiem czy... Spróbuj jeszcze raz się nagrać, bo chłopak się nie złapał.
 
-[SPEAKER_01]: Hello, I want to go to storage again.
+Maria: Hello, I want to go to storage again.
 
-[SPEAKER_00]: Pierwsze zdanie jest, powiedzmy, to najważniejsze i później ostatnie dwa zdania może, a ten środek to tak bardziej poetycko jest.
+Gabriel: Pierwsze zdanie jest, powiedzmy, to najważniejsze i później ostatnie dwa zdania może, a ten środek to tak bardziej poetycko jest.
 
-[SPEAKER_01]: To jest metalowe okładziny.
+Maria: To jest metalowe okładziny.
 
-[SPEAKER_01]: To jest pierwszy, drugi, trzeci.
+Maria: To jest pierwszy, drugi, trzeci.
 
-[SPEAKER_01]: To jest obiste gołowo.
+Maria: To jest obiste gołowo.
 
-[SPEAKER_01]: Chcę zabrać tę krowę do mojej sklepówki.
+Maria: Chcę zabrać tę krowę do mojej sklepówki.
 
-[SPEAKER_00]: O, tutaj jest taki tekst na dole
+Gabriel: O, tutaj jest taki tekst na dole
 
-[SPEAKER_01]: Idźmy do głównego wejścia.
+Maria: Idźmy do głównego wejścia.
 
-[SPEAKER_01]: Idźmy do sklepu.
+Maria: Idźmy do sklepu.
 
-[SPEAKER_01]: Biegniemy.
+Maria: Biegniemy.
 
-[SPEAKER_01]: Nie wiem, może ktoś mnie goni, muszę biec.
+Maria: Nie wiem, może ktoś mnie goni, muszę biec.
 
-[SPEAKER_01]: Nie biorę po małego.
+Maria: Nie biorę po małego.
 
-[SPEAKER_00]: Trochę zajmuję.
+Gabriel: Trochę zajmuję.
 
-[SPEAKER_00]: Ok.
+Gabriel: Ok.
 
-[SPEAKER_01]: Zbliż się do drzwi i spróbuj otworzyć je za pomocą klawiszu.
+Maria: Zbliż się do drzwi i spróbuj otworzyć je za pomocą klawiszu.
 
-[SPEAKER_00]: Oho.
+Gabriel: Oho.
 
-[SPEAKER_00]: Asystent się nie zrozumiał chyba.
+Gabriel: Asystent się nie zrozumiał chyba.
 
-[SPEAKER_01]: Take me to the clothing store.
+Maria: Take me to the clothing store.
 
-[SPEAKER_01]: Możesz... Go to the corridor.
+Maria: Możesz... Go to the corridor.
 
-[SPEAKER_00]: Nie wiem, czy on otworzył ten drzwi.
+Gabriel: Nie wiem, czy on otworzył ten drzwi.
 
-[SPEAKER_00]: Może powinieneś... Możesz powiedzieć bez tego drzwi... Tak, bo nie rozumiem, czy korytarz nie jest otwarty aktualnie.
+Gabriel: Może powinieneś... Możesz powiedzieć bez tego drzwi... Tak, bo nie rozumiem, czy korytarz nie jest otwarty aktualnie.
 
-[SPEAKER_00]: A, dobra!
+Gabriel: A, dobra!
 
-[SPEAKER_00]: Możesz powiedzieć bez tego, że gdzieś pójść, bo to chyba zasugerowało, żeby wyjść.
+Gabriel: Możesz powiedzieć bez tego, że gdzieś pójść, bo to chyba zasugerowało, żeby wyjść.
 
-[SPEAKER_00]: Jak mu powiesz, to jest bardziej o tym, żeby użyć tylko i wyłącznie.
+Gabriel: Jak mu powiesz, to jest bardziej o tym, żeby użyć tylko i wyłącznie.
 
-[SPEAKER_00]: Mhm, dobra.
+Gabriel: Mhm, dobra.
 
-[SPEAKER_01]: Go back to clothing store.
+Maria: Go back to clothing store.
 
-[SPEAKER_00]: Tak, czyli teraz możemy wejść na korytarz.
+Gabriel: Tak, czyli teraz możemy wejść na korytarz.
 
-[SPEAKER_00]: I teraz sprawowanie się zmienia.
+Gabriel: I teraz sprawowanie się zmienia.
 
-[SPEAKER_00]: Nie używasz już głosu.
+Gabriel: Nie używasz już głosu.
 
-[SPEAKER_00]: Tylko używasz klawiszy na klawiaturze.
+Gabriel: Tylko używasz klawiszy na klawiaturze.
 
-[SPEAKER_00]: Jeden, dwa, trzy, cztery.
+Gabriel: Jeden, dwa, trzy, cztery.
 
-[SPEAKER_00]: Jeżeli tam się jakieś inne rzeczy też pojawiają.
+Gabriel: Jeżeli tam się jakieś inne rzeczy też pojawiają.
 
-[SPEAKER_00]: Przedstawia 10 minut po prostu.
+Gabriel: Przedstawia 10 minut po prostu.
 
-[SPEAKER_00]: Czyli możesz kontynuować grę.
+Gabriel: Czyli możesz kontynuować grę.
 
-[SPEAKER_00]: Tylko już nie gadasz tylko sterujesz tak bardziej tradycyjnie.
+Gabriel: Tylko już nie gadasz tylko sterujesz tak bardziej tradycyjnie.
 
-[SPEAKER_01]: Dzień dobry.
+Maria: Dzień dobry.
 
 Zobaczmy, co się wydarzy.
 
-[SPEAKER_00]: Tak, tam gdzieś jest jakaś winda.
+Gabriel: Tak, tam gdzieś jest jakaś winda.
 
-[SPEAKER_00]: No i teraz jeśli chcesz stąd iść dalej, tak?
+Gabriel: No i teraz jeśli chcesz stąd iść dalej, tak?
 
-[SPEAKER_00]: To tutaj widzisz jedynki?
+Gabriel: To tutaj widzisz jedynki?
 
-[SPEAKER_00]: Tutaj masz wszystkie opcje, w których możesz iść.
+Gabriel: Tutaj masz wszystkie opcje, w których możesz iść.
 
-[SPEAKER_00]: Idę na górę.
+Gabriel: Idę na górę.
 
-[SPEAKER_00]: Tutaj jest taki mały... To jest tylko opis tych schodów, nie?
+Gabriel: Tutaj jest taki mały... To jest tylko opis tych schodów, nie?
 
-[SPEAKER_00]: Ale tutaj...
+Gabriel: Ale tutaj...
 
-[SPEAKER_00]: Jak klikniesz dwa, to wejdziesz... To jest skarby going down, ale to są schody jakby wyżej po prostu.
+Gabriel: Jak klikniesz dwa, to wejdziesz... To jest skarby going down, ale to są schody jakby wyżej po prostu.
 
-[SPEAKER_01]: Okej.
+Maria: Okej.
 
-[SPEAKER_00]: I teraz jesteś na pierwszym piętrze.
+Gabriel: I teraz jesteś na pierwszym piętrze.
 
-[SPEAKER_00]: I stąd możesz już wyjść gdzieś indziej.
+Gabriel: I stąd możesz już wyjść gdzieś indziej.
 
-[SPEAKER_01]: Jakbym sobie poprawiła tutaj to jeszcze dłużej.
+Maria: Jakbym sobie poprawiła tutaj to jeszcze dłużej.
 
-[SPEAKER_00]: Wyżej już nie możesz wejść niestety.
+Gabriel: Wyżej już nie możesz wejść niestety.
 
-[SPEAKER_00]: Dobra no to tam trzecia opcja to jest launch to po polsku jest właśnie takie lobby.
+Gabriel: Dobra no to tam trzecia opcja to jest launch to po polsku jest właśnie takie lobby.
 
-[SPEAKER_00]: Crafting działa tak, że wybiera się dwa przedmioty.
+Gabriel: Crafting działa tak, że wybiera się dwa przedmioty.
 
-[SPEAKER_00]: Trzeba mieć załóżenie na tym, żeby to zrobić.
+Gabriel: Trzeba mieć załóżenie na tym, żeby to zrobić.
 
-[SPEAKER_00]: Może pójdę z tego karansnacka, bo tak to było wspomniane.
+Gabriel: Może pójdę z tego karansnacka, bo tak to było wspomniane.
 
-[SPEAKER_00]: I tutaj widzisz, jak jest jakaś dodatkowa rzecz, to ona się też poświetla tutaj, czyli jakby... Widzisz, możesz podnieść się za pałki troszkę.
+Gabriel: I tutaj widzisz, jak jest jakaś dodatkowa rzecz, to ona się też poświetla tutaj, czyli jakby... Widzisz, możesz podnieść się za pałki troszkę.
 
-[SPEAKER_00]: Tak.
+Gabriel: Tak.
 
-[SPEAKER_00]: Cyk.
+Gabriel: Cyk.
 
-[SPEAKER_00]: Teraz możesz za pałki i łyk i punkt.
+Gabriel: Teraz możesz za pałki i łyk i punkt.
 
-[SPEAKER_00]: Super.
+Gabriel: Super.
 
-[SPEAKER_01]: No to może kraków zrobię.
+Maria: No to może kraków zrobię.
 
-[SPEAKER_00]: Tak, i tutaj jest taka mała strzałeczka wtedy.
+Gabriel: Tak, i tutaj jest taka mała strzałeczka wtedy.
 
-[SPEAKER_00]: Te strzałkami się wybiera, aby połączyć jeden przedmiot, Enter, z drugim.
+Gabriel: Te strzałkami się wybiera, aby połączyć jeden przedmiot, Enter, z drugim.
 
-[SPEAKER_01]: Ale to nie działa, bo jak połączyć łące z zapałkami?
+Maria: Ale to nie działa, bo jak połączyć łące z zapałkami?
 
-[SPEAKER_00]: No nie, no właśnie, to się nie da.
+Gabriel: No nie, no właśnie, to się nie da.
 
-[SPEAKER_00]: No właśnie, no właśnie.
+Gabriel: No właśnie, no właśnie.
 
-[SPEAKER_00]: Dobra.
+Gabriel: Dobra.
 
-[SPEAKER_01]: No to prawe jest to chyba.
+Maria: No to prawe jest to chyba.
 
-[SPEAKER_01]: Ale zabrałam zapałki.
+Maria: Ale zabrałam zapałki.
 
-[SPEAKER_00]: Tak jest.
+Gabriel: Tak jest.
 
-[SPEAKER_01]: Go to gun store, tak jest!
+Maria: Go to gun store, tak jest!
 
-[SPEAKER_01]: Od razu!
+Maria: Od razu!
 
-[SPEAKER_01]: I kapie pistol.
+Maria: I kapie pistol.
 
-[SPEAKER_01]: No i to mi się podoba.
+Maria: No i to mi się podoba.
 
-[SPEAKER_00]: To jest taki mały błąd, możesz podnieść tych pistoletów ile chcesz z podłogi i się nie rezentuje.
+Gabriel: To jest taki mały błąd, możesz podnieść tych pistoletów ile chcesz z podłogi i się nie rezentuje.
 
-[SPEAKER_01]: Świetne.
+Maria: Świetne.
 
-[SPEAKER_01]: Dobra, jeden praweł.
+Maria: Dobra, jeden praweł.
 
-[SPEAKER_01]: Go back to main.
+Maria: Go back to main.
 
-[SPEAKER_01]: Travel.
+Maria: Travel.
 
-[SPEAKER_01]: Go back to Korean Snack Store.
+Maria: Go back to Korean Snack Store.
 
-[SPEAKER_00]: Co to jest?
+Gabriel: Co to jest?
 
-[SPEAKER_00]: Find that much on the plate.
+Gabriel: Find that much on the plate.
 
-[SPEAKER_00]: Find.
+Gabriel: Find.
 
-[SPEAKER_00]: Paint.
+Gabriel: Paint.
 
-[SPEAKER_00]: Takie lekkie.
+Gabriel: Takie lekkie.
 
-[SPEAKER_00]: Rozmowne.
+Gabriel: Rozmowne.
 
-[SPEAKER_00]: Tak.
+Gabriel: Tak.
 
-[SPEAKER_01]: Nie, ja tu nic nie zrobię, więc ja muszę tam wyjść i szukać brata.
+Maria: Nie, ja tu nic nie zrobię, więc ja muszę tam wyjść i szukać brata.
 
-[SPEAKER_01]: Gdzie mam tu lunch?
+Maria: Gdzie mam tu lunch?
 
-[SPEAKER_01]: Już tu byłam.
+Maria: Już tu byłam.
 
-[SPEAKER_01]: Traverse... Okej!
+Maria: Traverse... Okej!
 
-[SPEAKER_01]: Dobra, ale stąd można iść, na przód, do... Jasrów Jednostek.
+Maria: Dobra, ale stąd można iść, na przód, do... Jasrów Jednostek.
 
-[SPEAKER_01]: Mogę rozjaśnić go?
+Maria: Mogę rozjaśnić go?
 
-[SPEAKER_01]: Dobra.
+Maria: Dobra.
 
-[SPEAKER_01]: Pick up.
+Maria: Pick up.
 
-[SPEAKER_01]: Legs stable right now.
+Maria: Legs stable right now.
 
-[SPEAKER_01]: Mhm.
+Maria: Mhm.
 
-[SPEAKER_01]: Dobra, teraz wyjdźmy stąd.
+Maria: Dobra, teraz wyjdźmy stąd.
 
-[SPEAKER_01]: I pójdźmy... do łazienki.
+Maria: I pójdźmy... do łazienki.
 
-[SPEAKER_01]: Ciekawe co tam jest.
+Maria: Ciekawe co tam jest.
 
-[SPEAKER_01]: Eee, suchy dno.
+Maria: Eee, suchy dno.
 
-[SPEAKER_01]: Intact?
+Maria: Intact?
 
-[SPEAKER_01]: Co to znaczy?
+Maria: Co to znaczy?
 
-[SPEAKER_00]: Tak, w całości.
+Gabriel: Tak, w całości.
 
-[SPEAKER_00]: Łazienka akurat tutaj nie ma zbyt wiele do odwiedzania łazience.
+Gabriel: Łazienka akurat tutaj nie ma zbyt wiele do odwiedzania łazience.
 
-[SPEAKER_00]: Łazienka jest pustym pomieszczeniem.
+Gabriel: Łazienka jest pustym pomieszczeniem.
 
-[SPEAKER_01]: Dobra, to travel, return, go to lunch, travel, go to food supermarket.
+Maria: Dobra, to travel, return, go to lunch, travel, go to food supermarket.
 
-[SPEAKER_01]: O Jezu, a kto to?
+Maria: O Jezu, a kto to?
 
-[SPEAKER_01]: Mój brat?
+Maria: Mój brat?
 
-[SPEAKER_00]: Tak, to on tam siedzi, no.
+Gabriel: Tak, to on tam siedzi, no.
 
-[SPEAKER_01]: A, bo on poszedł po jedzenie.
+Maria: A, bo on poszedł po jedzenie.
 
 Tak.
 
-[SPEAKER_01]: A, on skręcił nogę, więc ja mam legstabilizer dla niego.
+Maria: A, on skręcił nogę, więc ja mam legstabilizer dla niego.
 
-[SPEAKER_00]: Mhm.
+Gabriel: Mhm.
 
-[SPEAKER_01]: No, to use item.
+Maria: No, to use item.
 
-[SPEAKER_00]: No i teraz powinniśmy strzokami wyglądać.
+Gabriel: No i teraz powinniśmy strzokami wyglądać.
 
-[SPEAKER_00]: Aha.
+Gabriel: Aha.
 
-[SPEAKER_01]: Cyk.
+Maria: Cyk.
 
-[SPEAKER_01]: Exit the building, okej.
+Maria: Exit the building, okej.
 
-[SPEAKER_00]: Jeden.
+Gabriel: Jeden.
 
-[SPEAKER_00]: Go to lounge.
+Gabriel: Go to lounge.
 
-[SPEAKER_00]: I nie możesz... to jest błąd, że... ale to, że właśnie nie możesz wyjść w taki sam sposób, w jaki weszłaś.
+Gabriel: I nie możesz... to jest błąd, że... ale to, że właśnie nie możesz wyjść w taki sam sposób, w jaki weszłaś.
 
-[SPEAKER_00]: Bo to się nie aktywuje.
+Gabriel: Bo to się nie aktywuje.
 
-[SPEAKER_00]: Jest bug.
+Gabriel: Jest bug.
 
-[SPEAKER_00]: Ale domyślnie jest tak, że coś się dzieje i to domyślne wejście przestaje działać.
+Gabriel: Ale domyślnie jest tak, że coś się dzieje i to domyślne wejście przestaje działać.
 
-[SPEAKER_00]: Musisz znaleźć inny sposób na wyjście z budynku.
+Gabriel: Musisz znaleźć inny sposób na wyjście z budynku.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: Dobra.
+Gabriel: Dobra.
 
-[SPEAKER_01]: Trouble.
+Maria: Trouble.
 
-[SPEAKER_01]: Konkurs podwóz.
+Maria: Konkurs podwóz.
 
-[SPEAKER_01]: No dobra, tu byliśmy.
+Maria: No dobra, tu byliśmy.
 
-[SPEAKER_01]: To trochę znajomo wygląda.
+Maria: To trochę znajomo wygląda.
 
-[SPEAKER_00]: Trouble.
+Gabriel: Trouble.
 
-[SPEAKER_00]: Small Corridor.
+Gabriel: Small Corridor.
 
-[SPEAKER_00]: Trouble.
+Gabriel: Trouble.
 
-[SPEAKER_01]: A. Ok, Escape.
+Maria: A. Ok, Escape.
 
-[SPEAKER_01]: Jedynka.
+Maria: Jedynka.
 
-[SPEAKER_01]: Jedynka.
+Maria: Jedynka.
 
-[SPEAKER_01]: Więc jeden travel.
+Maria: Więc jeden travel.
 
-[SPEAKER_01]: Fishing stall chyba to było.
+Maria: Fishing stall chyba to było.
 
 Mhm.
 
-[SPEAKER_01]: Dlaczego jest czarne?
+Maria: Dlaczego jest czarne?
 
-[SPEAKER_00]: No bo jest płon w krzaku.
+Gabriel: No bo jest płon w krzaku.
 
-[SPEAKER_01]: Okej.
+Maria: Okej.
 
-[SPEAKER_00]: Powinno być czarne.
+Gabriel: Powinno być czarne.
 
-[SPEAKER_00]: No dobra.
+Gabriel: No dobra.
 
-[SPEAKER_00]: Na tym etapie możemy sobie zakończyć.
+Gabriel: Na tym etapie możemy sobie zakończyć.
 
-[SPEAKER_01]: Mhm.
+Maria: Mhm.
 
-[SPEAKER_00]: To nie chodziło o to, żeby to koniecznie udało Ci się zakończyć grę w ciągu tych 20 dni.
+Gabriel: To nie chodziło o to, żeby to koniecznie udało Ci się zakończyć grę w ciągu tych 20 dni.
 
-[SPEAKER_01]: Mhm.
+Maria: Mhm.
 
-[SPEAKER_00]: No i tak byłeś blisko tego, że super.
+Gabriel: No i tak byłeś blisko tego, że super.
 
-[SPEAKER_00]: Fajnie.
+Gabriel: Fajnie.
 
-[SPEAKER_00]: Dobra, teraz będę miał kilka pytań co do Twojego doświadczenia.
+Gabriel: Dobra, teraz będę miał kilka pytań co do Twojego doświadczenia.
 
-[SPEAKER_00]: Poczekaj, tylko przeciągnę tutaj.
+Gabriel: Poczekaj, tylko przeciągnę tutaj.
 
-[SPEAKER_00]: Dobra.
+Gabriel: Dobra.
 
-[SPEAKER_00]: Teraz jak grałaś w obie wersje, to jak się czujesz?
+Gabriel: Teraz jak grałaś w obie wersje, to jak się czujesz?
 
-[SPEAKER_01]: Ta druga lepiej.
+Maria: Ta druga lepiej.
 
-[SPEAKER_01]: Miałam opcję do wyboru, a nie mówiłam.
+Maria: Miałam opcję do wyboru, a nie mówiłam.
 
-[SPEAKER_01]: Okej.
+Maria: Okej.
 
-[SPEAKER_01]: bo wolałam albo pełną interakcję i mówić jak ze sztuczną inteligencją w czacie, albo używać komend do wyboru.
+Maria: bo wolałam albo pełną interakcję i mówić jak ze sztuczną inteligencją w czacie, albo używać komend do wyboru.
 
-[SPEAKER_01]: Lepiej mogłam zrozumieć grę przy tych komendach.
+Maria: Lepiej mogłam zrozumieć grę przy tych komendach.
 
-[SPEAKER_00]: Czyli przy tej drugiej wersji.
+Gabriel: Czyli przy tej drugiej wersji.
 
-[SPEAKER_00]: Czy było coś, co Cię jakoś zaskoczyło na początku?
+Gabriel: Czy było coś, co Cię jakoś zaskoczyło na początku?
 
-[SPEAKER_01]: Czułam się zakupiona i nie bardzo wiedziałam, co mam zrobić.
+Maria: Czułam się zakupiona i nie bardzo wiedziałam, co mam zrobić.
 
-[SPEAKER_01]: Jak zacząć?
+Maria: Jak zacząć?
 
-[SPEAKER_01]: Zacząć mi było najtrudniej.
+Maria: Zacząć mi było najtrudniej.
 
-[SPEAKER_01]: Ale to też dlatego, że ja nie mam doświadczenia w takich grach.
+Maria: Ale to też dlatego, że ja nie mam doświadczenia w takich grach.
 
-[SPEAKER_00]: Ale to spoko, to dobrze.
+Gabriel: Ale to spoko, to dobrze.
 
-[SPEAKER_00]: Nie przejmuj się.
+Gabriel: Nie przejmuj się.
 
-[SPEAKER_00]: Jakbyś miała opisać różnicę pomiędzy tymi dwiema grami?
+Gabriel: Jakbyś miała opisać różnicę pomiędzy tymi dwiema grami?
 
-[SPEAKER_00]: Do osoby, która nie grała ani jedną, ani drugą.
+Gabriel: Do osoby, która nie grała ani jedną, ani drugą.
 
-[SPEAKER_00]: To jakbyś opisała tą różnicę.
+Gabriel: To jakbyś opisała tą różnicę.
 
 Hmm.
 
-[SPEAKER_01]: Różnica była taka, że bardziej intuicyjna była gra naciskając klawisze niż mówiąc do komputera.
+Maria: Różnica była taka, że bardziej intuicyjna była gra naciskając klawisze niż mówiąc do komputera.
 
-[SPEAKER_01]: Bo mówiąc intuicyjnie chcę użyć jakiejś komendy.
+Maria: Bo mówiąc intuicyjnie chcę użyć jakiejś komendy.
 
-[SPEAKER_01]: Nie jestem przyzwyczajona, że w grze mówię co chcę robić.
+Maria: Nie jestem przyzwyczajona, że w grze mówię co chcę robić.
 
-[SPEAKER_01]: Jest to swobodna rozmowa.
+Maria: Jest to swobodna rozmowa.
 
-[SPEAKER_00]: Mówiłaś już trochę o tym, że to było przytłaczające, ale jakbyś mogła szerzej jeszcze opisać, jak to było używać głosu w grze?
+Gabriel: Mówiłaś już trochę o tym, że to było przytłaczające, ale jakbyś mogła szerzej jeszcze opisać, jak to było używać głosu w grze?
 
-[SPEAKER_01]: odczuwałam barierę językową, bo nie czuję się tak swobodnie po angielsku, jak bym naciskała klawisze.
+Maria: odczuwałam barierę językową, bo nie czuję się tak swobodnie po angielsku, jak bym naciskała klawisze.
 
-[SPEAKER_01]: Jak mam napisany tekst i komenty, to to w pełni rozumiem.
+Maria: Jak mam napisany tekst i komenty, to to w pełni rozumiem.
 
-[SPEAKER_01]: A to mówienie było dla mnie dużo trudniejsze i dlatego się męczyłam bardziej.
+Maria: A to mówienie było dla mnie dużo trudniejsze i dlatego się męczyłam bardziej.
 
-[SPEAKER_01]: Gdyby to było po polsku, to byłoby fajnie mówić.
+Maria: Gdyby to było po polsku, to byłoby fajnie mówić.
 
-[SPEAKER_01]: Gdyby to było w języku, w którym się czuję zupełnie swobodnie, to chętnie bym jeszcze raz spróbowała.
+Maria: Gdyby to było w języku, w którym się czuję zupełnie swobodnie, to chętnie bym jeszcze raz spróbowała.
 
-[SPEAKER_00]: A w której wersji czułaś się bardziej zanurzona w świecie przedstawionym?
+Gabriel: A w której wersji czułaś się bardziej zanurzona w świecie przedstawionym?
 
-[SPEAKER_01]: W tej pierwszej.
+Maria: W tej pierwszej.
 
-[SPEAKER_01]: Bo nie muszę czytać tego tekstu, tylko patrzę na ten obrazek i zaczynam sobie wyobrażać ten świat.
+Maria: Bo nie muszę czytać tego tekstu, tylko patrzę na ten obrazek i zaczynam sobie wyobrażać ten świat.
 
-[SPEAKER_01]: I wolałabym, żeby ta pierwsza wersja, żebym nie musiała w ogóle czytać tekstu.
+Maria: I wolałabym, żeby ta pierwsza wersja, żebym nie musiała w ogóle czytać tekstu.
 
-[SPEAKER_01]: Jeżeli mówię, to komputer da mi powiedzieć ten tekst, który jest napisany.
+Maria: Jeżeli mówię, to komputer da mi powiedzieć ten tekst, który jest napisany.
 
-[SPEAKER_01]: Nawet mechanicznym głosem.
+Maria: Nawet mechanicznym głosem.
 
-[SPEAKER_01]: To by było bardzo cenne.
+Maria: To by było bardzo cenne.
 
-[SPEAKER_01]: Żeby ci przeczytał, tak?
+Maria: Żeby ci przeczytał, tak?
 
-[SPEAKER_01]: Żeby mi to przeczytał, tak.
+Maria: Żeby mi to przeczytał, tak.
 
-[SPEAKER_01]: I żeby podczas tego grania, żeby ten głupio zadawał mi pytania.
+Maria: I żeby podczas tego grania, żeby ten głupio zadawał mi pytania.
 
-[SPEAKER_01]: Co chcesz teraz zrobić?
+Maria: Co chcesz teraz zrobić?
 
-[SPEAKER_01]: Żeby mnie trochę poprowadził.
+Maria: Żeby mnie trochę poprowadził.
 
-[SPEAKER_00]: Okej, okej, okej, no takie w zasadzie.
+Gabriel: Okej, okej, okej, no takie w zasadzie.
 
-[SPEAKER_01]: Tak.
+Maria: Tak.
 
-[SPEAKER_01]: To co robimy?
+Maria: To co robimy?
 
-[SPEAKER_01]: I wtedy mam wybór i mogę coś powiedzieć mu.
+Maria: I wtedy mam wybór i mogę coś powiedzieć mu.
 
-[SPEAKER_01]: I chciałabym też udzielać takich informacji emocjonalnych, co czuję, jak wchodzę do jakiegoś wnętrza.
+Maria: I chciałabym też udzielać takich informacji emocjonalnych, co czuję, jak wchodzę do jakiegoś wnętrza.
 
-[SPEAKER_01]: Boję się tutaj być.
+Maria: Boję się tutaj być.
 
-[SPEAKER_01]: Albo mam jakieś złe przeczucia.
+Maria: Albo mam jakieś złe przeczucia.
 
-[SPEAKER_01]: Trochę jak w filmie, jak widzisz, jak bohater wchodzi do jakiegoś pomieszczenia i masz złe przeczucia, że coś tam się stanie.
+Maria: Trochę jak w filmie, jak widzisz, jak bohater wchodzi do jakiegoś pomieszczenia i masz złe przeczucia, że coś tam się stanie.
 
-[SPEAKER_01]: Albo coś cię zainteresuje.
+Maria: Albo coś cię zainteresuje.
 
-[SPEAKER_01]: Albo co jest w tym...
+Maria: Albo co jest w tym...
 
-[SPEAKER_01]: pokaż mi, żeby była taka większa swoboda poruszania się po tym.
+Maria: pokaż mi, żeby była taka większa swoboda poruszania się po tym.
 
-[SPEAKER_01]: I wtedy wolałabym taką wersję niż wybieranie z opcjami, bo wybór opcji jest ograniczający.
+Maria: I wtedy wolałabym taką wersję niż wybieranie z opcjami, bo wybór opcji jest ograniczający.
 
-[SPEAKER_01]: Nawet wtedy takie granie z mówieniem, co chcę zrobić i jak się z tym czuję, dłużej bym była na jakiejś planszy, może bym więcej odkryła.
+Maria: Nawet wtedy takie granie z mówieniem, co chcę zrobić i jak się z tym czuję, dłużej bym była na jakiejś planszy, może bym więcej odkryła.
 
-[SPEAKER_00]: A jak wysiłek, który musiałaś wkładać w to, żeby sformułować te zdania, komendy, porównywalny jest z wysiłkiem, ok, który klawisz muszę kliknąć?
+Gabriel: A jak wysiłek, który musiałaś wkładać w to, żeby sformułować te zdania, komendy, porównywalny jest z wysiłkiem, ok, który klawisz muszę kliknąć?
 
-[SPEAKER_01]: Tak, większy wysiłek jest w komendach, zdecydowanie.
+Maria: Tak, większy wysiłek jest w komendach, zdecydowanie.
 
-[SPEAKER_01]: Bo mam już napisaną opcję w klawiszu i wciskam klawisz.
+Maria: Bo mam już napisaną opcję w klawiszu i wciskam klawisz.
 
-[SPEAKER_00]: Rozumiem.
+Gabriel: Rozumiem.
 
-[SPEAKER_01]: I to jest takie relaksujące.
+Maria: I to jest takie relaksujące.
 
-[SPEAKER_01]: A budowanie komendy, zastanawianie się, co mam teraz zrobić.
+Maria: A budowanie komendy, zastanawianie się, co mam teraz zrobić.
 
-[SPEAKER_01]: Za mało mam danych, żeby swobodnie się w tym czuć.
+Maria: Za mało mam danych, żeby swobodnie się w tym czuć.
 
-[SPEAKER_00]: To, że mogłaś powiedzieć cokolwiek, taka wolność niby do powiedzenia cokolwiek.
+Gabriel: To, że mogłaś powiedzieć cokolwiek, taka wolność niby do powiedzenia cokolwiek.
 
-[SPEAKER_00]: Czułaś, że miałeś większe poczucie kontroli?
+Gabriel: Czułaś, że miałeś większe poczucie kontroli?
 
-[SPEAKER_00]: Czy to było bardziej przejmujące niż...
+Gabriel: Czy to było bardziej przejmujące niż...
 
-[SPEAKER_01]: Bardziej to było... powodowało większe... większą niepewność.
+Maria: Bardziej to było... powodowało większe... większą niepewność.
 
-[SPEAKER_01]: Co mam dalej zrobić?
+Maria: Co mam dalej zrobić?
 
-[SPEAKER_01]: Czy dobrze bram?
+Maria: Czy dobrze bram?
 
-[SPEAKER_01]: Zadałam sobie takie pytanie.
+Maria: Zadałam sobie takie pytanie.
 
-[SPEAKER_01]: Nie widziałam od początku... celu.
+Maria: Nie widziałam od początku... celu.
 
-[SPEAKER_01]: Co mam...
+Maria: Co mam...
 
-[SPEAKER_01]: Byłam zagubiona o tym.
+Maria: Byłam zagubiona o tym.
 
-[SPEAKER_00]: A jak byś porównała ogólne doświadczenia w obu tych wersjach?
+Gabriel: A jak byś porównała ogólne doświadczenia w obu tych wersjach?
 
-[SPEAKER_00]: I którą z nich byś wybrała i dlaczego?
+Gabriel: I którą z nich byś wybrała i dlaczego?
 
-[SPEAKER_01]: Gdybym nic nie zmieniała w nich, tak?
+Maria: Gdybym nic nie zmieniała w nich, tak?
 
-[SPEAKER_00]: Tak, na teraz, no.
+Gabriel: Tak, na teraz, no.
 
-[SPEAKER_01]: Na teraz wybrałabym grę klawiszową, bo szybciej zaczynałam rozumieć, o co chodzi.
+Maria: Na teraz wybrałabym grę klawiszową, bo szybciej zaczynałam rozumieć, o co chodzi.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_01]: Bo mogłam, bo były komendy podane i jak była komenda użyj przedmiotu, to wiedziałam, że muszę coś znaleźć.
+Maria: Bo mogłam, bo były komendy podane i jak była komenda użyj przedmiotu, to wiedziałam, że muszę coś znaleźć.
 
-[SPEAKER_01]: Mogłabym się cofnąć do jakiegoś pomieszczenia i poszukać czegoś, albo że coś pominęłam.
+Maria: Mogłabym się cofnąć do jakiegoś pomieszczenia i poszukać czegoś, albo że coś pominęłam.
 
-[SPEAKER_00]: Tak.
+Gabriel: Tak.
 
-[SPEAKER_01]: To mi się bardziej podobało.
+Maria: To mi się bardziej podobało.
 
-[SPEAKER_00]: Ok.
+Gabriel: Ok.
 
-[SPEAKER_00]: A porównując doświadczenie pomiędzy jednym a drugim, tak?
+Gabriel: A porównując doświadczenie pomiędzy jednym a drugim, tak?
 
-[SPEAKER_00]: Jak by się porównała to doświadczenie?
+Gabriel: Jak by się porównała to doświadczenie?
 
-[SPEAKER_00]: Rozumiem, że wybrałabyś tę wersję z tego powodu, ale samo doświadczenie?
+Gabriel: Rozumiem, że wybrałabyś tę wersję z tego powodu, ale samo doświadczenie?
 
-[SPEAKER_01]: Pierwsza wersja była bardziej dziwna, nieznana mi, a w tej drugiej wersji mogłam się odnaleźć, bo mam już doświadczenia w graniu gry, wciskanie klawiszy.
+Maria: Pierwsza wersja była bardziej dziwna, nieznana mi, a w tej drugiej wersji mogłam się odnaleźć, bo mam już doświadczenia w graniu gry, wciskanie klawiszy.
 
-[SPEAKER_01]: To jest dla mnie bardziej intuicyjny sposób porozumiewania się podczas grania.
+Maria: To jest dla mnie bardziej intuicyjny sposób porozumiewania się podczas grania.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: W którymś momencie na początku zadałaś mi pytanie też, jak grałaś, czy możesz zadawać pytanie grze.
+Gabriel: W którymś momencie na początku zadałaś mi pytanie też, jak grałaś, czy możesz zadawać pytanie grze.
 
-[SPEAKER_01]: Tak.
+Maria: Tak.
 
-[SPEAKER_00]: Jakie pytania chciałaś zadać?
+Gabriel: Jakie pytania chciałaś zadać?
 
-[SPEAKER_01]: Co mam teraz zrobić?
+Maria: Co mam teraz zrobić?
 
-[SPEAKER_01]: Albo takie, czy, nie wiem, czy ja chciałam zadać pytanie.
+Maria: Albo takie, czy, nie wiem, czy ja chciałam zadać pytanie.
 
-[SPEAKER_01]: Co jest za tym, za tymi drzwiami?
+Maria: Co jest za tym, za tymi drzwiami?
 
-[SPEAKER_01]: Coś takiego, coś rozszerzającego to pole.
+Maria: Coś takiego, coś rozszerzającego to pole.
 
-[SPEAKER_01]: Czy mogę użyć łomu, tak, albo czy jest drugie piętro jeszcze?
+Maria: Czy mogę użyć łomu, tak, albo czy jest drugie piętro jeszcze?
 
-[SPEAKER_01]: Coś takiego rozszerzającego tą planszę, na której jestem.
+Maria: Coś takiego rozszerzającego tą planszę, na której jestem.
 
-[SPEAKER_01]: Rozumiem.
+Maria: Rozumiem.
 
-[SPEAKER_00]: A jak używałaś głosu do nominacji, to czym się kierowałaś przy wybraniu słów, których używałaś do mówienia?
+Gabriel: A jak używałaś głosu do nominacji, to czym się kierowałaś przy wybraniu słów, których używałaś do mówienia?
 
-[SPEAKER_01]: Słowami, które znałam.
+Maria: Słowami, które znałam.
 
-[SPEAKER_01]: Jakbym wyobrażała sobie klawisze w grze, że idź do przodu, biegnij, padnij, zostań, wróć.
+Maria: Jakbym wyobrażała sobie klawisze w grze, że idź do przodu, biegnij, padnij, zostań, wróć.
 
-[SPEAKER_01]: Takie ruchome.
+Maria: Takie ruchome.
 
-[SPEAKER_01]: Ruchowe komendy bardziej.
+Maria: Ruchowe komendy bardziej.
 
-[SPEAKER_01]: Czyli zamiast pisać komedy, to bym jej mówiła.
+Maria: Czyli zamiast pisać komedy, to bym jej mówiła.
 
-[SPEAKER_00]: Rozumiem.
+Gabriel: Rozumiem.
 
-[SPEAKER_00]: I to już ostatnie pytanie?
+Gabriel: I to już ostatnie pytanie?
 
-[SPEAKER_00]: Czy jest cokolwiek dzisiaj, z naukowego doświadczenia, coś, co chciałabyś dodawać od siebie, czego nie poruszyliśmy?
+Gabriel: Czy jest cokolwiek dzisiaj, z naukowego doświadczenia, coś, co chciałabyś dodawać od siebie, czego nie poruszyliśmy?
 
-[SPEAKER_01]: Chciałabym, żeby było więcej połączeń między pokojami.
+Maria: Chciałabym, żeby było więcej połączeń między pokojami.
 
 Mhm.
 
-[SPEAKER_01]: I żeby grała moja muzyka.
+Maria: I żeby grała moja muzyka.
 
-[SPEAKER_00]: Jakieś audio?
+Gabriel: Jakieś audio?
 
 Tak.
 
-[SPEAKER_00]: Pewnie.
+Gabriel: Pewnie.
 
-[SPEAKER_00]: Okej.
+Gabriel: Okej.
 
-[SPEAKER_00]: Przez połączenie między pokojami?
+Gabriel: Przez połączenie między pokojami?
 
-[SPEAKER_01]: Co ty rozumiesz?
+Maria: Co ty rozumiesz?
 
-[SPEAKER_01]: No chociażby to, co na początku, że nie mogłam, jak już weszłam do centrum, to nie mogłam z magazynu przejść dalej.
+Maria: No chociażby to, co na początku, że nie mogłam, jak już weszłam do centrum, to nie mogłam z magazynu przejść dalej.
 
-[SPEAKER_00]: Że nie mogłaś przejść z punktu A do C, tylko musiałaś iść przez B, tak?
+Gabriel: Że nie mogłaś przejść z punktu A do C, tylko musiałaś iść przez B, tak?
 
-[SPEAKER_01]: Tak.
+Maria: Tak.
 
-[SPEAKER_00]: Okej, okej.
+Gabriel: Okej, okej.
 
-[SPEAKER_00]: Rozumiem.
+Gabriel: Rozumiem.
 
-[SPEAKER_01]: I chciałabym, żeby było bardziej takich... i wtedy można by trochę poeksplorować to centrum, że znajdziesz jakąś... bo to mi przypominało doświadczenie w takich przygodowych grach, gdzie można by znaleźć jakieś skróty, jakiś komnat, przejście, jakieś ukryte skarby.
+Maria: I chciałabym, żeby było bardziej takich... i wtedy można by trochę poeksplorować to centrum, że znajdziesz jakąś... bo to mi przypominało doświadczenie w takich przygodowych grach, gdzie można by znaleźć jakieś skróty, jakiś komnat, przejście, jakieś ukryte skarby.
 
-[SPEAKER_01]: Chciałabym użyć łomu w jakimś nietypowym miejscu i na przykład miałam taką ochotę wziąć łom i stłuc to szafę w tym koreańskim sklepie i żeby może tam coś odkryć, spróbować.
+Maria: Chciałabym użyć łomu w jakimś nietypowym miejscu i na przykład miałam taką ochotę wziąć łom i stłuc to szafę w tym koreańskim sklepie i żeby może tam coś odkryć, spróbować.
 
-[SPEAKER_01]: Budziły się we mnie takie agresywne zachody.
+Maria: Budziły się we mnie takie agresywne zachody.
 
-[SPEAKER_01]: Miałam ochotę zabić tego, zatrzymać tego w ramach.
+Maria: Miałam ochotę zabić tego, zatrzymać tego w ramach.
 
-[SPEAKER_01]: Bardzo dobrze, bardzo dobrze.
+Maria: Bardzo dobrze, bardzo dobrze.
 
-[SPEAKER_00]: No, no, no.
+Gabriel: No, no, no.
 
-[SPEAKER_00]: Rozumiem.
+Gabriel: Rozumiem.
 
-[SPEAKER_01]: Brakowało mi też tam takich zagrożeń, że na przykład w jakiejś komnacie czeka na mnie pies chory na przykład.
+Maria: Brakowało mi też tam takich zagrożeń, że na przykład w jakiejś komnacie czeka na mnie pies chory na przykład.
 
-[SPEAKER_01]: No, no, no.
+Maria: No, no, no.
 
-[SPEAKER_01]: Rozumiem.
+Maria: Rozumiem.
 
-[SPEAKER_01]: Muszę coś zrobić z tym.
+Maria: Muszę coś zrobić z tym.
 
-[SPEAKER_00]: No, rozumiem.
+Gabriel: No, rozumiem.
 
-[SPEAKER_01]: Ale nie wiem czy umiałabym sobie poradzić z tym, bo ciężko mi szło.
+Maria: Ale nie wiem czy umiałabym sobie poradzić z tym, bo ciężko mi szło.
 
-[SPEAKER_00]: Spoko.
+Gabriel: Spoko.
 
-[SPEAKER_00]: Dobrze.
+Gabriel: Dobrze.
 
-[SPEAKER_00]: Bardzo dziękuję za pytania.
+Gabriel: Bardzo dziękuję za pytania.
 
-[SPEAKER_00]: To było bardzo cenne.
+Gabriel: To było bardzo cenne.
 
-[SPEAKER_00]: Dobra.
+Gabriel: Dobra.
 
