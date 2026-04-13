@@ -1,409 +1,409 @@
-[SPEAKER_00]: Before we start, let me just ask you a few basic questions.
-[SPEAKER_00]: When it comes to gaming, would you describe yourself more as a casual gamer, a pro gamer, something in between?
-[SPEAKER_01]: Something in between, yeah.
-[SPEAKER_01]: I would say an advanced gamer.
-[SPEAKER_00]: Advanced gamer?
-[SPEAKER_00]: Okay, okay.
-[SPEAKER_00]: So what kind of games do you play?
-[SPEAKER_01]: First person shooters, some adventure games, sometimes psychological games, it depends on my mood actually.
-[SPEAKER_00]: Okay, okay.
-[SPEAKER_01]: So there's a lot of variety in there.
-[SPEAKER_00]: Yeah, I see, I see, I see.
-[SPEAKER_00]: And when it comes to like voice assistants, so like Siri or Alexa or Gemini or whatever, do you use that much or?
-[SPEAKER_01]: Well, I know how to use it.
-[SPEAKER_01]: I don't use it that often because it's not In my opinion that necessary for me sometimes it's easier to like, you know set a timer Yeah, if you don't have like free hands or something, but I don't use it For me like timers is like 90% of stuff I personally do like especially if I'm cooking I have like busy hands.
-[SPEAKER_00]: Yeah, but like I
-[SPEAKER_00]: She cannot even skip songs on my phone sometimes, so I just gave up on her personally.
-[SPEAKER_01]: Yeah, sometimes the voice commands don't...
-[SPEAKER_01]: Even the most basic ones, right?
-[SPEAKER_00]: Yeah.
-[SPEAKER_00]: Yeah, I feel you.
-[SPEAKER_00]: And would you consider yourself... Do you use any kind of accessibility stuff when you play games or browse the internet or whatever?
-[SPEAKER_00]: Like screen readers or...
-[SPEAKER_00]: Special colors for people who have some kind of like color in paraplegia impairments I do personalize my browser for sure, but I don't use anything like for a disease.
-[SPEAKER_00]: Yeah, I Don't need it.
-[SPEAKER_00]: Okay, I see I get it.
-[SPEAKER_01]: Yeah Personalization of the browser for sure, but not very specific
-[SPEAKER_00]: I do the same thing.
-[SPEAKER_00]: I used to change like in games, I used to change the colors sometimes just to get like competitive edge, but that's it.
-[SPEAKER_00]: Yeah, I get it.
-[SPEAKER_00]: Like, oh, I am disabled, but I'm not.
-[SPEAKER_01]: I'm like more of a old timer and I don't try hard very much.
-[SPEAKER_00]: I was just bad at games, I guess.
-[SPEAKER_00]: Okay, so let me tell you a little bit about the game.
-[SPEAKER_00]: The game is a text-based game, so let me make the text slightly bigger.
-[SPEAKER_00]: The way the game is played is, this is a post-apocalypse in Warsaw, in Poland, and you're looking for your brother.
-[SPEAKER_00]: because he left for like, he went to the shopping mall to find some food and he never returned, that was two days ago.
-[SPEAKER_00]: So your task is to go and find him because you believe he might still be there, right?
-[SPEAKER_00]: Yeah, sure.
-[SPEAKER_00]: And maybe something happened to him.
-[SPEAKER_00]: Yeah, exactly, right?
-[SPEAKER_00]: So the difference, okay, so before I mention that, let me just tell you that this is like the name of your current location, here is a bunch of text that describes the location and if it's like too much to read through or to process,
-[SPEAKER_00]: you can like scan through it and the most important bits are always like the last statement or last two statements they give you the like some hints where there's always at the very end that tells you where you can go so there's like connections the places that you can go to and here on the right is your inventory when you pick up new items they're going to end up here
-[SPEAKER_00]: in your inventory.
-[SPEAKER_00]: Currently it's empty.
-[SPEAKER_01]: Okay, I get the idea actually.
-[SPEAKER_00]: Yeah, yeah, yeah.
-[SPEAKER_00]: And here is like if you're gonna go up or down, it's gonna also reflect here.
-[SPEAKER_00]: And the main difference from like typical gaming experience is that here we're gonna be for the first 10 minutes talking to the computer.
-[SPEAKER_00]: So if you want to do something, you have to press this button right here, R, like record.
-[SPEAKER_00]: And then you say something like, oh, I want to pick up the matchsticks from the floor, let's say.
-[SPEAKER_00]: It doesn't gonna work for the first time.
-[SPEAKER_00]: I'm pretty sure.
-[SPEAKER_00]: Yeah.
-[SPEAKER_00]: Okay.
-[SPEAKER_00]: Yeah, it doesn't work for the first time But it works for this like a small bug.
-[SPEAKER_00]: Anyways, it like tells you it's processing and then it tells you the feedback So like something like I understood your command or I didn't understand your command.
-[SPEAKER_00]: Okay, so you play the game through
-[SPEAKER_00]: voice speaking yeah free speaking yeah that's what I would like you to do for 10 minutes I will be making some small notes but like I'm not judging the performance this is not about if you can beat the game or not this is not about the game itself it's more about the layer of interaction let's say and how does that feel to use and like yeah so for now just 10 minutes of playing and if you have any questions as we go along just
-[SPEAKER_00]: like ask me and I will help you.
-[SPEAKER_00]: I will also be here in case there is something that goes wrong because things do go wrong sometimes.
-[SPEAKER_00]: Yeah, so you can just take the computer because I know the text is pretty small and I'll just, I'll be here.
-[SPEAKER_00]: Okay, let me just start the timer real quick.
-[SPEAKER_01]: What is this?
-[SPEAKER_01]: Squidges?
-[SPEAKER_01]: Uh, whatever.
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: Mup heads.
-[SPEAKER_01]: Squidges.
-[SPEAKER_00]: Squigs.
-[SPEAKER_00]: Squigs.
-[SPEAKER_00]: The thing is, um... Expunges or something?
-[SPEAKER_00]: Yeah, yeah, yeah.
-[SPEAKER_00]: Stuff like that.
-[SPEAKER_00]: Don't worry too much about it.
-[SPEAKER_00]: This is not super, super, super important.
-[SPEAKER_00]: Again, the last two statements are the most crucial.
-[SPEAKER_00]: Don't feel too bad.
-[SPEAKER_00]: You don't have to be extremely, extremely invested in every single word above.
-[SPEAKER_01]: And I press R and speak.
-[SPEAKER_00]: Yeah, but hold it.
-[SPEAKER_00]: You press hold, speak, and then release.
+Gabriel: Before we start, let me just ask you a few basic questions.
+Gabriel: When it comes to gaming, would you describe yourself more as a casual gamer, a pro gamer, something in between?
+Kuba Wasyl: Something in between, yeah.
+Kuba Wasyl: I would say an advanced gamer.
+Gabriel: Advanced gamer?
+Gabriel: Okay, okay.
+Gabriel: So what kind of games do you play?
+Kuba Wasyl: First person shooters, some adventure games, sometimes psychological games, it depends on my mood actually.
+Gabriel: Okay, okay.
+Kuba Wasyl: So there's a lot of variety in there.
+Gabriel: Yeah, I see, I see, I see.
+Gabriel: And when it comes to like voice assistants, so like Siri or Alexa or Gemini or whatever, do you use that much or?
+Kuba Wasyl: Well, I know how to use it.
+Kuba Wasyl: I don't use it that often because it's not In my opinion that necessary for me sometimes it's easier to like, you know set a timer Yeah, if you don't have like free hands or something, but I don't use it For me like timers is like 90% of stuff I personally do like especially if I'm cooking I have like busy hands.
+Gabriel: Yeah, but like I
+Gabriel: She cannot even skip songs on my phone sometimes, so I just gave up on her personally.
+Kuba Wasyl: Yeah, sometimes the voice commands don't...
+Kuba Wasyl: Even the most basic ones, right?
+Gabriel: Yeah.
+Gabriel: Yeah, I feel you.
+Gabriel: And would you consider yourself... Do you use any kind of accessibility stuff when you play games or browse the internet or whatever?
+Gabriel: Like screen readers or...
+Gabriel: Special colors for people who have some kind of like color in paraplegia impairments I do personalize my browser for sure, but I don't use anything like for a disease.
+Gabriel: Yeah, I Don't need it.
+Gabriel: Okay, I see I get it.
+Kuba Wasyl: Yeah Personalization of the browser for sure, but not very specific
+Gabriel: I do the same thing.
+Gabriel: I used to change like in games, I used to change the colors sometimes just to get like competitive edge, but that's it.
+Gabriel: Yeah, I get it.
+Gabriel: Like, oh, I am disabled, but I'm not.
+Kuba Wasyl: I'm like more of a old timer and I don't try hard very much.
+Gabriel: I was just bad at games, I guess.
+Gabriel: Okay, so let me tell you a little bit about the game.
+Gabriel: The game is a text-based game, so let me make the text slightly bigger.
+Gabriel: The way the game is played is, this is a post-apocalypse in Warsaw, in Poland, and you're looking for your brother.
+Gabriel: because he left for like, he went to the shopping mall to find some food and he never returned, that was two days ago.
+Gabriel: So your task is to go and find him because you believe he might still be there, right?
+Gabriel: Yeah, sure.
+Gabriel: And maybe something happened to him.
+Gabriel: Yeah, exactly, right?
+Gabriel: So the difference, okay, so before I mention that, let me just tell you that this is like the name of your current location, here is a bunch of text that describes the location and if it's like too much to read through or to process,
+Gabriel: you can like scan through it and the most important bits are always like the last statement or last two statements they give you the like some hints where there's always at the very end that tells you where you can go so there's like connections the places that you can go to and here on the right is your inventory when you pick up new items they're going to end up here
+Gabriel: in your inventory.
+Gabriel: Currently it's empty.
+Kuba Wasyl: Okay, I get the idea actually.
+Gabriel: Yeah, yeah, yeah.
+Gabriel: And here is like if you're gonna go up or down, it's gonna also reflect here.
+Gabriel: And the main difference from like typical gaming experience is that here we're gonna be for the first 10 minutes talking to the computer.
+Gabriel: So if you want to do something, you have to press this button right here, R, like record.
+Gabriel: And then you say something like, oh, I want to pick up the matchsticks from the floor, let's say.
+Gabriel: It doesn't gonna work for the first time.
+Gabriel: I'm pretty sure.
+Gabriel: Yeah.
+Gabriel: Okay.
+Gabriel: Yeah, it doesn't work for the first time But it works for this like a small bug.
+Gabriel: Anyways, it like tells you it's processing and then it tells you the feedback So like something like I understood your command or I didn't understand your command.
+Gabriel: Okay, so you play the game through
+Gabriel: voice speaking yeah free speaking yeah that's what I would like you to do for 10 minutes I will be making some small notes but like I'm not judging the performance this is not about if you can beat the game or not this is not about the game itself it's more about the layer of interaction let's say and how does that feel to use and like yeah so for now just 10 minutes of playing and if you have any questions as we go along just
+Gabriel: like ask me and I will help you.
+Gabriel: I will also be here in case there is something that goes wrong because things do go wrong sometimes.
+Gabriel: Yeah, so you can just take the computer because I know the text is pretty small and I'll just, I'll be here.
+Gabriel: Okay, let me just start the timer real quick.
+Kuba Wasyl: What is this?
+Kuba Wasyl: Squidges?
+Kuba Wasyl: Uh, whatever.
+Kuba Wasyl: Yeah.
+Kuba Wasyl: Mup heads.
+Kuba Wasyl: Squidges.
+Gabriel: Squigs.
+Gabriel: Squigs.
+Gabriel: The thing is, um... Expunges or something?
+Gabriel: Yeah, yeah, yeah.
+Gabriel: Stuff like that.
+Gabriel: Don't worry too much about it.
+Gabriel: This is not super, super, super important.
+Gabriel: Again, the last two statements are the most crucial.
+Gabriel: Don't feel too bad.
+Gabriel: You don't have to be extremely, extremely invested in every single word above.
+Kuba Wasyl: And I press R and speak.
+Gabriel: Yeah, but hold it.
+Gabriel: You press hold, speak, and then release.
 Sorry.
-[SPEAKER_00]: please go to the storage shed to the right okay now it's gonna take us like a few seconds to process and assuming there's not a bug which maybe we have to restart yeah but that's uh yeah okay it worked all right now it's just gonna work normally
-[SPEAKER_01]: are these like pictures the part of the actual story yeah yeah this is the picture is like the background for where you are currently yeah yeah yeah
-[SPEAKER_01]: can you pick up the crowbar?
-[SPEAKER_00]: let's make it slightly smaller because there is a status text here yeah okay okay but you have it in your inventory yeah
-[SPEAKER_01]: Can you go back to the previous location?
-[SPEAKER_01]: Can you open the metal cast using the crowbar?
-[SPEAKER_00]: You can't use it here, yeah.
-[SPEAKER_01]: You can use the crowbar to open the narrow maintenance shed.
-[SPEAKER_00]: Technically the maintenance shed is the place that you went to.
-[SPEAKER_00]: That was the maintenance shed.
-[SPEAKER_01]: Okay, so it's the ground location.
-[SPEAKER_00]: Yeah, the other place you could go to from here is the clothing store.
-[SPEAKER_01]: Okay.
-[SPEAKER_01]: Can you go to the clothing store then?
-[SPEAKER_01]: Can you pick up the curtains?
-[SPEAKER_01]: I'm trying to figure out if there's like a crafting method or something.
-[SPEAKER_00]: There is.
-[SPEAKER_00]: You can craft in the game, but I'm afraid you cannot pick up the curtains.
-[SPEAKER_00]: Yeah, no curtains in here.
-[SPEAKER_01]: Maybe for a cough or something.
-[SPEAKER_00]: Yeah, that would be pretty smart.
-[SPEAKER_01]: Can you open the changing rooms?
-[SPEAKER_00]: Yeah, no, he didn't get you.
-[SPEAKER_00]: Yeah.
-[SPEAKER_00]: here the again like I would look into the like the last two statements the corridor yeah there's the corridor but the door is locked and it can be broken or something yeah I can use the crowbar to open the blockage
-[SPEAKER_01]: Can you go through the doors?
-[SPEAKER_00]: It might not get you there, we'll see.
-[SPEAKER_00]: Sometimes it... yeah, yeah, yeah.
-[SPEAKER_00]: So you have to go back and name, like, reference the name of the corridor, yeah.
-[SPEAKER_01]: Can you go back to the previous location?
-[SPEAKER_01]: I didn't get you.
-[SPEAKER_01]: Can you go back to the clothing store?
-[SPEAKER_00]: Now if you mention corridor I think with the word corridor it should get it.
-[SPEAKER_01]: Can you use the crowbar on reinforced internal doors?
-[SPEAKER_00]: Technically, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah
-[SPEAKER_01]: Can you go to the fishing stall?
-[SPEAKER_01]: Can you scrollbar on doors?
-[SPEAKER_00]: Technically you should be able to, but I think there's a bug in this version.
-[SPEAKER_00]: So I'm not sure if the scrollbar is allowed to open here.
-[SPEAKER_00]: But yeah, your instinct is correct.
-[SPEAKER_00]: It's syncing.
-[SPEAKER_00]: Yeah, yeah, I don't understand.
-[SPEAKER_00]: I don't think you can with this version of the game.
-[SPEAKER_01]: So I cannot open it?
-[SPEAKER_00]: Yeah, but for now what we can do is I'll just swap here and right now let me just make this slightly smaller next 10 minutes I would like you to try playing using traditional keyboard navigation so right now we don't use your voice you use the numbers 1 2 3 sometimes the arrows when you select something like if you want to use item you press 3 for instance and there is like a small arrow here and then
-[SPEAKER_00]: You can press return, and you cannot use Chrome or whatever.
-[SPEAKER_00]: But could I ask you for a glass of water first before we continue?
-[SPEAKER_00]: Sure.
-[SPEAKER_00]: It's like, yeah, yeah, yeah.
-[SPEAKER_00]: Maybe some tea?
-[SPEAKER_00]: No, water is OK.
+Gabriel: please go to the storage shed to the right okay now it's gonna take us like a few seconds to process and assuming there's not a bug which maybe we have to restart yeah but that's uh yeah okay it worked all right now it's just gonna work normally
+Kuba Wasyl: are these like pictures the part of the actual story yeah yeah this is the picture is like the background for where you are currently yeah yeah yeah
+Kuba Wasyl: can you pick up the crowbar?
+Gabriel: let's make it slightly smaller because there is a status text here yeah okay okay but you have it in your inventory yeah
+Kuba Wasyl: Can you go back to the previous location?
+Kuba Wasyl: Can you open the metal cast using the crowbar?
+Gabriel: You can't use it here, yeah.
+Kuba Wasyl: You can use the crowbar to open the narrow maintenance shed.
+Gabriel: Technically the maintenance shed is the place that you went to.
+Gabriel: That was the maintenance shed.
+Kuba Wasyl: Okay, so it's the ground location.
+Gabriel: Yeah, the other place you could go to from here is the clothing store.
+Kuba Wasyl: Okay.
+Kuba Wasyl: Can you go to the clothing store then?
+Kuba Wasyl: Can you pick up the curtains?
+Kuba Wasyl: I'm trying to figure out if there's like a crafting method or something.
+Gabriel: There is.
+Gabriel: You can craft in the game, but I'm afraid you cannot pick up the curtains.
+Gabriel: Yeah, no curtains in here.
+Kuba Wasyl: Maybe for a cough or something.
+Gabriel: Yeah, that would be pretty smart.
+Kuba Wasyl: Can you open the changing rooms?
+Gabriel: Yeah, no, he didn't get you.
+Gabriel: Yeah.
+Gabriel: here the again like I would look into the like the last two statements the corridor yeah there's the corridor but the door is locked and it can be broken or something yeah I can use the crowbar to open the blockage
+Kuba Wasyl: Can you go through the doors?
+Gabriel: It might not get you there, we'll see.
+Gabriel: Sometimes it... yeah, yeah, yeah.
+Gabriel: So you have to go back and name, like, reference the name of the corridor, yeah.
+Kuba Wasyl: Can you go back to the previous location?
+Kuba Wasyl: I didn't get you.
+Kuba Wasyl: Can you go back to the clothing store?
+Gabriel: Now if you mention corridor I think with the word corridor it should get it.
+Kuba Wasyl: Can you use the crowbar on reinforced internal doors?
+Gabriel: Technically, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah
+Kuba Wasyl: Can you go to the fishing stall?
+Kuba Wasyl: Can you scrollbar on doors?
+Gabriel: Technically you should be able to, but I think there's a bug in this version.
+Gabriel: So I'm not sure if the scrollbar is allowed to open here.
+Gabriel: But yeah, your instinct is correct.
+Gabriel: It's syncing.
+Gabriel: Yeah, yeah, I don't understand.
+Gabriel: I don't think you can with this version of the game.
+Kuba Wasyl: So I cannot open it?
+Gabriel: Yeah, but for now what we can do is I'll just swap here and right now let me just make this slightly smaller next 10 minutes I would like you to try playing using traditional keyboard navigation so right now we don't use your voice you use the numbers 1 2 3 sometimes the arrows when you select something like if you want to use item you press 3 for instance and there is like a small arrow here and then
+Gabriel: You can press return, and you cannot use Chrome or whatever.
+Gabriel: But could I ask you for a glass of water first before we continue?
+Gabriel: Sure.
+Gabriel: It's like, yeah, yeah, yeah.
+Gabriel: Maybe some tea?
+Gabriel: No, water is OK.
 Q. I have a question.
-[SPEAKER_01]: In this version of the game when there is something you can pick up from the floor for instance
-[SPEAKER_00]: as like an action.
-[SPEAKER_01]: So if something is on the floor, you'd see it, okay, and then just press the number.
-[SPEAKER_01]: Okay, there's an additional action.
-[SPEAKER_00]: Yeah, yeah, yeah, yeah, for that alone.
-[SPEAKER_00]: So you don't have to pay as much attention to the text in this version because like every action is visible, technically.
-[SPEAKER_00]: Okay, so use item then.
-[SPEAKER_00]: Yeah, you cannot use it here.
-[SPEAKER_01]: Okay.
-[SPEAKER_01]: I will about to make a playlist about the food court.
-[SPEAKER_00]: here for instance right you don't have to you can see that you can just pick up the key card from the floor oh yeah so I don't I don't need to read it technically yeah
-[SPEAKER_01]: Can I go back to the previous menu?
-[SPEAKER_00]: Yeah, if you press 1.
-[SPEAKER_00]: So you press return and then select the two items you want to combine.
-[SPEAKER_00]: That's how crafting works technically.
+Kuba Wasyl: In this version of the game when there is something you can pick up from the floor for instance
+Gabriel: as like an action.
+Kuba Wasyl: So if something is on the floor, you'd see it, okay, and then just press the number.
+Kuba Wasyl: Okay, there's an additional action.
+Gabriel: Yeah, yeah, yeah, yeah, for that alone.
+Gabriel: So you don't have to pay as much attention to the text in this version because like every action is visible, technically.
+Gabriel: Okay, so use item then.
+Gabriel: Yeah, you cannot use it here.
+Kuba Wasyl: Okay.
+Kuba Wasyl: I will about to make a playlist about the food court.
+Gabriel: here for instance right you don't have to you can see that you can just pick up the key card from the floor oh yeah so I don't I don't need to read it technically yeah
+Kuba Wasyl: Can I go back to the previous menu?
+Gabriel: Yeah, if you press 1.
+Gabriel: So you press return and then select the two items you want to combine.
+Gabriel: That's how crafting works technically.
 increase this a bit and maybe like this
-[SPEAKER_00]: In here, just as a heads up, if you want to go up the stairs, if the stairs don't go up, if you want to go up, it means here.
-[SPEAKER_00]: Because the stairway going down, it's a bit of a weird naming convention, but if you click two, you're gonna go up, essentially.
-[SPEAKER_00]: And the image is the same, but now you can go to a different place because you're on the first floor.
-[SPEAKER_01]: Oh, okay.
-[SPEAKER_01]: Reside menu.
-[SPEAKER_01]: I can eat and travel.
-[SPEAKER_01]: Go to the pharmacy, yeah.
-[SPEAKER_01]: Get some drugs.
-[SPEAKER_01]: There's a bathroom.
-[SPEAKER_01]: Let's see.
-[SPEAKER_00]: That place also might be a dead end, honestly.
-[SPEAKER_00]: Not every location has too much older things.
-[SPEAKER_01]: It sticks, for sure.
-[SPEAKER_01]: Okay, so someone's been here.
-[SPEAKER_01]: The gangster won this against...
-[SPEAKER_01]: Okay, I can get as many pistols as I want.
-[SPEAKER_01]: Yeah, that's a bit of a bug, yeah.
-[SPEAKER_01]: Four pistols should be good.
-[SPEAKER_01]: I think the Blackbeard, the pirate, used to have 27 pistols on himself at all times, so...
-[SPEAKER_01]: Oh, so I found him Yeah, he's here Maybe he's a zombie
-[SPEAKER_00]: No, no, no, there is no zombies here.
-[SPEAKER_01]: Good question, good question.
-[SPEAKER_01]: I haven't picked up the... shit.
-[SPEAKER_00]: Okay.
-[SPEAKER_00]: Technically you do have everything you need.
-[SPEAKER_01]: Yeah.
-[SPEAKER_00]: yeah yeah because you need to help him walk right and you picked up the if you look at your inventory you think you have the like stabilizer for instance oh yeah well i don't see the option to if you go back hold up use item yeah
-[SPEAKER_00]: And then you have to select with this tiny arrow.
-[SPEAKER_00]: I know it's a pretty tiny thing, but you press here.
-[SPEAKER_00]: And, uh, yeah, he can't stand on his own and there's a bug.
-[SPEAKER_00]: You press four.
-[SPEAKER_00]: It's not going to work, but let's just assume that it did.
-[SPEAKER_00]: Okay.
-[SPEAKER_01]: Yeah.
-[SPEAKER_00]: And now if you exit the building because of this bug, and I just have to tell you this, you have to find another way of exiting the building.
-[SPEAKER_00]: You cannot just walk through the main door, but you have to find some other way of getting out and go straight.
-[SPEAKER_01]: Mmm.
-[SPEAKER_01]: I don't remember which one was it.
-[SPEAKER_01]: That kind of takes a minute.
-[SPEAKER_01]: We'll keep going.
-[SPEAKER_01]: It looks like it's a system.
-[SPEAKER_01]: Match, I think so.
-[SPEAKER_01]: Okay, we can put a pause here, don't worry.
-[SPEAKER_00]: You're not being judged on how far you progressed, this game is a bit big for 20 minutes anyways.
-[SPEAKER_00]: It's hard to complete that.
-[SPEAKER_00]: I mean, you already completed it with 4 empty pistols, I think that's a win.
-[SPEAKER_00]: You got your brother anyways.
-[SPEAKER_00]: So now I will just have a few questions for you.
-[SPEAKER_00]: Sure.
-[SPEAKER_00]: Yeah, so let me just pull up the document so I don't miss anything.
-[SPEAKER_00]: But my first question would be...
-[SPEAKER_00]: Okay, so now that you have tried both versions of the game, how are you feeling?
-[SPEAKER_01]: Well, for sure the manual version where you use the keyboard is more like...
-[SPEAKER_01]: similar to something that I played before so I know how to use it I don't need to read the whole text to pass the game actually hold up sorry there is a small oh my god I forgot to message my students about something and they are waiting for me just give me a second I'm terribly sorry
-[SPEAKER_00]: Just for a minute?
-[SPEAKER_00]: Yeah, no worries.
-[SPEAKER_01]: Take your time.
-[SPEAKER_01]: Okay, please carry on.
-[SPEAKER_01]: As I said, the keyboard is something that I actually played before, so it's a lot easier to use.
-[SPEAKER_01]: I don't need to read a lot of tapes to actually know what I have to do, because I can speak half of it.
-[SPEAKER_01]: know basically by just clicking get through the game in this previous version that in which I said my what I wanted to do basically you have to read a lot but I think it's a lot of more emotional you have to
-[SPEAKER_01]: know what you're doing, know where you are, know what to ask for.
-[SPEAKER_01]: So it's for sure a lot harder, but also you get the story a lot better in context of the game.
-[SPEAKER_01]: Maybe some additional questions from your side?
-[SPEAKER_01]: Of course, of course.
-[SPEAKER_01]: Was there anything that immediately surprised you?
-[SPEAKER_01]: Something that surprised me in the game?
-[SPEAKER_01]: Well, I think it's...
-[SPEAKER_01]: played by talking.
-[SPEAKER_01]: I haven't played anything like this before so it's something new for me.
-[SPEAKER_01]: I'm sure willing to play against something like that because I don't feel like I have a lot of experience in it so it's more interesting for me than just clicking and skipping half of the interactions or lore like a story or something.
-[SPEAKER_00]: Yeah, all the cutscenes.
-[SPEAKER_00]: Yeah, I feel you.
-[SPEAKER_01]: So it's, I think it's a lot of fun.
-[SPEAKER_01]: Yeah.
-[SPEAKER_00]: If you had to describe the difference between these two games to a person who hasn't played either of them, what would you say?
-[SPEAKER_01]: I would tell them to play using the voice commands.
-[SPEAKER_01]: I think it's more of an unusual experience.
-[SPEAKER_01]: Like I said before, I haven't played any games like this.
-[SPEAKER_01]: before so yeah basically when you started the game they said that you know using the command over speaking command it was like I said before you have to read everything
-[SPEAKER_01]: where you are, what you're doing, what you want to do, describe it.
-[SPEAKER_01]: So maybe for some people it's gonna be more difficult to do, because, you know, not everyone knows how to describe what they want to do in the game.
-[SPEAKER_01]: Can you repeat the question, actually?
-[SPEAKER_00]: Yeah, how would you describe the difference between version A and version B to the person that, you know, hasn't played either?
-[SPEAKER_00]: I'll describe the differences.
-[SPEAKER_00]: You don't have to say that like, oh yeah, version A, we speak with voice, version B, we talk with keyboard.
-[SPEAKER_00]: It can be like how you felt, how you perceived the difference.
-[SPEAKER_01]: Well, I think I'm going to repeat myself about the first version where I have to speak.
-[SPEAKER_01]: It's more immersive for me.
-[SPEAKER_01]: I need to know the story.
-[SPEAKER_01]: And the other part, in the other version, I didn't need to actually read the text.
-[SPEAKER_01]: I can just go through manually, like an instinct.
-[SPEAKER_01]: I see the loot that I can pick, I pick it up.
-[SPEAKER_01]: I don't know what's the loot, I just go for it in the storage.
-[SPEAKER_00]: Okay, and so like you said that one of those feels more immersive, so you would say that in the audio one you felt that you were more
-[SPEAKER_00]: inside of the game world, you are more immersed.
-[SPEAKER_01]: I don't know if I would prefer the first version.
-[SPEAKER_01]: Well, it's something unusual for me, but the first version is, this PING version is just more time consuming, I think.
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: So if there would be like more detail, maybe footages or pictures or maybe cut scenes or something, I think it would be very fun to play actually.
-[SPEAKER_01]: With animations maybe.
-[SPEAKER_01]: If I see like a whole room, you know, and the commands will be not delayed, anything like that.
-[SPEAKER_01]: It will be for sure more fun to play.
-[SPEAKER_01]: just like to you know I can hop using only my voice or run using my voice like run to the window and use the crowbar to smash it or something like that it will be for sure then easier to play but with
-[SPEAKER_01]: this version, the beta version, it's not gonna be that easy.
-[SPEAKER_01]: Easier to play this game as it is now, it's to just using the keyboard for sure.
-[SPEAKER_01]: It's just an optimization thing.
-[SPEAKER_01]: If those few things are changed or maybe like...
-[SPEAKER_01]: Adjusted, fixed.
-[SPEAKER_01]: It will be great, great experience for me for sure.
-[SPEAKER_00]: And it seems like you mentioned the delay in like, I say something, something happens, there's a delay between, right?
-[SPEAKER_00]: Yeah, there's processing.
-[SPEAKER_00]: Yeah, yeah, like a few seconds processing, yeah.
-[SPEAKER_00]: So is there a delay that you would consider acceptable here or any kind of delay is bad?
-[SPEAKER_01]: I think any kind of delay, maybe like half a second, half a second.
-[SPEAKER_01]: It's like, OK, yeah.
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: But when it takes like two or three seconds, I lose my immersion.
-[SPEAKER_01]: I forget the things I want to do.
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: There's a lot of things in the room.
-[SPEAKER_01]: There's a lot of things to do that I want to do.
-[SPEAKER_01]: And a lot of all of these delays actually, you know, makes me unfocused.
-[SPEAKER_00]: Yeah.
-[SPEAKER_00]: Right.
-[SPEAKER_00]: It's would you say that it breaks your immersion?
-[SPEAKER_01]: yeah a little bit yeah yeah okay okay if the game would work like with no delays yeah you could do everything you want only using your voice it would be a lot more just a better version than the manual one for sure and um hold up i had a something to add up to but i think i lost my train of thought a little bit but uh speaking of uh oh yeah yeah i know what i wanted to add
-[SPEAKER_00]: In the first version of the game, before I managed to optimize it, it would take 2 minutes.
-[SPEAKER_00]: For every request.
-[SPEAKER_00]: 2 minutes?
-[SPEAKER_00]: I wouldn't play this game.
-[SPEAKER_00]: Me neither.
-[SPEAKER_00]: 2 minutes.
-[SPEAKER_00]: Usually you say something, you go make tea, you go back, you know?
-[SPEAKER_00]: And then it's done.
-[SPEAKER_01]: But it's not that easy to manage, actually.
-[SPEAKER_01]: No, it's not.
-[SPEAKER_01]: I agree.
-[SPEAKER_01]: The time that you have compared to 2 minutes, it's a really great job, I think.
-[SPEAKER_00]: Yeah, but I feel you, I feel you.
-[SPEAKER_00]: For me it's also emotion breaking, right?
-[SPEAKER_00]: If I say something and I have to wait 10 seconds, then that's a bit of a problem, right?
-[SPEAKER_00]: Because I start losing focus sometimes a little bit, right?
-[SPEAKER_00]: Like what's going on?
-[SPEAKER_01]: Shit, I'm gonna make a decision and I'm gonna have to wait, yeah.
-[SPEAKER_01]: I don't want it.
-[SPEAKER_01]: I like to make things as quick as possible.
-[SPEAKER_00]: Yeah, I'm with you, I'm with you.
-[SPEAKER_00]: And I know it's a tricky question but
-[SPEAKER_00]: When you were talking to the game, from the moment that you first used your voice, what were you thinking as you decided what to say to the game?
-[SPEAKER_01]: Well, it's not that easy to speak to the game because it's the first time.
-[SPEAKER_01]: Maybe if I played a few other games like this, I maybe knew a way to play them, a way how to ask or what to ask for, what to seek for.
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: What was I thinking?
-[SPEAKER_01]: Well, that's a good question, actually.
-[SPEAKER_01]: It's well, we speak previously and you said that there's an like an eye and yeah Yeah, a lot of these things inside.
-[SPEAKER_01]: So every time I speak to the eye or I took today I know that's like a bot or Well, it's artificial so I have to like think twice so I cannot speak with it like a
-[SPEAKER_01]: like to a human or like it's hard to describe actually I'm going to switch to Polish.
-[SPEAKER_01]: Yeah, the words, the words.
-[SPEAKER_01]: If I were to explain to another person what they are supposed to do or in this case to me in the game, it would be easier for me to say that it's another person.
-[SPEAKER_01]: That's how you always understand it.
-[SPEAKER_01]: No matter what I say, they will get the context.
-[SPEAKER_00]: Yes, if you played Dungeons & Dragons or something.
-[SPEAKER_00]: A mouse in a game will always understand you, unless you're playing something stupid.
-[SPEAKER_00]: But if you speak Polish, it will understand you.
-[SPEAKER_00]: It's stupid sometimes.
-[SPEAKER_01]: You have to explain to a robot that it will tell you that it doesn't understand something or that you can't do something because theoretically you could do it.
-[SPEAKER_01]: but it's artificial intelligence and it works in certain narrow criteria.
-[SPEAKER_00]: Yes, for example, you said that you want to unlock the door and you want to go through what we just unlocked and she fell asleep and then she will say the word corridor.
-[SPEAKER_01]: Yes, for example, this type of thing.
-[SPEAKER_01]: And if, for example, I don't know, I talk to a man like that, he would catch it right away.
-[SPEAKER_01]: Of course.
-[SPEAKER_01]: You mentioned a little bit about it, but how was it like to use the voice apart from the fact that
-[SPEAKER_01]: just for me.
-[SPEAKER_01]: I just use one button to make all my decisions.
-[SPEAKER_01]: Pick up things or go to another room.
-[SPEAKER_01]: It's easy.
-[SPEAKER_01]: If there was no delay time, it would be perfect.
-[SPEAKER_01]: But with delay time, it's not immersive for me.
-[SPEAKER_00]: I understand, I understand.
-[SPEAKER_00]: It's interesting you mentioned that this is more easy for you to say something, because for most people, most people say the opposite.
-[SPEAKER_00]: They say that for them it's more difficult to do this, but I'm more like you as well.
-[SPEAKER_00]: For me it's easier to speak.
-[SPEAKER_00]: If I want to do something, I can just say it.
-[SPEAKER_00]: yeah yeah and uh okay so for you it was less effort then right yeah exactly less effort and yeah you know more of the story i get it i get it get into and uh did the freedom like the freedom in their quotes like to say like anything make you more feel in control
-[SPEAKER_00]: made you feel more overwhelming than having the fixed list of actions?
-[SPEAKER_00]: Let me rephrase, maybe I can also just say it in Polish.
-[SPEAKER_00]: But did the freedom to say anything you wanted to say, right, using your language, made you feel more in control or more overwhelmed compared to, you know, just the list of items?
-[SPEAKER_01]: In this game, yeah?
-[SPEAKER_01]: Yeah, in this game.
-[SPEAKER_01]: Maybe it was more overwhelmed.
-[SPEAKER_01]: Like I said before, I haven't played anything like this, so I don't know what to ask for or what are the actions that I actually can make.
-[SPEAKER_01]: An assumption that we can make anything in the game that we want.
-[SPEAKER_01]: The speaking version would be a lot better than just clicking.
-[SPEAKER_00]: I think that sums us up.
-[SPEAKER_00]: That's a good response, don't worry.
-[SPEAKER_00]: How would you compare the overall experience of using these two game versions?
-[SPEAKER_01]: In general...
-[SPEAKER_00]: In general experience, if you would compare one to the other.
-[SPEAKER_00]: Which one did I like more?
-[SPEAKER_00]: That too, but that's the second question.
-[SPEAKER_00]: The first question is how to compare the experience A with the experience B.
-[SPEAKER_01]: The first part of the game, while using the voice commands, it's more difficult for now.
-[SPEAKER_01]: I can see a lot of potential, but there's a lot going on in your mind while playing the game.
-[SPEAKER_01]: You want to experience every part of the game, especially myself.
-[SPEAKER_01]: I like to go through a game 100%, not to miss any bit.
-[SPEAKER_01]: I understand.
-[SPEAKER_01]: And it's not easy to always describe things and in the manual version, like I said before, you have few choices to make actually.
-[SPEAKER_01]: so it's faster and easier to choose one from I don't know four or five options yeah yeah yeah some some options okay so it depends which one I would like better actually it depends only on the
-[SPEAKER_01]: the level of advancement of the artificial intelligence inside.
-[SPEAKER_00]: So in the current state, so if this is it, this is what we played, which one would you choose?
-[SPEAKER_01]: In the current state the manual version.
-[SPEAKER_00]: Okay, and assuming that the AI is like Gets you more you can do more whatever then If the AI gets better, yeah, and like I said, I like to have visibilizations.
-[SPEAKER_01]: Yeah, so you have the image.
-[SPEAKER_01]: Yeah, everything that I see around The actions are immediate.
-[SPEAKER_01]: Yeah, I would choose the voice version.
-[SPEAKER_00]: Okay.
-[SPEAKER_00]: All right.
-[SPEAKER_00]: All right.
-[SPEAKER_00]: Let's see
-[SPEAKER_00]: And this is the last question for me.
-[SPEAKER_00]: So is there anything else that you would like to include or add that we haven't discussed already about this whole thing?
-[SPEAKER_01]: I don't know, actually.
-[SPEAKER_01]: Is there anything I would like to add for myself?
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: Yeah, basically.
-[SPEAKER_01]: The game is not that short.
-[SPEAKER_01]: I found the brother fairly fast.
-[SPEAKER_01]: In context of the AI, I already told you.
-[SPEAKER_01]: Yeah, of course.
-[SPEAKER_01]: Apart of that, I don't know actually.
-[SPEAKER_01]: I would like to have more like a crafting thing inside.
-[SPEAKER_01]: I can see it's something similar to survival game.
-[SPEAKER_01]: So the crafting is a must-have in this kind of games.
-[SPEAKER_01]: And that's actually a problem.
-[SPEAKER_01]: When you speak of crafting, a lot of people don't have like a knowledge to describe things or, you know, you can just say, combine thing A with combine thing B and you can, you know, there's a lot of things that can go through this.
-[SPEAKER_01]: That's true, that's true.
-[SPEAKER_01]: How you want to combine them or...
-[SPEAKER_01]: Using what?
-[SPEAKER_01]: Or, you know, different ways to do some stuff.
-[SPEAKER_01]: Oh, but I hear you, yeah.
-[SPEAKER_00]: Have you played Legend of Zelda, the Breath of the Wild?
-[SPEAKER_01]: I have played on the Nintendo Switch, I haven't on the DS.
-[SPEAKER_01]: Yeah, the Switch version.
-[SPEAKER_00]: Have you used the cooking system in that game?
-[SPEAKER_00]: yeah yeah so for me i was trying to make the crafting a little bit similar to that okay so you combine two items and then something happens but i i hear you for just discovering yeah my discovery yeah but i hear you fully like i feel like as you said crafting is a complicated thing right when you make things there's processes there's like you can combine this with that but i have about three different things yeah exactly right yeah so it's and
-[SPEAKER_01]: Despite that there's a lot of ways that you can craft things.
-[SPEAKER_01]: Yeah.
-[SPEAKER_01]: There's also a lot of things that you can craft with.
-[SPEAKER_00]: True, true, true, true, true.
-[SPEAKER_00]: In this game not so much, right?
-[SPEAKER_00]: Yeah.
-[SPEAKER_00]: Yeah, there is like, I think, three different...
-[SPEAKER_00]: Sorry, only three different things you can craft in this game.
-[SPEAKER_00]: So the crafting is pretty underwhelming as it is right now compared to something like The Legend of Zelda.
-[SPEAKER_00]: Okay, okay, but thank you, thank you very much.
-[SPEAKER_00]: I agree, I agree with you there, 100%.
-[SPEAKER_00]: But thank you very much.
-[SPEAKER_00]: This has been very, very helpful.
+Gabriel: In here, just as a heads up, if you want to go up the stairs, if the stairs don't go up, if you want to go up, it means here.
+Gabriel: Because the stairway going down, it's a bit of a weird naming convention, but if you click two, you're gonna go up, essentially.
+Gabriel: And the image is the same, but now you can go to a different place because you're on the first floor.
+Kuba Wasyl: Oh, okay.
+Kuba Wasyl: Reside menu.
+Kuba Wasyl: I can eat and travel.
+Kuba Wasyl: Go to the pharmacy, yeah.
+Kuba Wasyl: Get some drugs.
+Kuba Wasyl: There's a bathroom.
+Kuba Wasyl: Let's see.
+Gabriel: That place also might be a dead end, honestly.
+Gabriel: Not every location has too much older things.
+Kuba Wasyl: It sticks, for sure.
+Kuba Wasyl: Okay, so someone's been here.
+Kuba Wasyl: The gangster won this against...
+Kuba Wasyl: Okay, I can get as many pistols as I want.
+Kuba Wasyl: Yeah, that's a bit of a bug, yeah.
+Kuba Wasyl: Four pistols should be good.
+Kuba Wasyl: I think the Blackbeard, the pirate, used to have 27 pistols on himself at all times, so...
+Kuba Wasyl: Oh, so I found him Yeah, he's here Maybe he's a zombie
+Gabriel: No, no, no, there is no zombies here.
+Kuba Wasyl: Good question, good question.
+Kuba Wasyl: I haven't picked up the... shit.
+Gabriel: Okay.
+Gabriel: Technically you do have everything you need.
+Kuba Wasyl: Yeah.
+Gabriel: yeah yeah because you need to help him walk right and you picked up the if you look at your inventory you think you have the like stabilizer for instance oh yeah well i don't see the option to if you go back hold up use item yeah
+Gabriel: And then you have to select with this tiny arrow.
+Gabriel: I know it's a pretty tiny thing, but you press here.
+Gabriel: And, uh, yeah, he can't stand on his own and there's a bug.
+Gabriel: You press four.
+Gabriel: It's not going to work, but let's just assume that it did.
+Gabriel: Okay.
+Kuba Wasyl: Yeah.
+Gabriel: And now if you exit the building because of this bug, and I just have to tell you this, you have to find another way of exiting the building.
+Gabriel: You cannot just walk through the main door, but you have to find some other way of getting out and go straight.
+Kuba Wasyl: Mmm.
+Kuba Wasyl: I don't remember which one was it.
+Kuba Wasyl: That kind of takes a minute.
+Kuba Wasyl: We'll keep going.
+Kuba Wasyl: It looks like it's a system.
+Kuba Wasyl: Match, I think so.
+Kuba Wasyl: Okay, we can put a pause here, don't worry.
+Gabriel: You're not being judged on how far you progressed, this game is a bit big for 20 minutes anyways.
+Gabriel: It's hard to complete that.
+Gabriel: I mean, you already completed it with 4 empty pistols, I think that's a win.
+Gabriel: You got your brother anyways.
+Gabriel: So now I will just have a few questions for you.
+Gabriel: Sure.
+Gabriel: Yeah, so let me just pull up the document so I don't miss anything.
+Gabriel: But my first question would be...
+Gabriel: Okay, so now that you have tried both versions of the game, how are you feeling?
+Kuba Wasyl: Well, for sure the manual version where you use the keyboard is more like...
+Kuba Wasyl: similar to something that I played before so I know how to use it I don't need to read the whole text to pass the game actually hold up sorry there is a small oh my god I forgot to message my students about something and they are waiting for me just give me a second I'm terribly sorry
+Gabriel: Just for a minute?
+Gabriel: Yeah, no worries.
+Kuba Wasyl: Take your time.
+Kuba Wasyl: Okay, please carry on.
+Kuba Wasyl: As I said, the keyboard is something that I actually played before, so it's a lot easier to use.
+Kuba Wasyl: I don't need to read a lot of tapes to actually know what I have to do, because I can speak half of it.
+Kuba Wasyl: know basically by just clicking get through the game in this previous version that in which I said my what I wanted to do basically you have to read a lot but I think it's a lot of more emotional you have to
+Kuba Wasyl: know what you're doing, know where you are, know what to ask for.
+Kuba Wasyl: So it's for sure a lot harder, but also you get the story a lot better in context of the game.
+Kuba Wasyl: Maybe some additional questions from your side?
+Kuba Wasyl: Of course, of course.
+Kuba Wasyl: Was there anything that immediately surprised you?
+Kuba Wasyl: Something that surprised me in the game?
+Kuba Wasyl: Well, I think it's...
+Kuba Wasyl: played by talking.
+Kuba Wasyl: I haven't played anything like this before so it's something new for me.
+Kuba Wasyl: I'm sure willing to play against something like that because I don't feel like I have a lot of experience in it so it's more interesting for me than just clicking and skipping half of the interactions or lore like a story or something.
+Gabriel: Yeah, all the cutscenes.
+Gabriel: Yeah, I feel you.
+Kuba Wasyl: So it's, I think it's a lot of fun.
+Kuba Wasyl: Yeah.
+Gabriel: If you had to describe the difference between these two games to a person who hasn't played either of them, what would you say?
+Kuba Wasyl: I would tell them to play using the voice commands.
+Kuba Wasyl: I think it's more of an unusual experience.
+Kuba Wasyl: Like I said before, I haven't played any games like this.
+Kuba Wasyl: before so yeah basically when you started the game they said that you know using the command over speaking command it was like I said before you have to read everything
+Kuba Wasyl: where you are, what you're doing, what you want to do, describe it.
+Kuba Wasyl: So maybe for some people it's gonna be more difficult to do, because, you know, not everyone knows how to describe what they want to do in the game.
+Kuba Wasyl: Can you repeat the question, actually?
+Gabriel: Yeah, how would you describe the difference between version A and version B to the person that, you know, hasn't played either?
+Gabriel: I'll describe the differences.
+Gabriel: You don't have to say that like, oh yeah, version A, we speak with voice, version B, we talk with keyboard.
+Gabriel: It can be like how you felt, how you perceived the difference.
+Kuba Wasyl: Well, I think I'm going to repeat myself about the first version where I have to speak.
+Kuba Wasyl: It's more immersive for me.
+Kuba Wasyl: I need to know the story.
+Kuba Wasyl: And the other part, in the other version, I didn't need to actually read the text.
+Kuba Wasyl: I can just go through manually, like an instinct.
+Kuba Wasyl: I see the loot that I can pick, I pick it up.
+Kuba Wasyl: I don't know what's the loot, I just go for it in the storage.
+Gabriel: Okay, and so like you said that one of those feels more immersive, so you would say that in the audio one you felt that you were more
+Gabriel: inside of the game world, you are more immersed.
+Kuba Wasyl: I don't know if I would prefer the first version.
+Kuba Wasyl: Well, it's something unusual for me, but the first version is, this PING version is just more time consuming, I think.
+Kuba Wasyl: Yeah.
+Kuba Wasyl: So if there would be like more detail, maybe footages or pictures or maybe cut scenes or something, I think it would be very fun to play actually.
+Kuba Wasyl: With animations maybe.
+Kuba Wasyl: If I see like a whole room, you know, and the commands will be not delayed, anything like that.
+Kuba Wasyl: It will be for sure more fun to play.
+Kuba Wasyl: just like to you know I can hop using only my voice or run using my voice like run to the window and use the crowbar to smash it or something like that it will be for sure then easier to play but with
+Kuba Wasyl: this version, the beta version, it's not gonna be that easy.
+Kuba Wasyl: Easier to play this game as it is now, it's to just using the keyboard for sure.
+Kuba Wasyl: It's just an optimization thing.
+Kuba Wasyl: If those few things are changed or maybe like...
+Kuba Wasyl: Adjusted, fixed.
+Kuba Wasyl: It will be great, great experience for me for sure.
+Gabriel: And it seems like you mentioned the delay in like, I say something, something happens, there's a delay between, right?
+Gabriel: Yeah, there's processing.
+Gabriel: Yeah, yeah, like a few seconds processing, yeah.
+Gabriel: So is there a delay that you would consider acceptable here or any kind of delay is bad?
+Kuba Wasyl: I think any kind of delay, maybe like half a second, half a second.
+Kuba Wasyl: It's like, OK, yeah.
+Kuba Wasyl: Yeah.
+Kuba Wasyl: But when it takes like two or three seconds, I lose my immersion.
+Kuba Wasyl: I forget the things I want to do.
+Kuba Wasyl: Yeah.
+Kuba Wasyl: There's a lot of things in the room.
+Kuba Wasyl: There's a lot of things to do that I want to do.
+Kuba Wasyl: And a lot of all of these delays actually, you know, makes me unfocused.
+Gabriel: Yeah.
+Gabriel: Right.
+Gabriel: It's would you say that it breaks your immersion?
+Kuba Wasyl: yeah a little bit yeah yeah okay okay if the game would work like with no delays yeah you could do everything you want only using your voice it would be a lot more just a better version than the manual one for sure and um hold up i had a something to add up to but i think i lost my train of thought a little bit but uh speaking of uh oh yeah yeah i know what i wanted to add
+Gabriel: In the first version of the game, before I managed to optimize it, it would take 2 minutes.
+Gabriel: For every request.
+Gabriel: 2 minutes?
+Gabriel: I wouldn't play this game.
+Gabriel: Me neither.
+Gabriel: 2 minutes.
+Gabriel: Usually you say something, you go make tea, you go back, you know?
+Gabriel: And then it's done.
+Kuba Wasyl: But it's not that easy to manage, actually.
+Kuba Wasyl: No, it's not.
+Kuba Wasyl: I agree.
+Kuba Wasyl: The time that you have compared to 2 minutes, it's a really great job, I think.
+Gabriel: Yeah, but I feel you, I feel you.
+Gabriel: For me it's also emotion breaking, right?
+Gabriel: If I say something and I have to wait 10 seconds, then that's a bit of a problem, right?
+Gabriel: Because I start losing focus sometimes a little bit, right?
+Gabriel: Like what's going on?
+Kuba Wasyl: Shit, I'm gonna make a decision and I'm gonna have to wait, yeah.
+Kuba Wasyl: I don't want it.
+Kuba Wasyl: I like to make things as quick as possible.
+Gabriel: Yeah, I'm with you, I'm with you.
+Gabriel: And I know it's a tricky question but
+Gabriel: When you were talking to the game, from the moment that you first used your voice, what were you thinking as you decided what to say to the game?
+Kuba Wasyl: Well, it's not that easy to speak to the game because it's the first time.
+Kuba Wasyl: Maybe if I played a few other games like this, I maybe knew a way to play them, a way how to ask or what to ask for, what to seek for.
+Kuba Wasyl: Yeah.
+Kuba Wasyl: What was I thinking?
+Kuba Wasyl: Well, that's a good question, actually.
+Kuba Wasyl: It's well, we speak previously and you said that there's an like an eye and yeah Yeah, a lot of these things inside.
+Kuba Wasyl: So every time I speak to the eye or I took today I know that's like a bot or Well, it's artificial so I have to like think twice so I cannot speak with it like a
+Kuba Wasyl: like to a human or like it's hard to describe actually I'm going to switch to Polish.
+Kuba Wasyl: Yeah, the words, the words.
+Kuba Wasyl: If I were to explain to another person what they are supposed to do or in this case to me in the game, it would be easier for me to say that it's another person.
+Kuba Wasyl: That's how you always understand it.
+Kuba Wasyl: No matter what I say, they will get the context.
+Gabriel: Yes, if you played Dungeons & Dragons or something.
+Gabriel: A mouse in a game will always understand you, unless you're playing something stupid.
+Gabriel: But if you speak Polish, it will understand you.
+Gabriel: It's stupid sometimes.
+Kuba Wasyl: You have to explain to a robot that it will tell you that it doesn't understand something or that you can't do something because theoretically you could do it.
+Kuba Wasyl: but it's artificial intelligence and it works in certain narrow criteria.
+Gabriel: Yes, for example, you said that you want to unlock the door and you want to go through what we just unlocked and she fell asleep and then she will say the word corridor.
+Kuba Wasyl: Yes, for example, this type of thing.
+Kuba Wasyl: And if, for example, I don't know, I talk to a man like that, he would catch it right away.
+Kuba Wasyl: Of course.
+Kuba Wasyl: You mentioned a little bit about it, but how was it like to use the voice apart from the fact that
+Kuba Wasyl: just for me.
+Kuba Wasyl: I just use one button to make all my decisions.
+Kuba Wasyl: Pick up things or go to another room.
+Kuba Wasyl: It's easy.
+Kuba Wasyl: If there was no delay time, it would be perfect.
+Kuba Wasyl: But with delay time, it's not immersive for me.
+Gabriel: I understand, I understand.
+Gabriel: It's interesting you mentioned that this is more easy for you to say something, because for most people, most people say the opposite.
+Gabriel: They say that for them it's more difficult to do this, but I'm more like you as well.
+Gabriel: For me it's easier to speak.
+Gabriel: If I want to do something, I can just say it.
+Gabriel: yeah yeah and uh okay so for you it was less effort then right yeah exactly less effort and yeah you know more of the story i get it i get it get into and uh did the freedom like the freedom in their quotes like to say like anything make you more feel in control
+Gabriel: made you feel more overwhelming than having the fixed list of actions?
+Gabriel: Let me rephrase, maybe I can also just say it in Polish.
+Gabriel: But did the freedom to say anything you wanted to say, right, using your language, made you feel more in control or more overwhelmed compared to, you know, just the list of items?
+Kuba Wasyl: In this game, yeah?
+Kuba Wasyl: Yeah, in this game.
+Kuba Wasyl: Maybe it was more overwhelmed.
+Kuba Wasyl: Like I said before, I haven't played anything like this, so I don't know what to ask for or what are the actions that I actually can make.
+Kuba Wasyl: An assumption that we can make anything in the game that we want.
+Kuba Wasyl: The speaking version would be a lot better than just clicking.
+Gabriel: I think that sums us up.
+Gabriel: That's a good response, don't worry.
+Gabriel: How would you compare the overall experience of using these two game versions?
+Kuba Wasyl: In general...
+Gabriel: In general experience, if you would compare one to the other.
+Gabriel: Which one did I like more?
+Gabriel: That too, but that's the second question.
+Gabriel: The first question is how to compare the experience A with the experience B.
+Kuba Wasyl: The first part of the game, while using the voice commands, it's more difficult for now.
+Kuba Wasyl: I can see a lot of potential, but there's a lot going on in your mind while playing the game.
+Kuba Wasyl: You want to experience every part of the game, especially myself.
+Kuba Wasyl: I like to go through a game 100%, not to miss any bit.
+Kuba Wasyl: I understand.
+Kuba Wasyl: And it's not easy to always describe things and in the manual version, like I said before, you have few choices to make actually.
+Kuba Wasyl: so it's faster and easier to choose one from I don't know four or five options yeah yeah yeah some some options okay so it depends which one I would like better actually it depends only on the
+Kuba Wasyl: the level of advancement of the artificial intelligence inside.
+Gabriel: So in the current state, so if this is it, this is what we played, which one would you choose?
+Kuba Wasyl: In the current state the manual version.
+Gabriel: Okay, and assuming that the AI is like Gets you more you can do more whatever then If the AI gets better, yeah, and like I said, I like to have visibilizations.
+Kuba Wasyl: Yeah, so you have the image.
+Kuba Wasyl: Yeah, everything that I see around The actions are immediate.
+Kuba Wasyl: Yeah, I would choose the voice version.
+Gabriel: Okay.
+Gabriel: All right.
+Gabriel: All right.
+Gabriel: Let's see
+Gabriel: And this is the last question for me.
+Gabriel: So is there anything else that you would like to include or add that we haven't discussed already about this whole thing?
+Kuba Wasyl: I don't know, actually.
+Kuba Wasyl: Is there anything I would like to add for myself?
+Kuba Wasyl: Yeah.
+Kuba Wasyl: Yeah, basically.
+Kuba Wasyl: The game is not that short.
+Kuba Wasyl: I found the brother fairly fast.
+Kuba Wasyl: In context of the AI, I already told you.
+Kuba Wasyl: Yeah, of course.
+Kuba Wasyl: Apart of that, I don't know actually.
+Kuba Wasyl: I would like to have more like a crafting thing inside.
+Kuba Wasyl: I can see it's something similar to survival game.
+Kuba Wasyl: So the crafting is a must-have in this kind of games.
+Kuba Wasyl: And that's actually a problem.
+Kuba Wasyl: When you speak of crafting, a lot of people don't have like a knowledge to describe things or, you know, you can just say, combine thing A with combine thing B and you can, you know, there's a lot of things that can go through this.
+Kuba Wasyl: That's true, that's true.
+Kuba Wasyl: How you want to combine them or...
+Kuba Wasyl: Using what?
+Kuba Wasyl: Or, you know, different ways to do some stuff.
+Kuba Wasyl: Oh, but I hear you, yeah.
+Gabriel: Have you played Legend of Zelda, the Breath of the Wild?
+Kuba Wasyl: I have played on the Nintendo Switch, I haven't on the DS.
+Kuba Wasyl: Yeah, the Switch version.
+Gabriel: Have you used the cooking system in that game?
+Gabriel: yeah yeah so for me i was trying to make the crafting a little bit similar to that okay so you combine two items and then something happens but i i hear you for just discovering yeah my discovery yeah but i hear you fully like i feel like as you said crafting is a complicated thing right when you make things there's processes there's like you can combine this with that but i have about three different things yeah exactly right yeah so it's and
+Kuba Wasyl: Despite that there's a lot of ways that you can craft things.
+Kuba Wasyl: Yeah.
+Kuba Wasyl: There's also a lot of things that you can craft with.
+Gabriel: True, true, true, true, true.
+Gabriel: In this game not so much, right?
+Gabriel: Yeah.
+Gabriel: Yeah, there is like, I think, three different...
+Gabriel: Sorry, only three different things you can craft in this game.
+Gabriel: So the crafting is pretty underwhelming as it is right now compared to something like The Legend of Zelda.
+Gabriel: Okay, okay, but thank you, thank you very much.
+Gabriel: I agree, I agree with you there, 100%.
+Gabriel: But thank you very much.
+Gabriel: This has been very, very helpful.
