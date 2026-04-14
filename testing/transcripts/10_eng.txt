@@ -1,0 +1,635 @@
+Gabriel: OK, good.
+
+Gabriel: In that case, let’s start recording.
+
+Gabriel: And I’ll begin with a question.
+
+Gabriel: How do you define yourself when it comes to video games? Do you consider yourself a gamer?
+
+Gabriel: Do you not play at all, play a bit, play mobile games, or play a lot?
+
+Maria: I don’t play at all.
+
+Gabriel: You don’t play computer games at all?
+
+Maria: But I used to play a lot when I was 13.
+
+Gabriel: OK.
+
+Gabriel: OK.
+
+Gabriel: Come on, Casey, you can jump in.
+
+Gabriel: Good.
+
+Gabriel: Now, regarding voice assistants like Siri, Gemini, Alexa, or similar—what’s your attitude toward them?
+
+Maria: I really like them and use them often.
+
+Maria: Except Siri is the worst.
+
+Maria: I have the worst experience with Siri, but I also like dictating text messages instead of typing them.
+
+Gabriel: Siri is actually pretty terrible.
+
+Gabriel: And do you have the new Siri on your phone, or is it not available yet in Poland?
+
+Maria: I don’t know.
+
+Gabriel: It’s like a TV remote with a button—like many colors on the edge, or not?
+
+Gabriel: No, no, no.
+
+Gabriel: Old TV.
+
+Gabriel: Even the new one isn’t that good anyway.
+
+Gabriel: And when you use a computer or phone, do you use any accessibility features—like screen readers, color filters, or similar?
+
+Maria: I use a black-and-white filter, because I set up a shortcut so that when Instagram launches, the grayscale filter turns on.
+
+Maria: It helps me avoid using Instagram as much as I used to.
+
+Maria: That’s really good.
+
+Maria: But it’s more about limiting my phone use, not a necessity.
+
+Gabriel: Not a necessity, exactly.
+
+Gabriel: So there’s nothing you use out of necessity?
+
+Gabriel: No, no.
+
+Gabriel: OK.
+
+Gabriel: Let’s move on.
+
+Gabriel: What I’m going to do now—we’ll do it here.
+
+Gabriel: Here’s the country—look.
+
+Gabriel: It’s a text game.
+
+Gabriel: The idea is that it’s a post-apocalypse in Warsaw.
+
+Gabriel: Your brother went to a shopping mall to get food and hasn’t returned—you think he might still be there.
+
+Gabriel: The interface works like this: here is the name of the location you’re in, and the image is a rough visual representation of the place.
+
+Gabriel: Here you see which floor you’re on—you’re currently on the ground floor.
+
+Gabriel: Here is a long description.
+
+Gabriel: The most important parts are the first sentence and the last sentence or last two sentences—they give hints about the location. The rest is more descriptive, poetic text.
+
+Gabriel: If anything is unclear, you can ask me, because the language is quite poetic.
+
+Gabriel: Coffee stopped brewing.
+
+Gabriel: Oh, coffee.
+
+Gabriel: Can I wet it?
+
+Maria: Yes, I’m coming.
+
+Let’s see how it looks.
+
+Maria: Good morning, Mr. President.
+
+Maria: Good morning.
+
+Maria: Good morning.
+
+Maria: Now I’m going to drink coffee.
+
+Gabriel: And?
+
+Gabriel: The text is quite small.
+
+Gabriel: Sorry about that.
+
+Gabriel: The difference in this game compared to a typical experience is that you don’t use a keyboard or controller—instead, if you want to do something, you hold the R key, speak, for example:
+
+Gabriel: “Let’s go to the clothing store right now.”
+
+Gabriel: Maybe not.
+
+Gabriel: I don’t know why.
+
+Gabriel: Or maybe it bugged the first time.
+
+Gabriel: Anyway.
+
+Gabriel: Sorry.
+
+Gabriel: Just once.
+
+Gabriel: OK.
+
+Gabriel: And what if I want to go to a shop?
+
+Gabriel: Because there’s some bug the first time.
+
+Gabriel: OK.
+
+Gabriel: And what if we go back?
+
+Gabriel: And as you can see, you can use natural sentences—you don’t have to think in single words.
+
+Maria: How should it be properly?
+
+Gabriel: Yes, not just one word.
+
+Gabriel: Correct.
+
+Gabriel: OK.
+
+Gabriel: As I said—the first sentence is an introduction, then a poetic description of the location, and at the end there are instructions about what you can do.
+
+Gabriel: Just pass the money door.
+
+Gabriel: Where you can go, what is connected to this place.
+
+Gabriel: OK, and now you’ll play for about 10 minutes.
+
+Gabriel: I’ll take some notes, but I’m not evaluating your performance.
+
+Gabriel: That’s not the point.
+
+Gabriel: I’m more noting when the system breaks.
+
+Maria: Ah, OK.
+
+Gabriel: OK, let me start a timer.
+
+Gabriel: Click.
+
+Gabriel: And one more thing I didn’t mention—you can use, create new items, and pick them up.
+
+Gabriel: Your inventory is on the right side and items will appear there.
+
+Gabriel: That’s everything from me.
+
+Maria: I’m looking for my brother.
+
+Maria: Yes?
+
+Gabriel: That’s right.
+
+Gabriel: He warned you before entering now.
+
+Maria: I want to enter.
+
+Maria: Yuck.
+
+Maria: I think it’s a treasure.
+
+Maria: I want to leave… OK.
+
+Gabriel: The place written there is connected to two places:
+
+Gabriel: Clothing store and small storage.
+
+Maria: I want to go to the clothing store.
+
+Gabriel: Everything OK?
+
+Gabriel: Everything OK?
+
+Maria: Learning helps, learning.
+
+Gabriel: I didn’t say that.
+
+Maria: This is a crowbar.
+
+Maria: This is a crowbar.
+
+Maria: I want to pick this crowbar.
+
+Maria: Please take me there.
+
+Maria: Not like that—I’m going, right?
+
+Gabriel: Yes, but the doors are blocked.
+
+Gabriel: And you need to say that the crowbar would open them.
+
+Gabriel: But you don’t have the crowbar.
+
+Maria: So…
+
+Gabriel: I didn’t see the crowbar.
+
+Gabriel: Please take me to the storage.
+
+Gabriel: I want to leave.
+
+Maria: I want to enter the small storage again.
+
+Gabriel: I’m not sure… try again because it didn’t register.
+
+Maria: Hello, I want to go to storage again.
+
+Gabriel: The first sentence is the most important, and then maybe the last two sentences—the middle is poetic.
+
+Maria: This is a metal lining.
+
+Maria: This is first, second, third.
+
+Maria: This is a head obstruction.
+
+Maria: I want to take this crowbar to my shop.
+
+Gabriel: Oh, here is text at the bottom.
+
+Maria: Let’s go to the main entrance.
+
+Maria: Let’s go to the shop.
+
+Maria: We’re running.
+
+Maria: I don’t know, maybe someone is chasing me, I have to run.
+
+Gabriel: It’s taking a bit.
+
+Gabriel: OK.
+
+Maria: Get close to the door and try opening it using a key.
+
+Gabriel: Oh.
+
+Gabriel: The assistant didn’t understand.
+
+Maria: Take me to the clothing store.
+
+Maria: You can… go to the corridor.
+
+Gabriel: I’m not sure the door opened.
+
+Gabriel: Maybe you should say it without mentioning the door.
+
+Gabriel: Yes, because I don’t know if the corridor is open.
+
+Gabriel: Ah, OK.
+
+Gabriel: You can just say where to go, because it seems like it suggests exiting.
+
+Maria: Go back to clothing store.
+
+Gabriel: Yes, now we can go to the corridor.
+
+Gabriel: And now the system changes.
+
+Gabriel: You’re no longer using voice.
+
+Gabriel: Now you use keyboard keys.
+
+Gabriel: One, two, three, four.
+
+Gabriel: If other things appear there.
+
+Gabriel: Just play for 10 minutes.
+
+Gabriel: You can continue the game.
+
+Maria: Good morning.
+
+Let’s see what happens.
+
+Gabriel: Yes, there’s an elevator there.
+
+Gabriel: If you want to go further, you see the numbers?
+
+Gabriel: Those are all the options where you can go.
+
+Maria: I go up.
+
+Gabriel: That’s just a description of the stairs.
+
+Gabriel: If you press two, you go down—but it’s actually just stairs going up.
+
+Maria: OK.
+
+Gabriel: Now you’re on the first floor.
+
+Gabriel: From here you can go elsewhere.
+
+Maria: If I could just adjust this a bit longer.
+
+Gabriel: You can’t go higher.
+
+Gabriel: The third option is the lobby.
+
+Gabriel: Crafting works by combining two items—you need to have prerequisites.
+
+Gabriel: Maybe I’ll use matches.
+
+Gabriel: You can see additional items highlighted.
+
+Gabriel: Click.
+
+Gabriel: Now you have matches and a stick.
+
+Maria: Maybe I’ll craft something.
+
+Gabriel: Yes, and there’s an arrow.
+
+Gabriel: You select one item, press Enter, then another.
+
+Maria: But that doesn’t work—how do you combine matches with a stick?
+
+Gabriel: No, you can’t.
+
+Gabriel: Exactly.
+
+Maria: I think the right one is…
+
+Maria: But I took the matches.
+
+Gabriel: Yes.
+
+Maria: Go to gun store, yes!
+
+Maria: Immediately!
+
+Maria: And I pick a pistol.
+
+Gabriel: There’s a bug—you can pick up unlimited pistols.
+
+Maria: Great.
+
+Maria: OK, one right.
+
+Maria: Go back to main.
+
+Maria: Travel.
+
+Maria: Go back to Korean snack store.
+
+Gabriel: What is this?
+
+Gabriel: Trouble.
+
+Gabriel: Small corridor.
+
+Gabriel: Trouble.
+
+Maria: OK. Escape.
+
+Maria: One.
+
+Maria: One.
+
+Maria: So one travel.
+
+Maria: Fishing stall I think.
+
+Maria: Why is it black?
+
+Gabriel: Because there’s a fire in the bush.
+
+Maria: OK.
+
+Gabriel: It should be black.
+
+Gabriel: OK.
+
+Gabriel: We can end here.
+
+Maria: Mhm.
+
+Gabriel: It wasn’t about finishing the game within 20 minutes.
+
+Maria: Mhm.
+
+Gabriel: You were close anyway—good job.
+
+Gabriel: Now I’ll ask a few questions about your experience.
+
+Gabriel: One moment.
+
+Gabriel: Now that you’ve played both versions, how do you feel?
+
+Maria: The second one was better.
+
+Maria: I had choices instead of speaking.
+
+Maria: I preferred either full interaction by speaking like in a chat with AI, or using button commands.
+
+Maria: I understood the game better with commands.
+
+Gabriel: So the second version.
+
+Gabriel: Was there anything surprising at the beginning?
+
+Maria: I felt overwhelmed and didn’t know what to do.
+
+Maria: I didn’t know how to start.
+
+Maria: That was the hardest part.
+
+Maria: But I also don’t have experience with such games.
+
+Gabriel: That’s fine.
+
+Gabriel: Don’t worry.
+
+Gabriel: How would you describe the difference between the two games to someone who hasn’t played either?
+
+Hmm.
+
+Maria: The difference was that pressing keys felt more intuitive than speaking to the computer.
+
+Maria: Speaking felt unnatural because I’m not used to telling a game what I want to do.
+
+Gabriel: You mentioned it was overwhelming—can you explain more how using voice felt?
+
+Maria: I felt a language barrier because I’m not as comfortable in English as I am with reading and pressing keys.
+
+Maria: When I read text and commands, I fully understand them.
+
+Maria: But speaking was much harder and more tiring.
+
+Maria: If it were in Polish, it would be much more enjoyable.
+
+Maria: If it were in a language I’m fully comfortable with, I would try again.
+
+Gabriel: In which version did you feel more immersed?
+
+Maria: The first one.
+
+Maria: Because I didn’t have to read text—I just looked at the image and imagined the world.
+
+Maria: I would prefer the first version if I didn’t have to read at all.
+
+Maria: If I spoke, the computer could read the text to me.
+
+Maria: Even in a mechanical voice.
+
+Maria: That would be very valuable.
+
+Maria: So it would read it to you?
+
+Maria: Yes, it would read it to me.
+
+Maria: And during the game, it would also guide me and ask questions like:
+
+Maria: “What do you want to do now?”
+
+Maria: It would guide me a bit.
+
+Gabriel: OK, something like that.
+
+Maria: Yes.
+
+Maria: What are we doing now?
+
+Maria: Then I would have choices and could respond.
+
+Maria: I would also like to express emotional information—what I feel when entering a place.
+
+Maria: Like “I feel afraid to be here” or “I have a bad feeling.”
+
+Maria: It’s like in a movie when a character enters a room and senses something bad will happen.
+
+Maria: Or something interesting.
+
+Maria: I’d like more freedom of movement and expression.
+
+Maria: Then I’d prefer that over selecting options, because options are limiting.
+
+Maria: Even speaking would let me stay longer in a place and explore more.
+
+Gabriel: How does the effort of forming spoken commands compare to pressing keys?
+
+Maria: It’s definitely more effort with voice commands.
+
+Maria: With keys it’s already there—I just press.
+
+Gabriel: I understand.
+
+Maria: That’s relaxing.
+
+Maria: With voice, I have to think about what to say.
+
+Maria: I don’t have enough data to feel comfortable.
+
+Gabriel: Even though you had freedom to say anything, did it feel like more control?
+
+Gabriel: Or was it more stressful?
+
+Maria: It was more uncertain.
+
+Maria: I didn’t know what I should do.
+
+Maria: I felt lost.
+
+Gabriel: And overall, how would you compare both experiences?
+
+Gabriel: Which would you choose and why?
+
+Maria: If nothing changed right now?
+
+Gabriel: Yes.
+
+Maria: I would choose the keyboard version because I understood it faster.
+
+Gabriel: OK.
+
+Maria: Because I had commands like “use item,” so I knew what to do.
+
+Maria: I could go back and search rooms.
+
+Gabriel: OK.
+
+Maria: That was better for me.
+
+Gabriel: OK.
+
+Gabriel: And comparing the experiences overall?
+
+Maria: The first version was more strange and unfamiliar, while the second was more familiar because I’ve used keyboard controls in games before.
+
+Maria: It felt more intuitive.
+
+Gabriel: OK.
+
+Gabriel: At one point you asked if you can ask the game questions.
+
+Maria: Yes.
+
+Gabriel: What kind of questions?
+
+Maria: What should I do now?
+
+Maria: Or what’s behind these doors?
+
+Maria: Something that expands the world.
+
+Maria: Can I use a crowbar?
+
+Maria: Is there another floor?
+
+Maria: Questions that expand the map.
+
+Gabriel: And when you used voice commands, what guided your choice of words?
+
+Maria: Words I already knew.
+
+Maria: I imagined keyboard commands—go forward, run, crouch, stay, go back.
+
+Maria: Movement-based commands.
+
+Gabriel: I understand.
+
+Gabriel: And last question.
+
+Gabriel: Is there anything from this research experience you’d like to add that we didn’t cover?
+
+Maria: I would like more connections between rooms.
+
+Maria: And I would like my own music.
+
+Gabriel: Audio?
+
+Maria: Yes.
+
+Gabriel: Probably.
+
+Gabriel: What do you mean by connections between rooms?
+
+Maria: For example, earlier I couldn’t move from storage to another part of the mall.
+
+Gabriel: So not going from A to C directly, but through B?
+
+Maria: Yes.
+
+Gabriel: OK.
+
+Maria: I’d like more exploration like hidden paths and shortcuts.
+
+Maria: I wanted to use the crowbar in unusual ways, like breaking a cabinet in the Korean store to discover something.
+
+Maria: It made me feel a bit aggressive.
+
+Maria: I wanted to interact more destructively.
+
+Gabriel: I understand.
+
+Maria: There were also no real threats.
+
+Maria: Like maybe a dangerous dog in a room.
+
+Gabriel: I understand.
+
+Maria: Something I had to deal with.
+
+Gabriel: Got it.
+
+Maria: But I’m not sure I could handle that since I struggled already.
+
+Gabriel: OK.
+
+Gabriel: Thank you very much.
+
+Gabriel: This was very valuable.
