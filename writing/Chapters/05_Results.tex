@@ -10,32 +10,148 @@ Below are the aggregated findings, meta-themes. Things that came to me only afte
 
 \section{A - Modality transfer}
 
-Players seem to be transfering their knowledge from keyboard navigation games into the voice driven experience. This is very exemplified when they played the voice version right after trying the baseline version. ... 
+Supporting themes from the analysis: \#1A, \#2A, \#3A, \#10D
 
-The first three participants of the testing had the baseline keyboard version exposed to them first. This led to them transfering their command patterns about the game into the voice-driven version. 
-To lessen the effect of that transfer for the 7 tests that followed the order got flipped - the participants were first presented with the voice version of the game. This reduced this issue, but didn't fully eliminate it.
+One of the first observations from all of the themes was the fact players used their prior knowledge 
+Both versions of the game differed substantially when it comes to User Interface. The keyboard version offered a dynamic list of actions, some of which grouped into sections like "Travel" or "Crafting" or verbose action names such as "Pick up Matchsticks". This created a text based user interface which relied primarily on scanning a short list of all possible actions to determine their possible input in any given moment. 
+The currently available actions that were written in simple language seemed to have been naturally used by the players who were exposed to the text-driven version of the game prior to playing the voice experience. If a player seen a option "Pick up crowbar" they were likely to use the exact same words and language when voicing out their commands. 
 
-People still used their pre-existing notions about voice control and their experience with other input modalities transfered into this experience. This can't be fully eliminated but the fact that they didn't play the keyboard verions had a noticable impact on the players interaction with the game. 
+The first three participants played the keyboard version first and their voice commands closely mirrored the the text options they had seen in the keyboard version.
 
-\section{B - Personal Immersion}
+\begin{quote}
+    "because I was guided [in my word choice] by that choice of options”
+    \flushright --- Participant \#1 
+\end{quote}
 
-Each participant offered a different perspective on what constituded to their feeling of immerison. They presented following theories:
 
-... 
 
-\section{C - Friction vectors and impact on the experience}
+After seeing that issue for the remainder of tests the order of playhrough got reversed - the players started with the voice experience and then shifted to the keyboard input modality. 
+This allowed to reduce this effect but didn't fully eliminate it. Players still imported past experiences with video games, voice assistants and other input modalities. 
 
-The experience had a lot of pain points for all participants. What's interesting is how same errors were more or less severe for different participants. Some errors were very painful for some while others treated them as an additional part of the experience or even a feature. 
-This is very interesting since it shows how differently people interepret errors.
 
-\section{D - Impact of Agency and affordance perception on player feelings}
+
+% Players seem to be transfering their knowledge from keyboard navigation games into the voice driven experience. This is very exemplified when they played the voice version right after trying the baseline version. ... 
+
+% The first three participants of the testing had the baseline keyboard version exposed to them first. This led to them transfering their command patterns about the game into the voice-driven version. 
+% To lessen the effect of that transfer for the 7 tests that followed the order got flipped - the participants were first presented with the voice version of the game. This reduced this issue, but didn't fully eliminate it.
+
+% People still used their pre-existing notions about voice control and their experience with other input modalities transfered into this experience. This can't be fully eliminated but the fact that they didn't play the keyboard verions had a noticable impact on the players interaction with the game. 
+
+
+
+\section{B - Impact of Agency and affordance perception on player feelings}
 
 The voice-driven experience doesn't show it's boundaries. They have to be discovered by the players. This ambiguity made some players anxious while others rejoyced. The players also probed the system for affordances, trying to see what's possible.
 
 
-\section{E - The relationship between command language and the game experience}
+\section{D - The relationship between command language and the game experience}
 
 Players all adopted their own language when talking with the computer and nearly always it stemed from their existing relationship with either computers, technology, voice assistants or some other notions that come from speakng to someone for permision. The language that they chose was either commanding or cooperative. This in turn shaped their emotions while playing the game. This type of unpredictable behaviour is absent in the keyboard driven experience. 
+
+
+\section{D - Friction vectors and impact on the experience}
+
+\textit{Supporting themes from the analysis: \#2B, \#4A, \#6C, \#8A, \#10A}
+
+
+% 4A - playing in public, using english as a non-primary language
+% 10A non primary language 
+
+% 6C - understanding gaps 
+
+% 1,2,3 VUI bugs with Lounge or staris 
+
+% 8A - delay 
+
+Playing video games generates a lot of potential emotions in players. One of the major emotions that are often looked at is the feeling of frustration while playing. An introduction of the voice-driven input modality has introducted a few sources of annoyance to the participants, although not all of them reacted in the same way. 
+
+The participants shared that the game frustrated them in the areas of voice recognition, command understanding, feedback loops and processing delays, each of theese points explained below:
+
+\subsection{Recognition bugs}
+During the play tests the voice recognition platform that was used sometimes struggled to transcribe the player commands correctly. This was a major source of frustration for some players, sometimes rendering portions of the game as non-playable by voice. WhisperCPP clearly suffered with a few location names such as "Lounge" or "Stairs" sometimes leaving players unable to enter those locations, despite repeated attempts. 
+To make it worse the tool struggled with certain accents. During development period it completely failed to understand english with korean accent for instance. This on it's own is a technical constraint of WhisperCPP itself but can be further influenced by the environemnt that the player is using.
+Those issues most players feeling irritated and made them less trusting of the voice-driven input. For instance participant \#2 noted how he didn't mind the voice recognition issues
+
+\todo{Find a better quote}
+\begin{quote}
+    For a moment I thought about it [voice recognition errors] like it could be intended as
+    such — like have fun with the player, to invert expectations a
+    bit. It’s like a breaking of a fourth wall kind of thing. But maybe
+    it’s just my imagination running wild."
+    \flushright --- Participant \#2 
+\end{quote}
+
+\subsection{Cognitive overload}
+
+Many participants described how the need to formulate words and sentences to navigate translated into a higher cognitive load compared to pressing buttons on the keyboard. 
+The degree of frustration cuased by this varied. Some players noted that it was a major source of feeling mentally exhausted, confused and anxious.
+
+\begin{quote}
+    Well, thinking what to say takes more effort than pressing a key, obviously.
+    I mean, maybe it's not obvious, but...
+    It takes more effort because you don't have your actions laid out in front of you and you have an open field, creative open field as of what you can really do.
+    \flushright --- Participant \#6 
+\end{quote}
+
+
+\subsection{Processing delay as a frustration and confusion source}
+A game that responds slowly to player input can be a source of frustration to some players. Between sending, transcription and the LLM tool calling process every voice input request took aproximeatly 8-10 seconds of processing time from start to finish. This had a notable impact on some participants who noted that it made them feel frustrated and sometimes even lost. 
+
+\begin{quote}
+    [when using the voice input] "I forget the things I want to do.”, 
+
+
+    [Intrenal monolouge when using voice input] “I had something to add up to but I think I lost my train of thought a little bit.”
+    \flushright --- Participant \#8 
+\end{quote}
+
+
+\subsection{Linguistic barriers}
+
+For most of participants using voice to navigate was notably more difficult compared to the keyboard input due English not being their native language. The need to formulate the command in your head, translate it into english and then vocalise it has proven to be a challenge and a source of frustration for some participants.
+\begin{quote}
+    "I think it was overwhelming, but it’s because English is not my
+first language. I think it will be easier when I would be able
+to speak Polish."
+\flushright --- Participant \#4
+\end{quote}
+
+\subsection{Environmental embarrassment}
+9/10 of the play tests took place in private setting but one test had to be conducted in a public cafe. The participant noted how the act of having to use their voice for navigation in a public space made them feel uncomfortable.
+\begin{quote}
+    "But I think if I was in a more comfortable place [location] for me,
+then it would be easier for me and it wouldn’t be as stressful as
+it was."
+\flushright --- Participant \#4
+\end{quote}
+
+\subsection{Desire for clear feedback}
+
+Some participants reported feeling frustrated over a lack of detailed feedback from the game over their voice commands. 
+Presently the game gives a text confirmation of the last action at the bottom of the screen eg. "You travelled to Storage Shed". That part was not problematic for players.
+
+Conversely, in a case when the player actions were not understood the game would reply with a generic "Selected action is not allowed", or "I can't use that item here" if it understood the command partially.  
+This lack of precise feedback of why did the request fail made the players feel irritated, since they were dealing with two layers of confusion - firstly if their command is valid and then if they got properly undersold by the transcription system. 
+
+Instead of saying "I can't travel there" the game should be more detailed eg. "I can't travel to the Bathroom, the only location I can go to is the Corridor", or instead of saying "You can't use that item here" it should instead describe why and propose alternatives.
+
+The lack of precise feedback made players feel confused at times since sometimes the participants were not sure if their command is useable or if it even got transcribed properly.
+
+
+
+
+
+
+
+
+% 2B breaking 4th wall and absorbed all the friction, creative coutnerpoint
+
+% The experience had a lot of pain points for all participants. What's interesting is how same errors were more or less severe for different participants. Some errors were very painful for some while others treated them as an additional part of the experience or even a feature. 
+% This is very interesting since it shows how differently people interepret errors.
+
+\section{E - Impact of using voice on player immersion}
+
+
 
 \section{F - Accessibility context}
 
