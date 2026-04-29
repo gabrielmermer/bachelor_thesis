@@ -4,36 +4,236 @@
 \addcontentsline{toc}{chapter}{Appendices}
 \renewcommand{\thesection}{\Alph{section}}
 
-\section{Appendix}
+\appendix
+\section{Game Design Document} 
 \label{appendix_a}
 
-LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-LoHrem
+\subsection{High-Level Overview}
 
-\newpage
 
-\section{Appendix}
-\label{appendix_b}
+\subsubsection{Game Concept}
 
-LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-LoHrem
+
+It's year 2030, post-apocaliptic Poland. Your brother never returned from a scavenger mission in a nearby shopping mall.
+You decide to rescue him yourself no matter the price.
+
+\subsubsection{Genre}
+Text based adventure with a core mission.
+
+\subsubsection{Platform}
+The game is intended to be run on PC via a web browser.
+
+
+\subsubsection{Audience}
+The audience is mostly people who enjoy imaginary experiences such as ttrpg games
+and other games that employ deep immersive states.
+
+\subsubsection{2 variations of the game}
+
+The game constists of two version necessary for the research for the thesis that's linked to the game.
+
+\begin{enumerate}
+    \item The keyboard version - In this version the player chooses their actions from a predetermined
+    list of possibilities, this way they can navigate with certainty 
+    \item The voice version - This version of the game employs voice commands and the player doesn't see 
+    all of the possibilities in front of them. Instead of that they rely on the description of their current 
+    environment and come up with the actions themselves
+\end{enumerate}
+
+The rationale behind having that voice interation is that the player may potentially deepen his immersion
+due to him having an illusion of greater control of the game while also formulating the actions with his voice
+might also lead to increased immersion compared to using manual button input. The validity of these claims
+will be tested by the acoompaning research.
+
+
+\subsection{Core gameplay}
+
+\subsubsection{Player Role \& Perspective}
+
+The player is a apocalypse survivor who's main role is to rescue his brother
+from a shopping mall in an abandoned city. The user controls the actions of the 
+main character by using actions, either via keyboard or his voice. The information
+about the environment is provided to the player in a form of text narrator in third person
+
+The player moves through the shopping mall in a series of moves between different locations. Each location provides a list of possible actions that can be taken
+inside of it and the list of possible travel destinations. 
+
+
+\subsubsection{Core Loop}
+
+
+
+The core loop for the game differs depending on if the player is playing the 
+voice version or the keyboard control version.
+
+The core loop of the game for the keyboard version consists of the following:
+
+\begin{enumerate}
+    \item Arrive at new location
+    \item Read the description of the current location
+    \item Decide which action to take from the list provided
+    \item Take an action such as crafting, picking up items, using their items
+    \item Repeat the last step until the player decides to travel to another place 
+\end{enumerate}
+
+
+The core loop of the game for the voice driven version looks as follows:
+
+\begin{enumerate}
+    \item Arrive at new location
+    \item Read the description of the current location
+    \item Think about what kind of action would be possible in this location
+    without having a provided list and vocalise it to the game by using the player voice.
+    \item Take an action such as crafting, picking up items, using their items
+    \item Repeat the last step until the player decides to travel to another place 
+\end{enumerate}
+
+
+\subsubsection{Mechanics}
+
+
+\subsubsection{Movement}
+The game employs a simple movement system in which each location can be treated as a node, 
+with connections to other locations. The movement between the places is then treated as moving 
+the player into the new node.
+For example a clothing store in the gallery might be connected to the food court and to the corridor.
+The player may choose which location he chooses to travel to.
+
+
+% \subsubsection{Dialogue}
+% Certain characters in the game might be able to speak to the player. The dialogue options are just actions in the 
+% game just like any other action, such as travel etc. 
+% The transcript of the dialogue is provided to the player by the text narrator.
+
+% \subsubsection{Combat}
+% Given the hostile nature of the world present in game combat is a part that's an inherent part of it. 
+% The player may engage in combat, either by his choice or by third parties intiative. The combat system itself
+% is rather simple. All weapons in the game have a chance of killing the NPC opponent, eg. a revolver having 70\% chances. 
+% When a player decides to use their weapon the game "rolls the dice" to determine if the victim of the violence
+% survives or dies. 
+% The player itself can sustain one hit from any of these weapons if the NPC uses the violence on them, making the game a 
+% bit less punishing.
+
+\subsubsection{Items \& Player inventory}
+
+The shopping mall has some items that the player can collect to increase their chances of success. Items can be picked up from locations and used at any time.
+
+\subsubsection{Crafting}
+
+The game has a basic crafting system in which any two items might try to be combined eg. combining empty pistol with a magazine yields a functioning gun. The crafting recipes are not visible to the player, forcing exploratory behaviour.
+
+\subsubsection{Controls \& Input}
+
+Depenging on the version of the game the player either controls the game by the usage of their keyboard or their voice. 
+The input for the keyboard version coresponds to the numbers 1 to 10 on the keyboard for selecting the Actions that 
+the player can take.
+
+\subsection{Game progression}
+
+\subsubsection{Structure of the Game}
+
+The game has one level, a rescue mission in which the player needs to rescue
+his brother. Despite only having one level the player can choose his entry point 
+between 2 options. They can also choose one staring item from 3 options. 
+
+
+
+
+\subsubsection{Level layout}
+The level consists of the -1, 0, 1 and 2 floor, four in total.
+Below you can see the layout of all of the levels:
+
+
+% \subsubsection{Difficulty Curve}
+
+% The starting floors should not pose too big of a danger to the player, in a way that They
+% don't have to engage in combat to get through them if they choose so. 
+% As they go up the building the difficulty will increase. The closer
+% get to rescuing their brother they have higher chances of getting into gunfights. 
+
+% After picking up the brother the game will be more difficult than beforehand. forcing the
+% player to decide on best way out the building.
+
+% The highest floor has the highest risk of death, while providing the quickest possible evacuation from the
+% building. 
+
+\subsubsection{Objectives \& Reward}
+
+The main objective is rescuing main character's brother from the building. 
+
+\subsection{Narrative}
+
+\subsubsection{Story Premise}
+
+Due to a immerse drown followed by extreme weather the freshly built 
+Polish nuclear reactor imploded in the year 2028. The country being 
+in a very tense point just before due to it's tentions on the east border
+got into the state of panic, since Chernobyl is more than a mere memory for
+most of the population. This has led to massive exodus from the nation, which
+led to further instability. During that time further destabilisation from the country
+enemies successed in a form of assasinating the prime minister. This in turn made the goverment
+evacute into western teritory. The west part of the country has in turn been masively abandoned
+by the populus, the military got pulled back to the western part of the country, creating a lawless zone.
+The enemies of the state did not launch a full on invasion due to severe radiation in this part of the country,
+but small militia units can be found scaveging around.
+
+People who decided to remain are trapped in a zone with little to no help
+
+\subsubsection{Characters}
+
+\begin{itemize}
+    \item Main player -- The main character that the player controls is a well prepared survivor. He decided that he won't retreat 
+due to his want to protect his brother.
+    \item Brother -- Sibling of the Main Player. He used to be a camera operator for a local TV station before the collapse. 
+He decided that he has to record and somehow show to the world as much as he can about this crisis.
+\end{itemize}
+
+% \subsubsection{Main Player}
+
+
+
+% \subsection{Brother}
+
+% Sibling of the Main Player. He used to be a camera operator for a local TV station before the collapse. 
+% He decided that he has to record and somehow show to the world as much as he can about this crisis.
+
+% \subsection{Scavengers}
+
+% Lawless criminals who are known to roam around the shopping mall. They are known to kill, and don't respect 
+% any form of humanitarian laws. They do what they have to to survive by the means of domination. Despite their 
+% motivations they allow people to live in some parts of the shopping mall, since they lack the manpower and resources
+% to fully cleanse the place of human presence. 
+
+% \subsection{Shopping Mall civilians}
+
+% These are some people that decided to seek shelter in the shopping mall given that it offers many resources helpful for survival.
+% It's not known how many of them there is.
+
+\subsubsection{Story Progression}
+
+The first thing that happens before the game starts is that the Brother goes to the shopping mall to secure some food.
+After 1 day the Main Player recieves a distress signal on his radio and decides to go out and rescue his brother.
+The player then goes into the game trying to find his brother in the shopping mall complex.
+After finding him he learns form his brother the 2 ways that they can escape. 
+The next thing for them is pursue one of the exists.
+
+
+
+
+% \newpage
+
+% \section{Appendix}
+% \label{appendix_b}
+
+% LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+% tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+% quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+% consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+% cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+% proident, sunt in culpa qui officia deserunt mollit anim id est laborum.LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+% tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+% quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+% consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+% cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+% proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+% LoHrem
