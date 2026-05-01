@@ -14,90 +14,112 @@
 \subsubsection{Game Concept}
 
 
-It's year 2030, post-apocaliptic Poland. Your brother never returned from a scavenger mission in a nearby shopping mall.
-You decide to rescue him yourself no matter the price.
+It's the year 2030, post-apocalyptic Poland. Your brother never returned from a scavenger mission in a nearby shopping mall.
+You decide to rescue him yourself, no matter the price.
 
 \subsubsection{Genre}
-Text based adventure with a core mission.
+Text-based adventure with a core mission.
 
 \subsubsection{Platform}
 The game is intended to be run on PC via a web browser.
 
 
 \subsubsection{Audience}
-The audience is mostly people who enjoy imaginary experiences such as ttrpg games
+The audience is mostly people who enjoy imaginary experiences, such as role-playing games
 and other games that employ deep immersive states.
+
+
 
 \subsubsection{2 variations of the game}
 
-The game constists of two version necessary for the research for the thesis that's linked to the game.
+The game consists of two versions necessary for the research for the thesis that's linked to the game.
+
+
 
 \begin{enumerate}
-    \item The keyboard version - In this version the player chooses their actions from a predetermined
-    list of possibilities, this way they can navigate with certainty 
-    \item The voice version - This version of the game employs voice commands and the player doesn't see 
-    all of the possibilities in front of them. Instead of that they rely on the description of their current 
+
+    \item The keyboard version - In this version, the player chooses their actions from a predetermined
+
+    A list of possibilities, this way they can navigate with certainty 
+
+    \item The voice version - This version of the game employs voice commands, and the player doesn't see 
+    all of the possibilities in front of them. Instead of that, they rely on the description of their current 
     environment and come up with the actions themselves
+
 \end{enumerate}
 
-The rationale behind having that voice interation is that the player may potentially deepen his immersion
-due to him having an illusion of greater control of the game while also formulating the actions with his voice
+
+
+The rationale behind having that voice interaction is that the player may potentially deepen their immersion.
+Due to his having an illusion of greater control of the game while also formulating the actions with his voice
 might also lead to increased immersion compared to using manual button input. The validity of these claims
-will be tested by the acoompaning research.
+will be tested by the accompanying research.
 
 
 \subsection{Core gameplay}
 
 \subsubsection{Player Role \& Perspective}
 
-The player is a apocalypse survivor who's main role is to rescue his brother
-from a shopping mall in an abandoned city. The user controls the actions of the 
-main character by using actions, either via keyboard or his voice. The information
-about the environment is provided to the player in a form of text narrator in third person
+The player is an apocalypse survivor whose main role is to rescue his brother from a shopping mall in an abandoned city. The user controls the actions of the main character, either via keyboard or their voice. The information about the environment is provided to the player in the form of a text narrator in third person
 
-The player moves through the shopping mall in a series of moves between different locations. Each location provides a list of possible actions that can be taken
-inside of it and the list of possible travel destinations. 
+
+The player moves through the shopping mall in a series of moves between different locations. Each location provides a list of possible actions that can be taken inside of it and the list of possible travel destinations. 
+
+
 
 
 \subsubsection{Core Loop}
 
 
 
-The core loop for the game differs depending on if the player is playing the 
-voice version or the keyboard control version.
-
+The core loop for the game differs depending on whether the player is playing the voice version or the keyboard control version.
 The core loop of the game for the keyboard version consists of the following:
 
+
+
 \begin{enumerate}
-    \item Arrive at new location
+    \item Arrive at the new location
     \item Read the description of the current location
     \item Decide which action to take from the list provided
-    \item Take an action such as crafting, picking up items, using their items
+    \item Take an action such as crafting, picking up items, or using their items
     \item Repeat the last step until the player decides to travel to another place 
 \end{enumerate}
 
 
-The core loop of the game for the voice driven version looks as follows:
+
+The core loop of the game for the voice-driven version looks as follows:
+
+
 
 \begin{enumerate}
-    \item Arrive at new location
+    \item Arrive at the new location
     \item Read the description of the current location
-    \item Think about what kind of action would be possible in this location
-    without having a provided list and vocalise it to the game by using the player voice.
-    \item Take an action such as crafting, picking up items, using their items
+    \item Think about what kind of action would be possible in this location without having a provided list and vocalising it to the game by using the player voice.
+    \item Take an action such as crafting, picking up items, or using their items
     \item Repeat the last step until the player decides to travel to another place 
 \end{enumerate}
+
+
 
 
 \subsubsection{Mechanics}
 
 
+\begin{itemize}
+    \item Movement -- The game employs a simple movement system in which each location can be treated as a node, 
+with connections to other locations. The movement between the places is then treated as moving. 
+The player is in the new node.
+For example, a clothing store in the gallery might be connected to the food court and to the corridor.
+The player may choose which location to travel to.
+    \item Items \& Inventory -- The shopping mall has some items that the player can collect to increase their chances of success. Items can be picked up from locations and used at any time, e.g., to open closed doors.
+    \item Crafting -- The game has a basic crafting system in which any two items might try to be combined, e.g., combining an empty pistol with a magazine yields a functioning gun. The crafting recipes are not visible to the player, forcing exploratory behaviour.
+    
+\end{itemize}
+
 \subsubsection{Movement}
-The game employs a simple movement system in which each location can be treated as a node, 
-with connections to other locations. The movement between the places is then treated as moving 
-the player into the new node.
-For example a clothing store in the gallery might be connected to the food court and to the corridor.
-The player may choose which location he chooses to travel to.
+
+
+
 
 
 % \subsubsection{Dialogue}
@@ -114,33 +136,24 @@ The player may choose which location he chooses to travel to.
 % The player itself can sustain one hit from any of these weapons if the NPC uses the violence on them, making the game a 
 % bit less punishing.
 
-\subsubsection{Items \& Player inventory}
 
-The shopping mall has some items that the player can collect to increase their chances of success. Items can be picked up from locations and used at any time.
-
-\subsubsection{Crafting}
-
-The game has a basic crafting system in which any two items might try to be combined eg. combining empty pistol with a magazine yields a functioning gun. The crafting recipes are not visible to the player, forcing exploratory behaviour.
 
 \subsubsection{Controls \& Input}
 
-Depenging on the version of the game the player either controls the game by the usage of their keyboard or their voice. 
-The input for the keyboard version coresponds to the numbers 1 to 10 on the keyboard for selecting the Actions that 
-the player can take.
+Depending on the version of the game, the player either controls the game by using their keyboard or their voice. 
+The input for the keyboard version corresponds to the numbers 1 to 10 on the keyboard for selecting the Actions that the player can take.
 
 \subsection{Game progression}
 
 \subsubsection{Structure of the Game}
 
-The game has one level, a rescue mission in which the player needs to rescue
-his brother. Despite only having one level the player can choose his entry point 
-between 2 options. They can also choose one staring item from 3 options. 
+The game has one level, a rescue mission in which the player needs to rescue his brother. Despite only having one level, the player can choose their entry point between 2 options. They can also choose one starting item from 3 options. 
 
 
 
 
 \subsubsection{Level layout}
-The level consists of the -1, 0, 1 and 2 floor, four in total.
+The level consists of the -1, 0, 1 and 2 floors, four in total.
 Below you can see the layout of all of the levels:
 
 
@@ -159,34 +172,31 @@ Below you can see the layout of all of the levels:
 
 \subsubsection{Objectives \& Reward}
 
-The main objective is rescuing main character's brother from the building. 
+The main objective is to rescue the main character's brother from the building. 
+
+
+
+
 
 \subsection{Narrative}
 
 \subsubsection{Story Premise}
 
-Due to a immerse drown followed by extreme weather the freshly built 
-Polish nuclear reactor imploded in the year 2028. The country being 
-in a very tense point just before due to it's tentions on the east border
-got into the state of panic, since Chernobyl is more than a mere memory for
-most of the population. This has led to massive exodus from the nation, which
-led to further instability. During that time further destabilisation from the country
-enemies successed in a form of assasinating the prime minister. This in turn made the goverment
-evacute into western teritory. The west part of the country has in turn been masively abandoned
-by the populus, the military got pulled back to the western part of the country, creating a lawless zone.
-The enemies of the state did not launch a full on invasion due to severe radiation in this part of the country,
-but small militia units can be found scaveging around.
-
-People who decided to remain are trapped in a zone with little to no help
+Due to a immerse drown followed by extreme weather, the freshly built Polish nuclear reactor imploded in the year 2028. The country was at a very tense point just before due to it's tentions on the eastern border got into a state of panic, since Chornobyl is more than a mere memory for most of the population. This has led to a massive exodus from the nation, which has led to further instability. During that time, further destabilisation from the country's enemies succeeded in a form of assasinating the prime minister. This, in turn, made the government evacuate into Western Territory. The western part of the country has, in turn, been massively abandoned by the populace, and the military has been pulled back to the western part of the country, creating a lawless zone. The enemies of the state did not launch a full-on invasion due to severe radiation in this part of the country, but small militia units can be found scavenging around. People who decided to remain are trapped in a zone with little to no help
 
 \subsubsection{Characters}
 
 \begin{itemize}
-    \item Main player -- The main character that the player controls is a well prepared survivor. He decided that he won't retreat 
-due to his want to protect his brother.
+
+    \item Main player -- The main character that the player controls is a well-prepared survivor. He decided that he won't retreat due to his desire to protect his brother.
+
     \item Brother -- Sibling of the Main Player. He used to be a camera operator for a local TV station before the collapse. 
-He decided that he has to record and somehow show to the world as much as he can about this crisis.
+
+    He decided that he had to record and somehow show the world as much as he could about this crisis.
+
 \end{itemize}
+
+
 
 % \subsubsection{Main Player}
 
@@ -211,11 +221,13 @@ He decided that he has to record and somehow show to the world as much as he can
 
 \subsubsection{Story Progression}
 
-The first thing that happens before the game starts is that the Brother goes to the shopping mall to secure some food.
-After 1 day the Main Player recieves a distress signal on his radio and decides to go out and rescue his brother.
+The first thing that happens before the game starts is that the Brother goes to the shopping mall to secure some food
+After 1 day, the main player receives a distress signal on his radio and decides to go out and rescue his brother.
 The player then goes into the game trying to find his brother in the shopping mall complex.
-After finding him he learns form his brother the 2 ways that they can escape. 
-The next thing for them is pursue one of the exists.
+After finding him, he learns from his brother the 2 ways that they can escape. 
+The next thing for them is to pursue one of the exits.
+
+
 
 
 

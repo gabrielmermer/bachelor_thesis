@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f229b6fa02423654",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
+          },
+          {
             "id": "3d18d6b546d685f0",
             "type": "leaf",
             "state": {
