@@ -8,27 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7cd5a2ec8dd7d680",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/networking.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "networking.excalidraw"
-            }
-          },
-          {
             "id": "f229b6fa02423654",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "image",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Pasted image 20260305102710.png"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260305102710"
             }
           },
           {
@@ -102,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5,
-    "collapsed": true
+    "width": 371.5
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -188,53 +175,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7cd5a2ec8dd7d680",
+  "active": "f1f901f63937a50d",
   "lastOpenFiles": [
-    "Excalidraw/gamemap.excalidraw.md",
-    "Excalidraw/networking.excalidraw.md",
-    "WhisperX.md",
-    "Commands to run dev.md",
     "ComfyUI.md",
-    "testing kanban.md",
-    "Untitled 10.base",
-    "Untitled Kanban.md",
     "Pasted image 20260305102710.png",
-    "Untitled 9.base",
-    "Untitled 8.base",
-    "Untitled 7.base",
-    "Untitled 6.base",
-    "Untitled 1.canvas",
-    "Server infra and commands.md",
-    "Untitled 5.base",
     "Untitled.canvas",
-    "Untitled 4.base",
-    "Untitled 3.base",
-    "Untitled 2.base",
+    "Assignment Deadlines_BCC23 (1).png",
     "Untitled.base",
-    "Excalidraw/Drawing 2025-09-19 14.38.12.excalidraw.md",
-    "ngrok.md",
-    "2025-09-16.md",
     "chrome prototype.png",
-    "Potential system for voice input model.md",
-    "Talon deep script integration.md",
-    "Kinnect voice commands.md",
-    "ffmpeg conversion silence removal.md",
-    "Whisper CPP params.md",
-    "Whisper cpp server.md",
     "Whisper notes.md",
-    "Llama cpp server params.md",
-    "Downloading custom Whisper models.md",
-    "Whisper CPP models discussion.md",
-    "Llama.cpp server docs.md",
-    "Quanting the model  log.md",
-    "Local conversion to GGUF and quant.md",
-    "Possible good tool calling model.md",
-    "Tool calling benchmark.md",
+    "ffmpeg conversion silence removal.md",
     "Pasted image 20250623200049.png",
+    "Possible good tool calling model.md",
+    "Quanting the model  log.md",
+    "Potential system for voice input model.md",
+    "Research angles.md",
     "Pasted image 20250623162350.png",
     "Pasted image 20250623160031.png",
     "Pasted image 20250623152303.png",
     "Pasted image 20250623151343.png",
-    "Pasted image 20250529145421.png"
+    "Pasted image 20250529145421.png",
+    "Audio only games.md",
+    "Tool calling benchmark.md",
+    "Alien Isolation voice input.md",
+    "All encompassing design.md",
+    "Audiogame rpg example - Ptolem's singing catacombs.md",
+    "WhisperX.md",
+    "Untitled 12.base",
+    "Untitled 11.base",
+    "Untitled 13.base",
+    "Untitled 14.base",
+    "Untitled 15.base",
+    "Excalidraw/Drawing 2026-05-04 13.10.08.excalidraw.md",
+    "Untitled 16.base",
+    "Excalidraw/networking.excalidraw.md",
+    "Excalidraw/gamemap.excalidraw.md",
+    "Commands to run dev.md",
+    "testing kanban.md",
+    "Untitled 10.base",
+    "Untitled Kanban.md",
+    "Untitled 9.base",
+    "Untitled 8.base",
+    "Untitled 1.canvas",
+    "Server infra and commands.md",
+    "Excalidraw/Drawing 2025-09-19 14.38.12.excalidraw.md",
+    "ngrok.md",
+    "2025-09-16.md",
+    "Talon deep script integration.md",
+    "Kinnect voice commands.md"
   ]
 }

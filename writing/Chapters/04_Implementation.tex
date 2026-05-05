@@ -34,8 +34,8 @@ For those two reasons that choice was made to follow with a 2D game. The next st
 
 
 % After making that choice, the next logical step is to think of potential suitable game ideas that would differ from each other and would make it possible to utilise the voice input.
-The next phase of the work had an exploratory meaning. In Design Thinking, this corresponds to the Ideation part of the Double Diamond approach \todo{cite}.
-The reason for following that approach instead of going straight into building the finished game is to verify if the game idea is worth executing in the first place. More often than not, it turns out that games that work on paper are not enjoyable or playable in real life due to Expectation confirmation theory \todo{cite}.
+The next phase of the work had an exploratory meaning. In Design Thinking, this corresponds to the Ideation part of the \textcite{DoubleDiamondDesign2005} approach.
+The reason for following that approach instead of going straight into building the finished game is to verify if the game idea is worth executing in the first place. More often than not, it turns out that games that work on paper are not enjoyable or playable in real life.
 One additional thing that the prototypes can accomplish is to increase the creative potential for making even better solutions.
 Mind often sees connections while experiencing, meaning that after the prototypes are played through, there's a chance of a new idea, a variation or some insight to occur. 
 
@@ -46,36 +46,29 @@ To be able to verify this thesis, a quick iteration and implementation are key, 
 All of these reasons are valid for making some prototypes. Fail quickly, and iterate would be the motto here. 
 Because of this, three games got created:
 
-\subsubsection{Prototype 1 - Maze} \todo{images}
+\subsubsection{Prototype 1 - Maze} 
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth]{Maze.png}
+    \caption{Prototype 1}
+    \label{fig:prototype1}
+\end{figure}
 
 
 
 The first idea that spontaneously emerged was making a small maze prototype. This type of game is straightforward, making it an ideal testing ground for voice interaction. In this game, the player navigated a red square through a maze with the goal of exiting it through blue doors.
-
-
-
 Developing this prototype has been challenging due to technical difficulties in transporting player-made audio recordings to the back-end. 
-
 Additionally, WhisperCPP has proven to be challenging to work with, and a wrapper for the Whisper API has become necessary.
-
-
-
 After going over those technical issues, it became clear that this prototype is not the way to go for this game due to two main reasons.
-
-
-
 Firstly, navigation on the 2D grid meant using numbers. The number 2 would often be interpreted as "to", causing the system to not understand the player. This type of edge case can be accounted for at least partially, but the next issue that came up was much more serious.
-
 Navigation on a 2D plane via natural language can quickly become too abstract for the game to understand. 
 The player may navigate by issuing various types of commands.
 For instance, they can use directions such as up, down, and left. Another method would be using a positional system in X-Y coordinates.
 Yet another approach would be the sides of the world.
 On top of that, they could do it by describing the desired relationship to other elements of the environment (such as 2 spaces from the north wall).
-The usage of natural way of speech, and there's bound to be a lot of ways that people approach navigation. The prototype can be, of course, limited to just a few of those ways, but then what would be the difference between this voice input system and pre-existing solutions such as Talos? \todo{Cite talos}
-
-Not to mention the dent in the immersion that would follow if the natural way of player expression were not supported? It could feel closer to piloting a machine with a set of commands instead of guiding your own body.
-To take this argument to the extreme in this prototype.
-There is nothing stopping the player from just commanding the game to move to the finish location. 
+The usage of natural way of speech, and there's bound to be a lot of ways that people approach navigation. The prototype can be, of course, limited to just a few of those ways, but then there would be no notable difference between that system and pre-existing solutions such as \textcite{Talon2017}.
+On top of that such solution could also result in a lower immersion, feeling closer to piloting a machine with a set of commands instead of guiding your own body.
+To take this argument to the extreme in there is nothing stopping the player from just commanding the game to move to the finish location. 
 
 % Since the first idea that the author of the paper had about the voice system was to determine if it can control the player
 % movements on a 2D grid he came to a conclusion that a simple 2D maze game would prove to be a good testing ground for this
@@ -124,9 +117,17 @@ There is nothing stopping the player from just commanding the game to move to th
 
 \subsubsection{Prototype 2 - Text Adventure}
 
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth]{Textbased.png}
+    \caption{Prototype 2}
+    \label{fig:prototype2}
+\end{figure}
+
+
 % intro
 
-The second idea for testing was a text-based adventure game. \todo{cite}
+The second idea for testing was a text-based adventure game.
 The player would travel across different locations, performing actions inside them and solving puzzles. 
 This prototype would have a potential for higher player immersion due to being closer to reading a book than playing an advanced 3D game. 
 
@@ -172,6 +173,13 @@ The actions in the prototype, e.g., "Pick up the key", are rather specific, maki
 
 
 \subsubsection{Prototype 3 - Flag Guessing}
+
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth]{CountryGuess.png}
+    \caption{Prototype 3}
+    \label{fig:prototype3}
+\end{figure}
 
 % intro
 % The last prototype idea was a geogrpahy trivia game in which the user would be presented with a picture of a flag
@@ -279,6 +287,12 @@ The technical implementation was designed around modularity. The technical resou
 This led to segmentation of the back-end services which could allow for the front-end part to run on any consumer-grade hardware. 
 The full stack is shown and discussed below:
 
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth, height=0.5\textheight, keepaspectratio]{NetworkStack.png}
+    \caption{Technical Stack Diagram}
+    \label{fig:technical stack}
+\end{figure}
 
 \subsection{Front-end}
 
@@ -295,6 +309,22 @@ The following engines got considered when making the choice:
     \item p5js -- The selected engine. Minimal overhead combined with http requests support and a large online community. Aside from needing to write UI rendering logic no obvious downsides were observed. 
 
 \end{itemize}
+
+
+The game has two interfact versions, alloowing to switch between voice and keyboard input on the fly. 
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth, height=0.5\textheight, keepaspectratio]{finalGame1.png}
+    \caption{Voice input game version}
+    \label{fig:voice_game_version}
+\end{figure}
+
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth, height=0.5\textheight, keepaspectratio]{finalGame2.png}
+    \caption{Keyboard input game version}
+    \label{fig:keybard_game_version}
+\end{figure}
 
 \subsection{Routing API}
 
@@ -329,8 +359,15 @@ The way this is possible is due to the fact that the model is fed a list of poss
 This model was fine-tuned for this specific role.
 The reason why this model was chosen was that it ranked in the top 3 on https://gorilla.cs.berkeley.edu/leaderboard.html at the time of development.
 
-The model was manually quantified to allow to be run on consumer GPU \todo{add quant figure}.
+The model was manually quantified to allow to be run on consumer GPU.
 This process makes the models use less memory at the cost of their precision by reducing the decimal precision point in the neural network nodes.
+
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth, height=0.5\textheight, keepaspectratio]{Quanting.png}
+    \caption{Quanting the model to Q4}
+    \label{fig:Quanting}
+\end{figure}
 
 % \section{Tool Calling}
 
