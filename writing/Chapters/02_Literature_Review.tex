@@ -1,7 +1,7 @@
 \chapter{Literature Review} 
 \label{ch:review}
 
-\section{Theoretical background}
+% \section{Theoretical background}
 
 In order to navigate this thesis, some theoretical terms will need to be briefly explained first, since this thesis touches quite a bit of technical and psychological spaces. The list of terms with their
 definitions are visible below:
@@ -26,6 +26,8 @@ According to \textcite{youngImprovingLibraryUser2014}, A/B testing is a comparat
 The method can be used for both qualitative and quantitative testing.
 In the commercial space, it's often used to measure desired features by exposing a portion of users to a version and another set of people to a different variant and analysing the differences. 
 For example, when a company is trying to decide which button colour to use for the sign-up action, the first half of users might see a red sign-up button and the other half a grey one. The conversion rate for the users is measured in both cases, effectively signalling which choice performs better. 
+
+
 The same method can be used by exposing people to two versions in sequence and conducting interviews with them with the goal of understanding the differences between them.
 In the context of this thesis, this type of comparative analysis is important because it allows us to distil complex experiences with many features into something that can be compared. That ability proves useful in measuring difficult-to-observe features such as immersion. 
 
@@ -46,11 +48,14 @@ In the context of this thesis, this type of comparative analysis is important be
 
 As regarded by \textcite{cambridgedictionaryImmersion2026} Immersion is the feeling and action of being completely involved in something. In an immersed state, the person is so deeply engaged with the medium that they forget about the outside world. This trance-like feeling can occur when interacting with many different artwork types, such as movies, video games or books. 
 In the context of creating video games, immersion is often one of the most important qualities, since engaging with the virtual world on a deeper level makes for games that feel more real and enjoyable. 
+
+
 Immersion as it is is not a binary state. It exists as a spectrum. Things can be more or less immersive, corresponding to many factors that create the experience. For example, a movie played without sound is going to be less immersive than the same movie with sound on.
 Despite the broad definition, immersion is something that can be measured both qualitatively and quantitatively. In the case of qualitative measuring, it's often measured via interviews. When measured quantitatively, features such as eye coordination, breathing patterns, pulse, and brain function activity and other biomarkers offer some perspective on the degree of immersion. 
+
+
 Since immersion is something that exists on a scale and can be measured, it's possible to isolate the individual features that deepen \& weaken its degree via measures such as A/B testing. Game designers often rely on certain features that deepen it. Commonly engaging multiple senses, such as hearing and touch, proves to work. 
 On top of that, using realistic visuals makes for an easier entrance into an immersive state, and above all, a smooth, lag-free experience. A game that freezes and is unresponsive is a sure-fire way to break the immersion of its player.
-
 
 
 For this thesis, immersion is the core of the focus. When done right it's something that seems to be natural for the end-user, while it's not just a mere byproduct of the artwork - instead, it's a handcrafted part of the experience. That ingredient is what makes it possible to transform pixels moving on the screen into an experience that makes people believe that they're somewhere else.
@@ -74,41 +79,25 @@ But it can be broken into a few main dimensions, such as input or social modalit
 The input modalities are all of the ways that the game communicates with the player. Different modalities correspond to different senses that can be engaged, such as visual, audio or haptic cues. 
 This term plays a role in this thesis by allowing to label different input methods in a way that allows for a clear distinction and gives them a universally recognised name. 
 
-\subsection{VUI}
+
+
+\subsection{Voice navigation and natural language processing}
 
 As noted by \textcite{interactiondesignfoundationWhatAreVoice2025} Voice User Interfaces allow people to control computers and other devices through speech recognition.
 The response from the VUI can be anything, ranging from audio response to visual or haptic feedback.
 It can be portrayed as an alternative interaction method to Visual User Interfaces, which rely on interacting by means of using visual modality. 
 This type of emergent user interface is something that this thesis focuses on by creating a video game that employs voice communication. 
 
-% \subsection{Accessability \& Inclusive Game Design}
 
-% Accessability the quality of being able to be accessed and used by all people including those with disabilities. 
-% This term origianlly emerged in architecture where architects started to embrace aids for not fully abled people. 
-% In a way architectural accesability can be easier to spot, since people have designed buildings for much longer than
-% digital interfaces. Things such as elevators, braile signs, or proper wayfinding are often required by law these days,
-% and generally are often simpler solutions than when it comes to digital Accessability. 
+As noted by \textcite{holdsworthWhatNLPNatural2024} Natural Language Processing is an area of AI that allows computers to understand, interpret and parse human language.
+Human communication is complex, filled with emotions and subtext. NLP focuses on translating that into machine-understandable language. 
+This allows for natural language to be interpreted by the computer. This technology is what allows for Voice User Interfaces to exist, as they rely on the underlying human language.
 
-% In the digital realm accesability effectively touches on the same merit as physical accesability making it possible
-% for people to access and use digital systems no matter their potential disabilities. Digital accesability is an
-% evolving topic with growing scrutinity from various goverments\todo{add sources for EU and Poland for example}
-
-
-% Inclusive Game design is the answer to the question of "who can be potentially excluded from this experience and how can
-% can they be included instead?". Exclusion can happen from many different reasons, and as itself is a very deep topic.
-% While commercially launched games almost always have some sort of target demographics for it's player base, 
-% the Inclusive Game Design is the antithesis of that narrow field of view in a way, since it allows to bring as many people
-% as possible to be able to enjoy the experience. Both of these aproaches don't eliminate one another, it's rather a complimentary
-% mechanism that makes sure that marginalised groups in the society don't get pushed even further away. \todo{cite The Last of Us II}
-
-% While the primary goal of this thesis is measuing player immersion it's worth noting the potential impact of the voice
-% based navigation on the Accessability of video games. On top of that the game designed for the evaluation of the thesis
-% strives to follow Inclusive Game Design Principles as to not cause harm by exclusion.
-
-\subsection{Voice Commands vs Natural language input}
 
 Given that this thesis deals with voice input as its main focus, it's important to establish one crucial difference in that matter. In the realm of video games, there are many which allow some degree of control using the audio modality, 
 in the means of issuing direct commands.
+
+
 For example, by saying "Forward", the fan recognises that the player wants to 
 move the character ahead just like pressing the right character on the keyboard would.
 However, if the player were to say, "I would like to move my character to the direction in front of him", the game would not 
@@ -116,13 +105,6 @@ be able to recognise that, since that command is not something that it expects.
 Contrasting to that a game that can handle natural language input would be able to process such a request by extracting the 
 wish of the player from the spoken phrase.
 This kind of processing is what this thesis focuses on, compared to implementing just a list of commands that the player has to commit to his memory. 
-
-
-\subsection{NLP}
-
-As noted by \textcite{holdsworthWhatNLPNatural2024} Natural Language Processing is an area of AI that allows computers to understand, interpret and parse human language.
-Human communication is complex, filled with emotions and subtext. NLP focuses on translating that into machine-understandable language. 
-This allows for natural language to be interpreted by the computer. This technology is what allows for Voice User Interfaces to exist, as they rely on the underlying human language.
 
 
 % \section{Voice interaction in computing}
