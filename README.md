@@ -44,10 +44,11 @@ Contains the Game Design Document (GDD), gameplay concepts, interaction flow des
 
 Contains:
 - usability testing documentation
+- template for testing
 - participant transcripts
 - evaluation materials
 - experiment notes
-- research-related testing assets
+
 
 ---
 
