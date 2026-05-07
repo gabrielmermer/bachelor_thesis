@@ -128,10 +128,10 @@ To take this argument to the extreme in there is nothing stopping the player fro
 % intro
 
 The second idea for testing was a text-based adventure game.
-The player would travel across different locations, performing actions inside them and solving puzzles. 
+In this prototype the player would travel across different locations, performing actions inside them and solving puzzles. 
 This prototype would have a potential for higher player immersion due to being closer to reading a book than playing an advanced 3D game. 
 
-Given that the player would control the character directly, this could potentially lead to them voicing their commands in first person.
+Given that the player would control the character directly, in theory it could lead to them voicing their commands in first person.
 This effect could also potentially raise immersion, creating a similar effect that can be observed in tabletop RPG players controlling their characters.
 
 The technical implementation was not difficult this time around, since the audio transport code was reused from the last prototype.
@@ -187,7 +187,7 @@ The actions in the prototype, e.g., "Pick up the key", are rather specific, maki
 
 The last prototype idea was a geography trivia game in which the user would have to guess information about a country after being shown its flag. 
 This information would include things such as the country name, the continent it belongs to, or its population.
-Each good answer would grant the player extra points. In case the player wouldn't know the answer, the game would skip to the next country.
+With each good answer the game would award the player extra points. In case the player wouldn't know the answer, the game would skip to the next country.
 The idea was to utilise voice to create an experience that's similar to a TV prize show. The use of voice recognition could potentially make the game closer to that experience.
 
 The development stage of this prototype didn't go as far as the other ones due to errors in natural language processing that had emerged before.
@@ -330,7 +330,7 @@ The game has two interfact versions, alloowing to switch between voice and keybo
 
 This layer talked with other hosts and handled the user requests. It was written using FastAPI.
 It's role was to coordinate the other API's to reduce the logic that would need to be handled by the front end as much as possible.
-The reason for that was to keep the front-end as much game focused as possible.
+The reason for that was to keep the front-end as much game focused as possible. \todo{explain why consumer hardware}
 
 \subsection{WhisperCPP}
 
@@ -357,9 +357,9 @@ Highly advanced llm interface backend that allows for loading models with suppor
 Tool calling is a technique that allows the llm to translate the user request into known software funcitons. For instance if the player says "let's travel to the store" the tool calling model would return a function $Travel(Store)$.
 The way this is possible is due to the fact that the model is fed a list of possible functions alongside the user request text.
 This model was fine-tuned for this specific role.
-The reason why this model was chosen was that it ranked in the top 3 on https://gorilla.cs.berkeley.edu/leaderboard.html at the time of development.
+The reason why this model was chosen was that it ranked in the top 3 on \textcite{BerkeleyFunctionCalling2026} at the time of development.
 
-The model was manually quantified to allow to be run on consumer GPU.
+The model was manually quantified to allow it to run on consumer GPU.
 This process makes the models use less memory at the cost of their precision by reducing the decimal precision point in the neural network nodes.
 
 \begin{figure}[htbp] 
