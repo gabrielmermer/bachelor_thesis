@@ -208,7 +208,7 @@ Highly advanced LLM interface backend that allows for loading models with suppor
 Tool calling is a technique that allows the LLM to translate the user request into known software functions. For instance, if the player says "let's travel to the store", the tool calling model would return a function $Travel(Store)$.
 The way this is possible is due to the fact that the model is fed a list of possible functions alongside the user request text.
 This model was fine-tuned for this specific role.
-The reason why this model was chosen was that it ranked in the top 3 on \textcite{BerkeleyFunctionCalling2026} at the time of development.
+The reason why this model was chosen was that it ranked in the top 3 on \parencite{BerkeleyFunctionCalling2026} at the time of development.
 
 The model was manually quantized to allow it to run on a consumer GPU.
 This process makes the models use less memory at the cost of their precision by reducing the decimal precision point in the neural network nodes.
