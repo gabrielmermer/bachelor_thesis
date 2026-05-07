@@ -1,4 +1,5 @@
 \chapter*{Appendices}
+
 \setcounter{section}{0}
 
 \addcontentsline{toc}{chapter}{Appendices}
@@ -7,12 +8,8 @@
 \appendix
 \section{Game Design Document} 
 \label{appendix_a}
-
 \subsection{High-Level Overview}
-
-
 \subsubsection{Game Concept}
-
 
 It's the year 2030, post-apocalyptic Poland. Your brother never returned from a scavenger mission in a nearby shopping mall.
 You decide to rescue him yourself, no matter the price.
@@ -23,31 +20,18 @@ Text-based adventure with a core mission.
 \subsubsection{Platform}
 The game is intended to be run on PC via a web browser.
 
-
 \subsubsection{Audience}
-The audience is mostly people who enjoy imaginary experiences, such as role-playing games
-and other games that employ deep immersive states.
-
-
-
+The audience is mostly people who enjoy imaginary experiences, such as role-playing games and other games that employ deep immersive states.
 \subsubsection{2 variations of the game}
 
 The game consists of two versions necessary for the research for the thesis that's linked to the game.
-
-
-
 \begin{enumerate}
-
     \item The keyboard version - In this version, the player chooses their actions from a predetermined
-
-    A list of possibilities, this way they can navigate with certainty 
-
+    list of possibilities, so they can navigate with certainty. 
     \item The voice version - This version of the game employs voice commands, and the player doesn't see 
     all of the possibilities in front of them. Instead of that, they rely on the description of their current 
-    environment and come up with the actions themselves
-
+    environment and come up with the actions themselves.
 \end{enumerate}
-
 
 
 The rationale behind having that voice interaction is that the player may potentially deepen their immersion.
@@ -55,49 +39,54 @@ Due to his having an illusion of greater control of the game while also formulat
 might also lead to increased immersion compared to using manual button input. The validity of these claims
 will be tested by the accompanying research.
 
-
 \subsection{Core gameplay}
 
 \subsubsection{Player Role \& Perspective}
 
-The player is an apocalypse survivor whose main role is to rescue his brother from a shopping mall in an abandoned city. The user controls the actions of the main character, either via keyboard or their voice. The information about the environment is provided to the player in the form of a text narrator in third person
-
+The player is an apocalypse survivor whose main role is to rescue his brother from a shopping mall in an abandoned city. The user controls the actions of the main character, either via keyboard or their voice. The information about the environment is provided to the player in the form of a text narrator in third person.
 
 The player moves through the shopping mall in a series of moves between different locations. Each location provides a list of possible actions that can be taken inside of it and the list of possible travel destinations. 
-
-
-
 
 \subsubsection{Core Loop}
 
 
-
 The core loop for the game differs depending on whether the player is playing the voice version or the keyboard control version.
-The core loop of the game for the keyboard version consists of the following:
-
-
+Below is how it looks for the keyboard version:
 
 \begin{enumerate}
+
     \item Arrive at the new location
+
     \item Read the description of the current location
+
     \item Decide which action to take from the list provided
+
     \item Take an action such as crafting, picking up items, or using their items
+
     \item Repeat the last step until the player decides to travel to another place 
+
 \end{enumerate}
 
-
-
-The core loop of the game for the voice-driven version looks as follows:
-
-
+For the voice version, the core loop consists of:
 
 \begin{enumerate}
+
     \item Arrive at the new location
+
     \item Read the description of the current location
+
     \item Think about what kind of action would be possible in this location without having a provided list and vocalising it to the game by using the player voice.
+
     \item Take an action such as crafting, picking up items, or using their items
+
     \item Repeat the last step until the player decides to travel to another place 
+
 \end{enumerate}
+
+
+
+
+
 
 
 
@@ -107,34 +96,20 @@ The core loop of the game for the voice-driven version looks as follows:
 
 \begin{itemize}
     \item Movement -- The game employs a simple movement system in which each location can be treated as a node, 
-with connections to other locations. The movement between the places is then treated as moving. 
-The player is in the new node.
-For example, a clothing store in the gallery might be connected to the food court and to the corridor.
-The player may choose which location to travel to.
+    with connections to other locations. 
+    For example, a clothing store in the gallery might be connected to the food court and to the corridor.
+
     \item Items \& Inventory -- The shopping mall has some items that the player can collect to increase their chances of success. Items can be picked up from locations and used at any time, e.g., to open closed doors.
+
     \item Crafting -- The game has a basic crafting system in which any two items might try to be combined, e.g., combining an empty pistol with a magazine yields a functioning gun. The crafting recipes are not visible to the player, forcing exploratory behaviour.
+
     
+
 \end{itemize}
 
-\subsubsection{Movement}
 
 
 
-
-
-% \subsubsection{Dialogue}
-% Certain characters in the game might be able to speak to the player. The dialogue options are just actions in the 
-% game just like any other action, such as travel etc. 
-% The transcript of the dialogue is provided to the player by the text narrator.
-
-% \subsubsection{Combat}
-% Given the hostile nature of the world present in game combat is a part that's an inherent part of it. 
-% The player may engage in combat, either by his choice or by third parties intiative. The combat system itself
-% is rather simple. All weapons in the game have a chance of killing the NPC opponent, eg. a revolver having 70\% chances. 
-% When a player decides to use their weapon the game "rolls the dice" to determine if the victim of the violence
-% survives or dies. 
-% The player itself can sustain one hit from any of these weapons if the NPC uses the violence on them, making the game a 
-% bit less punishing.
 
 
 
@@ -143,68 +118,92 @@ The player may choose which location to travel to.
 Depending on the version of the game, the player either controls the game by using their keyboard or their voice. 
 The input for the keyboard version corresponds to the numbers 1 to 10 on the keyboard for selecting the Actions that the player can take.
 
+
+
 \subsection{Game progression}
 
+
+
 \subsubsection{Structure of the Game}
+
+
 
 The game has one level, a rescue mission in which the player needs to rescue his brother. Despite only having one level, the player can choose their entry point between 2 options. They can also choose one starting item from 3 options. 
 
 
 
 
+
+
+
+
+
 \subsubsection{Level layout}
+
 The level consists of the -1, 0, 1 and 2 floors, four in total.
 Below you can see the layout of all of the levels:
 
-
-
-
 \begin{figure}[htbp] 
+
     \centering
+
     \includegraphics[width=0.7\textwidth, height=0.5\textheight, keepaspectratio]{V2gamemap.png}
+
     \caption{Map of the game with item locations}
+
     \label{fig:gamemap}
+
 \end{figure}
+
 
 Below is the list of all of the items in the game (highlighted as blue diamonds on the \ref{fig:gamemap})
 \begin{enumerate}
+
     \item Crowbar
+
     \item Magazine
+
     \item Empty pistol 
+
     \item Key to the shaft
+
     \item Rope 
+
     \item Leg stabiliser 
+
     \item Locked gasoline tank 
+
     \item Elevator card 
+
     \item Matchsticks 
+
 \end{enumerate}
 
 Some items can be combined into new ones via the Crafting action, as presented below:
 \begin{enumerate}
+
     \item Makeshift bomb -- Gasoline tank + Matchsticks 
+
     \item Armed pistol -- Empty Pistol + Magazine 
+
     \item Opened gasoline tank -- Locked gasoline tank + Crowbar
+
 \end{enumerate}
 
 
+
+
+
 The items can be used in certain locations to unlock passages and locked spaces.
-They're highlighted as purple rectangles on the \ref{fig:gamemap} The complete list of the moments that allow for items to be used is below
+They're highlighted as purple rectangles on the \ref{fig:gamemap}. The complete list of the moments that allow for items to be used is below.
 
 
-% \subsubsection{Difficulty Curve}
 
-% The starting floors should not pose too big of a danger to the player, in a way that They
-% don't have to engage in combat to get through them if they choose so. 
-% As they go up the building the difficulty will increase. The closer
-% get to rescuing their brother they have higher chances of getting into gunfights. 
 
-% After picking up the brother the game will be more difficult than beforehand. forcing the
-% player to decide on best way out the building.
-
-% The highest floor has the highest risk of death, while providing the quickest possible evacuation from the
-% building. 
 
 \subsubsection{Objectives \& Reward}
+
+
 
 The main objective is to rescue the main character's brother from the building. 
 
@@ -212,110 +211,128 @@ The main objective is to rescue the main character's brother from the building.
 
 
 
+
+
+
+
+
+
 \subsection{Narrative}
+
+
 
 \subsubsection{Story Premise}
 
-Due to a immerse drown followed by extreme weather, the freshly built Polish nuclear reactor imploded in the year 2028. The country was at a very tense point just before due to it's tentions on the eastern border got into a state of panic, since Chornobyl is more than a mere memory for most of the population. This has led to a massive exodus from the nation, which has led to further instability. During that time, further destabilisation from the country's enemies succeeded in a form of assasinating the prime minister. This, in turn, made the government evacuate into Western Territory. The western part of the country has, in turn, been massively abandoned by the populace, and the military has been pulled back to the western part of the country, creating a lawless zone. The enemies of the state did not launch a full-on invasion due to severe radiation in this part of the country, but small militia units can be found scavenging around. People who decided to remain are trapped in a zone with little to no help
+
+
+Due to an immerse drown followed by extreme weather, the freshly built Polish nuclear reactor imploded in the year 2028. The country was at a very tense point just before due to it's tentions on the eastern border got into a state of panic, since Chornobyl is more than a mere memory for most of the population. This has led to a massive exodus from the nation, which has led to further instability. During that time, further destabilisation from the country's enemies succeeded in a form of assasinating the prime minister. This, in turn, made the government evacuate into Western Territory. The western part of the country has, in turn, been massively abandoned by the populace, and the military has been pulled back to the western part of the country, creating a lawless zone. The enemies of the state did not launch a full-on invasion due to severe radiation in this part of the country, but small militia units can be found scavenging around. People who decided to remain are trapped in a zone with little to no help
+
+
 
 \subsubsection{Characters}
 
+
+
 \begin{itemize}
 
-    \item Main player -- The main character that the player controls is a well-prepared survivor. He decided that he won't retreat due to his desire to protect his brother.
+
+
+    \item Main player -- The main character that the player controls is a well-prepared survivor. He decided that he wouldn't retreat due to his desire to protect his brother.
 
     \item Brother -- Sibling of the Main Player. He used to be a camera operator for a local TV station before the collapse. 
-
     He decided that he had to record and somehow show the world as much as he could about this crisis.
+
+
 
 \end{itemize}
 
 
 
-% \subsubsection{Main Player}
 
 
 
-% \subsection{Brother}
-
-% Sibling of the Main Player. He used to be a camera operator for a local TV station before the collapse. 
-% He decided that he has to record and somehow show to the world as much as he can about this crisis.
-
-% \subsection{Scavengers}
-
-% Lawless criminals who are known to roam around the shopping mall. They are known to kill, and don't respect 
-% any form of humanitarian laws. They do what they have to to survive by the means of domination. Despite their 
-% motivations they allow people to live in some parts of the shopping mall, since they lack the manpower and resources
-% to fully cleanse the place of human presence. 
-
-% \subsection{Shopping Mall civilians}
-
-% These are some people that decided to seek shelter in the shopping mall given that it offers many resources helpful for survival.
-% It's not known how many of them there is.
 
 \subsubsection{Story Progression}
 
-The first thing that happens before the game starts is that the Brother goes to the shopping mall to secure some food
+
+
+The first thing that happens before the game starts is that the Brother goes to the shopping mall to secure some food.
 After 1 day, the main player receives a distress signal on his radio and decides to go out and rescue his brother.
 The player then goes into the game trying to find his brother in the shopping mall complex.
 After finding him, he learns from his brother the 2 ways that they can escape. 
 The next thing for them is to pursue one of the exits.
 
 
+
+
+
 \subsection{Aesthetics}
 
-The visual style for the game is based on oil painting concept art direction. 
+
+
+The visual style for the game is based on the oil painting concept art direction. 
 You can see sample location images below:
 
+
+
 \begin{figure}[htbp]
+
      \centering
+
      \begin{subfigure}[b]{0.3\textwidth}
+
          \centering
+
          \includegraphics[width=\textwidth]{0F_food_court.png}
+
          \caption{Food court background image}
+
      \end{subfigure}
+
      \hfill
+
      \begin{subfigure}[b]{0.3\textwidth}
+
          \centering
+
          \includegraphics[width=\textwidth]{2F_tent.png}
+
          \caption{Rooftop tent background image}
+
      \end{subfigure}
+
      \hfill
+
      \begin{subfigure}[b]{0.3\textwidth}
+
          \centering
+
          \includegraphics[width=\textwidth]{1F_food_market.png}
+
          \caption{Food market background image}
+
      \end{subfigure}
+
         \caption{Visual mood board for the game environments.}
+
         \label{fig:mood_board}
+
 \end{figure}
 
-All of the images were genrated locally using ComfyUI.
+
+
+All of the images were generated locally using ComfyUI.
+
+
 
 \begin{figure}[htbp] 
+
     \centering
+
     \includegraphics[width=0.7\textwidth, height=0.5\textheight, keepaspectratio]{Comfy.png}
+
     \caption{Generating images with ComfyUI}
+
     \label{fig:Image_generation_comfy}
+
 \end{figure}
-
-
-
-
-% \newpage
-
-% \section{Appendix}
-% \label{appendix_b}
-
-% LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-% tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-% quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-% consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-% cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-% proident, sunt in culpa qui officia deserunt mollit anim id est laborum.LoHrem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-% tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-% quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-% consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-% cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-% proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-% LoHrem

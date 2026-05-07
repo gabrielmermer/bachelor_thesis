@@ -1,0 +1,2141 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{11BitStudios2026}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{11 Bit Studios}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://11bitstudios.com/pl/
+      \endverb
+      \verb{url}
+      \verb https://11bitstudios.com/pl/
+      \endverb
+    \endentry
+    \entry{5thcellshiverentertainmentHuman2012}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d620b798d44d4bcee17b302a779ca70}{%
+           family={{5th Cell, Shiver Entertainment}},
+           familyi={5\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{fullhash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{fullhashraw}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{bibnamehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authorbibnamehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authornamehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authorfullhash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authorfullhashraw}{3d620b798d44d4bcee17b302a779ca70}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Human}
+      \field{year}{2012}
+      \field{dateera}{ce}
+    \endentry
+    \entry{allisonDesignPatternsVoice2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=96aad021f613a2e85a4216cece0fa707}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={Fraser},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44df7ddf3f41d5c824bc22831885800d}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3a67846463d07b3b670903315990fe2}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de824bd2e957f671ee3d92aa76e26245}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Wally},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Melbourne VIC Australia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{83016c9fc711dcae93bf71a1624614c4}
+      \strng{fullhash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{fullhashraw}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{bibnamehash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{authorbibnamehash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{authornamehash}{83016c9fc711dcae93bf71a1624614c4}
+      \strng{authorfullhash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{authorfullhashraw}{05c4560b3a1dab12ee473cb84babe3f9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Voice interaction is increasingly common in digital games, but it remains a notoriously difficult modality to design a satisfying experience for. This is partly due to limitations of speech recognition technology, and partly due to the inherent awkwardness we feel when performing some voice actions. We present a pattern language for voice interaction elements in games, to help game makers explore and describe common approaches to this design challenge. We define 25 design patterns, based on a survey of 449 videogames and 22 audiogames that use the player’s voice as an input to affect the game state. The patterns express how games frame and structure voice input, and how voice input is used for selection, navigation, control and performance actions. Finally, we argue that academic research has been overly concentrated on a single one of these design patterns, due to an instrumental research focus and a lack of interest in the fictive dimension of videogames.}
+      \field{day}{23}
+      \field{eventtitle}{{{CHI PLAY}} '18: {{The}} Annual Symposium on {{Computer-Human Interaction}} in {{Play}}}
+      \field{isbn}{978-1-4503-5624-4}
+      \field{journaltitle}{Proceedings of the 2018 {{Annual Symposium}} on {{Computer-Human Interaction}} in {{Play}}}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Design {{Patterns}} for {{Voice Interaction}} in {{Games}}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 17}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/3242671.3242712
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/JSYNEGUA/Allison et al. - 2018 - Design Patterns for Voice Interaction in Games.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3242671.3242712
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3242671.3242712
+      \endverb
+    \endentry
+    \entry{BerkeleyFunctionCalling2026}{online}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Berkeley {{Function Calling Leaderboard}} ({{BFCL}}) {{V4}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/NQTV7TZZ/leaderboard.html
+      \endverb
+      \verb{urlraw}
+      \verb https://gorilla.cs.berkeley.edu/leaderboard.html
+      \endverb
+      \verb{url}
+      \verb https://gorilla.cs.berkeley.edu/leaderboard.html
+      \endverb
+    \endentry
+    \entry{cambridgedictionaryImmersion2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a41864b46f32b778cc1f0dafbfdea47f}{%
+           family={{Cambridge Dictionary}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{fullhash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{fullhashraw}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{bibnamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorbibnamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authornamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorfullhash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorfullhashraw}{a41864b46f32b778cc1f0dafbfdea47f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. the fact of becoming completely involved in something: 2. the process of…}
+      \field{day}{22}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Immersion}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/3WYHVJGL/immersion.html
+      \endverb
+      \verb{urlraw}
+      \verb https://dictionary.cambridge.org/dictionary/english/immersion
+      \endverb
+      \verb{url}
+      \verb https://dictionary.cambridge.org/dictionary/english/immersion
+      \endverb
+    \endentry
+    \entry{chuntieGroundedTheoryResearch2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d1e35ada947578a62f8d6b03f77645eb}{%
+           family={Chun\bibnamedelima Tie},
+           familyi={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Ylona},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6338b9ff1d1b3672185dbae48ebe9a}{%
+           family={Birks},
+           familyi={B\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e14af7199ab93f2ad05fc00b94d7f1be}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99397d20d8faa5163fde2745b0ee8f9b}
+      \strng{fullhash}{96330a408da8720dcfd168c0737ad004}
+      \strng{fullhashraw}{96330a408da8720dcfd168c0737ad004}
+      \strng{bibnamehash}{96330a408da8720dcfd168c0737ad004}
+      \strng{authorbibnamehash}{96330a408da8720dcfd168c0737ad004}
+      \strng{authornamehash}{99397d20d8faa5163fde2745b0ee8f9b}
+      \strng{authorfullhash}{96330a408da8720dcfd168c0737ad004}
+      \strng{authorfullhashraw}{96330a408da8720dcfd168c0737ad004}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Grounded theory is a well-known methodology employed in many research studies. Qualitative and quantitative data generation techniques can be used in a grounded theory study. Grounded theory sets out to discover or construct theory from data, systematically obtained and analysed using comparative analysis. While grounded theory is inherently flexible, it is a complex methodology. Thus, novice researchers strive to understand the discourse and the practical application of grounded theory concepts and processes. Objective: The aim of this article is to provide a contemporary research framework suitable to inform a grounded theory study. Result: This article provides an overview of grounded theory illustrated through a graphic representation of the processes and methods employed in conducting research using this methodology. The framework is presented as a diagrammatic representation of a research design and acts as a visual guide for the novice grounded theory researcher. Discussion: As grounded theory is not a linear process, the framework illustrates the interplay between the essential grounded theory methods and iterative and comparative actions involved. Each of the essential methods and processes that underpin grounded theory are defined in this article. Conclusion: Rather than an engagement in philosophical discussion or a debate of the different genres that can be used in grounded theory, this article illustrates how a framework for a research study design can be used to guide and inform the novice nurse researcher undertaking a study using grounded theory. Research findings and recommendations can contribute to policy or knowledge development, service provision and can reform thinking to initiate change in the substantive area of inquiry.}
+      \field{day}{2}
+      \field{issn}{2050-3121}
+      \field{journaltitle}{SAGE Open Medicine}
+      \field{month}{1}
+      \field{shortjournal}{SAGE Open Med}
+      \field{shorttitle}{Grounded Theory Research}
+      \field{title}{Grounded Theory Research: {{A}} Design Framework for Novice Researchers}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2050312118822927}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/2050312118822927
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/3MRD698U/Chun Tie et al. - 2019 - Grounded theory research A design framework for novice researchers.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/
+      \endverb
+    \endentry
+    \entry{cornelioSenseAgencyEmerging2022}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5031fc4030059f74d5d03b6501784bde}{%
+           family={Cornelio},
+           familyi={C\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86a9977a4b37e706a261fd2a3a02105f}{%
+           family={Haggard},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8e89d8c1cee578081b27b8fe2e2ac12}{%
+           family={Hornbaek},
+           familyi={H\bibinitperiod},
+           given={Kasper},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0813182658b8431fe96a2ae30cb0e5e8}{%
+           family={Georgiou},
+           familyi={G\bibinitperiod},
+           given={Orestis},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b41ab884cda0ddb11f26382914a3bb2}{%
+           family={Bergström},
+           familyi={B\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0993c0996278c8baaeccb18b55aa4f13}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Sriram},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5e718631fe4d7958a517e8c6499197}{%
+           family={Obrist},
+           familyi={O\bibinitperiod},
+           given={Marianna},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{81217c6bb65768708937908b11710ff5}
+      \strng{fullhash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{fullhashraw}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{bibnamehash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{authorbibnamehash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{authornamehash}{81217c6bb65768708937908b11710ff5}
+      \strng{authorfullhash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{authorfullhashraw}{1843408ee889ccd9b2f56cf8aca3b886}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Human-computer integration is an emerging area in which the boundary between humans and technology is blurred as users and computers work collaboratively and share agency to execute tasks. The sense of agency (SoA) is an experience that arises by a combination of a voluntary motor action and sensory evidence whether the corresponding body movements have somehow influenced the course of external events. The SoA is not only a key part of our experiences in daily life but also in our interaction with technology as it gives us the feeling of “I did that” as opposed to “the system did that”, thus supporting a feeling of being in control. This feeling becomes critical with human-computer integration, wherein emerging technology directly influences people’s body, their actions, and the resulting outcomes. In this review, we analyse and classify current integration technologies based on what we currently know about agency in the literature, and propose a distinction between body augmentation, action augmentation, and outcome augmentation. For each category, we describe agency considerations and markers of differentiation that illustrate a relationship between assistance level (low, high), agency delegation (human, technology), and integration type (fusion, symbiosis). We conclude with a reflection on the opportunities and challenges of integrating humans with computers, and finalise with an expanded definition of human-computer integration including agency aspects which we consider to be particularly relevant. The aim this review is to provide researchers and practitioners with guidelines to situate their work within the integration research agenda and consider the implications of any technologies on SoA, and thus overall user experience when designing future technology.}
+      \field{day}{12}
+      \field{issn}{1662-453X}
+      \field{journaltitle}{Frontiers in Neuroscience}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Front. Neurosci.}
+      \field{shorttitle}{The Sense of Agency in Emerging Technologies for Human–Computer Integration}
+      \field{title}{The Sense of Agency in Emerging Technologies for Human–Computer Integration: {{A}} Review}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fnins.2022.949138
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/PKIMRNT5/Cornelio et al. - 2022 - The sense of agency in emerging technologies for human–computer integration A review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.949138/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.949138/full
+      \endverb
+      \keyw{action,body,Human-computer integration,Human-computer interaction (HCI),Outcome,Sense of Agency (SoA)}
+    \endentry
+    \entry{DoubleDiamondDesign2005}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A universally accepted depiction of the design process}
+      \field{langid}{english}
+      \field{title}{The {{Double Diamond}} - {{Design Council}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/MECD2BH8/the-double-diamond.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.designcouncil.org.uk/our-resources/the-double-diamond/
+      \endverb
+      \verb{url}
+      \verb https://www.designcouncil.org.uk/our-resources/the-double-diamond/
+      \endverb
+    \endentry
+    \entry{fakhreddinekarraymiladalemzadehjamilabousalehandmonoursarabHumanComputerInteractionOverview2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b0ba7a1b442c9194ab9ff2ead79f1c6}{%
+           family={{Fakhreddine Karray, Milad Alemzadeh, Jamil Abou Saleh and Mo Nours Arab}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{fullhash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{fullhashraw}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{bibnamehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authorbibnamehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authornamehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authorfullhash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authorfullhashraw}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{PDF | The intention of this paper is to provide an overview on the subject of Human-Computer Interaction. The overview includes the basic definitions... | Find, read and cite all the research you need on ResearchGate}
+      \field{journaltitle}{ResearchGate}
+      \field{langid}{english}
+      \field{shorttitle}{({{PDF}}) {{Human-Computer Interaction}}}
+      \field{title}{Human-{{Computer Interaction}}: {{Overview}} on {{State}} of the {{Art}}}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.21307/ijssis-2017-283
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/QDIT578Q/(PDF) Human-Computer Interaction Overview on State of the Art.pdf;/Users/gabrielmermer/Zotero/storage/KX6GVM3V/281006272_Human-Computer_Interaction_Overview_on_State_of_the_Art.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/281006272_Human-Computer_Interaction_Overview_on_State_of_the_Art
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/281006272_Human-Computer_Interaction_Overview_on_State_of_the_Art
+      \endverb
+    \endentry
+    \entry{harneskExploringVoiceInteractions2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1bdb24573293b9bb93ea8486c6a2f322}{%
+           family={Harnesk},
+           familyi={H\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{fullhash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{fullhashraw}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{bibnamehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authorbibnamehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authornamehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authorfullhash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authorfullhashraw}{1bdb24573293b9bb93ea8486c6a2f322}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of voice interactions in home voice assistants are becoming mainstream and it’s being used to everything from information seeking to personal management. Even though games utilising voice has been praised for its innovation it has never been anything other than a novelty and research has been scarce. This study explores how a voice user interface (VUI) can be designed to reduce in-game interruptions in an open world video game environment. Through literature research, interviews, observations and prototypes aimed towards people playing video games and users of VUIs, this thesis proposes a set of design qualities for future implementation. The findings show that designing for voice interactions in an open world video game is, among other things, a matter of providing context-based triggers together with a compressed and modular approach that does not require the user to shift their attention from the video game.}
+      \field{langid}{english}
+      \field{title}{Exploring Voice Interactions in an Open World Video Game Environment}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/P6YFSKTU/Harnesk - Exploring voice interactions in an open world vide.pdf
+      \endverb
+    \endentry
+    \entry{holdsworthWhatNLPNatural2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=616ff46b03c1ef1aad62e63e7c6300df}{%
+           family={Holdsworth},
+           familyi={H\bibinitperiod},
+           given={Cole\bibnamedelima Stryker},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           suffix={Jim},
+           suffixi={J\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{fullhash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{fullhashraw}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{bibnamehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authorbibnamehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authornamehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authorfullhash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authorfullhashraw}{616ff46b03c1ef1aad62e63e7c6300df}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Natural language processing (NLP) is a subfield of artificial intelligence (AI) that uses machine learning to help computers communicate with human language.}
+      \field{day}{11}
+      \field{hour}{0}
+      \field{langid}{english}
+      \field{minute}{0}
+      \field{month}{8}
+      \field{second}{0}
+      \field{shorttitle}{What {{Is NLP}} ({{Natural Language Processing}})?}
+      \field{title}{What {{Is NLP}} ({{Natural Language Processing}})? | {{IBM}}}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/7FTITZ3T/natural-language-processing.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/natural-language-processing
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/natural-language-processing
+      \endverb
+    \endentry
+    \entry{ibmWhatUserExperience2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{User experience, often shortened to UX, refers to the overall experience a user has when interacting with a product, system, or service.}
+      \field{day}{10}
+      \field{hour}{0}
+      \field{langid}{english}
+      \field{minute}{0}
+      \field{month}{1}
+      \field{second}{0}
+      \field{shorttitle}{What Is {{User Experience}} ({{UX}})?}
+      \field{title}{What Is {{User Experience}} ({{UX}})? | {{IBM}}}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/CTT3LJCX/user-experience.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/user-experience
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/user-experience
+      \endverb
+    \endentry
+    \entry{interactiondesignfoundationWhatAreVoice2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10de965b0384a3dd92454e0c73fa74fe}{%
+           family={{Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {The Interaction Design Foundation}%
+      }
+      \strng{namehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{fullhash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{fullhashraw}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{bibnamehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authorbibnamehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authornamehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authorfullhash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authorfullhashraw}{10de965b0384a3dd92454e0c73fa74fe}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What are Voice User Interfaces (VUI)? Voice user interfaces (VUIs) allow the user to interact with a system through voice or speech commands. Virtual assistants, such as Siri, Google Assistant, and...}
+      \field{langid}{english}
+      \field{title}{What Are {{Voice User Interfaces}} ({{VUI}})?}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/LCMCPTJ3/voice-user-interfaces.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/voice-user-interfaces
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/voice-user-interfaces
+      \endverb
+    \endentry
+    \entry{interactiveAlienIsolation2014}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f6995afabfff8e082ffcb48dbcfa2cf1}{%
+           family={Interactive},
+           familyi={I\bibinitperiod},
+           given={Creative\bibnamedelima Assembly},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           suffix={Feral},
+           suffixi={F\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{fullhash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{fullhashraw}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{bibnamehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authorbibnamehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authornamehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authorfullhash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authorfullhashraw}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alien: {{Isolation}}}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{iridiumstudiosThereCameEcho2015}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d67996e3cd70c949fc22aae9cae9921}{%
+           family={Iridium\bibnamedelima Studios},
+           familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Iridium\bibnamedelima Studios},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{bibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorbibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authornamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There Came an Echo is a real-time strategy game in which the player assumes command of a small squadron, using an advanced voice recognition system to issue orders. It features a character-driven sci-fi narrative that stars Wil Wheaton, Ashly Burch, Laura Bailey, Yuri Lowenthal, and more!}
+      \field{langid}{english}
+      \field{title}{There {{Came}} an {{Echo}} on {{Steam}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZLEKR2Z4/There_Came_an_Echo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
+      \endverb
+      \verb{url}
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
+      \endverb
+    \endentry
+    \entry{kiiskiVoiceGamesHistory2020}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60c221c3c979a91e84a18635906411f9}{%
+           family={Kiiski},
+           familyi={K\bibinitperiod},
+           given={Teemu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{fullhash}{60c221c3c979a91e84a18635906411f9}
+      \strng{fullhashraw}{60c221c3c979a91e84a18635906411f9}
+      \strng{bibnamehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authorbibnamehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authornamehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authorfullhash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authorfullhashraw}{60c221c3c979a91e84a18635906411f9}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This thesis was commissioned by Doppio Games, a Lisbon-based game studio that makes conversational voice games for Amazon Alexa and Google Assistant. Doppio has released games such as The Vortex (2018) and The 3\% Challenge (2019). In recent years, voice interaction with computers has become part of everyday life. However, despite the fact that voice interaction mechanics have been used in games for several decades, the category of voice interaction games, or voice games in short, has remained relatively obscure. The purpose of the study was to research the history of voice interaction in digital games. The objective of this thesis is to describe a chronological history for voice games through a platform-focused approach while highlighting different design approaches to voice interaction. Research findings point out that voice interaction has been experimented with in commercially published games and game systems starting from the 1980s. Games featuring voice interaction have appeared in waves, typically as a reaction to features made possible by new hardware. During the past decade, the field has become more fragmented. Voice games are now available on platforms such as mobile devices and virtual assistants. Similarly, traditional platforms such as consoles are keeping up by integrating more voice interaction features. As a result of games escaping outside of traditional game platforms, voice interaction is now being implemented in a variety of games both by indie developers and more established developers. At the same time, new design approaches to voice interaction are experimented with. For platforms and developers, challenges to overcome in the future include coming up with fresh design approaches to voice interaction, integrating voice as a core game mechanic instead of as a substitute for existing control schemes, and taking into account players’ privacy. The complexity of voice interaction mechanics in games varies and is restricted by the platform’s hardware and software capabilities. From this perspective, voice interaction in games typically falls into four categories: games where voice interaction is based on simple volume detection, games that require mimicking such as karaoke games through pitch and rhythm detection, games that feature voice commands through speech recognition, and conversational games that go beyond simple voice commands. The study was carried out through the qualitative research method by conducting online literary research. Due to limitations of resources, it was not possible to include every game that has ever featured voice interaction or cover all the various design approaches that game developers have used.}
+      \field{annotation}{Accepted: 2020-04-30T11:22:02Z}
+      \field{langid}{english}
+      \field{shorttitle}{Voice {{Games}}}
+      \field{title}{Voice {{Games}}: {{The History}} of {{Voice Interaction}} in {{Digital Games}}}
+      \field{type}{fi=AMK-opinnäytetyö|sv=YH-examensarbete|en=Bachelor's thesis|}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/IB9HMW2T/Kiiski - 2020 - Voice Games The History of Voice Interaction in D.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.theseus.fi/handle/10024/336352
+      \endverb
+      \verb{url}
+      \verb http://www.theseus.fi/handle/10024/336352
+      \endverb
+    \endentry
+    \entry{LargeLanguageModel2025}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Large Language Model}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZDSASAEV/large-language-model.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+    \endentry
+    \entry{maisonbapYAPYAP2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dae16ce3def04a2cfd2d8c38e7675110}{%
+           family={{Maison Bap}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{fullhash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{fullhashraw}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{bibnamehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authorbibnamehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authornamehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authorfullhash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authorfullhashraw}{dae16ce3def04a2cfd2d8c38e7675110}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{YAPYAP}}}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mannResearchInterview2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5a8d6facf34d0307b1f6ff90cede73d1}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan UK}%
+      }
+      \strng{namehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{fullhash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{fullhashraw}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{bibnamehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authorbibnamehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authornamehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authorfullhash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authorfullhashraw}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-137-35335-1 978-1-137-35336-8}
+      \field{langid}{english}
+      \field{title}{The {{Research Interview}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1057/9781137353368
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1057/9781137353368
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1057/9781137353368
+      \endverb
+      \keyw{discourse,discourse analysis,experience,interview,Interview discourse analysis,Lighting,planning,Qualitative interview,Qualitative interviewing,qualitative research,reflective practice,reflexive,research interview,Research interviewing,research methods}
+    \endentry
+    \entry{offworldSquad2020}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=583814ef4c95f73015f30a03754fc0fb}{%
+           family={{Offworld}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{fullhash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{fullhashraw}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{bibnamehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authorbibnamehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authornamehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authorfullhash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authorfullhashraw}{583814ef4c95f73015f30a03754fc0fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{9}
+      \field{title}{Squad}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{OpenAIWhisper2022}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{{{OpenAI Whisper}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/53FZQHPW/whisper_real_time.html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/davabase/whisper_real_time
+      \endverb
+      \verb{url}
+      \verb https://github.com/davabase/whisper_real_time
+      \endverb
+    \endentry
+    \entry{proceduralartsFacade2005}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be8717270386a95f6945c93d07b94272}{%
+           family={{Procedural Arts}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{be8717270386a95f6945c93d07b94272}
+      \strng{fullhash}{be8717270386a95f6945c93d07b94272}
+      \strng{fullhashraw}{be8717270386a95f6945c93d07b94272}
+      \strng{bibnamehash}{be8717270386a95f6945c93d07b94272}
+      \strng{authorbibnamehash}{be8717270386a95f6945c93d07b94272}
+      \strng{authornamehash}{be8717270386a95f6945c93d07b94272}
+      \strng{authorfullhash}{be8717270386a95f6945c93d07b94272}
+      \strng{authorfullhashraw}{be8717270386a95f6945c93d07b94272}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Façade}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+    \entry{RPG2025}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{{{RPG}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/9ZTCCQVE/rpg.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
+      \endverb
+    \endentry
+    \entry{ScribblenautsUnlimitedSteam2026}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The best-selling, award-winning franchise is back – on your home PC in gorgeous HD for the first time.}
+      \field{langid}{english}
+      \field{title}{Scribblenauts {{Unlimited}} on {{Steam}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://store.steampowered.com/app/218680/Scribblenauts_Unlimited/
+      \endverb
+      \verb{url}
+      \verb https://store.steampowered.com/app/218680/Scribblenauts_Unlimited/
+      \endverb
+    \endentry
+    \entry{sonycomputerentertainmentjapanLifeline2003}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc488a20ea140d20f4e5fa5f6850da62}{%
+           family={{Sony Computer Entertainment Japan}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{fullhash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{fullhashraw}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{bibnamehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authorbibnamehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authornamehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authorfullhash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authorfullhashraw}{bc488a20ea140d20f4e5fa5f6850da62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lifeline}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Talon2017}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Talon}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/X23FQMXE/talonvoice.com.html
+      \endverb
+      \verb{urlraw}
+      \verb https://talonvoice.com/
+      \endverb
+      \verb{url}
+      \verb https://talonvoice.com/
+      \endverb
+    \endentry
+    \entry{ubisoftshanghaiTomClancysEndWar2008}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82d0f970baac8f5cbb2fe4356ada0e59}{%
+           family={{Ubisoft Shanghai}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{fullhash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{fullhashraw}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{bibnamehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authorbibnamehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authornamehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authorfullhash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authorfullhashraw}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tom {{Clancy}}’s {{EndWar}}}
+      \field{year}{2008}
+      \field{dateera}{ce}
+    \endentry
+    \entry{youngImprovingLibraryUser2014}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6b2b415dd1c1230c2d42472c75cadf9}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Scott\bibnamedelimb W.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Michigan Publishing}%
+      }
+      \strng{namehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{fullhash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{fullhashraw}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{bibnamehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authorbibnamehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authornamehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authorfullhash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authorfullhashraw}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper was refereed by Weave's peer reviewers. This paper demonstrates how user interactions can be measured and evaluated with A/B testing, a user experience research methodology. A/B testing entails a process of controlled experimentation whereby different variations of a product or service are served randomly to users in order to determine the highest performing variation. This paper describes the principles of A/B testing and details a practical web-based application in an academic library. Data collected and analyzed through this A/B testing process allowed the library to initiate user-centered website changes that resulted in increased website engagement and improved user experience. A/B testing is presented as an integral component of a library user experience research program for its ability to provide quantitative user insights into known UX problems.}
+      \field{day}{6}
+      \field{issn}{2333-3316}
+      \field{journaltitle}{Weave: Journal of Library User Experience}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shorttitle}{Improving {{Library User Experience}} with {{A}}/{{B Testing}}}
+      \field{title}{Improving {{Library User Experience}} with {{A}}/{{B Testing}}: {{Principles}} and {{Process}}}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3998/weave.12535642.0001.101
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/UK94ZGZZ/12535642.0001.101.html
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.publishing.umich.edu/weaveux/article/pubid/12535642.0001.101/
+      \endverb
+      \verb{url}
+      \verb https://journals.publishing.umich.edu/weaveux/article/pubid/12535642.0001.101/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{11BitStudios2026}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{11 Bit Studios}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://11bitstudios.com/pl/
+      \endverb
+      \verb{url}
+      \verb https://11bitstudios.com/pl/
+      \endverb
+    \endentry
+    \entry{5thcellshiverentertainmentHuman2012}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d620b798d44d4bcee17b302a779ca70}{%
+           family={{5th Cell, Shiver Entertainment}},
+           familyi={5\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{fullhash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{fullhashraw}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{bibnamehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authorbibnamehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authornamehash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authorfullhash}{3d620b798d44d4bcee17b302a779ca70}
+      \strng{authorfullhashraw}{3d620b798d44d4bcee17b302a779ca70}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Human}
+      \field{year}{2012}
+      \field{dateera}{ce}
+    \endentry
+    \entry{allisonDesignPatternsVoice2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=96aad021f613a2e85a4216cece0fa707}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={Fraser},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44df7ddf3f41d5c824bc22831885800d}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3a67846463d07b3b670903315990fe2}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de824bd2e957f671ee3d92aa76e26245}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Wally},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Melbourne VIC Australia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{83016c9fc711dcae93bf71a1624614c4}
+      \strng{fullhash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{fullhashraw}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{bibnamehash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{authorbibnamehash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{authornamehash}{83016c9fc711dcae93bf71a1624614c4}
+      \strng{authorfullhash}{05c4560b3a1dab12ee473cb84babe3f9}
+      \strng{authorfullhashraw}{05c4560b3a1dab12ee473cb84babe3f9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Voice interaction is increasingly common in digital games, but it remains a notoriously difficult modality to design a satisfying experience for. This is partly due to limitations of speech recognition technology, and partly due to the inherent awkwardness we feel when performing some voice actions. We present a pattern language for voice interaction elements in games, to help game makers explore and describe common approaches to this design challenge. We define 25 design patterns, based on a survey of 449 videogames and 22 audiogames that use the player’s voice as an input to affect the game state. The patterns express how games frame and structure voice input, and how voice input is used for selection, navigation, control and performance actions. Finally, we argue that academic research has been overly concentrated on a single one of these design patterns, due to an instrumental research focus and a lack of interest in the fictive dimension of videogames.}
+      \field{day}{23}
+      \field{eventtitle}{{{CHI PLAY}} '18: {{The}} Annual Symposium on {{Computer-Human Interaction}} in {{Play}}}
+      \field{isbn}{978-1-4503-5624-4}
+      \field{journaltitle}{Proceedings of the 2018 {{Annual Symposium}} on {{Computer-Human Interaction}} in {{Play}}}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Design {{Patterns}} for {{Voice Interaction}} in {{Games}}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 17}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/3242671.3242712
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/JSYNEGUA/Allison et al. - 2018 - Design Patterns for Voice Interaction in Games.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3242671.3242712
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3242671.3242712
+      \endverb
+    \endentry
+    \entry{BerkeleyFunctionCalling2026}{online}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Berkeley {{Function Calling Leaderboard}} ({{BFCL}}) {{V4}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/NQTV7TZZ/leaderboard.html
+      \endverb
+      \verb{urlraw}
+      \verb https://gorilla.cs.berkeley.edu/leaderboard.html
+      \endverb
+      \verb{url}
+      \verb https://gorilla.cs.berkeley.edu/leaderboard.html
+      \endverb
+    \endentry
+    \entry{cambridgedictionaryImmersion2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a41864b46f32b778cc1f0dafbfdea47f}{%
+           family={{Cambridge Dictionary}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{fullhash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{fullhashraw}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{bibnamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorbibnamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authornamehash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorfullhash}{a41864b46f32b778cc1f0dafbfdea47f}
+      \strng{authorfullhashraw}{a41864b46f32b778cc1f0dafbfdea47f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. the fact of becoming completely involved in something: 2. the process of…}
+      \field{day}{22}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Immersion}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/3WYHVJGL/immersion.html
+      \endverb
+      \verb{urlraw}
+      \verb https://dictionary.cambridge.org/dictionary/english/immersion
+      \endverb
+      \verb{url}
+      \verb https://dictionary.cambridge.org/dictionary/english/immersion
+      \endverb
+    \endentry
+    \entry{chuntieGroundedTheoryResearch2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d1e35ada947578a62f8d6b03f77645eb}{%
+           family={Chun\bibnamedelima Tie},
+           familyi={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Ylona},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6338b9ff1d1b3672185dbae48ebe9a}{%
+           family={Birks},
+           familyi={B\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e14af7199ab93f2ad05fc00b94d7f1be}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99397d20d8faa5163fde2745b0ee8f9b}
+      \strng{fullhash}{96330a408da8720dcfd168c0737ad004}
+      \strng{fullhashraw}{96330a408da8720dcfd168c0737ad004}
+      \strng{bibnamehash}{96330a408da8720dcfd168c0737ad004}
+      \strng{authorbibnamehash}{96330a408da8720dcfd168c0737ad004}
+      \strng{authornamehash}{99397d20d8faa5163fde2745b0ee8f9b}
+      \strng{authorfullhash}{96330a408da8720dcfd168c0737ad004}
+      \strng{authorfullhashraw}{96330a408da8720dcfd168c0737ad004}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Grounded theory is a well-known methodology employed in many research studies. Qualitative and quantitative data generation techniques can be used in a grounded theory study. Grounded theory sets out to discover or construct theory from data, systematically obtained and analysed using comparative analysis. While grounded theory is inherently flexible, it is a complex methodology. Thus, novice researchers strive to understand the discourse and the practical application of grounded theory concepts and processes. Objective: The aim of this article is to provide a contemporary research framework suitable to inform a grounded theory study. Result: This article provides an overview of grounded theory illustrated through a graphic representation of the processes and methods employed in conducting research using this methodology. The framework is presented as a diagrammatic representation of a research design and acts as a visual guide for the novice grounded theory researcher. Discussion: As grounded theory is not a linear process, the framework illustrates the interplay between the essential grounded theory methods and iterative and comparative actions involved. Each of the essential methods and processes that underpin grounded theory are defined in this article. Conclusion: Rather than an engagement in philosophical discussion or a debate of the different genres that can be used in grounded theory, this article illustrates how a framework for a research study design can be used to guide and inform the novice nurse researcher undertaking a study using grounded theory. Research findings and recommendations can contribute to policy or knowledge development, service provision and can reform thinking to initiate change in the substantive area of inquiry.}
+      \field{day}{2}
+      \field{issn}{2050-3121}
+      \field{journaltitle}{SAGE Open Medicine}
+      \field{month}{1}
+      \field{shortjournal}{SAGE Open Med}
+      \field{shorttitle}{Grounded Theory Research}
+      \field{title}{Grounded Theory Research: {{A}} Design Framework for Novice Researchers}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2050312118822927}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/2050312118822927
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/3MRD698U/Chun Tie et al. - 2019 - Grounded theory research A design framework for novice researchers.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6318722/
+      \endverb
+    \endentry
+    \entry{cornelioSenseAgencyEmerging2022}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5031fc4030059f74d5d03b6501784bde}{%
+           family={Cornelio},
+           familyi={C\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86a9977a4b37e706a261fd2a3a02105f}{%
+           family={Haggard},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8e89d8c1cee578081b27b8fe2e2ac12}{%
+           family={Hornbaek},
+           familyi={H\bibinitperiod},
+           given={Kasper},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0813182658b8431fe96a2ae30cb0e5e8}{%
+           family={Georgiou},
+           familyi={G\bibinitperiod},
+           given={Orestis},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b41ab884cda0ddb11f26382914a3bb2}{%
+           family={Bergström},
+           familyi={B\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0993c0996278c8baaeccb18b55aa4f13}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Sriram},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5e718631fe4d7958a517e8c6499197}{%
+           family={Obrist},
+           familyi={O\bibinitperiod},
+           given={Marianna},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{81217c6bb65768708937908b11710ff5}
+      \strng{fullhash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{fullhashraw}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{bibnamehash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{authorbibnamehash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{authornamehash}{81217c6bb65768708937908b11710ff5}
+      \strng{authorfullhash}{1843408ee889ccd9b2f56cf8aca3b886}
+      \strng{authorfullhashraw}{1843408ee889ccd9b2f56cf8aca3b886}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Human-computer integration is an emerging area in which the boundary between humans and technology is blurred as users and computers work collaboratively and share agency to execute tasks. The sense of agency (SoA) is an experience that arises by a combination of a voluntary motor action and sensory evidence whether the corresponding body movements have somehow influenced the course of external events. The SoA is not only a key part of our experiences in daily life but also in our interaction with technology as it gives us the feeling of “I did that” as opposed to “the system did that”, thus supporting a feeling of being in control. This feeling becomes critical with human-computer integration, wherein emerging technology directly influences people’s body, their actions, and the resulting outcomes. In this review, we analyse and classify current integration technologies based on what we currently know about agency in the literature, and propose a distinction between body augmentation, action augmentation, and outcome augmentation. For each category, we describe agency considerations and markers of differentiation that illustrate a relationship between assistance level (low, high), agency delegation (human, technology), and integration type (fusion, symbiosis). We conclude with a reflection on the opportunities and challenges of integrating humans with computers, and finalise with an expanded definition of human-computer integration including agency aspects which we consider to be particularly relevant. The aim this review is to provide researchers and practitioners with guidelines to situate their work within the integration research agenda and consider the implications of any technologies on SoA, and thus overall user experience when designing future technology.}
+      \field{day}{12}
+      \field{issn}{1662-453X}
+      \field{journaltitle}{Frontiers in Neuroscience}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Front. Neurosci.}
+      \field{shorttitle}{The Sense of Agency in Emerging Technologies for Human–Computer Integration}
+      \field{title}{The Sense of Agency in Emerging Technologies for Human–Computer Integration: {{A}} Review}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fnins.2022.949138
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/PKIMRNT5/Cornelio et al. - 2022 - The sense of agency in emerging technologies for human–computer integration A review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.949138/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.949138/full
+      \endverb
+      \keyw{action,body,Human-computer integration,Human-computer interaction (HCI),Outcome,Sense of Agency (SoA)}
+    \endentry
+    \entry{DoubleDiamondDesign2005}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A universally accepted depiction of the design process}
+      \field{langid}{english}
+      \field{title}{The {{Double Diamond}} - {{Design Council}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/MECD2BH8/the-double-diamond.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.designcouncil.org.uk/our-resources/the-double-diamond/
+      \endverb
+      \verb{url}
+      \verb https://www.designcouncil.org.uk/our-resources/the-double-diamond/
+      \endverb
+    \endentry
+    \entry{fakhreddinekarraymiladalemzadehjamilabousalehandmonoursarabHumanComputerInteractionOverview2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b0ba7a1b442c9194ab9ff2ead79f1c6}{%
+           family={{Fakhreddine Karray, Milad Alemzadeh, Jamil Abou Saleh and Mo Nours Arab}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{fullhash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{fullhashraw}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{bibnamehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authorbibnamehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authornamehash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authorfullhash}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \strng{authorfullhashraw}{1b0ba7a1b442c9194ab9ff2ead79f1c6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{PDF | The intention of this paper is to provide an overview on the subject of Human-Computer Interaction. The overview includes the basic definitions... | Find, read and cite all the research you need on ResearchGate}
+      \field{journaltitle}{ResearchGate}
+      \field{langid}{english}
+      \field{shorttitle}{({{PDF}}) {{Human-Computer Interaction}}}
+      \field{title}{Human-{{Computer Interaction}}: {{Overview}} on {{State}} of the {{Art}}}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.21307/ijssis-2017-283
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/QDIT578Q/(PDF) Human-Computer Interaction Overview on State of the Art.pdf;/Users/gabrielmermer/Zotero/storage/KX6GVM3V/281006272_Human-Computer_Interaction_Overview_on_State_of_the_Art.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/281006272_Human-Computer_Interaction_Overview_on_State_of_the_Art
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/281006272_Human-Computer_Interaction_Overview_on_State_of_the_Art
+      \endverb
+    \endentry
+    \entry{harneskExploringVoiceInteractions2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1bdb24573293b9bb93ea8486c6a2f322}{%
+           family={Harnesk},
+           familyi={H\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{fullhash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{fullhashraw}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{bibnamehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authorbibnamehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authornamehash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authorfullhash}{1bdb24573293b9bb93ea8486c6a2f322}
+      \strng{authorfullhashraw}{1bdb24573293b9bb93ea8486c6a2f322}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of voice interactions in home voice assistants are becoming mainstream and it’s being used to everything from information seeking to personal management. Even though games utilising voice has been praised for its innovation it has never been anything other than a novelty and research has been scarce. This study explores how a voice user interface (VUI) can be designed to reduce in-game interruptions in an open world video game environment. Through literature research, interviews, observations and prototypes aimed towards people playing video games and users of VUIs, this thesis proposes a set of design qualities for future implementation. The findings show that designing for voice interactions in an open world video game is, among other things, a matter of providing context-based triggers together with a compressed and modular approach that does not require the user to shift their attention from the video game.}
+      \field{langid}{english}
+      \field{title}{Exploring Voice Interactions in an Open World Video Game Environment}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/P6YFSKTU/Harnesk - Exploring voice interactions in an open world vide.pdf
+      \endverb
+    \endentry
+    \entry{holdsworthWhatNLPNatural2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=616ff46b03c1ef1aad62e63e7c6300df}{%
+           family={Holdsworth},
+           familyi={H\bibinitperiod},
+           given={Cole\bibnamedelima Stryker},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           suffix={Jim},
+           suffixi={J\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{fullhash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{fullhashraw}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{bibnamehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authorbibnamehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authornamehash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authorfullhash}{616ff46b03c1ef1aad62e63e7c6300df}
+      \strng{authorfullhashraw}{616ff46b03c1ef1aad62e63e7c6300df}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Natural language processing (NLP) is a subfield of artificial intelligence (AI) that uses machine learning to help computers communicate with human language.}
+      \field{day}{11}
+      \field{hour}{0}
+      \field{langid}{english}
+      \field{minute}{0}
+      \field{month}{8}
+      \field{second}{0}
+      \field{shorttitle}{What {{Is NLP}} ({{Natural Language Processing}})?}
+      \field{title}{What {{Is NLP}} ({{Natural Language Processing}})? | {{IBM}}}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/7FTITZ3T/natural-language-processing.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/natural-language-processing
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/natural-language-processing
+      \endverb
+    \endentry
+    \entry{ibmWhatUserExperience2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{User experience, often shortened to UX, refers to the overall experience a user has when interacting with a product, system, or service.}
+      \field{day}{10}
+      \field{hour}{0}
+      \field{langid}{english}
+      \field{minute}{0}
+      \field{month}{1}
+      \field{second}{0}
+      \field{shorttitle}{What Is {{User Experience}} ({{UX}})?}
+      \field{title}{What Is {{User Experience}} ({{UX}})? | {{IBM}}}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/CTT3LJCX/user-experience.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/user-experience
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/user-experience
+      \endverb
+    \endentry
+    \entry{interactiondesignfoundationWhatAreVoice2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10de965b0384a3dd92454e0c73fa74fe}{%
+           family={{Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {The Interaction Design Foundation}%
+      }
+      \strng{namehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{fullhash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{fullhashraw}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{bibnamehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authorbibnamehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authornamehash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authorfullhash}{10de965b0384a3dd92454e0c73fa74fe}
+      \strng{authorfullhashraw}{10de965b0384a3dd92454e0c73fa74fe}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What are Voice User Interfaces (VUI)? Voice user interfaces (VUIs) allow the user to interact with a system through voice or speech commands. Virtual assistants, such as Siri, Google Assistant, and...}
+      \field{langid}{english}
+      \field{title}{What Are {{Voice User Interfaces}} ({{VUI}})?}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/LCMCPTJ3/voice-user-interfaces.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/voice-user-interfaces
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/voice-user-interfaces
+      \endverb
+    \endentry
+    \entry{interactiveAlienIsolation2014}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f6995afabfff8e082ffcb48dbcfa2cf1}{%
+           family={Interactive},
+           familyi={I\bibinitperiod},
+           given={Creative\bibnamedelima Assembly},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           suffix={Feral},
+           suffixi={F\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{fullhash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{fullhashraw}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{bibnamehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authorbibnamehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authornamehash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authorfullhash}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \strng{authorfullhashraw}{f6995afabfff8e082ffcb48dbcfa2cf1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alien: {{Isolation}}}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{iridiumstudiosThereCameEcho2015}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d67996e3cd70c949fc22aae9cae9921}{%
+           family={Iridium\bibnamedelima Studios},
+           familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Iridium\bibnamedelima Studios},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{fullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{bibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorbibnamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authornamehash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhash}{7d67996e3cd70c949fc22aae9cae9921}
+      \strng{authorfullhashraw}{7d67996e3cd70c949fc22aae9cae9921}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There Came an Echo is a real-time strategy game in which the player assumes command of a small squadron, using an advanced voice recognition system to issue orders. It features a character-driven sci-fi narrative that stars Wil Wheaton, Ashly Burch, Laura Bailey, Yuri Lowenthal, and more!}
+      \field{langid}{english}
+      \field{title}{There {{Came}} an {{Echo}} on {{Steam}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZLEKR2Z4/There_Came_an_Echo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
+      \endverb
+      \verb{url}
+      \verb https://store.steampowered.com/app/319740/There_Came_an_Echo/
+      \endverb
+    \endentry
+    \entry{kiiskiVoiceGamesHistory2020}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60c221c3c979a91e84a18635906411f9}{%
+           family={Kiiski},
+           familyi={K\bibinitperiod},
+           given={Teemu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{fullhash}{60c221c3c979a91e84a18635906411f9}
+      \strng{fullhashraw}{60c221c3c979a91e84a18635906411f9}
+      \strng{bibnamehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authorbibnamehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authornamehash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authorfullhash}{60c221c3c979a91e84a18635906411f9}
+      \strng{authorfullhashraw}{60c221c3c979a91e84a18635906411f9}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This thesis was commissioned by Doppio Games, a Lisbon-based game studio that makes conversational voice games for Amazon Alexa and Google Assistant. Doppio has released games such as The Vortex (2018) and The 3\% Challenge (2019). In recent years, voice interaction with computers has become part of everyday life. However, despite the fact that voice interaction mechanics have been used in games for several decades, the category of voice interaction games, or voice games in short, has remained relatively obscure. The purpose of the study was to research the history of voice interaction in digital games. The objective of this thesis is to describe a chronological history for voice games through a platform-focused approach while highlighting different design approaches to voice interaction. Research findings point out that voice interaction has been experimented with in commercially published games and game systems starting from the 1980s. Games featuring voice interaction have appeared in waves, typically as a reaction to features made possible by new hardware. During the past decade, the field has become more fragmented. Voice games are now available on platforms such as mobile devices and virtual assistants. Similarly, traditional platforms such as consoles are keeping up by integrating more voice interaction features. As a result of games escaping outside of traditional game platforms, voice interaction is now being implemented in a variety of games both by indie developers and more established developers. At the same time, new design approaches to voice interaction are experimented with. For platforms and developers, challenges to overcome in the future include coming up with fresh design approaches to voice interaction, integrating voice as a core game mechanic instead of as a substitute for existing control schemes, and taking into account players’ privacy. The complexity of voice interaction mechanics in games varies and is restricted by the platform’s hardware and software capabilities. From this perspective, voice interaction in games typically falls into four categories: games where voice interaction is based on simple volume detection, games that require mimicking such as karaoke games through pitch and rhythm detection, games that feature voice commands through speech recognition, and conversational games that go beyond simple voice commands. The study was carried out through the qualitative research method by conducting online literary research. Due to limitations of resources, it was not possible to include every game that has ever featured voice interaction or cover all the various design approaches that game developers have used.}
+      \field{annotation}{Accepted: 2020-04-30T11:22:02Z}
+      \field{langid}{english}
+      \field{shorttitle}{Voice {{Games}}}
+      \field{title}{Voice {{Games}}: {{The History}} of {{Voice Interaction}} in {{Digital Games}}}
+      \field{type}{fi=AMK-opinnäytetyö|sv=YH-examensarbete|en=Bachelor's thesis|}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/IB9HMW2T/Kiiski - 2020 - Voice Games The History of Voice Interaction in D.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.theseus.fi/handle/10024/336352
+      \endverb
+      \verb{url}
+      \verb http://www.theseus.fi/handle/10024/336352
+      \endverb
+    \endentry
+    \entry{LargeLanguageModel2025}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Large Language Model}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/ZDSASAEV/large-language-model.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/large-language-model
+      \endverb
+    \endentry
+    \entry{maisonbapYAPYAP2026}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dae16ce3def04a2cfd2d8c38e7675110}{%
+           family={{Maison Bap}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{fullhash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{fullhashraw}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{bibnamehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authorbibnamehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authornamehash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authorfullhash}{dae16ce3def04a2cfd2d8c38e7675110}
+      \strng{authorfullhashraw}{dae16ce3def04a2cfd2d8c38e7675110}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{YAPYAP}}}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mannResearchInterview2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5a8d6facf34d0307b1f6ff90cede73d1}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan UK}%
+      }
+      \strng{namehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{fullhash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{fullhashraw}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{bibnamehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authorbibnamehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authornamehash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authorfullhash}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \strng{authorfullhashraw}{5a8d6facf34d0307b1f6ff90cede73d1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-137-35335-1 978-1-137-35336-8}
+      \field{langid}{english}
+      \field{title}{The {{Research Interview}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1057/9781137353368
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1057/9781137353368
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1057/9781137353368
+      \endverb
+      \keyw{discourse,discourse analysis,experience,interview,Interview discourse analysis,Lighting,planning,Qualitative interview,Qualitative interviewing,qualitative research,reflective practice,reflexive,research interview,Research interviewing,research methods}
+    \endentry
+    \entry{offworldSquad2020}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=583814ef4c95f73015f30a03754fc0fb}{%
+           family={{Offworld}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{fullhash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{fullhashraw}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{bibnamehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authorbibnamehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authornamehash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authorfullhash}{583814ef4c95f73015f30a03754fc0fb}
+      \strng{authorfullhashraw}{583814ef4c95f73015f30a03754fc0fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{9}
+      \field{title}{Squad}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{OpenAIWhisper2022}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{{{OpenAI Whisper}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/53FZQHPW/whisper_real_time.html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/davabase/whisper_real_time
+      \endverb
+      \verb{url}
+      \verb https://github.com/davabase/whisper_real_time
+      \endverb
+    \endentry
+    \entry{proceduralartsFacade2005}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be8717270386a95f6945c93d07b94272}{%
+           family={{Procedural Arts}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{be8717270386a95f6945c93d07b94272}
+      \strng{fullhash}{be8717270386a95f6945c93d07b94272}
+      \strng{fullhashraw}{be8717270386a95f6945c93d07b94272}
+      \strng{bibnamehash}{be8717270386a95f6945c93d07b94272}
+      \strng{authorbibnamehash}{be8717270386a95f6945c93d07b94272}
+      \strng{authornamehash}{be8717270386a95f6945c93d07b94272}
+      \strng{authorfullhash}{be8717270386a95f6945c93d07b94272}
+      \strng{authorfullhashraw}{be8717270386a95f6945c93d07b94272}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Façade}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+    \entry{RPG2025}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{{{RPG}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/9ZTCCQVE/rpg.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordlearnersdictionaries.com/definition/english/rpg
+      \endverb
+    \endentry
+    \entry{ScribblenautsUnlimitedSteam2026}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The best-selling, award-winning franchise is back – on your home PC in gorgeous HD for the first time.}
+      \field{langid}{english}
+      \field{title}{Scribblenauts {{Unlimited}} on {{Steam}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://store.steampowered.com/app/218680/Scribblenauts_Unlimited/
+      \endverb
+      \verb{url}
+      \verb https://store.steampowered.com/app/218680/Scribblenauts_Unlimited/
+      \endverb
+    \endentry
+    \entry{sonycomputerentertainmentjapanLifeline2003}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc488a20ea140d20f4e5fa5f6850da62}{%
+           family={{Sony Computer Entertainment Japan}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{fullhash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{fullhashraw}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{bibnamehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authorbibnamehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authornamehash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authorfullhash}{bc488a20ea140d20f4e5fa5f6850da62}
+      \strng{authorfullhashraw}{bc488a20ea140d20f4e5fa5f6850da62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lifeline}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Talon2017}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Talon}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/X23FQMXE/talonvoice.com.html
+      \endverb
+      \verb{urlraw}
+      \verb https://talonvoice.com/
+      \endverb
+      \verb{url}
+      \verb https://talonvoice.com/
+      \endverb
+    \endentry
+    \entry{ubisoftshanghaiTomClancysEndWar2008}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82d0f970baac8f5cbb2fe4356ada0e59}{%
+           family={{Ubisoft Shanghai}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{fullhash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{fullhashraw}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{bibnamehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authorbibnamehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authornamehash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authorfullhash}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \strng{authorfullhashraw}{82d0f970baac8f5cbb2fe4356ada0e59}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tom {{Clancy}}’s {{EndWar}}}
+      \field{year}{2008}
+      \field{dateera}{ce}
+    \endentry
+    \entry{youngImprovingLibraryUser2014}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6b2b415dd1c1230c2d42472c75cadf9}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Scott\bibnamedelimb W.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Michigan Publishing}%
+      }
+      \strng{namehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{fullhash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{fullhashraw}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{bibnamehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authorbibnamehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authornamehash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authorfullhash}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \strng{authorfullhashraw}{c6b2b415dd1c1230c2d42472c75cadf9}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper was refereed by Weave's peer reviewers. This paper demonstrates how user interactions can be measured and evaluated with A/B testing, a user experience research methodology. A/B testing entails a process of controlled experimentation whereby different variations of a product or service are served randomly to users in order to determine the highest performing variation. This paper describes the principles of A/B testing and details a practical web-based application in an academic library. Data collected and analyzed through this A/B testing process allowed the library to initiate user-centered website changes that resulted in increased website engagement and improved user experience. A/B testing is presented as an integral component of a library user experience research program for its ability to provide quantitative user insights into known UX problems.}
+      \field{day}{6}
+      \field{issn}{2333-3316}
+      \field{journaltitle}{Weave: Journal of Library User Experience}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shorttitle}{Improving {{Library User Experience}} with {{A}}/{{B Testing}}}
+      \field{title}{Improving {{Library User Experience}} with {{A}}/{{B Testing}}: {{Principles}} and {{Process}}}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3998/weave.12535642.0001.101
+      \endverb
+      \verb{file}
+      \verb /Users/gabrielmermer/Zotero/storage/UK94ZGZZ/12535642.0001.101.html
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.publishing.umich.edu/weaveux/article/pubid/12535642.0001.101/
+      \endverb
+      \verb{url}
+      \verb https://journals.publishing.umich.edu/weaveux/article/pubid/12535642.0001.101/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
