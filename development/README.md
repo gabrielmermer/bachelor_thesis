@@ -61,7 +61,6 @@ Run:
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-or execute the Python file directly if configured differently.
 
 ---
 
@@ -79,9 +78,9 @@ Prototype builds can be accessed through the `mvp*` folders.
 
 ## Networking Notes
 
-During development and testing, communication between distributed devices was handled using Tailscale.
+During development and testing, communication between hosts was handled using Tailscale.
 
-Some API addresses are hardcoded to Tailscale network IPs due to the distributed multi-device testing setup used during evaluation.
+Some API addresses are hardcoded to Tailscale network IPs.
 
 ## Notes
 
