@@ -1,0 +1,55 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "PickUpKey",
+      "description": "Pick up a rusty key lying on the floor and add it to the player's inventory. Once picked up, the key is no longer available in this location.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "LookAround",
+      "description": "Examine your surroundings to gather more information about the environment. This action may reveal useful details or confirm that nothing interesting is nearby.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "OpenTheSafe",
+      "description": "Attempt to open a locked safe. If the player has a key in their inventory, the safe will open and reveal its contents. Otherwise, the attempt fails.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "Travel",
+      "description": "Move the player from their current location to a connected place. Each connected location has its own name and description. Each location is just a lower capital word. Example: The house = house",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "The name of the connected location to travel to."
+          }
+        },
+        "required": ["destination"]
+      }
+    }
+  }
+]

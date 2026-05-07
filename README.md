@@ -1,11 +1,14 @@
 # Bachelor Thesis Repository
 
-This repository contains all materials related to the bachelor thesis project, including source code, design documentation, testing materials, and the final written thesis.
+This repository contains all materials related to the bachelor thesis project, including source code, design documentation, testing materials, submission artifacts, and the final written thesis.
 
 ## Repository Structure
 
 ```text
 /
+├── artifacts/
+│   └── Submission PDFs and final deliverable artifacts
+│
 ├── development/
 │   └── Source code and technical implementation
 │
@@ -21,16 +24,22 @@ This repository contains all materials related to the bachelor thesis project, i
 
 ## Folder Overview
 
+### artifacts/
+
+Contains final submission materials and generated deliverables, including:
+- thesis PDF export
+- testing report cards
+- thesis concept document
+---
+
 ### development/
 
 Contains all software development files related to the project, including:
 - frontend implementation
 - backend APIs
 - prototypes
-- experimental systems
-- integration scripts
 
-Additional setup instructions for the software are available in the local README files inside this directory.
+Additional setup instructions for the software are available in the README file inside this directory.
 
 ---
 
@@ -44,11 +53,9 @@ Contains the Game Design Document (GDD), gameplay concepts, interaction flow des
 
 Contains:
 - usability testing documentation
-- template for testing
 - participant transcripts
 - evaluation materials
 - experiment notes
-
 
 ---
 

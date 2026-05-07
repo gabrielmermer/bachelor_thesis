@@ -1,0 +1,98 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "Travel",
+      "description": "Move the player to a different location. Use this when the user says 'go to', 'travel to', 'move to', or mentions wanting to visit a place. Extract the destination name from their speech.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "The name of the location to travel to (e.g., 'Storage Shed', 'Food Court', 'Entrance')"
+          }
+        },
+        "required": ["destination"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "UseItem",
+      "description": "Use an item from the player's inventory. Call this when the user says 'use', 'activate', or 'try' followed by an item name.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "itemName": {
+            "type": "string",
+            "description": "The name of the item to use (e.g., 'Pistol', 'Crowbar', 'Key')"
+          }
+        },
+        "required": ["itemName"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "CraftItems",
+      "description": "Combine two items together to create a new item. Use when the user says 'craft', 'combine', 'merge', or 'put together'.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "item1": {
+            "type": "string",
+            "description": "The name of the first item to combine"
+          },
+          "item2": {
+            "type": "string",
+            "description": "The name of the second item to combine"
+          }
+        },
+        "required": ["item1", "item2"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "PickUpItem",
+      "description": "Pick up an item from the current location. Use when the user says 'pick up', 'take', 'grab', or 'get'.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "itemName": {
+            "type": "string",
+            "description": "The name of the item to pick up"
+          }
+        },
+        "required": ["itemName"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "LookAround",
+      "description": "Examine the current location. Use when the user says 'look around', 'examine', 'search', or asks about the surroundings.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "CheckInventory",
+      "description": "Check what items the player is carrying. Use when the user says 'inventory', 'check items', 'what do I have', or similar.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  }
+]

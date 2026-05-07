@@ -1,0 +1,712 @@
+Gabriel: All right, this is recording started right now.
+
+Gabriel: Just for the record, we have the recording consent.
+
+Gabriel: And let me have a look into, I have a small checklist I have to go through.
+
+Gabriel: So just a second.
+
+Gabriel: But effectively, before we begin, I will just have like a few simple questions and then we'll move on with the main experiment.
+
+Gabriel: So, I would like to know what is your gaming experience?
+
+Gabriel: So, are you more of a frequent gamer, casual gamer, non-gamer at all?
+
+Klara: Once in a week gamer, I would say.
+
+Gabriel: Once in a week.
+
+Klara: Or rarely.
+
+Gabriel: Okay.
+
+Klara: Even than that, because it depends on how much time I have, but usually it's once a week or maybe once a month, twice a month, something like that.
+
+Gabriel: Okay.
+
+Gabriel: And I would also like to ask, what is your familiarity with voice assistants like Google Assistant or Siri or Alexa or stuff like that?
+
+Klara: I have no experience with that.
+
+Gabriel: No experience, okay.
+
+Gabriel: And is this, like, out of your choice?
+
+Gabriel: Like, do you actively try to not use them or just never had the chance?
+
+Klara: No, I actually only use ChatGPT if this actually can be considered in here.
+
+Klara: Sometimes I use this Void version of ChatGPT, but usually I just read the answers.
+
+Klara: So this is actually not my choice, but just a circumstance, I would say.
+
+Gabriel: Of course, of course, I understand.
+
+Gabriel: And when it comes to, if you want to disclose that, when it comes to accessibility, do you have any kind of accessibility impairments that affect you?
+
+Gabriel: So stuff like visibility impairment or motion impairment, stuff like that?
+
+Klara: No, I don't think so.
+
+Gabriel: Okay, great, very well.
+
+Gabriel: So this, let me just scroll down.
+
+Gabriel: Just for the record, we're sitting inside of a quiet apartment, sitting at the table, microphones on the table as well.
+
+Gabriel: Okay, you can choose between using a real name or being anonymous.
+
+Klara: I can use my real name.
+
+Gabriel: All right, that's very nice.
+
+Gabriel: The checklist is all OK. All right.
+
+Gabriel: So let me give you the sorry, here, here, here and here.
+
+Gabriel: Let me give you the instruction for what's going to happen next.
+
+Gabriel: So I'll give you 10 minutes now.
+
+Gabriel: to play a video game that I created for this thesis.
+
+Gabriel: The game is a text adventure game, so this type of game that we used to have way, way, way back.
+
+Gabriel: like the 80s and the 90s.
+
+Gabriel: So the storyline is that this is a post-apocalyptic world in which your brother has gone missing and he went, you remember, like he went to a shopping mall two, three days ago and
+
+Gabriel: Now you're going after him, trying to see if he's still alive there somewhere, something like that.
+
+Gabriel: And the game is played in a little bit of an unconventional manner, because the way you're supposed to interact with it is here, you can see a location name.
+
+Gabriel: This is the entrance to the mall.
+
+Gabriel: You're standing outside on the ground floor.
+
+Gabriel: There is a description of each location here and you can take the computer like next to you because I know it's very small and the way you open here is your inventory here if you're gonna have anything it's gonna appear here and the way I would like you to interact with the game is instead of using traditional controls I would like you to whenever you want to communicate and do something
+
+Gabriel: to press and hold this button right here or like recording press it say something and you can use you can be very expressive with your language so it doesn't have to be just very basic commands it can be something like
+
+Gabriel: would like to go to this place or how about we do this maybe I want to try and do something here let's think maybe this or maybe that you can be there is no like you can try and experiment with it that's what I'm trying to say here you speak you speak yes so the way you do this is you
+
+Gabriel: click and hold so press and hold the r then you say what you want to say and then only after you stop saying it you release it and then we have to wait roughly around 10 seconds for it to process and then move on um okay so i read this here this text here yeah this is the description this is kind of like tells you you know what's uh
+
+Gabriel: which places you can go, gives you an idea of what you can try to ask the game.
+
+Gabriel: I'll just start this.
+
+Gabriel: Okay.
+
+Gabriel: And I'll be making, you can also ask me questions as we go along.
+
+Gabriel: Of course, I'll be making small notes, but I'm not like judging your performance at all.
+
+Gabriel: This doesn't, this is not about like you being a good gamer or a bad gamer.
+
+Gabriel: And this is also not a test of the video game itself.
+
+Gabriel: Like it's more of a, we'll, we'll get to,
+
+Gabriel: what we care mostly about, but don't worry.
+
+Gabriel: This is just like observation.
+
+Gabriel: I'm mostly noting down the moments when things break.
+
+Klara: Okay, now I should start with the R, just to see the big picture of it, because I can't see it even.
+
+Klara: I mean, I can guess that there's the entrance over here.
+
+Gabriel: Yeah, yeah, yeah.
+
+Klara: But yeah, okay.
+
+Klara: All right, let's get closer to the entrance.
+
+Klara: It's processing.
+
+Gabriel: Okay, so technically speaking, you are
+
+Gabriel: already at the entrance.
+
+Klara: Okay.
+
+Gabriel: The graphic might be a bit misleading, right?
+
+Gabriel: So you're standing there.
+
+Klara: So this is the entrance over here, probably.
+
+Klara: Yeah, this is... Let's get inside.
+
+Klara: Oh.
+
+Klara: Okay.
+
+Klara: I can't really see the big picture.
+
+Gabriel: This is what the picture is.
+
+Klara: It may be misleading, anyway.
+
+Gabriel: Of course.
+
+Klara: It's really bad.
+
+Klara: Because I can guess that, OK, I can see the half of the picture, and it makes me think that, OK, there must be something important at the bottom of the picture, and I can't see it.
+
+Klara: But maybe it's not crucial for the moment.
+
+Gabriel: Yeah.
+
+Gabriel: You can stick to the text and the picture is there to support the idea of the text.
+
+Klara: Alright, let's grab this crowbar.
+
+Klara: We picked the crowbar.
+
+Klara: Good.
+
+Klara: Now, the description says that someone has been running through this room in a hurry.
+
+Klara: Look around if there is any door in the room.
+
+Klara: Can we move forward?
+
+Klara: I didn't understand the comment.
+
+Klara: Because I would like to use a crowbar for something.
+
+Klara: Because since I found it, it might be crucial for the next stage.
+
+Klara: But it also says that someone has just passed a room in a hurry.
+
+Klara: And it seems that maybe, maybe,
+
+Klara: Because I'm trying to catch the logic of it.
+
+Klara: And this is actually kind of funny that I can't see the whole picture.
+
+Klara: I have to pay attention to what's written here.
+
+Klara: So maybe let's check it.
+
+Klara: Maybe let's try something else.
+
+Klara: Because apparently, OK, another thing.
+
+Gabriel: If you want to travel.
+
+Klara: I don't want to travel if I wouldn't go and check those boxes, but I don't think it's worth it, but maybe...
+
+Klara: Okay, let's check the boxes.
+
+Klara: Is there anything inside that can be useful for us?
+
+Klara: I didn't understand that command.
+
+Klara: Okay.
+
+Klara: Is there any door to the room?
+
+Klara: I didn't understand that.
+
+Gabriel: If you're looking for places that you can go to, yeah, there are at the end, always at the end of the description, there are the places.
+
+Klara: Behind you lies the main entrance.
+
+Klara: All right.
+
+Klara: I didn't read that to the end.
+
+Klara: Sorry.
+
+Klara: That means, yeah, there's just the end.
+
+Klara: Okay.
+
+Klara: Let's leave the room.
+
+Klara: As there is the main entrance and only main entrance, I guess this is the only way to... Oh, good.
+
+Klara: Okay, oh, I'm back in front.
+
+Gabriel: Similar story here.
+
+Gabriel: At the end, you're gonna have the places you can go to.
+
+Klara: Okay, ah, I got it, now I got it.
+
+Klara: So this is the hint actually how to travel in here.
+
+Klara: Okay great, so first let's go...
+
+Klara: Okay, so let's head to the clothing store.
+
+Klara: Hmm, nice.
+
+Klara: Is there any quote?
+
+Klara: Good.
+
+Klara: I really like those descriptions.
+
+Klara: So poetic.
+
+Klara: Very substantial, I would say.
+
+Klara: So I really like those.
+
+Klara: This is actually my opinion.
+
+Klara: Perfect description.
+
+Klara: Very poetic.
+
+Klara: Okay, so let's use the crowbar to open the Reinforced Internal Door.
+
+Klara: Use the crowbar and open the Reinforced Internal Door.
+
+Klara: You managed to unlock the doors to the corridor.
+
+Klara: Go to the corridor.
+
+Klara: Oh, I got it in inventory.
+
+Klara: Yeah, the crowbar appeared.
+
+Klara: I didn't notice that before.
+
+Klara: Good.
+
+Klara: Oh, that's fun.
+
+Klara: I like this graphic a lot.
+
+Okay.
+
+Klara: Let's go ahead and go to the food court, please.
+
+Gabriel: okay and now i would like to do one small change yeah so now i'm going to press here and for the next 10 minutes i would like you to continue playing the game but this time using more traditional keyboard driven input so here is the list of actions you use your numbers here you know and
+
+Gabriel: Sometimes arrow keys and return enter for selecting things here.
+
+Klara: Oh, great.
+
+Klara: Yeah.
+
+Klara: OK, just give me a minute to get used to this, because I'm not sure if I operated properly.
+
+Klara: Like I didn't in the first place when it came to the reading, just reading and voice recording.
+
+Klara: But I will just try.
+
+Klara: What happens if I do this?
+
+Klara: Yeah, okay, so since I'm looking for my sibling, so I think I should choose the travel action and I'll be consequent in that and I'll be traveling.
+
+Klara: This is my idea for the game at the moment.
+
+Klara: So I'll pick one.
+
+Klara: Good.
+
+Klara: Select destination.
+
+Klara: Okay.
+
+Klara: There seems to be some kind of elevator, and there are stairs as well.
+
+Klara: Go to the main list, go to small corridor, to the Greek fast food restaurant, go to bubble tea store, go to stairway going up.
+
+Klara: I wanna go up.
+
+Klara: Although I don't know if it's a good idea to...
+
+Klara: But I guess since the boy is still in the building, that may mean that he went up because he's nowhere here, or maybe I'm wrong, but let's go for 5.
+
+Klara: Starry going up.
+
+Klara: White polyp surfaces rise from the floor.
+
+Klara: I never told the first floor about treats.
+
+Klara: It should be fine to do it
+
+Klara: Go to stairway, go around the nest Going up from here?
+
+Gabriel: Yeah, that's just a technical limitation If you go here, you're gonna go up the stairs, number two is up the stairs Okay, good I'm probably externalizing from this landing back toward the floor below
+
+Klara: Shallow decipher the slow movement of clouds from the quicksand.
+
+Klara: Ghosts of the underfoot mystical space-entitled walls are stained with years of years scuffed with bags and shoes with slow erosion of time.
+
+Klara: The dust has collected along the edges of the stairs.
+
+Klara: For now, I point along while the metal handrail feels cold and stifling.
+
+Klara: I rub beneath the grip.
+
+Klara: The paper trail signs still cling to the walls, pointing towards shops.
+
+Klara: Right behind you, the open space of the lounge room is visible.
+
+Klara: Hmm, I won't travel again.
+
+Klara: Is dairy going up now this time?
+
+Klara: Go to lounge.
+
+Klara: Ah, that's another level below.
+
+Klara: Okay, go to lounge.
+
+Klara: But if I go to the lounge, I go back, is that right?
+
+Gabriel: Not quite.
+
+Klara: Not quite.
+
+Klara: Let's see if I got the lounge properly.
+
+Gabriel: The image didn't change, right?
+
+Gabriel: But you're currently on the first floor.
+
+Gabriel: You were on the ground floor, so now you are up.
+
+Gabriel: So the lounge is a different place than the food court.
+
+Klara: Okay.
+
+Klara: And I can still go up once more, like to the second floor.
+
+Gabriel: No, again, this is a bit misleading.
+
+Gabriel: This means Starry going up is the...
+
+Gabriel: The previous one.
+
+Gabriel: I used before, yeah.
+
+Klara: So I go to the lounge now.
+
+Klara: Oh, great.
+
+Klara: Another nice interior.
+
+Klara: I still have a crowbar in my inventory, but nothing more.
+
+Klara: Actually, maybe I should just look around.
+
+Klara: There is crafting as well, I'm not sure if I... what's the difference between the crafting and use item, but let me... let me find out, maybe.
+
+Klara: Big empty hall with a pool space with relaxing chairs connecting all the old stores.
+
+Klara: You can see the pharmacy here with bathrooms being right next to it.
+
+Klara: On the other side, there seems to be a Korean snack store next to the stairs that look like they're going down the distance.
+
+Klara: Okay, maybe let's try crafting this time.
+
+Klara: I actually don't know what to craft, actually, but...
+
+Klara: This looks like a snack store next to stairs that look like they're going down.
+
+Klara: I just need to go upstairs to an elevator and a big food supermarket.
+
+Klara: Now that's tricky, because there's not much to do in the hole, or maybe...
+
+Klara: I can travel somewhere from here.
+
+Klara: But...
+
+Klara: Seems like I don't collect any items, that makes me a bit sad, but okay.
+
+Klara: Seems that my idea for the game is to travel, but... Yeah, let's just continue with traveling.
+
+Klara: Go to the pharmacy.
+
+Klara: Oh, I'll go to the pharmacy.
+
+Klara: Perfect.
+
+Klara: Maybe I'll find something interesting in here.
+
+Klara: Pick up leg stabilizer.
+
+Klara: Well, maybe I first read it, but I can already see action.
+
+Klara: So just select, and I'll probably go for this.
+
+Klara: Thank you.
+
+Klara: I can travel, probably, but maybe if I go for crafting, just to see what happens.
+
+Gabriel: nothing go to the main list you're supposed to technically combine different items and you have this tiny arrow here and if you navigate you can choose and you can try to combine let's say the crowbar the leg stabilizer but that doesn't result in anything yeah no let's go back this item how about uh
+
+Klara: I don't remember if I should try to open any cupboards or shelves, boxes.
+
+Klara: Should I try?
+
+Klara: No, no, I don't think so.
+
+Klara: I don't think I should be investigating further here, but why not?
+
+Klara: Let's just try a new item.
+
+Klara: Uh-huh, no.
+
+Klara: Okay, let's now travel.
+
+Klara: And go to lounge.
+
+Klara: Yeah, I'll go back to the lounge and I'll be now traveling to...
+
+Gabriel: to the korean snack store oh all right great we can put a pause here because we we reached the 10 minutes yeah sure do a thing okay and now i'm just gonna have a few questions okay so now that you have both versions how are you feeling
+
+Gabriel: immediately surprised you?
+
+Klara: well using the second version when I could just pick text seems much easier but gives us less opportunities to try something else so I would rather if I was to play this game for longer I would rather go for the first version so I would rather speak to the game talk to the game and just wonder if it's
+
+Klara: understands me or not, or just even try several times, but I think it's more interesting, more challenging.
+
+Klara: So yeah, this is my opinion, if this was the question.
+
+Klara: Although, the second version makes it easier to navigate, because you can already see the options, the opportunities.
+
+Klara: And in the first option I have to try several times before I pick the right one, possible one.
+
+Gabriel: And if you had to describe the difference between those two games to a person who haven't played at all, how would you describe it?
+
+Klara: I would say that, okay, that the first version reminds me a bit of those games from the 80s or 90s.
+
+Klara: kind of games from my childhood that seems like everyone knows what I'm talking about and everyone knows that this is kind of a nice thing to do and just picking the, not writing, but picking the right, the options you want to choose.
+
+Klara: I just, once again, what was the question?
+
+Klara: Because I forgot.
+
+Gabriel: If you had to describe the difference between two versions, to a person who hasn't played either, what would you say to them?
+
+Klara: If I describe the differences...
+
+Klara: So the main difference is that the first version makes me think more of a chat GPT stuff and AI conversation and the other version makes me think of those old 80s games from Sierra or something.
+
+Klara: This kind of, you know, first computer games that appeared in 1990s, which actually means a lot of me because I really like playing them.
+
+Klara: So this will be my main, like this first version is more
+
+Klara: up-to-date because it makes me think it's more connected to the AI and the fact that you can talk to the computer and it understands you and the other version is much, let's say, simpler and you just pick one of four options and the game perfectly knows what to do.
+
+Klara: So the first version gives you more of an unknown result, while the second version is more predictable, I would say.
+
+Klara: Yeah, that would be, I think, it.
+
+Gabriel: I see, I see, I see.
+
+Gabriel: And from the moment that you first used the voice to navigate, what were you thinking as you decided what to say to the system?
+
+Klara: How to take the first step?
+
+Klara: How to start?
+
+Klara: That was my main concern.
+
+Klara: If I understand properly the situation I'm in and where should I start from?
+
+Klara: To be... Maybe not to make a mistake, because I'm sure you can't make a mistake while playing, but just to be more effective and just to head towards the goal, let's say.
+
+Klara: So what should I do first?
+
+Klara: Let's move.
+
+Klara: My idea for the game was actually to move a lot, so I was thinking how to take the first step.
+
+Gabriel: I'm trying to also understand what made you choose the words that you chose.
+
+Gabriel: What I mean by that is that, for instance, some people would only speak in first person because they have their reasons, while other people, for instance, decide to only speak to the computer as if it's an object.
+
+Gabriel: or a person in the room.
+
+Gabriel: So what made you make your choice and how did you use that?
+
+Klara: Yes, I never even thought about it.
+
+Klara: It was just natural.
+
+Klara: let's go here, let's go there, I want to do this, I want to do that, that was obvious to me, I mean, I feel like we are playing together, me and the computer, and not like I'm asking him to take me somewhere, it's like we are together in this, and yeah, that's why I decided, I even, I think I even used this form, let's go here, so I mean like we're playing together, like me and him, like both of us, so it came naturally, but
+
+Gabriel: I understand it's a tricky question, right?
+
+Klara: Yeah, that's more or less this.
+
+Gabriel: How was it like to use the voice input in the game?
+
+Klara: Quick and easy to use.
+
+Klara: You mean the voice input, so I don't have to...
+
+Klara: I can say more than just picking the lines that are ready and they're waiting for me.
+
+Klara: So actually I can be more specific and be more challenging to the game, I guess.
+
+Klara: I guess I can ask the game for more than it maybe understands.
+
+Gabriel: How did it feel like?
+
+Klara: Good.
+
+Klara: I'm quite used to talk to the computer since the AI spreads around.
+
+Klara: getting more and more normal to talk to machines, so that's fine.
+
+Klara: Didn't have any problem with that.
+
+Klara: The reason why I was just wondering if it's gonna... if it understands me while I'm wearing a mask, but I think it went well.
+
+Gabriel: And in which version of the game did you feel more inside of the story and more inside the game?
+
+Klara: in the second version which can be it's tricky but yeah in the second version because maybe it's also maybe because I already got to know the game a little bit because the first version was like I didn't know anything about the game and I had to get used to this and to reading a lot because there's a lot to be read first a very nice description but still it builds this atmosphere and you have to read it carefully and I didn't read it till the end and that was the mistake
+
+Klara: yeah but this this means that the first the beginning was a little bit I had to get too used to that but so the second part was easier in fact for me because not only because there were already options waiting for me but also because I already knew the game a little bit I knew what to expect and I knew this mechanic of the game I know I had to write the description till the very end because at the very end there are
+
+Klara: tips, what I can do, hints, let's say.
+
+Gabriel: Just to spend a little bit more time here.
+
+Gabriel: I understand the difficulty, right?
+
+Gabriel: But at the same time, I'm trying to probe here and ask, which of those versions felt more like, how would I explain this?
+
+Gabriel: In which of those did you feel more convinced that you are actually
+
+Gabriel: in the game, let's say.
+
+Gabriel: Kind of like when you watch a movie sometimes, and the movie makes you forget that you... makes you feel like, you know, you are in the movie, makes you forget about the fact that you're actively watching it.
+
+Klara: The first version, I think.
+
+Klara: The first version, because... because... because...
+
+Klara: I actually don't know how to justify that, but this is just a gut feeling that the first version
+
+Klara: yeah also how did the effort of thinking you know what to say and giving those commands compare to the effort of you know navigating and knowing which key to press oh it's much bigger effort because i have to i have to first of all you need to read carefully you need to be patient because in the text there are hints and places described and places to go and the directions you can take
+
+Klara: While the second version is actually can mostly skip the text if you don't like reading I mean I like reading because as I mentioned before the text was really Interesting and very well Written but if someone does not like reading too much or be just in a hurry and wants to play fast I would say the second version is easier because you know what to
+
+Klara: you can do.
+
+Klara: You know what the game's limits are.
+
+Klara: And in the first version, I have no idea about the limits.
+
+Klara: I don't know if it's going to put me on the moon if I want to or not.
+
+Klara: In the second version, I know that I only have four options to choose from, and that's mostly that.
+
+Gabriel: And did the freedom to say anything, in quotes, make you more in control?
+
+Gabriel: Did you feel more in control, or was it more overwhelming compared to having those fixed set of keys?
+
+Klara: more overwhelming, but also because this was my first experience with the game.
+
+Klara: Now if I was to play another time, I would probably be more focused on really choosing the plan, making a plan for the game and not really trying to like, you know, coordinate somehow and be understood by the game.
+
+Klara: Now I would be, a second take would be, for me, I think much easier.
+
+Gabriel: I understand.
+
+Gabriel: And how would you compare the overall experience of using the two game versions and which one would you choose and why?
+
+Klara: Oh, that's a very difficult question, I think.
+
+Klara: For myself, not for someone else.
+
+Gabriel: No, of course, for you.
+
+Klara: Yeah.
+
+Klara: Yeah, the first version, I guess, the first version.
+
+Klara: But then I would concentrate more on reading texts and see where the game...
+
+Klara: I mean, I would like to check the game's limits.
+
+Klara: That would be my... the biggest fun for me.
+
+Klara: And I suppose that the game creator could be also very inventive and hide some crazy solutions for those people who want to play this way and say, okay, let's just, I don't know, go to the roof and then you go to the roof of the building and like to be more...
+
+Klara: give more place and space to explore for those people who want to talk to the game and not just pick the already answered out there already.
+
+Gabriel: Actually, it can be done in this game.
+
+Gabriel: You can go to the room.
+
+Gabriel: Yeah, good.
+
+Gabriel: But of course, of course.
+
+Klara: It takes time probably, you have to play some time.
+
+Gabriel: Yeah, that's absolutely right.
+
+Klara: You'll come to that, yeah.
+
+Gabriel: But I fully feel you're right, having the ability to test, stress test, kind of, right, see what can I do.
+
+Gabriel: Can I go to the moon or not?
+
+Klara: And where are the surprises and presents for me?
+
+Klara: Because I expect some surprises and presents in this version for heart-seeking players, players who are patient and want to explore more than just go through the game quickly and
+
+Gabriel: Yeah, you like, in some video games there are these things like hidden secrets, right?
+
+Gabriel: Exactly.
+
+Klara: This is it.
+
+Klara: This is what I would expect from this first version.
+
+Klara: It gives me more opportunities and then I can really, okay, I can even ask him to go and pick this, this, this and check a few places around the room even.
+
+Klara: Not just to go up and down but let's say let's check this box, let's check this box, let's, I don't know,
+
+Klara: see if there's anything on the floor, this kind of things.
+
+Gabriel: I see, I see.
+
+Gabriel: And this is, okay, the last question then.
+
+Gabriel: You know, after talking about everything today, is there anything that you would like to add to what you already said?
+
+Gabriel: You mean in general or just some specific... Yeah, anything that we haven't talked about that you feel like sharing.
+
+Klara: Oh, yeah, I think I very much like the descriptions.
+
+Klara: They are absolutely amazing and very like...
+
+Klara: very romantic I'd say even, perfect description, so I'd like to emphasize that.
+
+Klara: I would like to see, if I was to play that longer, I would like to see a bit more of the picture because it made me somehow suffocate that I could not see the whole picture and I could only see the picture, half of the picture in fact.
+
+Klara: Well, this was my impression.
+
+Klara: So if I was to change something to the game, add something from myself, let's say, a general comment, I would like to see, because I really like the pictures as well, the images, I would like to see more of the image and be able to pick more details on it.
+
+Klara: Because each of the images were really creative and we'd like to see more, more of this.
+
+Klara: And I think the font should be a bit bigger because it's very, very small and hard to read on this kind of
+
+Klara: nice but small screen anyway.
+
+Gabriel: Thank you very much.
+
+Gabriel: Your participation is very, very valuable here.
+
+Gabriel: Thank you very much.
+
+Gabriel: Thank you for your input and for your time.
+
