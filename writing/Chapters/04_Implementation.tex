@@ -190,14 +190,14 @@ It ships with an integrated API server, which was used for this thesis.
 Due to a bug in the GPU build of WhisperCPP, it broke on every transcription request past the 2nd one.
 This bug was proven to be undocumented and difficult to fix. 
 The model would behave normally when used on a CPU, but the processing time was 20 times longer compared to the GPU.
-A quick solution to this problem is an API layer that takes the user requests and restarts WhisperCPP on every request.
+A quick solution to this problem was an API layer that takes the user requests and restarts WhisperCPP on every request.
 While not ideal, this has proven to be an effective method for avoiding this bug. 
 
 \subsection{LlamaCPP}
 
 
 
-Highly advanced LLM interface backend that allows for loading models with support for working as an API. For this model, the following model was chosen:
+Highly advanced LLM interface backend that allows for loading models with support for working as an API. For this thesis, the following model was chosen:
 
 
 
@@ -210,7 +210,7 @@ The way this is possible is due to the fact that the model is fed a list of poss
 This model was fine-tuned for this specific role.
 The reason why this model was chosen was that it ranked in the top 3 on \textcite{BerkeleyFunctionCalling2026} at the time of development.
 
-The model was manually quantified to allow it to run on a consumer GPU.
+The model was manually quantized to allow it to run on a consumer GPU.
 This process makes the models use less memory at the cost of their precision by reducing the decimal precision point in the neural network nodes.
 
 \begin{figure}[htbp] 
