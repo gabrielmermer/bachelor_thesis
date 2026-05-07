@@ -11,12 +11,12 @@
             "id": "f229b6fa02423654",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "Pasted image 20260305102710.png"
+                "file": "Excalidraw/V2 gamemap.md"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260305102710"
+              "icon": "excalidraw-icon",
+              "title": "V2 gamemap"
             }
           },
           {
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 371.5,
+    "collapsed": true
   },
   "right": {
     "id": "92afcc4d28996969",
@@ -175,10 +176,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f1f901f63937a50d",
+  "active": "f229b6fa02423654",
   "lastOpenFiles": [
-    "ComfyUI.md",
+    "Excalidraw/V2 gamemap.md",
+    "Excalidraw/gamemap.excalidraw.md",
+    "Excalidraw/networking.excalidraw.md",
+    "Excalidraw/Drawing 2026-05-04 13.10.08.excalidraw.md",
+    "Pasted image 20250529145421.png",
     "Pasted image 20260305102710.png",
+    "ComfyUI.md",
     "Untitled.canvas",
     "Assignment Deadlines_BCC23 (1).png",
     "Untitled.base",
@@ -194,7 +200,6 @@
     "Pasted image 20250623160031.png",
     "Pasted image 20250623152303.png",
     "Pasted image 20250623151343.png",
-    "Pasted image 20250529145421.png",
     "Audio only games.md",
     "Tool calling benchmark.md",
     "Alien Isolation voice input.md",
@@ -206,10 +211,7 @@
     "Untitled 13.base",
     "Untitled 14.base",
     "Untitled 15.base",
-    "Excalidraw/Drawing 2026-05-04 13.10.08.excalidraw.md",
     "Untitled 16.base",
-    "Excalidraw/networking.excalidraw.md",
-    "Excalidraw/gamemap.excalidraw.md",
     "Commands to run dev.md",
     "testing kanban.md",
     "Untitled 10.base",
